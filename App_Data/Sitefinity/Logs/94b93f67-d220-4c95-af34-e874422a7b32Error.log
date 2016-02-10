@@ -1,0 +1,152 @@
+----------------------------------------
+Timestamp: 10/6/2015 7:46:11 PM
+
+Message: HandlingInstanceID: 91ffbbae-7152-4010-ac6f-2205bfc3c457
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+10/06/2015 13:46:11
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Invalid details page specified: "e69f60e7-96e1-633a-9d88-ff00001e67f5".
+Source : Telerik.Sitefinity
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.String Resolve(System.Object, System.String, System.String)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Web.DataResolving.UrlResolver.Resolve(Object dataItem, String format, String args)
+   at Telerik.Sitefinity.Web.UI.ContentUI.DetailsViewHyperLink.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.RadListView.DataBind()
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/6/2015 7:46:11 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130885368782562513
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/blog/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130885368782562513
+
+ProcessId: 8828
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8152
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/6/2015 7:46:29 PM
+
+Message: HandlingInstanceID: 944dd3d1-d58b-4c13-a84f-62c2b0d5e3dd
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+10/06/2015 13:46:29
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Invalid details page specified: "e69f60e7-96e1-633a-9d88-ff00001e67f5".
+Source : Telerik.Sitefinity
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.String Resolve(System.Object, System.String, System.String)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Web.DataResolving.UrlResolver.Resolve(Object dataItem, String format, String args)
+   at Telerik.Sitefinity.Web.UI.ContentUI.DetailsViewHyperLink.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.RadListView.DataBind()
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.ContentUI.Views.Backend.ViewBase.CreateChildControls()
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/6/2015 7:46:29 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130885368782562513
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/act-blog/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130885368782562513
+
+ProcessId: 8828
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:1724
+
+Extended Properties: 
+----------------------------------------

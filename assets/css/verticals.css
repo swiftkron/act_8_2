@@ -1,0 +1,117 @@
+/* VERTICAL LPs */
+
+#edu{
+	background:url(/assets/img/act_feature_edu.jpg) top left no-repeat;
+}
+#gov{
+	background:url(/assets/img/act_feature_gov.jpg) top left no-repeat;
+	background-size:auto 600px;
+}
+#np{
+	background:url(/assets/img/act_feature_np.jpg) top left no-repeat;
+	background-size:auto 600px;
+}
+#realestate{
+	background:url(/assets/img/act_feature_real-estate.jpg) top left no-repeat;
+	background-size:auto 600px;
+}
+#edu-byline{
+	display:block;
+	float:right;
+	background:url(/assets/img/act_lp_sprite.png);
+	width:50px;
+	height:60px;
+}
+#gov-byline{
+	display:block;
+	float:right;
+	background:url(/assets/img/govIco.png);
+	width:50px;
+	height:60px;
+}
+#np-byline{
+	display:block;
+	float:right;
+	background:url(/assets/img/npIco.png);
+	width:50px;
+	height:90px;
+}
+#re-byline{
+	display:block;
+	float:right;
+	background:url(/assets/img/ico-real-estate.png);
+	width:50px;
+	height:60px;
+}
+
+section[role="vertical"] .feature{
+	overflow:hidden;
+	background:#FFF;
+	background-size:contain;
+	height:535px;
+}
+section[role="vertical"] .feature-copy-wrap{
+	position:absolute;
+	top:0;
+	left:650px;
+	height:535px;
+	background:url(/assets/img/act_lp_left-rounded-lg.png) top left no-repeat;
+}
+section[role="vertical"] .feature-copy{
+	padding:100px 25px 25px 100px;
+	overflow:hidden;
+}
+section[role="vertical"] .feature-copy h1{
+	font-family:"HelveticaNeueW01-Thin",Helvetica,Arial,sans-serif;
+	font-size:4em;
+}
+section[role="vertical"] .feature-copy h2{
+	font-family:"HelveticaNeueW01-65Medi",Helvetica,Arial,sans-serif;
+	font-size:2em;
+	color:#FE5000;
+}
+section[role="vertical"] .feature-copy p{
+	color:#444;
+	font-size:1.2em;
+	line-height:1.7em;
+	margin-bottom:1em;
+	max-width:600px;
+}
+section[role="vertical"] .byline{
+	color:#FE5000 !important;
+	text-align:right;
+	float:right;
+	padding:18px 12px 0 0;
+}
+
+@media(max-width:1280px){
+section[role="vertical"] .feature-copy h1{
+	font-size:3em;
+}
+section[role="vertical"] .feature-copy h2{
+	font-size:1.2em;
+}
+section[role="vertical"] .feature-copy p{
+	font-size:1em;
+}
+}
+@media(max-width:1080px){
+section[role="vertical"] .feature{
+	width:100%;
+	height:inherit;
+}
+section[role="vertical"] .feature-copy-wrap{
+	position:relative;
+	top:inherit;
+	left:inherit;
+	height:inherit;
+	background:none;
+	margin:0 5% 3em 5%;
+}
+section[role="vertical"] .feature-copy{
+	padding:90px 0 0 0;
+	max-width:600px;
+	margin:0 auto;
+}
+
+}

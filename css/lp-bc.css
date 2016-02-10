@@ -1,0 +1,11 @@
+h1{color:#fe5000;}
+h2{color:#34566B;}
+h3{font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;color:#2A353D;}
+.sidebar{margin-top:24px;padding:18px 24px;background:#2A353D;color:#FFF;text-align:center;}
+.sidebar h2{color:#FFF;}
+.disclaimer{margin-top:96px;}
+@media(min-width:768px){
+.main{margin-top:84px;}
+.copy{padding-right:48px;}
+.sidebar{padding:36px 36px;}
+}

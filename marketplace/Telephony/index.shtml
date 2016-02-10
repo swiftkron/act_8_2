@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Act! Marketplace - Telephony</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+
+<!-- SLIDER JS & CSS -->
+ <link href="css/CustomerSuccesses.css" rel="stylesheet" type="text/css" /> 
+ 
+<script type="text/javascript" src="/media/en-us/js/plugins.js"></script>
+
+<script type="text/javascript" src="/media/en-us/js/script.js"></script>  
+<script type="text/javascript" src="/media/en-us/js/modernizr253min.js"></script>
+
+<link rel="stylesheet" href="/media/en-us/css/sliders.css">
+
+<!-- .end SLIDER JS & CSS -->
+
+ 
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace/">Marketplace</a></li>
+                    <li>></li>
+                    <li>Telephony</li>
+                </ul>
+                
+                <div class="mainSingleColumn">
+                
+                  <!-- CONTENT -->
+                  <img id="mkt-banner-v16" src="/app-marketplace/img/act_mkt_logo.png" alt="Act! Marketplace" />
+                               
+                  <div class="mkt">
+                  <h1>Business Need: <strong>Telephony</strong></h1>
+
+<!-- Call On CRM -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Call-On-CRM"><img src="/marketplace/Call-On-CRM/callon_crm_logo.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Call-On-CRM">Call On CRM</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;120.00</p>
+                          <a class="btn-orange" href="/marketplace/Call-On-CRM"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p><strong>Call On CRM</strong> is a comprehensive communications solution that combines your two most powerful customer contact business tools – phone service and Act!</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- CloudCall -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/CloudCall"><img src="/marketplace/CloudCall/img/CloudCall.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/CloudCall">CloudCall</a></h3>
+                        <div class="mkt-price left">
+                          <p>Start from<br/>$15/month</p>
+                          <a class="btn-orange" href="/marketplace/CloudCall"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>CloudCall offers the ability to fully integrate your phone system with Act!, allowing you to effectively manage all of your team’s communications in one place.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Dial IT Pro (Call Center) -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Dial-IT-Pro"><img src="/media/en-us/images/marketplace/DialITProCallCenter.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Dial-IT-Pro">Dial IT Pro (Call Center)</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;285.95</p>
+                          <a class="btn-orange" href="/marketplace/Dial-IT-Pro"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Dial IT is a highly efficient addon for Act! that manages your communication process with business partners. It allows to manage your work by a mouse click. All necessary tabs and icons are in one screen.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Dial IT Skype for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Dial-IT-Skype-for-Sage-ACT"><img src="/media/en-us/images/marketplace/DialITSkypeforSageACT.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Dial-IT-Skype-for-Sage-ACT">Dial IT Skype for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;74.05</p>
+                          <a class="btn-orange" href="/marketplace/Dial-IT-Skype-for-Sage-ACT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>With Dial IT Skype for Act! you can dial and answer calls, update contact information, add new contacts, create history, and schedule activities for incoming and outgoing calls.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+                  </div>
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                
+                
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

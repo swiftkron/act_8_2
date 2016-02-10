@@ -1,0 +1,87 @@
+/* ALTERNATE PRODUCT DISPLAY */
+section[role="products-alt"]{
+	padding:1em 0;
+}
+
+section[role="products-alt"] h1{
+	font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+	font-size:3em;
+	color:#006a8e;
+	text-align:center;
+	margin-bottom:48px;
+}
+
+section[role="products-alt"] .productsWrapper{
+	overflow:hidden;
+	max-width:1280px;
+	margin:0 auto;
+}
+section[role="products-alt"] .product{
+	padding:0 2em;
+}
+section[role="products-alt"] .product img{
+	margin:0 auto;
+}
+section[role="products-alt"] .product img.logo{
+	margin:0 auto 1em;
+}
+section[role="products-alt"] .product img.notail{
+}
+section[role="products-alt"] .product p{
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	font-size:1.2em;
+	text-align:center;
+	margin-bottom:0;
+	padding-bottom:0;
+	min-height:80px;
+}
+
+section[role="products-alt"] button.learn{
+	display:block;
+	margin:24px auto;
+	color:#006a8e;
+	background:#fff;
+	padding:6px 36px 9px;
+	border:#006a8e 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+	font-size:1.1em;
+	cursor:pointer;
+}
+section[role="products-alt"] button.learn:hover{
+	color:#212721;
+	-webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+section[role="products-alt"] button.try{
+	display:block;
+	margin:.5em auto .5em;
+	color:#fff;
+	width:125px;
+	padding:4px 0 6px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border:none;
+	border-radius: 5px;
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	font-size:1.15em;
+	cursor:pointer;
+}
+section[role="products-alt"] button.try:hover{
+	-webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+@media(max-width:1080px){
+section[role="products-alt"] .product p{
+	min-height:0;
+}
+}

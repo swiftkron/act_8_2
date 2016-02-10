@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CompanionLink Express</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+  
+ 
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace">Marketplace</a></li>
+                    <li>></li>
+                    <li>CompanionLink Express</li>
+                </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+                  <div class="product-bubble left">
+                  	<img src="/media/en-us/images/marketplace/CompanionLinkExpress.jpg" />
+                    <div class="price">
+                      <p>New</p>
+                      <p class="price-details"><strong>&#36;79.95</strong></p> 
+                      <a class="btn-orange" href="http://store.act.com/app/site/backend/additemtocart.nl?c=3669565&buyid=multi&multi=587,1"><strong class="buynow">Buy Now</strong></a>
+<p style="font-size:11px; max-width:150px; margin-top:24px;">This estore is for U.S. and Canada only. All prices are in U.S. dollars.</p>
+                    </div>
+                  </div>
+                  <div class="product-description left">
+                    <h1>CompanionLink Express</h1>
+                    <p>Best for Android and iPhone. Native app support enables the features you love in Act! like History and Groups. Also supports Windows Phone and BlackBerry. Use secure USB, Wi-Fi, or private Cloud sync.</p>
+                    <ul>
+                    	<li>Contacts, Secondary contacts, Activities, Notes, Histories, Groups</li>
+                    	<li>Works with phone's Caller ID, email, and maps</li>
+                      <li>One-time license purchase</li>
+                      <li>No record limits</li>
+                      <li>Your choice of Secure USB, Wi-Fi, or Cloud Sync</li>
+                      <li>One license per user, supports 5 devices</li>
+                      <li>Link Activities to Contacts on the device</li>
+                      <li>Log phone calls as History</li>
+                      <li>Attachments and images are synchronized</li>
+                      <li>Free phone support</li>
+                    </ul>
+                    <p><strong>Purchase Includes</strong></p>
+                    <ul>
+                    	<li>Free email and telephone support. Call us at 503-243-5200.</li>
+                      <li>Online setup guides</li>
+                      <li>Online support knowledgebase</li>
+                      <li>Free updates</li>
+                    </ul>
+                    <p><strong>Supported Devices</strong></p>
+                    <ul>
+                    	<li>Android OS</li>
+                      <li>iOS (iPhone, iPad, iPod touch)</li>
+                      <li>Windows Phone, Windows Mobile</li>
+                      <li>BlackBerry 10, BlackBerry Classic</li>
+                    </ul>
+                    <p><strong>Other supported sync destinations</strong></p>
+                    <ul>
+                    	<li>Microsoft Outlook 2000 and higher</li>
+                      <li>Office 365</li>
+                      <li>Outlook.com</li>
+                      <li>Gmail, Google, and Google Apps</li>
+                      <li>IBM Lotus Notes</li>
+                    </ul>
+                                    
+                  </div>
+                                                       
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                <div class="mainSidebar">
+                    <div class="side-block sidenav">
+                    <h3><a href="/marketplace">Marketplace</a></h3>
+                    	<ul>
+                        <li><a href="/marketplace">By Business Need</a></li>
+                      </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

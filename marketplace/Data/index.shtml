@@ -1,0 +1,1108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Act! Marketplace - Data Management</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+
+<!-- SLIDER JS & CSS -->
+ <link href="css/CustomerSuccesses.css" rel="stylesheet" type="text/css" /> 
+ 
+<script type="text/javascript" src="/media/en-us/js/plugins.js"></script>
+
+<script type="text/javascript" src="/media/en-us/js/script.js"></script>  
+<script type="text/javascript" src="/media/en-us/js/modernizr253min.js"></script>
+
+<link rel="stylesheet" href="/media/en-us/css/sliders.css">
+
+<!-- .end SLIDER JS & CSS -->
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace/">Marketplace</a></li>
+                    <li>></li>
+                    <li>Data Management</li>
+                </ul>
+                
+                <div class="mainSingleColumn">
+                
+                  <!-- CONTENT -->
+                  <img id="mkt-banner-v16" src="/app-marketplace/img/act_mkt_logo.png" alt="Act! Marketplace" />
+                               
+                  <div class="mkt">
+                  <h1>Business Need: <strong>Data Management</strong></h1>
+
+<!-- 123 DB Clean for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/123-DBClean"><img src="/marketplace/123-DBClean/img/cleansuiteforact-box100x100.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/123-DBClean">123 DB Clean for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;145.00</p>
+                          <a class="btn-orange" href="/marketplace/123-DBClean"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Keep your Act! database clean from duplicate Activities and Histories, unwanted items, out-of-date items, and much more.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- 123 Sync 2013 for Act! 1-User Client -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/123-Sync-Exchange-1-User-Client"><img src="/media/en-us/images/marketplace/123SyncBoxWithSageAct.Jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/123-Sync-Exchange-1-User-Client">123 Sync for Act! 1-User Client</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;95.00/year</p>
+                          <a class="btn-orange" href="/marketplace/123-Sync-Exchange-1-User-Client"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>123 Sync synchronizes Act! contacts, calendar, todos, and emails with Outlook/Exchange.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- 123 Sync Server for Exchange - 5-User Server License -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/123-Sync-Server-for-Exchange-5-User"><img src="/media/en-us/images/marketplace/123SyncServerforExchange5UserServerLicense.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/123-Sync-Server-for-Exchange-5-User">123 Sync Server for Exchange - 5-User Server License</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;475.00/year</p>
+                          <a class="btn-orange" href="/marketplace/123-Sync-Server-for-Exchange-5-User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Synchronize multiple Act! Users to their individual Exchange Mailboxes with 123 Sync Server for Act! and Exchange. Supports server-based, full, unattended, synchronization of Contact, Calendar and Tasks between Act! and Exchange.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Abacus -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/abacus"><img src="/marketplace/abacus/img/abacus_100.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/abacus">Abacus Calculated Fields for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;24.95</p>
+                          <a class="btn-orange" href="/marketplace/abacus"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Automatically calculate value of any Act! field from values in other fields, constants and functions (mathematical, string, datetime, financial and even conditional calculation scenarios).</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Advanced Delete User Wizard Advanced Delete User Wizard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Advanced-Delete-User-Wizard"><img src="/media/en-us/images/marketplace/ADUW_BoxImage_lg.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Advanced-Delete-User-Wizard">Advanced Delete User Wizard Advanced Delete User Wizard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;49.99</p>
+                          <a class="btn-orange" href="/marketplace/Advanced-Delete-User-Wizard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>This advanced tool will allow the removal of users from a Act! database while retaining a historical reference to entries created by the user being deleted.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+
+                  
+<!-- AutoNumbers for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/AutoNumbers-for-Sage-ACT-2012"><img src="/media/en-us/images/marketplace/AutoNumbersforSageACT.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/AutoNumbers-for-Sage-ACT-2012">AutoNumbers for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;59.95</p>
+                          <a class="btn-orange" href="/marketplace/AutoNumbers-for-Sage-ACT-2012"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Automatically number your Act! records (contacts, companies, groups or opportunities) at time of creation with AutoNumbers for Act! by Exponenciel.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- AutomatoR1 -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/AutomatoR1"><img src="/media/en-us/images/marketplace/AutomatoR1.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/AutomatoR1">AutomatoR1</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;49.95</p>
+                          <a class="btn-orange" href="/marketplace/AutomatoR1"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>AutomatoR1 is designed to make repetitive tasks simple, quick, and error-free.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->                  
+
+<!-- Bulk Change IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Bulk-Change-IT"><img src="/media/en-us/images/marketplace/BulkChangeIT.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Bulk-Change-IT">Bulk Change IT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;57.87</p>
+                          <a class="btn-orange" href="/marketplace/Bulk-Change-IT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Bulk Change IT for Act!, allows you to edit Opportunity fields across multiple entries in one easy process. With Bulk Change IT, you can save time, increase report accuracy, and avoid the hassle of updating Opportunity fields one entry at a time.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                                    
+<!-- Company Wizard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Company-Wizard"><img src="/media/en-us/images/marketplace/CompanyWizard.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Company-Wizard">Company Wizard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;49.99</p>
+                          <a class="btn-orange" href="/marketplace/Company-Wizard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Company Wizard will do the following:- Link a contact to an existing company record.- Create a company record if it does not exist and then link the contact.- Bypass contacts with blank company or contact records.- Provide a menu box showing how many company records were created, how many contacts were linked and how many were skipped.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Company Wizard Plus -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Company-Wizard-Plus"><img src="/media/en-us/images/marketplace/CompanyWizard.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Company-Wizard-Plus">Company Wizard Plus</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;69.99</p>
+                          <a class="btn-orange" href="/marketplace/Company-Wizard-Plus"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>This Act! add-on creates a way to link multiple contacts and create companies all at once rather than one at a time.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Company-Group-Limited-Access -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Company-Group-Limited-Access"><img src="/media/en-us/images/marketplace/CompanyGroupLimitedAccess.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Company-Group-Limited-Access">Company&#47;Group Limited Access</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;99.99</p>
+                          <a class="btn-orange" href="/marketplace/Company-Group-Limited-Access"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Company Group Limited Access allows you to set the access for multiple Companies or Groups all at once instead of record-by-record. Create a lookup, choose your users and/or teams, click OK and you're done.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Company-Group-Limited-Access-Extended-Edition -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Company-Group-Limited-Access-Extended-Edition"><img src="/media/en-us/images/marketplace/CompanyGroupLimitedAccessExtendedEdition.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Company-Group-Limited-Access-Extended-Edition">Company&#47;Group Limited Access Extended Edition</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;199.99</p>
+                          <a class="btn-orange" href="/marketplace/Company-Group-Limited-Access-Extended-Edition"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Company Group Limited Access allows you to set the access for multiple Companies or Groups all at once instead of record-by-record. The Extended Edition allows you to change linked Contacts and the Record Manager field as well.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Contact Clipboard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Contact-Clipboard"><img src="/media/en-us/images/marketplace/ContactClipboard.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Contact-Clipboard">Contact Clipboard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;39.99</p>
+                          <a class="btn-orange" href="/marketplace/Contact-Clipboard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>If you'd like to be able to very easily copy Contact details and paste them somewhere else with complete flexibility over what details get copied, Copy Clipboard is the tool for you.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Copy Fields Wizard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/copy-fields-wizard"><img src="/media/en-us/images/marketplace/CopyFieldsWizard.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/copy-fields-wizard">Copy Fields Wizard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;29.99</p>
+                          <a class="btn-orange" href="/marketplace/copy-fields-wizard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>This handy plug-in allows you to copy, swap or replace any field to any field.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Create Companies from Contacts -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Create-Companies-From-Contacts"><img src="/media/en-us/images/marketplace/CreateCompaniesFromContactsBOX2Jpg.Jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Create-Companies-From-Contacts">Create Companies from Contacts</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;129.95</p>
+                          <a class="btn-orange" href="/marketplace/Create-Companies-From-Contacts"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Easily Create Companies from the Contacts database. All Contacts are automatically linked to the company.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Data Fields Exporter for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Data-Field-Export"><img src="/media/en-us/images/marketplace/Data-Fields-Exporter.Jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Data-Field-Export">Data Fields Exporter for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;325.00</p>
+                          <a class="btn-orange" href="/marketplace/Data-Field-Export"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Data Fields Exporter for Act! exports all the Act! data tables with generated fields.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Delete Secondary Contacts -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Delete-Secondary-Contacts"><img src="/media/en-us/images/marketplace/DeleteSecondaryContacts.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Delete-Secondary-Contacts">Delete Secondary Contacts</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;89.99</p>
+                          <a class="btn-orange" href="/marketplace/Delete-Secondary-Contacts"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Delete Secondary Contacts allows you to remove an all Secondary Contacts belonging to an entire Lookup of Contact Records from your database at once.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+
+                  
+<!-- DocAdmin for Sage ACT! 2013 -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/DocAdmin-for-Sage-ACT-2013"><img src="/media/en-us/images/marketplace/DocAdminforSageACT2013.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/DocAdmin-for-Sage-ACT-2013">DocAdmin for Sage ACT! 2013</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;99.00</p>
+                          <a class="btn-orange" href="/marketplace/DocAdmin-for-Sage-ACT-2013"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>DocAdmin scans into the documents tab of Act! in a single mouse click. Documents are stored in PDF format so all users can open, print, email, etc.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- dpCompanyAccess -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Hogan-dpCompanyAccess"><img src="/marketplace/Hogan-dpCompanyAccess/img/boxshot.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Hogan-dpCompanyAccess">dpCompanyAccess</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;19.00</p>
+                          <a class="btn-orange" href="/marketplace/Hogan-dpCompanyAccess"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Manage Act! Limited Access for multible Companies in list view.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- dpFolders -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Hogan-dpFolders"><img src="/marketplace/Hogan-dpFolders/img/boxshot.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Hogan-dpFolders">dpFolders</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;49.00</p>
+                          <a class="btn-orange" href="/marketplace/Hogan-dpFolders"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Manage your windows documents in Act!. Extra tab in Act! allows control of your documents your way. dpFolders automatically creates folder structure based on your needs.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- dpHistory -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Hogan-dpHistory"><img src="/marketplace/Hogan-dpHistory/img/boxshot.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Hogan-dpHistory">dpHistory</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;49.00</p>
+                          <a class="btn-orange" href="/marketplace/Hogan-dpHistory"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>dpHistory provides users with a better method of managing Act! activities and histories, and allowing access to all Act! data in all windows while dpHistory is launched.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+
+<!-- Duplicate Remover Expert Wizard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Duplicate-Remover-Expert-Wizard"><img src="/media/en-us/images/marketplace/DuplicateRemoverExpert2013.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Duplicate-Remover-Expert-Wizard">Duplicate Remover Expert Wizard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;149.99</p>
+                          <a class="btn-orange" href="/marketplace/Duplicate-Remover-Expert-Wizard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>This standalone program will combine and remove duplicate contacts and companies in a Act! database. You can check for duplicates on up to 6 fields. You can apply &ldquo;fuzzy&rdquo; logic to find records that &ldquo;might&rdquo; be dups. No data is lost.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Durkin Impact Suite v5 -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Durkin-Impact-Suite-v5"><img src="/media/en-us/images/marketplace/durkinimpactv5.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Durkin-Impact-Suite-v5">Durkin Impact Suite v5</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;249.99</p>
+                          <a class="btn-orange" href="/marketplace/Durkin-Impact-Suite-v5"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Impact Suite bring you power, flexibility and features not found in native ACT! Impact has 10 add-ons to fit your business needs. Purchased separately or together they make ACT! work for you!</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->                  
+
+<!-- Dynamic Field Color for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Dynamic-Field-Color-for-Act"><img src="/marketplace/Dynamic-Field-Color-for-Act/img/dfc_100.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Dynamic-Field-Color-for-Act">Dynamic Field Color for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;24.95</p>
+                          <a class="btn-orange" href="/marketplace/Dynamic-Field-Color-for-Act"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Change fields color "ON THE FLY", perform data entry validation, highlight fields depending on field values, highlight incorrectly entered fields (conditional "IF" and "CASE" calculations)</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Export IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Export-IT-Standard"><img src="/marketplace/Export-IT-Standard/img/ExportIT_en_200x200.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Export-IT-Standard">EXPORT|IT Standard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;295.29</p>
+                          <a class="btn-orange" href="/marketplace/Export-IT-Standard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>EXPORT|IT Standard add-on allows you to export Act! Contacts, Companies, Groups, Secondary Contacts and Unique IDs.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Fetch IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/FetchIT-Standard"><img src="/media/en-us/images/marketplace/FetchIT_lg.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/FetchIT-Standard">Fetch IT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;748.50</p>
+                          <a class="btn-orange" href="/marketplace/FetchIT-Standard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>FetchIT allows you to download data from system generated e-mails automatically and insert them into your Act! database.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Field and Tables Wizard 2013 -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Field-and-Tables-Wizard-2013"><img src="/media/en-us/images/marketplace/FieldandTablesWizard2013.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Field-and-Tables-Wizard-2013">Field and Tables Wizard 2013</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;19.99</p>
+                          <a class="btn-orange" href="/marketplace/Field-and-Tables-Wizard-2013"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>This standalone executable opens Excel and creates a separate spreadsheet for every table (entity) within a Act! database.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Fields and Tables to Excel Wizard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/fields-and-tables-to-excel-wizard"><img src="/media/en-us/images/marketplace/FieldsandTablestoExcelWizard.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/fields-and-tables-to-excel-wizard">Fields and Tables to Excel Wizard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;19.99</p>
+                          <a class="btn-orange" href="/marketplace/fields-and-tables-to-excel-wizard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>This standalone executable opens Excel and creates a separate spreadsheet for every table (entity) within a Act! database.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Group IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Group-IT"><img src="/media/en-us/images/marketplace/Group-IT.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Group-IT">Group IT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;43.03</p>
+                          <a class="btn-orange" href="/marketplace/Group-IT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Group IT makes managing and searching groups in Act! easier than ever. Using Group IT, you can search multiple groups and companies within your Act! database to find contacts quickly, efficiently, and without duplication.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Hero Company Deleter -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Hero-Company-Deleter"><img src="/media/en-us/images/marketplace/HeroCompanyDeleter.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Hero-Company-Deleter">Hero Company Deleter</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;49.99</p>
+                          <a class="btn-orange" href="/marketplace/Hero-Company-Deleter"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Hero Company Deleter allows you to remove an entire Lookup of Company Records from your database at once.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Hero Group Deleter -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Hero-Group-Deleter"><img src="/media/en-us/images/marketplace/HeroGroupDeleter.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Hero-Group-Deleter">Hero Group Deleter</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;49.99</p>
+                          <a class="btn-orange" href="/marketplace/Hero-Group-Deleter"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Hero Group Deleter allows you to remove an entire Lookup of Company Records from your database at once.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Map Business Online -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Map-Business-Online-for-Act"><img src="/marketplace/Map-Business-Online-for-Act/mbo_logo.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Map-Business-Online-for-Act">Map Business Online for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <!-- <p>&#36;79.95</p> -->
+                          <a class="btn-orange" href="/marketplace/Map-Business-Online-for-Act"><strong>Learn More</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>The affordable business mapping software solution for sales and marketing professionals.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Mondo Commands -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/MondoCommands"><img src="/marketplace/MondoCommands/MondoCommands.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/MondoCommands">Mondo Commands</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;79.95</p>
+                          <a class="btn-orange" href="/marketplace/MondoCommands"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Mondo Commands adds custom toolbars and buttons to Act! to let you quickly do things you do every day with Act!. Enables integration with Dragon NaturallySpeaking.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Notes2History -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Notes2History"><img src="/media/en-us/images/marketplace/Notes2History.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Notes2History">Notes2History</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;99.99</p>
+                          <a class="btn-orange" href="/marketplace/Notes2History"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Notes2History will take all of your Notes and put them on the History tab in Act! by actually converting each Note to a History item.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- OAK!Merge Advanced -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/OAKMerge-Advanced"><img src="/media/en-us/images/marketplace/OAKMerge-Advanced.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/OAKMerge-Advanced">OAK!Merge Advanced</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;399.00</p>
+                          <a class="btn-orange" href="/marketplace/OAKMerge-Advanced"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>OAK!Merge Advanced is a data import and update utility that provides field-by-field merging of data into Act!. Its unlimited uses include conversions, updates, mass deletes, and clean-up of databases. Update sales info in Act! with mainframe data matching on customer number, update sales territory matching on zip code, import trade show or web leads, or update lead status from remote reps.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->                  
+
+<!-- OAK!Merge Basic -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/OAKMerge-Basic"><img src="/media/en-us/images/marketplace/OAKMerge-Basic.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/OAKMerge-Basic">OAK!Merge Basic</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;149.00</p>
+                          <a class="btn-orange" href="/marketplace/OAKMerge-Basic"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>OAK!Merge Basic is a data import and update utility that provides field-by-field merging of data into Act!. Its unlimited uses include conversions, updates, mass deletes, and clean-up of databases. Update sales info in Act! with mainframe data matching on customer number, update sales territory matching on zip code, import trade show or web leads, or update lead status from remote reps.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- OAK!Merge Enterprise with SalesForce Data Migration Kit -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/OAKMerge-Enterprise-with-SalesForce-Data-Migration-Kit"><img src="/media/en-us/images/marketplace/OAKMergeEnterprisewithSalesForceDataMigrationKit.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/OAKMerge-Enterprise-with-SalesForce-Data-Migration-Kit">OAK!Merge Enterprise with SalesForce Data Migration Kit</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;1,499.00</p>
+                          <a class="btn-orange" href="/marketplace/OAKMerge-Enterprise-with-SalesForce-Data-Migration-Kit"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>OAK!Merge Enterprise with SalesForce Data Migration Kit converts your data from SalesForce to Act!. The SalesForce data migration kit includes all the SalesForce users, accounts, contacts, leads, tasks, activity history, opportunities, and attachments. All this in a load and go, one click utility.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- OAK!Merge Pro -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/OAKMerge-Pro"><img src="/media/en-us/images/marketplace/OAKMerge-Pro.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/OAKMerge-Pro">OAK!Merge Pro</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;499.00</p>
+                          <a class="btn-orange" href="/marketplace/OAKMerge-Pro"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>OAK!Merge Pro is a data import and update utility that provides field-by-field merging of data into Act!. Its unlimited uses include conversions, updates, mass deletes, and clean-up of databases. Update sales info in Act! with mainframe data matching on customer number, update sales territory matching on zip code, import trade show or web leads, or update lead status from remote reps.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- OAK!Merge Standard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/OAKMerge-Standard"><img src="/media/en-us/images/marketplace/OAKMerge-Standard.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/OAKMerge-Standard">OAK!Merge Standard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;299.00</p>
+                          <a class="btn-orange" href="/marketplace/OAKMerge-Standard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>OAK!Merge Standard is a data import and update utility that provides field-by-field merging of data into Act!. Its unlimited uses include conversions, updates, mass deletes, and clean-up of databases. Update sales info in Act! with mainframe data matching on customer number, update sales territory matching on zip code, import trade show or web leads, or update lead status from remote reps.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Outreach 1 User -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/outreach-1-user"><img src="/media/en-us/images/marketplace/Outreach1User.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/outreach-1-user">Outreach 1 User</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;384.32</p>
+                          <a class="btn-orange" href="/marketplace/outreach-1-user"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Outreach provides bulk mailings for HR, Headhunters and anyone wishing to send multiple documents from multiple candidates to several recipients.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Placements -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Placements"><img src="/media/en-us/images/marketplace/Placements.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Placements">Placements</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;1,245.00</p>
+                          <a class="btn-orange" href="/marketplace/Placements"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Complete recruitment and job tracking package.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Primary to Secondary Contact Wizard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/primary-to-secondary-contact-wizard"><img src="/media/en-us/images/marketplace/PrimarytoSecondaryContactWizard.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/primary-to-secondary-contact-wizard">Primary to Secondary Contact Wizard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;29.99</p>
+                          <a class="btn-orange" href="/marketplace/primary-to-secondary-contact-wizard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Use this plug-in to change a primary contact into a secondary contact. The tools allows you to optionally copy notes/histories to the main primary record. It also allows you to keep the original contact as a primary.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Promote Secondary Contacts -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/promote-secondary-contacts"><img src="/media/en-us/images/marketplace/Promote-Secondary-Contacts_lg.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/promote-secondary-contacts">Promote Secondary Contacts</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;89.99</p>
+                          <a class="btn-orange" href="/marketplace/promote-secondary-contacts"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Promote Secondary Contacts will take all of the Secondary Contacts that belong to the Contacts in a Lookup and Promote them - making them full-blown Contacts instantly.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Scan IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Scan-IT"><img src="/marketplace/Scan-IT/img/ScanIT_en_200x200.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Scan-IT">SCAN|IT for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;206.25</p>
+                          <a class="btn-orange" href="/marketplace/Scan-IT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>SCAN|IT lets you import your scanned from business cards data into Act! fast and easily avoiding duplicates and scheduling activities.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Scan2CRM for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Scan2CRM-for-Sage-ACT"><img src="/media/en-us/images/marketplace/Scan2CRMforSageACT.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Scan2CRM-for-Sage-ACT">Scan2CRM for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;299.00</p>
+                          <a class="btn-orange" href="/marketplace/Scan2CRM-for-Sage-ACT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Scan2CRM for Act! is a fully integrated, add-on scanning system for Act!. It scans business cards and automatically inputs both their textual data and image into a new contact record.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- ServiceIT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/ServiceIT"><img src="/media/en-us/images/marketplace/ServiceIT_lg.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/ServiceIT">ServiceIT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;298.50</p>
+                          <a class="btn-orange" href="/marketplace/ServiceIT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>ServiceIT is an executable module that performs specific functions without requiring a Windows login.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- TopLine Alerts Professional -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/TopLine-Alerts-Professional"><img src="/media/en-us/images/marketplace/TopLineAlertsProfessional.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/TopLine-Alerts-Professional">TopLine Alerts Professional</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;149.00</p>
+                          <a class="btn-orange" href="/marketplace/TopLine-Alerts-Professional"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>TopLine Alerts Professional sends customized email notifications to your inbox or PDA. This server-based program monitors activities, opportunities, backups and synchronization for all users in your Act! database. Stay informed. Save time. Take control.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- TopLine Dash Manager -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/TopLine-Dash-Manager"><img src="/media/en-us/images/marketplace/TopLineDashManager.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/TopLine-Dash-Manager">TopLine Dash Manager</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;149.00</p>
+                          <a class="btn-orange" href="/marketplace/TopLine-Dash-Manager"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>For the multi-user database, using the data of any selected user, TopLine Dash Manager allows managers to view and analyze performance of key performance indicators (KPIs), activities, histories, products, notes, and opportunities for all users.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- TopLine Dash Personal -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/TopLine-Dash-Personal"><img src="/media/en-us/images/marketplace/TopLineDashPersonal.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/TopLine-Dash-Personal">TopLine Dash Personal</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;79.00</p>
+                          <a class="btn-orange" href="/marketplace/TopLine-Dash-Personal"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>For the single-user database, TopLine Dash Personal allows you to view and analyze your own performance of key performance indicators (KPIs), activities, histories, products, notes and opportunities.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- TopLine Designer -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/TopLine-Designer"><img src="/media/en-us/images/marketplace/TopLine-Designer.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/TopLine-Designer">TopLine Designer</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;99.99</p>
+                          <a class="btn-orange" href="/marketplace/TopLine-Designer"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>TopLine Designer is the architect which will help you create, design and employ custom tables in Act! 2008 v.10.0.2 or higher. This navigation and design tool provides flexible, robust database solutions for Act! custom tables.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                                                                                                                              
+                  </div>
+                  <!-- .end CONTENT -->
+
+                        <div class="social clear">
+                        <h3>Connect with Act!</h3>
+                        	<ul>
+                            	<li><a class="facebook" href="#">Facebook</a></li>
+                                <li><a class="twitter" href="#">Twitter</a></li>
+                                <li><a class="linkedin" href="#">LinkedIn</a></li>
+                                <li><a class="you-tube" href="#">YouTube</a></li>
+                                <li><a class="google" href="#">Google+</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

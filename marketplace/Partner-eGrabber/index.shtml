@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Act! Marketplace - eGrabber&trade;</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+
+
+<!-- SLIDER JS & CSS -->
+ <link href="css/CustomerSuccesses.css" rel="stylesheet" type="text/css" /> 
+ 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="/media/en-us/js/plugins.js"></script>
+
+<script type="text/javascript" src="/media/en-us/js/script.js"></script>  
+<script type="text/javascript" src="/media/en-us/js/modernizr253min.js"></script>
+
+<link rel="stylesheet" href="/media/en-us/css/sliders.css">
+
+<!-- .end SLIDER JS & CSS -->
+
+ 
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2994']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace/">Marketplace</a></li>
+                    <li>></li>
+                    <li>eGrabber&trade;</li>
+                </ul>
+                
+                <div class="mainSingleColumn">
+                
+                  <!-- CONTENT -->
+                  <img id="mkt-banner" src="/media/en-us/images/marketplace/marketplace-banner-wide02NEW.jpg" alt="Act! Marketplace" />
+                               
+                  <div class="mkt">
+                  <h1>Business Need: <strong>Address/Shipping, Help Desk/Support, Sales Management, Utilities, Data Management, Email/Direct Marketing, Import/Export</strong></h1>
+                  
+<!-- AddressGrabber Business -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/AddressGrabber-Business/"><img src="/media/en-us/images/marketplace/AddressGrabberBusiness.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/AddressGrabber-Business/">AddressGrabber Business</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;129.95</p>
+                          <a class="btn-orange" href="/marketplace/AddressGrabber-Business/"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>AddressGrabber Business is a single-click data entry and activity scheduler that automatically extracts and enters contact details into Act!. It also transfers addresses between Act! and shipping/accounting applications and schedules activities such as calls, meetings, and to-do's for incoming leads.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- AddressGrabber Standard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/AddressGrabber-Standard/"><img src="/media/en-us/images/marketplace/AddressGrabberStandard.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/AddressGrabber-Standard/">AddressGrabber Standard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;69.95</p>
+                          <a class="btn-orange" href="/marketplace/AddressGrabber-Standard/"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>AddressGrabber Standard is your single click answer to quickly capture names and addresses from e-mail, web pages, and documents and enter them into Act!.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- AddressGrabber Suite for Act! - 1 year -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/AddressGrabber-Suite-for-ACT-1-year/"><img src="/media/en-us/images/marketplace/AddressGrabberSuiteforACT1year.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/AddressGrabber-Suite-for-ACT-1-year/">AddressGrabber Suite for Act! - 1 year</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;69.95</p>
+                          <a class="btn-orange" href="/marketplace/AddressGrabber-Suite-for-ACT-1-year/"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>AddressGrabber Suite for Act! is a collection of 4 popular add-ons that speed-up the most frequently performed tasks in Act! by 10X.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- eGrabber DupChecker-20000 -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/eGrabber-DupChecker-20000/"><img src="/media/en-us/images/marketplace/eGrabberDupChecker20000.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/eGrabber-DupChecker-20000/">eGrabber DupChecker-20000</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;299.00</p>
+                          <a class="btn-orange" href="/marketplace/eGrabber-DupChecker-20000/"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>eGrabber DupChecker is a tool that uses advanced fuzzy logic technology to quickly identify hard to find duplicates in your Act! database. DupChecker automatically scans, identifies and groups duplicates for easy merging and de-duping.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- eGrabber DupChecker (5,000 records - one year) eGrabber DupChecker-5000 -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/eGrabber-DupChecker-5000/"><img src="/media/en-us/images/marketplace/eGrabberDupChecker5000.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/eGrabber-DupChecker-5000/">eGrabber DupChecker (5,000 records - one year)</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;99.00</p>
+                          <a class="btn-orange" href="/marketplace/eGrabber-DupChecker-5000/"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>eGrabber DupChecker is a tool that uses advanced fuzzy logic technology to quickly identify hard to find duplicates in your Act! database. DupChecker automatically scans, identifies and groups duplicates for easy merging and de-duping.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- eMail-Lead Grabber Business -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/eMail-Lead-Grabber-Business"><img src="/media/en-us/images/marketplace/eMailLeadGrabberBusiness.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/eMail-Lead-Grabber-Business">eMail-Lead Grabber Business</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;749.95</p>
+                          <a class="btn-orange" href="/marketplace/eMail-Lead-Grabber-Business"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Automate your Lead Email Processing. eMail-Lead Grabber is a must have tool for every lead manager to automatically enter email information into Act!.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- ListGrabber Standard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/ListGrabber-Standard-2010/"><img src="/media/en-us/images/marketplace/ListGrabberStandard.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/ListGrabber-Standard-2010/">ListGrabber Standard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;249.95</p>
+                          <a class="btn-orange" href="/marketplace/ListGrabber-Standard-2010/"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>ListGrabber captures contact lists from webpages, online directories, documents, etc. and transfers them into Act!</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                                                                                          
+                  </div>
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                
+                
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

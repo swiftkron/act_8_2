@@ -1,0 +1,224 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+
+<title>Let Act! take it from here. | Act! Cloud</title>
+
+<meta name="description" content="">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="cleartype" content="on">
+
+<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/2b711b0d-fbe0-4a83-80e8-86e2497fcbcb.css"/>
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+<script src="assets/js/modernizr-min.js"></script>
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="assets/js/respond-min.js"></script>
+<![endif]-->
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div id="logo"><a href="/products/act-cloud/">Act!</a></div>
+		<a href="#menu" class="menu-link btn white">menu</a>
+		<nav id="menu" role="navigation">
+			<ul id="main-nav">
+				<li><a href="/products/act-cloud/#Why_Act_Cloud">Why Act! Cloud</a></li> 
+				<li><a href="/products/act-cloud/#Features">Features</a></li>
+				<li><a href="/products/act-cloud/#Pricing">Pricing</a></li>
+				<li><a href="http://cloud.act.com/success" target="_blank">Support</a></li>
+				<li><a href="http://social.swiftpage.com/blog/act" target="_blank">Blog</a></li>
+				<li><a href="/products/act-cloud/#More" target="_blank">More</a></li>
+				<li class="last"><a href="https://mycloud.act.com/signup/" target="_blank">Sign up</a></li>
+				<li id="close_nav" class="mobile"><img src="assets/img/icon_close-menu.png" /></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="clearfix"></div>
+
+	<section role="main" class="content-block">
+		<div class="wrap">
+
+			<h1>get more with integrations</h1>
+			<h2>Getting connected to the apps you love has never been easier.</h2>
+
+			<a href="#how-it-works" class="btn teal-invert">connect</a>
+			<a href="#developers" class="btn teal-invert">get API</a>
+
+		</div>
+	</section>
+
+	<div class="clearfix"></div>
+
+	<div id="how-it-works" class="content-block">
+		<div class="wrap">
+			<img src="assets/img/gfx-cloud-icons.png" />
+			<h2>optimized for on-the-go</h2>
+			<p class="push">Import your contacts, and stay connected to your most-used apps wherever you are, through our many integrations. Get contacts from Gmail, and iCloud and keep them up to date with Facebook and more. Want an app we don’t offer? Check out our Zapier integration to link to hundreds of popular web applications easily, or build your own link with our API. </p>
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<div id="partners" class="content-block">
+		<div class="wrap">
+			<img src="assets/img/icon-teal-section-set.png" />
+			<h2>integrated for automation</h2>
+			<p>Transfer contacts and interaction data between the systems you use everyday. The Act! Cloud Connector will soon be available at <a href="http://www.zapier.com" target="_blank">www.zapier.com</a>; allowing you to seamlessly connect Act! Cloud to over 300 web applications.</p>
+			<!-- <a href="NEED LINK" target="_blank" class="btn yellow">connect accounts</a> -->
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<div id="developers" class="content-block">
+		<div class="wrap">
+			<img src="assets/img/icon-developers.png" />
+			<h2>developer API</h2>
+			<p class="push">Act! Cloud offers a REST based API for integration purposes to access basic Contact and Activity information. You can build a link from your app to Zapier to connect with Act! Cloud, or directly integrate using Act! Cloud’s API. Request a developer key and take a look at the documentation to get started.</p>
+			<a href="https://mycloud.act.com/act/help" target="_blank" class="btn yellow">request API key</a>
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<div id="sub-dev" class="content-block slim">
+		<div class="wrap">
+			<h3>Developers, create your own app!</h3>
+			<h3 class="thin">Visit the <a href="https://mycloud.act.com/act/help" target="_blank">developer center</a> to learn more and access API documentation.</h3>
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<div id="learn-more" class="content-block">
+		<div class="wrap">
+			<div class="learn-more-item first">
+				<img src="assets/img/icon-integrations.png" />
+				<h3>integrations</h3>
+				<p class="equal_txt">Make Act! Cloud the center of your universe. Connect to hundreds of applications through the Zapier integration platform.</p>
+				<a href="/products/act-cloud/integrations">Learn more.</a>
+			</div>
+			<div class="learn-more-item">
+				<img src="assets/img/icon-partners.png" />
+				<h3>partners</h3>
+				<p class="equal_txt">Have customers that need a simple, better contact management solutions? Become an Act! Cloud affiliate and earn money on every referral that turns into a sale.</p>
+				<a href="/products/act-cloud/partners">Learn more.</a>
+			</div>
+			<div class="learn-more-item last">
+				<img src="assets/img/icon-customers.png" />
+				<h3>customers success</h3>
+				<p class="equal_txt">Visit the Act! Cloud Success Center for informative help resources, FAQs and learn from other small businesses in Community discussions.</p>
+				<a href="http://cloud.act.com/success" target="_blank">Learn more.</a>
+			</div>
+		</div>
+	</div>
+
+	<footer role="contentinfo">
+		<div class="wrap">
+			<div id="footer_menu">
+				<div id="primary_links">
+					<ul class="footer_links">
+						<li class="title">Products</li>
+						<li><a href="/products/act-pro/">Act! Pro</a></li>
+						<li><a href="/products/act-premium/">Act! Premium</a></li>
+						<li><a href="/why-choose-act/cloud-on-premise-deployment/#cloud">Act! Hosted</a></li>
+						<li><a href="/products/act-cloud/" target="_blank">Act! Cloud</a></li>
+					</ul>
+
+					<ul class="footer_links">
+						<li class="title">Customer Resources</li>
+						<li><a href="/support/getting-started/">Getting Started</a></li>
+						<li><a href="/support/">Support</a></li>
+						<li><a href="/support/download-center/">Download Center</a></li>
+						<li><a href="/marketplace/">Marketplace</a></li>
+					</ul>
+
+					<ul class="footer_links">
+						<li class="title">Partners</li>
+						<li><a href="/partners/">Find a Partner</a></li>
+						<li><a href="http://crm.saleslogixcloud.com/partners" target="_blank">Partner Resources</a></li>
+					</ul>
+				</div>
+				<div id="secondary_links">
+					<ul class="footer_links">
+						<li class="phone"><a href="tel:866-873-2006" class="tel">866-873-2006</a></li>
+						<li><a href="/contact">Contact Us</a></li>
+						<li><a href="/privacy">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer_social">
+				<ul class="social-media">
+		          	<li id="sm_facebook"><a href="http://act.com/facebook" target="_blank"><span> </span></a></li>
+		          	<li id="sm_twitter"><a href="http://act.com/twitter" target="_blank"><span> </span></a></li>
+		          	<li id="sm_linkedin"><a href="http://act.com/linkedin" target="_blank"><span> </span></a></li>
+		          	<li id="sm_googleplus"><a href="http://act.com/googleplus" target="_blank"><span> </span></a></li>
+		          	<li id="sm_youtube"><a href="http://act.com/youtube" target="_blank"><span> </span></a></li>
+		          	<li id="sm_blog"><a href="http://social.swiftpage.com/blog/act" target="_blank"><span> </span></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="assets/js/plugins-min.js"></script>
+<script src="assets/js/script-min.js"></script>
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+<!-- Kiss Metrics capture code points to Red Cloud Production config at moment-->
+    <script type="text/javascript">
+var _kmq = _kmq || [];
+    var _kmk = _kmk || 'fb3b6dd55e5635b7f5eb80ac69d927bd54d760b6';
+    function _kms(u) {
+        setTimeout(function () {
+            var d = document, f = d.getElementsByTagName('script')[0],
+            s = d.createElement('script');
+            s.type = 'text/javascript'; s.async = true; s.src = u;
+            f.parentNode.insertBefore(s, f);
+        }, 1);
+    }
+    _kms('//i.kissmetrics.com/i.js');
+    _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+    </script>
+
+
+      <!--This is Query String capture code -->
+     <script>
+    function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+
+
+   <!--Here we pass the sourceID (sid) value from the query string to Kiss Metrics a a custom event called SID-->
+    <script type="text/javascript">  _kmq.push(['record', 'SID', { 'SID': getParameterByName('sid') }]);</script>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="/media/en-us/css/welcomepage_startup4.css">
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40741589-3', 'act.com');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</head>
+
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+-->
+</style>
+<table width="570" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td valign="top">
+            <p class="subheader">Business Services</p>
+            <p class="items"><a href="http://www.act.com/support/business-care" target="_blank">Have Access to Customer Support, Product Upgrades, and Valuable Extras</a> <br />
+            Get Act! on iPhone, iPad, and More - <a href="http://www.act.com/products/mobility/act-connect" target="_blank">Act! Pro Users Click Here</a><br />
+           Get Act! on iPhone, iPad, and More - <a href="http://www.act.com/products/act-premium" target="_blank">Act! Premium Users Click Here</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+            <p class="subheader2">Promotions &amp; Announcements </p>
+            <p class="items"> 
+             <a href="https://www.swiftpage1.com/spesimplesignup.aspx?ref=316c9c3ed45a83ee318b1f859d9b8b79&amp;Mkt_ID=ACTwel" target="_blank">Sign up for a Swiftpage emarketing free trial today!</a>    <br>
+             <a href="http://go.act.com/webcasts" target="_blank">Register for Act! Webcasts</a><br>
+            <a href="http://www.act.com/products/demo-center" target="_blank">Visit the Demo Center</a> </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+            <p class="subheader2">Act! Communities</p>
+          <p class="items">  <span class="style1"><em>Start Here!</em></span> <a href="http://www.act.com/support/getting-started" target="_blank">Get Started Quickly and Easily with Self-service Resources</a><br />
+            <a href="http://www.act.com/partners" target="_blank">Learn About Advanced Training, Customization, &amp; Hosting</a><br />
+            <a href="http://www.facebook.com/search/?q=act+by+sage&amp;init=quick#/pages/ACT-by-Sage/70457158966?ref=search&amp;sid=1678651472.1107976187..1" target="_blank">Facebook</a> | <a href="http://twitter.com/ACTbySage" target="_blank">Twitter&trade;</a> | <a href="http://www.linkedin.com/groups?gid=1914089&amp;trk=hb_side_g" target="_blank">LinkedIn&reg;</a> | <a href="http://www.youtube.com/user/ACTbySAGE" target="_blank">YouTube&trade;</a> | <a href="https://www.plaxo.com/signin?r=http%3A%2F%2Fwww.plaxo.com%2Fgroups%2Fprofile%2F188980098300" target="_blank">Plaxo</a></p>
+          </td>
+        </tr>
+    </tbody>
+</table>

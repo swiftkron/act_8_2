@@ -1,0 +1,31 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/buyPopup.css">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40741589-3', 'act.com');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+<p class="header">How to Buy Act! Emarketing</p>
+<ul>
+    <p class="content" style="padding-bottom: 10px;"><span style="color: #ffa724;">&raquo;</span> Call <strong>866-873-2006</strong></p>
+    <p class="content" style="padding-bottom: 10px;"><span style="color: #ffa724;">&raquo;</span> Contact a <strong><a href="/en-uk/partners/certified-consultants" target="_blank" class="link">Act! Certified Consultant</a></strong>*</p>
+    <p class="content" style="padding-bottom: 5px;"><span style="color: #ffa724;">&raquo;</span> From the <strong>"Connections" page in Act!,<br />
+    &nbsp;&nbsp;&nbsp;choose
+    "Sign-up Now"</strong> or from the<strong> "Write"<br />
+    &nbsp;&nbsp;&nbsp;menu in Act!, choose "Email Marketing"</strong></p>
+</ul>
+
+<!--IGNORE -->
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+----------------------------------------
+Timestamp: 2/4/2016 8:03:06 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/4/2016 8:04:17 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/4/2016 8:11:32 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/4/2016 8:12:43 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid). See the error log for more details.
+
+
+----------------------------------------

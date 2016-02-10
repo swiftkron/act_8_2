@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Partners | Get the SDK</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style>
+ 
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2994']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/partners">Partners</a></li>
+                    <li>></li>
+                    <li><a href="/partners/development-partner-program">Development Partner Program</a></li>
+                    <li>></li>
+                    <li><a href="/partners/development-partner-program/sdk">Get the SDK</a></li>
+                    <li>></li>
+                    <li>ACT! by Sage 2009</li>
+              </ul>
+                
+<div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+    
+		<div class="Section1">
+      <form name="form1" method="post">
+        <label>
+        </label>
+        <p>
+        </p>
+        <h1>ACT! by Sage 2009 Software Development Kit EULA</h1>
+       
+        <p>
+          <label>
+          </label>
+          <label>
+            <textarea id="SDK-EULA" name="SDK-EULA" rows="40" cols="80">Sage Software, Inc. End User License Agreement 
+for the ACT! by Sage 2009 (11.x) Software Development Kit
+
+IMPORTANT! - SCROLL THROUGH AND READ THIS AGREEMENT CAREFULLY AND IN ITS ENTIRETY BEFORE DOWNLOADING THE SOFTWARE DEVEOPMENT KIT
+
+NOTICE:  SAGE SOFTWARE, INC. (“SAGE SOFTWARE”) LICENSES THIS SOFTWARE DEVELOPMENT KIT (“SDK”) TO YOU ONLY UPON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS CONTAINED IN THIS END USER LICENSE AGREEMENT.  PLEASE READ THE TERMS CAREFULLY BEFORE CONTINUING THE DOWNLOAD; IF YOU OR AN AUTHORIZED THIRD PARTY SELECTS “I ACCEPT,” YOU INDICATE YOUR ASSENT TO THEM; IF YOU OR AN AUTHORIZED THIRD PARTY SELECT "I DO NOT ACCEPT," THE DOWNLOAD WILL TERMINATE AND YOU WILL NOT HAVE A LICENSE FOR THE SDK.
+
+The ACT! 2009 (11.x) Software Development Kit (the “SDK”) and any printed and electronic manuals, guides, bulletins, and online help (the “Documentation”) that accompany this End User License Agreement (the “Agreement”) are the property of Sage Software or its licensors and are protected by copyright law and international treaty.  While Sage Software or its licensors continue to own the SDK, you will have certain rights to use the SDK after your acceptance of this Agreement.  “Use” means: downloading a copy of the SDK on a hard disk drive within a single computer, executing or displaying the SDK.
+
+Your rights and obligations with respect to the use of this SDK are as follows:
+1.	GRANT OF LICENSE
+Sage Software hereby grants to you a limited, nontransferable, non-exclusive license to use the SDK under the terms stated in this Agreement for use in your business or profession.  Sage Software reserves all rights not expressly granted by this Agreement and you hereby acknowledge that all title and ownership of the SDK and all associated intellectual property rights are and shall remain with Sage Software.  This Agreement permits you to:
+(a)	use the SDK:  (i) on a single primary computer; and (ii) on a secondary computer that may be either your home computer or a portable computer that you own or use in your business or profession; 
+(b)	retrieve, modify, or delete ACT! database data or database structure only by way of the ACT! products, the ACT! SDK, or the ACT! OleDb provider; and
+(c)	make one copy of the SDK for archival purposes, or copy the SDK onto the hard disk of your computer and retain the original for archival purposes.
+2.	LICENSE RESTRICTIONS
+This Agreement does not include the right to perform any of the following and you agree to refrain from performing any of the following:
+(a)	participate in deceptive, destructive or illegal practices related in any way to use of the SDK or this Agreement;
+(b)	copy any Documentation that accompanies the SDK;
+(c)	make any copies of all or part of the SDK other than as expressly permitted in this Agreement;
+(d)	sublicense, rent, lease, or loan, any portion of the SDK or host the SDK on your computer for others to use;
+(e)	re-sell or distribute any portion of the SDK to another person or entity;
+(f)	reverse engineer, decompile, disassemble, modify, translate, make any attempt to discover the source code of the SDK; 
+(g)	use the ACT! trademarks as part of a product name, trademark, business name or domain name without prior written approval from Sage Software;
+(h)	develop a product that directly competes with ACT! and/or build conversion functionality that converts end user data from ACT! to a competing product or service;
+(i)	market or distribute add-ons or enhancements to ACT! without the prior written consent of Sage Software; 
+(j)	circumvent technological measures to prevent direct database access, nor manufacture tools or products to that effect; or
+(k)	copy any portion of the ACT! product graphical user interface for incorporation into or use for any software or other product without the prior written consent of Sage Software.
+3.	SUPPORT
+Sage Software disclaims any responsibility to provide any customer support for the SDK.
+4.	TERMINATION
+This Agreement may be terminated by Sage Software without notice if you fail to comply with any term or condition of this Agreement.  This Agreement may also be terminated for any reason or for no reason at all with thirty (30) days notice.  Upon termination, you must immediately destroy all copies of the SDK.
+
+5.	NO WARRANTY
+The SDK is accepted by you "AS IS" and "WITH ALL FAULTS."  ALL WARRANTIES CONCERNING THE SDK, EXPRESS OR IMPLIED, STATUTORY, OR IN ANY OTHER PROVISION OF THIS AGREEMENT INCLUDING, WITHOUT LIMITATION, ANY WARRANTY OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE, ARE HEREBY EXPRESSLY DISCLAIMED AND EXCLUDED.  YOUR SOLE AND EXCLUSIVE REMEDY FOR A BREACH OF THIS AGREEMENT BY SAGE SOFTWARE SHALL BE TO TERMINATE THIS AGREEMENT.
+6.	LIMITATION OF LIABILITY AND DAMAGES
+REGARDLESS OF WHETHER ANY PROVISION SET FORTH HEREIN FAILS OF ITS ESSENTIAL PURPOSE, IN NO EVENT WILL SAGE SOFTWARE OR ITS LICENSORS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY SPECIAL, CONSEQUENTIAL, INDIRECT OR SIMILAR DAMAGES, INCLUDING ANY LOST PROFITS OR LOST DATA ARISING OUT OF THE USE OR INABILITY TO USE THE SDK EVEN IF SAGE SOFTWARE OR ITS LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  SOME STATES DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU.  THE DISCLAIMERS AND LIMITATIONS SET FORTH ABOVE WILL APPLY REGARDLESS OF WHETHER YOU ACCEPT THE AGREEMENT.
+7.	EXPORT RESTRICTIONS
+You agree to comply to the extent applicable with the United States Export Administration regulations, the International Traffic in Arms regulations and any regulations or licenses administered by the Department of the Treasury's Office of Foreign Assets Control.
+8.	GENERAL
+(a)	To the fullest extent permitted by law and consistent with valid entry into a binding agreement, the controlling language of this Agreement is English and any translation you have received has been provided solely for your convenience.  In the event you have entered into this Agreement by means of the display of a translated version of this Agreement in a language other than U.S. English, you may request a U.S. English language version of this Agreement by notice to Sage Software.  To the fullest extent permitted by law, all correspondence and communication between you and Sage Software under this Agreement must be in English language.  
+(b)	The exclusive judicial forum for any action related to this Agreement shall be an appropriate federal or state court located in Georgia.  This Agreement shall be governed by the internal laws of the forum state without regard to the conflict of laws provisions thereof.
+(c)	This Agreement allocates risk between you and Sage Software as authorized by applicable law, and the pricing of Sage Software’s products reflects this allocation of risk and the limitation of liability contained in this Agreement.  If any provision of this Agreement is found invalid or unenforceable pursuant to judicial decree, the remainder of this Agreement shall be valid and enforceable according to its terms. 
+(d)	ACT! is a registered trademark of Sage Software, Inc.  For an up-to-date list of copyright and trademark statements, refer either to the copyright page of the Software User's Guide for your ACT! software or the Help About window within the ACT! software.  Other product names mentioned may be service marks, trademarks, or registered trademarks of their respective companies and are hereby acknowledged.
+(e)	No failure or delay of either party to exercise any rights or remedies under this Agreement shall operate as a waiver thereof, nor shall any single or partial exercise of the same or other rights or remedies preclude any further or other exercise of the same or other rights or remedies, nor shall any waiver of any rights or remedies with respect to any circumstances be constructed as a waiver thereof with respect to any other circumstances.
+(f)	Quebec.  With regard to Quebec, the parties declare that they have required that this Agreement and all documents related hereto, either present or future, be drawn up in the English language only.  Les parties déclarent par les présentes qu'elles exigent que cette entente et tous les documents y afférents, soit pour le présent ou l'avenir, soient rédigés en langue anglaise seulement.
+(g)	Sections 5 (No Warranty), 6 (Limitation of Liability and Damages), 8(b) (Governing Law), and this Section 8(g) shall survive the expiration or termination of this Agreement.
+
+(h)  This Agreement constitutes the entire agreement between you and Sage Software with respect to the subject matter hereof, and supersedes all proposals, oral or written, and all other communications between the parties with respect to such subject matter.  This Agreement shall not be modified, except by written agreement signed by the parties hereto.  Employees, officers, and agents of Sage Software are not authorized to modify this Agreement, or make any additional representations, commitments, or warranties binding on Sage Software, unless made in writing and signed by an authorized officer of Sage Software.
+
+(i)  Sage Software shall not be liable for and shall be excused from any failure to deliver or perform or for delay in delivery or performance due to causes beyond its reasonable control, including but not limited to, work stoppages, shortages, civil disturbances, terrorist actions, transportation problems, interruptions or power or communications, failure or suppliers or subcontractors, natural disasters or other acts of God.
+
+(j)  All notices given hereunder shall be in writing and sent by overnight courier or delivered in person to Sage Software, Inc., Legal Department, 1715 North Brown Road, Lawrenceville, Georgia  30043. </textarea> </label>
+        </p>
+      </form>
+    </div>
+    
+    <a href="/partners/development-partner-program/sdk/2009">
+      <img width="96" height="33" alt="" src="/media/en-us/images/i-accept-button.jpg" class="left" />
+    </a> <a href="/" class="noaccept left">I do not accept</a>
+<!-- .end CONTENT -->
+
+
+                         <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                <div class="mainSidebar">
+                    
+                    <!--#include virtual="/media/en-us/includes/partnersnavInclude.html" -->
+                    </div>
+                
+            </div>
+      </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

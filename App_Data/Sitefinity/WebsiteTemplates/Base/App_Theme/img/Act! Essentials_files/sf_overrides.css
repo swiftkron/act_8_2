@@ -1,0 +1,17 @@
+/* Search box */
+.sfsearchBox{
+    border:none;
+    margin:0 auto;
+    width:1280px;
+}
+.sfsearchTxt{
+    display:block;
+    float:left;
+    margin-right:24px;
+    width:80%;
+}
+.sfsearchSubmit{
+    display:block;
+    float:left;
+    margin-top:-4px !important;
+}

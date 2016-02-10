@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Act SocialIcons';
+    src: url('../fonts/glyphicons-social-regular.eot#iefix') format('embedded-opentype'),
+		url('../fonts/glyphicons-social-regular.ttf') format('truetype'),
+		url('../fonts/glyphicons-social-regular.woff') format('woff'),
+		url('../fonts/glyphicons-social-regular.svg#glyphicons-social') format('svg');
+}
+.actsocial{position:relative;top:1px;display:inline-block;font-family:'Act SocialIcons';font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.glyphicon-linkedin:before{content:"\e018"}
+.glyphicon-facebook:before{content:"\e031"}
+.glyphicon-twitter:before{content:"\e032"}
+/*.glyphicon-youtube:before{content:"\e023"}*/
+.glyphicon-blog:before{content:"\e038"}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'),
+		url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+		url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+		url('../fonts/glyphicons-halflings-regular.svg#glyphicons-social') format('svg');
+}
+.halflings{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.glyphicon-chevron-right:before{content:"\e224"}
+.glyphicon-chevron-left:before{content:"\e225"}
+.glyphicon-email:before{content:"\2709"}
+.glyphicon-play:before{content:"\e221"}
+.glyphicon-youtube:before{content:"\e174"}
+.glyphicon-doc:before{content:"\e037"}
+.glyphicon-sys:before{content:"\e153"}
+.glyphicon-book:before{content:"\e072"}
+.glyphicon-callsupport:before{content:"\e078"}
+.glyphicon-chat:before{content:"\e245"}
+.glyphicon-sales:before{content:"\e004"}
+.glyphicon-expand:before{content:"\e368"}
+.glyphicon-collapse:before{content:"\e370"}
+.glyphicon-download:before{content:"\e182"}

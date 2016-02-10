@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PRODUCTS>
+	<!-- FEATURED SOLUTIONS -->
+	<featured_solutions>
+		<!-- Act! emarketing -->
+		<product id="1">
+			<name>Act! emarketing</name>
+			<desc>&lt;span&gt;Email marketing&lt;/span&gt; is the best proven way to reach your customer base. Act! emarketing is fully integrated with your Act! software.  &lt;strong&gt;To sign up, click on the emarketing tab from within Act!&lt;/strong&gt;</desc>
+			<price></price>
+			<cta></cta>
+			<url></url>
+			<tile>act_mkt_tile_bc_emarketing.png</tile>
+			<thumb>act_mkt_thumb_emarketing.png</thumb>
+		</product>
+		<!-- Handheld Contact -->
+		<product id="2">
+			<name>Handheld Contact</name>
+			<desc>Go mobile with the power to wirelessly access and manage your Act! Contacts, Calendar, Activities, and more right on your mobile device - even if you have no Internet connection.</desc>
+			<price></price>
+			<cta>Learn More</cta>
+			<url>http://www.act.com/marketplace/handheld-contact</url>
+			<tile>act_mkt_tile_bc_handheld.png</tile>
+			<thumb>act_mkt_thumb_handheld.png</thumb>
+		</product>
+		<!-- Act! Feature Packs -->
+		<product id="4">
+			<name>What's New in v17</name>
+			<desc>Finally, sales process meets nurture marketing. Check out the new features in Act! v17, available to Business Care subscribers for free!</desc>
+			<price></price>
+			<cta>Learn more »</cta>
+			<url>http://www.act.com/en-uk/products/upgrade</url>
+			<tile>act_mkt_tile_bc_whatsnew.png</tile>
+			<thumb>act_mkt_thumb_whatsnew.png</thumb>
+		</product>
+		<!-- Training -->
+		<product id="5">
+			<name>Get Act! Training:</name>
+			<desc>&lt;span&gt;Act! Cloud Essentials Library:&lt;/span&gt; A collection of training videos to help you learn everything Act! can do for you. Contact your Act! Partner or call:&lt;br&gt;&lt;br&gt;&lt;strong&gt;Ireland: 0766 801 364&lt;br&gt;South Africa: 0105 003 672&lt;br&gt;UK: 0845 268 0220&lt;/strong&gt;</desc>
+			<price></price>
+			<cta></cta>
+			<url></url>
+			<tile>act_mkt_tile_fs_training.png</tile>
+			<thumb>act_mkt_thumb_training.png</thumb>
+		</product>
+	</featured_solutions>
+</PRODUCTS>

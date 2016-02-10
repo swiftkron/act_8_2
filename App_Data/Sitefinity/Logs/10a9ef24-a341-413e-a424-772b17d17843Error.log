@@ -1,0 +1,138 @@
+----------------------------------------
+Timestamp: 11/10/2015 9:59:02 PM
+
+Message: HandlingInstanceID: 560fa9a6-4578-437c-bdd7-c0c648fb8837
+An exception of type 'Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------
+11/10/2015 14:59:02
+Type : Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException, Telerik.Sitefinity.Model, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You cannot save your changes, because a child page will have URL '~/resources/contact' that already exists.
+Source : Telerik.Sitefinity
+Help link : 
+Page : Telerik.Sitefinity.Pages.Model.PageNode
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CommitTransaction(System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.TransactionManager.CommitTransaction(String transactionName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.SavePageInternal(WcfPageContext pageContext, Boolean duplicate)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.SavePage(WcfPageContext pageContext, String pageId, String providerName, Boolean duplicate)
+   at SyncInvokeSavePage(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/10/2015 9:59:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130916460535166798
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.Pages.Model.PageNode&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&workflowOperation=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130916460535166798
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7336
+
+Extended Properties: Url - ~/resources/contact
+
+----------------------------------------
+----------------------------------------
+Timestamp: 11/10/2015 9:59:52 PM
+
+Message: HandlingInstanceID: fc6c54b7-c3a4-40e1-b2dc-969a30adaeda
+An exception of type 'Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------
+11/10/2015 14:59:52
+Type : Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException, Telerik.Sitefinity.Model, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : The specified URL already exists in page: Resources
+Source : Telerik.Sitefinity
+Help link : 
+Page : Telerik.Sitefinity.Pages.Model.PageNode
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CommitTransaction(System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.TransactionManager.CommitTransaction(String transactionName)
+   at Telerik.Sitefinity.Fluent.AnyContent.Implementation.Helpers.AllFacadesHelper.SaveChanges(AppSettings settings, IManager manager)
+   at Telerik.Sitefinity.Fluent.Pages.PageFacade.SaveChanges()
+   at Telerik.Sitefinity.Fluent.Pages.PageFacade.SaveAndContinue()
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.DuplicatePage(WcfPageContext pageContext)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.SavePageInternal(WcfPageContext pageContext, Boolean duplicate)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.SavePage(WcfPageContext pageContext, String pageId, String providerName, Boolean duplicate)
+   at SyncInvokeSavePage(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/10/2015 9:59:52 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130916460535166798
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.Pages.Model.PageNode&providerName=OpenAccessDataProvider&managerType=&provider=OpenAccessDataProvider&duplicate=true&workflowOperation=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130916460535166798
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9140
+
+Extended Properties: Url - Resources
+
+----------------------------------------

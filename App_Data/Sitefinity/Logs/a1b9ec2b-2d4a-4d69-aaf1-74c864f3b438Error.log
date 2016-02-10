@@ -1,0 +1,845 @@
+----------------------------------------
+Timestamp: 10/15/2015 8:51:10 PM
+
+Message: HandlingInstanceID: a17125bb-9303-4589-9310-c30b01a3dd4c
+An exception of type 'Telerik.Sitefinity.Web.UI.TemplateException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+10/15/2015 14:51:10
+Type : Telerik.Sitefinity.Web.UI.TemplateException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : A required control was not found in the template for "~/SfCtrlPresentation/OpenAccessDataProvider,f4b760e796e1633a9d88ff00001e67f5.ascx". The control must be assignable from type "Telerik.Web.UI.RadListView" and must have ID "dynamicContentListView".
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowException(System.Type, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Web.UI.GenericContainer.ThrowException(Type requiredType, String controlId)
+   at Telerik.Sitefinity.Web.UI.GenericContainer.GetControl[T](String id, Boolean required)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.get_DynamicContentListView()
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/15/2015 8:51:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130893273703782267
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-7-130893273703782267
+
+ProcessId: 12196
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13140
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/15/2015 10:15:09 PM
+
+Message: HandlingInstanceID: 7a652302-7b8e-4900-bf3d-c5e9609f0740
+An exception of type 'System.Runtime.Serialization.SerializationException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+10/15/2015 16:15:09
+Type : System.Runtime.Serialization.SerializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : There was an error deserializing the object of type Telerik.Sitefinity.Web.Model.QueryData. Encountered unexpected character 'V'.
+Source : System.Runtime.Serialization
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object ReadObjectHandleExceptions(System.Runtime.Serialization.XmlReaderDelegator, Boolean, System.Runtime.Serialization.DataContractResolver)
+HResult : -2146233076
+Stack Trace :    at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(Stream stream)
+   at Telerik.Sitefinity.Utilities.TypeConverters.JsonTypeConverter`1.SetValue(String value)
+   at Telerik.Sitefinity.Utilities.TypeConverters.JsonTypeConverter`1.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.ConvertValue(PropertyDescriptor propDesc, String serializedValue)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.SetProperty(WcfControlProperty wcfProperty, Object rootInstance)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.SetProperties(IEnumerable`1 wcfProperties, Object instance)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ControlPropertyService.SaveProperties(WcfControlProperty[] properties, String controlId, String providerName, String pageId, String mediaType, Boolean checkLiveVersion, Boolean upgradePageVersion, PropertyLocalizationType propertyLocalization, Boolean isOpenedByBrowseAndEdit)
+   at SyncInvokeSaveProperties(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/15/2015 10:15:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130893273703782267
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/c4b760e7-96e1-633a-9d88-ff00001e67f5/?pageId=b4b760e7-96e1-633a-9d88-ff00001e67f5&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.Xml.XmlException, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Encountered unexpected character 'V'.
+	Source : System.Runtime.Serialization
+	Help link : 
+	LineNumber : 0
+	LinePosition : 0
+	SourceUri : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ThrowXmlException(System.Xml.XmlDictionaryReader, System.Xml.XmlException)
+	HResult : -2146232000
+	Stack Trace :    at System.Xml.XmlExceptionHelper.ThrowXmlException(XmlDictionaryReader reader, XmlException exception)
+	   at System.Runtime.Serialization.Json.XmlJsonReader.ReadAttributes()
+	   at System.Runtime.Serialization.Json.XmlJsonReader.ReadNonExistentElementName(StringHandleConstStringType elementName)
+	   at System.Runtime.Serialization.Json.XmlJsonReader.Read()
+	   at System.Xml.XmlBaseReader.IsStartElement()
+	   at System.Xml.XmlBaseReader.IsStartElement(XmlDictionaryString localName, XmlDictionaryString namespaceUri)
+	   at System.Runtime.Serialization.XmlReaderDelegator.IsStartElement(XmlDictionaryString localname, XmlDictionaryString ns)
+	   at System.Runtime.Serialization.XmlObjectSerializer.IsRootElement(XmlReaderDelegator reader, DataContract contract, XmlDictionaryString name, XmlDictionaryString ns)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalIsStartObject(XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+	   at System.Runtime.Serialization.XmlObjectSerializer.InternalReadObject(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+	   at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-7-130893273703782267
+
+ProcessId: 12196
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5904
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/15/2015 10:15:13 PM
+
+Message: HandlingInstanceID: ca1d9e1c-228a-4e09-808d-460d855be059
+An exception of type 'System.Runtime.Serialization.SerializationException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+10/15/2015 16:15:13
+Type : System.Runtime.Serialization.SerializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : There was an error deserializing the object of type Telerik.Sitefinity.Web.Model.QueryData. Encountered unexpected character 'V'.
+Source : System.Runtime.Serialization
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object ReadObjectHandleExceptions(System.Runtime.Serialization.XmlReaderDelegator, Boolean, System.Runtime.Serialization.DataContractResolver)
+HResult : -2146233076
+Stack Trace :    at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(Stream stream)
+   at Telerik.Sitefinity.Utilities.TypeConverters.JsonTypeConverter`1.SetValue(String value)
+   at Telerik.Sitefinity.Utilities.TypeConverters.JsonTypeConverter`1.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.ConvertValue(PropertyDescriptor propDesc, String serializedValue)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.SetProperty(WcfControlProperty wcfProperty, Object rootInstance)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.SetProperties(IEnumerable`1 wcfProperties, Object instance)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ControlPropertyService.SaveProperties(WcfControlProperty[] properties, String controlId, String providerName, String pageId, String mediaType, Boolean checkLiveVersion, Boolean upgradePageVersion, PropertyLocalizationType propertyLocalization, Boolean isOpenedByBrowseAndEdit)
+   at SyncInvokeSaveProperties(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/15/2015 10:15:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130893273703782267
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/c4b760e7-96e1-633a-9d88-ff00001e67f5/?pageId=b4b760e7-96e1-633a-9d88-ff00001e67f5&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.Xml.XmlException, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Encountered unexpected character 'V'.
+	Source : System.Runtime.Serialization
+	Help link : 
+	LineNumber : 0
+	LinePosition : 0
+	SourceUri : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ThrowXmlException(System.Xml.XmlDictionaryReader, System.Xml.XmlException)
+	HResult : -2146232000
+	Stack Trace :    at System.Xml.XmlExceptionHelper.ThrowXmlException(XmlDictionaryReader reader, XmlException exception)
+	   at System.Runtime.Serialization.Json.XmlJsonReader.ReadAttributes()
+	   at System.Runtime.Serialization.Json.XmlJsonReader.ReadNonExistentElementName(StringHandleConstStringType elementName)
+	   at System.Runtime.Serialization.Json.XmlJsonReader.Read()
+	   at System.Xml.XmlBaseReader.IsStartElement()
+	   at System.Xml.XmlBaseReader.IsStartElement(XmlDictionaryString localName, XmlDictionaryString namespaceUri)
+	   at System.Runtime.Serialization.XmlReaderDelegator.IsStartElement(XmlDictionaryString localname, XmlDictionaryString ns)
+	   at System.Runtime.Serialization.XmlObjectSerializer.IsRootElement(XmlReaderDelegator reader, DataContract contract, XmlDictionaryString name, XmlDictionaryString ns)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalIsStartObject(XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+	   at System.Runtime.Serialization.XmlObjectSerializer.InternalReadObject(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+	   at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-7-130893273703782267
+
+ProcessId: 12196
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5904
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/15/2015 10:15:15 PM
+
+Message: HandlingInstanceID: 3f9ac611-30be-4521-9e51-f5c6c0aaf2e2
+An exception of type 'System.Runtime.Serialization.SerializationException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+10/15/2015 16:15:15
+Type : System.Runtime.Serialization.SerializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : There was an error deserializing the object of type Telerik.Sitefinity.Web.Model.QueryData. Encountered unexpected character 'V'.
+Source : System.Runtime.Serialization
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object ReadObjectHandleExceptions(System.Runtime.Serialization.XmlReaderDelegator, Boolean, System.Runtime.Serialization.DataContractResolver)
+HResult : -2146233076
+Stack Trace :    at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(Stream stream)
+   at Telerik.Sitefinity.Utilities.TypeConverters.JsonTypeConverter`1.SetValue(String value)
+   at Telerik.Sitefinity.Utilities.TypeConverters.JsonTypeConverter`1.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.ConvertValue(PropertyDescriptor propDesc, String serializedValue)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.SetProperty(WcfControlProperty wcfProperty, Object rootInstance)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.SetProperties(IEnumerable`1 wcfProperties, Object instance)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ControlPropertyService.SaveProperties(WcfControlProperty[] properties, String controlId, String providerName, String pageId, String mediaType, Boolean checkLiveVersion, Boolean upgradePageVersion, PropertyLocalizationType propertyLocalization, Boolean isOpenedByBrowseAndEdit)
+   at SyncInvokeSaveProperties(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/15/2015 10:15:15 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130893273703782267
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/c4b760e7-96e1-633a-9d88-ff00001e67f5/?pageId=b4b760e7-96e1-633a-9d88-ff00001e67f5&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.Xml.XmlException, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Encountered unexpected character 'V'.
+	Source : System.Runtime.Serialization
+	Help link : 
+	LineNumber : 0
+	LinePosition : 0
+	SourceUri : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ThrowXmlException(System.Xml.XmlDictionaryReader, System.Xml.XmlException)
+	HResult : -2146232000
+	Stack Trace :    at System.Xml.XmlExceptionHelper.ThrowXmlException(XmlDictionaryReader reader, XmlException exception)
+	   at System.Runtime.Serialization.Json.XmlJsonReader.ReadAttributes()
+	   at System.Runtime.Serialization.Json.XmlJsonReader.ReadNonExistentElementName(StringHandleConstStringType elementName)
+	   at System.Runtime.Serialization.Json.XmlJsonReader.Read()
+	   at System.Xml.XmlBaseReader.IsStartElement()
+	   at System.Xml.XmlBaseReader.IsStartElement(XmlDictionaryString localName, XmlDictionaryString namespaceUri)
+	   at System.Runtime.Serialization.XmlReaderDelegator.IsStartElement(XmlDictionaryString localname, XmlDictionaryString ns)
+	   at System.Runtime.Serialization.XmlObjectSerializer.IsRootElement(XmlReaderDelegator reader, DataContract contract, XmlDictionaryString name, XmlDictionaryString ns)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalIsStartObject(XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+	   at System.Runtime.Serialization.XmlObjectSerializer.InternalReadObject(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+	   at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-7-130893273703782267
+
+ProcessId: 12196
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5904
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/15/2015 10:15:16 PM
+
+Message: HandlingInstanceID: 1f51188c-f477-46aa-9219-329c193e3594
+An exception of type 'System.Runtime.Serialization.SerializationException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+10/15/2015 16:15:16
+Type : System.Runtime.Serialization.SerializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : There was an error deserializing the object of type Telerik.Sitefinity.Web.Model.QueryData. Encountered unexpected character 'V'.
+Source : System.Runtime.Serialization
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object ReadObjectHandleExceptions(System.Runtime.Serialization.XmlReaderDelegator, Boolean, System.Runtime.Serialization.DataContractResolver)
+HResult : -2146233076
+Stack Trace :    at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(Stream stream)
+   at Telerik.Sitefinity.Utilities.TypeConverters.JsonTypeConverter`1.SetValue(String value)
+   at Telerik.Sitefinity.Utilities.TypeConverters.JsonTypeConverter`1.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.ConvertValue(PropertyDescriptor propDesc, String serializedValue)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.SetProperty(WcfControlProperty wcfProperty, Object rootInstance)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.WcfPropertyManager.SetProperties(IEnumerable`1 wcfProperties, Object instance)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ControlPropertyService.SaveProperties(WcfControlProperty[] properties, String controlId, String providerName, String pageId, String mediaType, Boolean checkLiveVersion, Boolean upgradePageVersion, PropertyLocalizationType propertyLocalization, Boolean isOpenedByBrowseAndEdit)
+   at SyncInvokeSaveProperties(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/15/2015 10:15:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130893273703782267
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/c4b760e7-96e1-633a-9d88-ff00001e67f5/?pageId=b4b760e7-96e1-633a-9d88-ff00001e67f5&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+	Inner Exception
+	---------------
+	Type : System.Xml.XmlException, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Encountered unexpected character 'V'.
+	Source : System.Runtime.Serialization
+	Help link : 
+	LineNumber : 0
+	LinePosition : 0
+	SourceUri : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ThrowXmlException(System.Xml.XmlDictionaryReader, System.Xml.XmlException)
+	HResult : -2146232000
+	Stack Trace :    at System.Xml.XmlExceptionHelper.ThrowXmlException(XmlDictionaryReader reader, XmlException exception)
+	   at System.Runtime.Serialization.Json.XmlJsonReader.ReadAttributes()
+	   at System.Runtime.Serialization.Json.XmlJsonReader.ReadNonExistentElementName(StringHandleConstStringType elementName)
+	   at System.Runtime.Serialization.Json.XmlJsonReader.Read()
+	   at System.Xml.XmlBaseReader.IsStartElement()
+	   at System.Xml.XmlBaseReader.IsStartElement(XmlDictionaryString localName, XmlDictionaryString namespaceUri)
+	   at System.Runtime.Serialization.XmlReaderDelegator.IsStartElement(XmlDictionaryString localname, XmlDictionaryString ns)
+	   at System.Runtime.Serialization.XmlObjectSerializer.IsRootElement(XmlReaderDelegator reader, DataContract contract, XmlDictionaryString name, XmlDictionaryString ns)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalIsStartObject(XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+	   at System.Runtime.Serialization.XmlObjectSerializer.InternalReadObject(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+	   at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-7-130893273703782267
+
+ProcessId: 12196
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5904
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/15/2015 10:17:53 PM
+
+Message: HandlingInstanceID: 66685211-4f6a-4f37-9922-d30ae7df8c3f
+An exception of type 'Telerik.Sitefinity.Data.Linq.Dynamic.ParseException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+10/15/2015 16:17:52
+Type : Telerik.Sitefinity.Data.Linq.Dynamic.ParseException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Operator '=' incompatible with operand types 'String' and 'Int32'
+Source : Telerik.Sitefinity
+Help link : 
+Position : 50
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAndPromoteOperands(System.Type, System.String, System.Linq.Expressions.Expression ByRef, System.Linq.Expressions.Expression ByRef, Int32)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.CheckAndPromoteOperands(Type signatures, String opName, Expression& left, Expression& right, Int32 errorPos)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/15/2015 10:17:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130893273703782267
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-7-130893273703782267
+
+ProcessId: 12196
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16152
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/15/2015 10:41:15 PM
+
+Message: HandlingInstanceID: 48a86de3-efb9-4864-9c1b-de5a3758de36
+An exception of type 'Telerik.Microsoft.Practices.Unity.ResolutionFailedException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------------
+10/15/2015 16:41:15
+Type : Telerik.Microsoft.Practices.Unity.ResolutionFailedException, Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Resolution of the dependency failed, type = "Telerik.Sitefinity.Frontend.DynamicContent.Mvc.StringResources.DynamicContentResources", name = "DynamicContentResources".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The type ResourceDataProvider cannot be constructed. You must configure the container to supply this value.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Telerik.Sitefinity.Frontend.DynamicContent.Mvc.StringResources.DynamicContentResources,DynamicContentResources
+  Resolving parameter "dataProvider" of constructor Telerik.Sitefinity.Frontend.DynamicContent.Mvc.StringResources.DynamicContentResources(Telerik.Sitefinity.Localization.Data.ResourceDataProvider dataProvider)
+    Resolving Telerik.Sitefinity.Localization.Data.ResourceDataProvider,(none)
+
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+TypeRequested : DynamicContentResources
+NameRequested : DynamicContentResources
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object DoBuildUp(System.Type, System.Object, System.String, System.Collections.Generic.IEnumerable`1[Telerik.Microsoft.Practices.Unity.ResolverOverride])
+HResult : -2146233088
+Stack Trace :    at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   at Telerik.Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   at Telerik.Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, String name, ResolverOverride[] overrides)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.Resolve[T](String name)
+   at Telerik.Sitefinity.Localization.Res.Get[T]()
+   at Telerik.Sitefinity.Frontend.DynamicContent.Mvc.Controllers.DynamicContentController.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.TryInvokeAction(MvcProxyBase proxyControl, String& output)
+   at Telerik.Sitefinity.Mvc.Proxy.MvcControllerProxy.ExecuteController()
+   at Telerik.Sitefinity.Mvc.Proxy.MvcControllerProxy.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/15/2015 10:41:15 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130893273703782267
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The type ResourceDataProvider cannot be constructed. You must configure the container to supply this value.
+	Source : Telerik.Sitefinity.Utilities
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void GuardTypeIsNonPrimitive(Telerik.Microsoft.Practices.ObjectBuilder2.IBuilderContext, Telerik.Microsoft.Practices.ObjectBuilder2.SelectedConstructor)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.GuardTypeIsNonPrimitive(IBuilderContext context, SelectedConstructor selectedConstructor)
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.PreBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext context, NamedTypeBuildKey buildKey)
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.BuilderContext.NewBuildUp(NamedTypeBuildKey newBuildKey)
+	   at Telerik.Microsoft.Practices.Unity.ObjectBuilder.NamedTypeDependencyResolverPolicy.Resolve(IBuilderContext context)
+	   at BuildUp_Telerik.Sitefinity.Frontend.DynamicContent.Mvc.StringResources.DynamicContentResources(IBuilderContext )
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-7-130893273703782267
+
+ProcessId: 12196
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13156
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/15/2015 10:42:19 PM
+
+Message: HandlingInstanceID: d7989d01-cb24-4d72-8c80-b893ef959b7f
+An exception of type 'Telerik.Sitefinity.Data.Linq.Dynamic.ParseException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+10/15/2015 16:42:19
+Type : Telerik.Sitefinity.Data.Linq.Dynamic.ParseException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Operator '=' incompatible with operand types 'String' and 'Int32'
+Source : Telerik.Sitefinity
+Help link : 
+Position : 50
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAndPromoteOperands(System.Type, System.String, System.Linq.Expressions.Expression ByRef, System.Linq.Expressions.Expression ByRef, Int32)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.CheckAndPromoteOperands(Type signatures, String opName, Expression& left, Expression& right, Int32 errorPos)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/15/2015 10:42:19 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130893273703782267
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-7-130893273703782267
+
+ProcessId: 12196
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11780
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/16/2015 4:11:03 PM
+
+Message: HandlingInstanceID: 0ec5ba84-3c67-48da-8e02-c94bb71a51ad
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+10/16/2015 10:11:03
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The specified template has pages based on it. You can only delete a template when no pages, email campaigns or templates reference it. Referencing pages: 1
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Delete(Telerik.Sitefinity.Pages.Model.PageTemplate)
+HResult : -2146233079
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.PageManager.Delete(PageTemplate item)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.Delete(PageTemplate template, CultureInfo language)
+   at Telerik.Sitefinity.Fluent.Pages.PageTemplateFacade.Delete(CultureInfo language)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PageTemplatesService.BatchDeletePageTemplateInternal(String[] Ids, String deletedLanguage)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PageTemplatesService.BatchDeletePageTemplates(String[] Ids, String providerName, String deletedLanguage)
+   at SyncInvokeBatchDeletePageTemplates(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/16/2015 4:11:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130893273703782267
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PageTemplatesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=Telerik.Sitefinity.Modules.Pages.PageManager&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageTemplate&provider=OpenAccessDataProvider&skip=0&take=50&filter=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-7-130893273703782267
+
+ProcessId: 12196
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7036
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/16/2015 4:11:28 PM
+
+Message: HandlingInstanceID: a93fa525-b547-48cc-984c-c1150a3ad9af
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+10/16/2015 10:11:28
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The specified template has pages based on it. You can only delete a template when no pages, email campaigns or templates reference it. Referencing pages: 1
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Delete(Telerik.Sitefinity.Pages.Model.PageTemplate)
+HResult : -2146233079
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.PageManager.Delete(PageTemplate item)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.Delete(PageTemplate template, CultureInfo language)
+   at Telerik.Sitefinity.Fluent.Pages.PageTemplateFacade.Delete(CultureInfo language)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PageTemplatesService.BatchDeletePageTemplateInternal(String[] Ids, String deletedLanguage)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PageTemplatesService.BatchDeletePageTemplates(String[] Ids, String providerName, String deletedLanguage)
+   at SyncInvokeBatchDeletePageTemplates(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/16/2015 4:11:28 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130893273703782267
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PageTemplatesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=Telerik.Sitefinity.Modules.Pages.PageManager&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageTemplate&provider=OpenAccessDataProvider&skip=0&take=50&filter=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-7-130893273703782267
+
+ProcessId: 12196
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7036
+
+Extended Properties: 
+----------------------------------------

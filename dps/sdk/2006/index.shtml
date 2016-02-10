@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Partners | Get the SDK</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style>
+ 
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2994']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/partners">Partners</a></li>
+                    <li>></li>
+                    <li><a href="/partners/development-partner-program">Development Partner Program</a></li>
+                    <li>></li>
+                    <li><a href="/partners/development-partner-program/sdk">Get the SDK</a></li>
+                    <li>></li>
+                    <li>ACT! by Sage 2006 (v8.0) SDK</li>
+              </ul>
+                
+            <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+     
+		
+		
+		
+		<h1>ACT! by Sage 2006 (v8.0) SDK</h1>
+<table style="BORDER-COLLAPSE: collapse" bordercolor="#111111" cellspacing="0" cellpadding="4" border="0">
+<tbody>
+<tr>
+<td width="82" height="32"><strong>Title:</strong></td>
+<td valign="top" width="27" rowspan="6"> </td>
+<td valign="top" width="450"><p><strong>ACT! by Sage 2006 (v8.0) Software Development Kit </strong></p></td></tr>
+<tr>
+<td valign="top" height="32"><strong>Filename:</strong></td>
+<td valign="top"><a href="http://download.act.com/sdk/act8sdk.zip">act8sdk.zip</a></td></tr>
+<tr>
+<td valign="top" height="32"><strong>Language:</strong></td>
+<td valign="top">English</td></tr>
+<tr>
+<td valign="top" height="32"><strong>File Format:</strong></td>
+<td valign="top"> <img width="18" height="18" alt="" src="/media/en-us/images/winzip.gif" /> WinZip</td></tr>
+<tr>
+<td valign="top" height="32"><strong>File Size:</strong></td>
+<td valign="top">32373 KB</td></tr>
+<tr>
+<td valign="top"><strong>Description:</strong></td>
+<td valign="top">This zip file contains <ul><li>ACT!2006_Developer's_Reference.pdf </li><li>ACT!2006_Documented_Code_Snippets.chm </li><li>ACT!2006_Read_me.txt </li><li>ACT!2006_Sample_Source_Code.zip </li><li>ACT!2006_SDK_Docs.zip </li></ul></td></tr></tbody></table>
+<!-- .end CONTENT -->
+
+
+                       <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                <div class="mainSidebar">
+                    
+                    <!--#include virtual="/media/en-us/includes/partnersnavInclude.html" -->
+                    </div>
+                
+            </div>
+      </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

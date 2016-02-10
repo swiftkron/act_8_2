@@ -1,0 +1,40 @@
+/* CSS Document */
+
+ <style type="text/css">
+            .style7
+            {
+                height: 65px;
+               
+            }
+            
+        	.style13
+        	{
+			border-top: thin #5C923A solid;
+			border-bottom: thin #C9D6A3 solid;
+			padding-top: 5px;
+			padding-left: 13px;
+			vertical-align: top;
+			font-weight: bold;
+			font-size: medium;
+			width : 33%;
+			font-family: Tahoma;
+			padding-bottom: 5px;
+			background-color: #E6EED9;
+			}
+			a:link, a:visited, a:hover
+			{
+			color: #626469;
+			}
+			a:link, a:visited
+			{
+			text-decoration:none;
+			}
+			a:hover
+			{
+			text-decoration: underline;
+			}
+        .style14 {
+	color: #FF0000;
+	font-style: italic;
+}
+        </style>

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Don't miss out!</title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+  
+  <style type="text/css">
+	@media(min-width:768px){
+	.form-inline{
+		max-width:300px;margin:0 auto;
+	}
+	.form-inline input[type="text"], .form-inline input[type="tel"], .form-inline input[type="email"]{
+		display:block;
+		margin:12px 0;
+		width:100%;
+	}
+	}
+	</style>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+		<!--#include virtual="/includes/trackingScripts.aspx" -->
+		<!-- Facebook Remarketing Script -->
+		<!--#include virtual="/includes/fb-remarketing.aspx" -->
+    
+
+</head>
+<body>
+	
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 logo">
+					<img src="img/act-logo-circle.png" alt="Act!">
+				</div>
+				<div class="col-sm-6 phone">
+					<span>CALL TODAY!</span> 888-760-0948
+				</div>
+			</div>
+		</div>
+	</div><!-- /header -->
+	
+	<div class="hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h1>Don't miss out!</h1>
+					<h5>As an Act! 2013 (v15.x) customer, <strong>YOU</strong> are eligible for <strong>exclusive upgrade pricing</strong> on the latest version of Act! Experience innovative new features, compatibility updates, flexible new subscription plans, emarketing services, and more – <strong>you’ll love the new Act!</strong>.</h5>
+					<div class="row hero-cta">
+						<div class="col-md-6">
+							<a href="#plansPricing" class="btn btn-default btn-cBlue">Plans and Pricing</a>
+						</div>
+						<div class="col-md-6">
+							<a href="#contactUs" class="btn btn-default btn-iBlue">Contact Us</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 starting-at-circle">
+					<img src="img/starting-at-circle.png" alt="Plans starting at $19 USD" >
+				</div>
+			</div>
+		</div>
+	</div><!-- /hero -->
+	
+	<div class="top-10-reasons" id="topten">
+		<div class="container">
+			<h2>Top 10 Reasons to Upgrade</h2>
+			<!-- Slider Goes Here -->
+			
+			
+<div id="carousel-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+  
+  
+    <div class="item active">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<div class="circle"><span>1</span></div>
+			</div>
+			<div class="col-sm-7">
+				<p class="desc"><strong>Exclusive upgrade pricing</strong> for Act! 2013 (v15.x) users – save up to 24% for a limited time only!&sup1;<br /><br /><strong>You are eligible for exclusive upgrade pricing</strong> on the latest version of Act!.  Experience innovative new features and ensure compatibility with today’s business applications.  With flexible new subscription plans, on-premises and Cloud deployment options, integrated emarketing services, and more – <strong>you’ll love the new Act!</strong></p>
+				<div class="row">
+					<div class="col-sm-6 cta1">
+						<a href="/whats-new" target="_blank">See what’s new since your version</a>
+					</div>
+					<div class="col-sm-6 cta2">
+						<a href="/documents/top-10-reasons-to-upgrade.pdf" target="_blank">Get the full Top 10 list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+    </div>
+    
+    
+    <div class="item">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<div class="circle"><span>2</span></div>
+			</div>
+			<div class="col-sm-7">
+				<p class="desc"><strong>Dozens of new features</strong> released since Act! 2013 (v15.x) – Don’t miss out!<br /><br />Innovative new features, integrated emarketing services, and connections with popular productivity tools help <strong>drive productivity, expand your reach, and increase sales</strong>.  You’ll love the new History view, automation and customization options, integrations to Dropbox and SharePoint™, and much more!</p>
+				<div class="row">
+					<div class="col-sm-6 cta1">
+						<a href="/whats-new" target="_blank">See what’s new since your version</a>
+					</div>
+					<div class="col-sm-6 cta2">
+						<a href="/documents/top-10-reasons-to-upgrade.pdf" target="_blank">Get the full Top 10 list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+    </div>
+    
+    
+    <div class="item">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<div class="circle"><span>3</span></div>
+			</div>
+			<div class="col-sm-7">
+				<p class="desc"><strong>Hundreds of performance and usability improvements</strong> – Act! is better than ever!<br /><br />We’re constantly improving and refining Act! to increase efficiency and enhance your user experience.  You’ll benefit from <strong>hundreds of usability improvements and defect fixes</strong> since your version, driven by feedback from customers like you!</p>
+				<div class="row">
+					<div class="col-sm-6 cta1">
+						<a href="/whats-new" target="_blank">See what’s new since your version</a>
+					</div>
+					<div class="col-sm-6 cta2">
+						<a href="/documents/top-10-reasons-to-upgrade.pdf" target="_blank">Get the full Top 10 list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+    </div>
+    
+    
+    <div class="item">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<div class="circle"><span>4</span></div>
+			</div>
+			<div class="col-sm-7">
+				<p class="desc"><strong>Flexible new subscription pricing</strong> – including monthly, annual, and permanent license options.<br /><br /><strong>Pay for Act! the way that works for you!</strong> Whether managed on-site or hosted in the Cloud, you can now subscribe to Act! monthly for maximum flexibility or annually for maximum savings. Permanent license options are also available.</p>
+				<div class="row">
+					<div class="col-sm-6 cta1">
+						<a href="/whats-new" target="_blank">See what’s new since your version</a>
+					</div>
+					<div class="col-sm-6 cta2">
+						<a href="/documents/top-10-reasons-to-upgrade.pdf" target="_blank">Get the full Top 10 list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+    </div>
+    
+    
+    <div class="item">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<div class="circle"><span>5</span></div>
+			</div>
+			<div class="col-sm-7">
+				<p class="desc"><strong>Integrated Act! emarketing</strong> – extend your reach to help generate new business – Basic Act! emarketing account is included with your purchase of Act! at no extra cost!<br /><br />Easily design and send impactful email campaigns, intelligently analyze results, and automate key follow-up actions. With integrated Act! emarketing, you’ll have the tools you need <strong>to reach new prospects, stay connected with your customers, and prioritize new opportunities</strong>.</p>
+				<div class="row">
+					<div class="col-sm-6 cta1">
+						<a href="/whats-new" target="_blank">See what’s new since your version</a>
+					</div>
+					<div class="col-sm-6 cta2">
+						<a href="/documents/top-10-reasons-to-upgrade.pdf" target="_blank">Get the full Top 10 list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+    </div>
+    
+    
+    <div class="item">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<div class="circle"><span>6</span></div>
+			</div>
+			<div class="col-sm-7">
+				<p class="desc"><strong>Support Obsolescence</strong> – support for Act! 2013 (v15.x) officially ends 11/30/15 – don’t put yourself at risk!<br /><br />Upgrade today and enjoy <strong>expert technical support included at no extra charge</strong> with Act! subscription plans for both on-premises and Cloud deployments.</p>
+				<div class="row">
+					<div class="col-sm-6 cta1">
+						<a href="/whats-new" target="_blank">See what’s new since your version</a>
+					</div>
+					<div class="col-sm-6 cta2">
+						<a href="/documents/top-10-reasons-to-upgrade.pdf" target="_blank">Get the full Top 10 list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+    </div>
+    
+    
+    <div class="item">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<div class="circle"><span>7</span></div>
+			</div>
+			<div class="col-sm-7">
+				<p class="desc"><strong>New Subscription plan benefits</strong> – product updates, technical support, emarketing, video tutorials, and more – all for one low price!<br /><br />All Act! subscriptions include <strong>feature and platform updates, expert technical support, Act! emarketing Basic accounts, and video tutorials.</strong> Act! Premium Cloud subscriptions add secure Cloud hosting, automatic installation, automatic upgrades, and nightly backups. Always have the latest Act! features, ensure compatibility with today’s business applications, and gain peace of mind that you’ve got help available when you need it.</p>
+				<div class="row">
+					<div class="col-sm-6 cta1">
+						<a href="/whats-new" target="_blank">See what’s new since your version</a>
+					</div>
+					<div class="col-sm-6 cta2">
+						<a href="/documents/top-10-reasons-to-upgrade.pdf" target="_blank">Get the full Top 10 list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+    </div>
+    
+    
+    <div class="item">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<div class="circle"><span>8</span></div>
+			</div>
+			<div class="col-sm-7">
+				<p class="desc"><strong>Deployment flexibility</strong> – deploy and manage Act! on-premises or host it in the Cloud - the choice is yours!<br /><br />Have an IT department or a knack for technology? Or do you value the convenience and peace of mind of outsourcing technical work to experts? With Act!, the decision is yours whether to <strong>install and manage the software on-site, or leave it to us via a secure Cloud implementation.</strong></p>
+				<div class="row">
+					<div class="col-sm-6 cta1">
+						<a href="/whats-new" target="_blank">See what’s new since your version</a>
+					</div>
+					<div class="col-sm-6 cta2">
+						<a href="/documents/top-10-reasons-to-upgrade.pdf" target="_blank">Get the full Top 10 list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+    </div>
+    
+    
+    <div class="item">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<div class="circle"><span>9</span></div>
+			</div>
+			<div class="col-sm-7">
+				<p class="desc"><strong>System Compatibility</strong> – reduce risk and stay up-to-date – get automatic updates!<br /><br />All Act! subscription plans – for both on-premises and Cloud deployments – entitle you to the latest Act! software, an important way to <strong>reduce the risk of losing compatibility</strong> with popular business applications and platforms including Windows®, Outlook®, Google&trade;, and more. New Act! subscriptions plans help future-proof your systems and ensure business continuity.</p>
+				<div class="row">
+					<div class="col-sm-6 cta1">
+						<a href="/whats-new" target="_blank">See what’s new since your version</a>
+					</div>
+					<div class="col-sm-6 cta2">
+						<a href="/documents/top-10-reasons-to-upgrade.pdf" target="_blank">Get the full Top 10 list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+    </div>
+    
+    
+    <div class="item">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<div class="circle"><span>10</span></div>
+			</div>
+			<div class="col-sm-7">
+				<p class="desc"><strong>Access to innovative future features and services</strong> included with your subscription – always have the latest and greatest!<br /><br />Act! subscriptions – for both on-premises and Cloud deployments – automatically entitle you to the latest <strong>Act! features and platform updates, new services and integrations, and continuous improvements</strong> based on customer feedback – as they’re released!</p>
+				<div class="row">
+					<div class="col-sm-6 cta1">
+						<a href="/whats-new" target="_blank">See what’s new since your version</a>
+					</div>
+					<div class="col-sm-6 cta2">
+						<a href="/documents/top-10-reasons-to-upgrade.pdf" target="_blank">Get the full Top 10 list</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+    </div>
+    
+    
+    
+    
+    
+    
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+			
+			
+			
+			
+			
+			
+		</div>
+	</div><!-- /top-10-reasons -->
+	
+	<div class="ready-to-upgrade" id="plansPricing">
+		<div class="container">
+		<div class="top-section">
+			<h2>Ready to Upgrade?</h2>
+			<p><strong>Pay for Act! the way that works for you!</strong>  Whether managed on-site or hosted in the Cloud, you can now subscribe to Act! monthly for maximum flexibility or annually for maximum savings. Permanent license options are also available.</p>
+		</div>
+		</div>
+		
+<div class="portfolio">
+	<div class="portfolioInner row">
+    <div id="actPremiumCloud" class="piece col-md-6">
+    	<div class="priceOverview">
+        <h2>Act! Premium</h2>
+        <p>Managed by you – for maximum control!</p>
+      </div>
+      <div class="priceInfo">
+        <div class="priceWrapper">
+          <div class="dollar">$</div>
+          <p id="premDesktopPriceU" class="price">19<span class="usd"> /user/month</span></p>
+        </div>
+        <select id="premDesktopTerm" name="premDesktopTerm">
+          <option value="pMonth">billed monthly</option>
+          <option value="pAnnual">billed annually</option>
+          <option value="pLicense">license + 1 year annual subscription</option>
+        </select>
+        <p class="upgradeCTA">To order, call <span class="orange">(888) 760-0948</span></p>
+        <div class="test-drive"><a href="/trial/">Take a test drive</a></div>
+        <div class="priceDets">
+          <p class="center" style="font-size:24px;"><strong>Includes:</strong></p>
+          <ul>
+          	<li>Windows®, Web, &amp; Mobile</li>
+            <li>Email marketing (500 contacts)</li>
+            <li>Expert technical support</li>
+            <li>Video training</li>
+            <li>New features and compatibility updates</li>
+            <li><a href="/documents/Act_Premium_Brief.pdf" target="_blank"> Product overview</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="actPremiumCloud" class="piece col-md-6">
+    	<div class="priceOverview">
+        <h2>Act! Premium Cloud</h2>
+        <p>Hosted by us — no IT required!</p>
+      </div>
+      <div class="priceInfo">
+      	<div class="priceWrapper">
+          <div class="dollar">$</div>
+          <p id="premHostedPrice" class="price">35<span class="usd"> /user/month</span></p>
+        </div>
+        <select id="premHostedTerm" name="premHostedTerm">
+          <option value="hAnnual">billed annually</option>
+          <option value="hMonth">billed monthly</option>
+        </select>
+        <div class="pay">
+        	Today you'll pay: <span id="payCloud"></span>
+        </div>
+        <div style="text-align:center;"><a id="buyHosted" href="" class="btn btn-default btn-cBlue">Upgrade now</a></div>
+        <div class="test-drive"><a href="/trial/">Take a test drive</a></div>
+        <div class="priceDets">
+          <p class="center" style="font-size:24px;"><strong>Includes:</strong></p>
+          <p class="center orange" style="margin-top:0;">All Act! Premium benefits, plus:</p>
+          <ul>
+          	<li>Instant online access to Act!</li>
+            <li>Secure cloud hosting service</li>
+            <li>Automatic upgrades</li>
+            <li>Nightly backups</li>
+            <li><a href="/documents/Act_Premium_Brief.pdf" target="_blank">Product overview</a></li>
+          </ul>
+          <p class="center">If your version of Act! is not currently hosted by Swiftpage, get tips on migration <a href="/documents/Act_Premium_Cloud_Migration_Tips.pdf" target="_blank">here</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+		
+		
+		<div class="system-requirements"><a href="/products/system/v17/premium/"><i class="fa fa-check-square-o"></i> System Requirements</a></div>
+		
+		
+		
+	</div><!-- /ready-to-upgrade -->
+	
+	
+	<div class="form-container" id="contactUs">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<p>Questions? Call us at 888-760-0948, contact your <a href="http://acc.swiftpage.com/" target="_blank">Act! Certified Consultant</a>**, or fill out the form below to have a knowledgeable Act! representative get in touch with you.</p>
+				<div elqid="" elqtype="" class="" elqformname="updgrade">
+				<form id="free-trial" class="form-inline" method="post" action="https://s1966950654.t.eloqua.com/e/f2">
+					<div>
+						<input type="hidden" name="LeadSource" value="LCRMAA000202">
+                <!-- UTM -->
+                	<input type="hidden" name="elq_utm_campaign" value="" />                                          
+                	<input type="hidden" name="elq_utm_medium" value="" />                                          
+                	<input type="hidden" name="elq_utm_source" value="" />                                          
+                	<input type="hidden" name="elq_utm_term" value="" />                                          
+						<input type="hidden" name="firstPage">
+						<input type="hidden" name="referrer">
+						<input type="hidden" name="elqCookieWrite" value="0">
+						<input type="hidden" name="elqCustomerGUID" value="">
+						<input type="hidden" name="elqFormName" value="updgrade">
+						<input type="hidden" name="elqSiteID" value="1966950654">
+						<input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+						<input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
+						<input type="tel" class="form-control" id="busPhone" name="busPhone" placeholder="Phone Number">
+						<input type="text" class="form-control" id="company" name="company" placeholder="Company">
+						<input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Email">
+					</div>
+					<button type="submit" class="btn btn-cyan">Submit</button>
+				</form>
+				
+				</div>
+
+
+			</div>
+			<div class="col-md-1"></div>
+			</div>
+		</div>
+	</div><!-- /form-container -->
+	
+	
+          
+          
+          
+	
+	<div class="footer">
+		<div class="container">
+		
+		<div class="footnotes">
+
+			<p>&sup1; Offer valid until 09/30/15. Discount off MSRP.</p>
+
+      <p>*Price listed is per user, per month. Price may vary based on features chosen. All prices are in U.S. dollars.</p>
+
+			<p>**Act! Certified Consultants are third-party vendors. Swiftpage and its affiliates are in no way liable or responsible for claims made related to the services provided by third-party vendors.</p>
+		
+			<p><strong>Important Note:</strong> Review Act! system and browser requirements at <a href="/systreq">act.com/systreq</a>. Act! product capabilities and pricing vary based on edition and services chosen; <a href="http://kb.swiftpage.com/app/answers/detail/a_id/37914">view KB #37914</a> to learn more. Act! Premium Mobile requires set-up and configuration of Act! Premium (access via web). Data access available via active internet connection from supported device browsers. You are responsible for all data-related charges. Basic Act! emarketing account included (email up to 500 contacts per month). One license is required for each Act! user. View membership details at <a href="http://swiftpage.com/billing-policy">swiftpage.com/billing-policy</a>.</p>
+		</div>
+		
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="social-icons">
+						<a href="https://www.linkedin.com/groups/?gid=1914089" target="_blank" title="LinkedIn"><img src="img/icon-linkedin.png" alt="LinkedIn"></a>
+						<a href="https://www.facebook.com/actcrm" target="_blank" title="Facebook"><img src="img/icon-facebook.png" alt="Facebook"></a>
+						<a href="https://twitter.com/actstory" target="_blank" title="Twitter"><img src="img/icon-twitter.png" alt="Twitter"></a>
+						<a href="https://www.youtube.com/user/ActStory" target="_blank" title="YouTube"><img src="img/icon-youtube.png" alt="YouTube"></a>
+						<a href="http://blog.act.com" target="_blank" title="RSS"><img src="img/icon-rss.png" alt="RSS"></a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<ul>
+						<li class="title"><h5>Company</h5></li>
+						<li><a href="http://swiftpage.com/privacy-policy">Privacy</a></li>
+						<li><a href="http://swiftpage.com/en-us/about/careers">Careers</a></li>
+						<li><a href="/leadership/">Leadership</a></li>
+						<li><a href="http://www.swiftpage.com/">Swiftpage</a></li>
+						<li><a href="http://swiftpage.com/en-us/contact-us.shtml">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<ul>
+						<li class="title"><h5>Act! Premium</h5></li>
+						<li><a href="/products/act-emarketing">Email Marketing</a></li>
+						<li><a href="/marketplace">Marketplace</a></li>
+						<li><a href="http://community.act.com/">Community</a></li>
+						<li><a href="/buy/act-premium">Pricing Flexibility</a></li>
+						<li><a href="/trial">Free Trial</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<ul>
+						<li class="title"><h5>Act! Cloud Essentials</h5></li>
+						<li><a href="https://mycloud.act.com/#/login">Login</a></li>
+						<li><a href="https://mycloud.act.com/signup/">Free Trial</a></li>
+						<li><a href="/buy/act-essentials">Pricing</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8 copyright">
+					&copy; 2015 Swiftpage ACT! LLC. All rights reserved. Swiftpage, Act!, and the Swiftpage product and service names mentioned herein are registered trademarks or trademarks of Swiftpage ACT! LLC, or its affiliated entities. All other trademarks are property of their respective owners.
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+		</div>
+	</div><!-- /footer -->
+	
+	
+
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+	
+	
+	<script type="text/javascript">
+	<!--//
+	var timerId = null, timeout = 5;
+	//-->
+	</script>
+	<script type="text/javascript"><!--//
+	function WaitUntilCustomerGUIDIsRetrieved() {
+	if (!!(timerId)) {
+	    if (timeout == 0) {
+	return;
+	}
+	if (typeof this.GetElqCustomerGUID === 'function') {
+	        document.forms['updgrade'].elements['elqCustomerGUID'].value = GetElqCustomerGUID();
+	return;
+	}
+	timeout -= 1;
+	}
+	timerId = setTimeout('WaitUntilCustomerGUIDIsRetrieved()', 500);
+	return;
+	}
+	window.onload = WaitUntilCustomerGUIDIsRetrieved;
+	_elqQ.push(['elqGetCustomerGUID']);
+	//-->
+	</script>
+
+  <!-- Get URL Params -->
+	<script src="/js/geturl.js"></script>
+	<!-- Eloqua Subscribe Form Tracking -->
+  <script src="/js/subscribe_elq.js"></script>
+
+		<!-- 4thought utm capture -->
+		<script src="/js/elq/jquery.cookie.js"></script>
+		<script src="/js/elq/elqQs.js"></script>
+
+	<!-- Pricing Selector Controls -->
+	<script type="text/javascript" src="/js/act-premium_selection.js"></script>
+  <script src="/js/trial.js" type="text/javascript"></script>
+
+	<!--#include virtual="/includes/kiss-metrics.aspx" -->	
+
+</body>
+</html>

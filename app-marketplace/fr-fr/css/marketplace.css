@@ -1,0 +1,240 @@
+/**********************
+
+Common Elements
+
+**********************/
+
+body{
+	background:#fafafa;
+	font-family:"HelveticaNeueW01-55Roma","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1{
+	margin:0;
+	color:#fe5000;
+}
+h2{
+	margin:.5em 0 .3em;
+	font-size:24px;
+	font-weight:400;
+	color:#444;
+}
+h3{
+	margin:.3em 0 .2em;
+	font-size:13px;
+	font-weight:600;
+	color:#212721;
+}
+p, ul, ol{
+	font-size:11px;
+	line-height:14px !important;
+}
+a:link, a:active, a:visited{
+	color:#006a8e;
+}
+a:hover{
+	color:#212721;
+	text-decoration:none;
+}
+.left{float:left;}
+.right{float:right;}
+strong{
+	font-weight:600 !important;
+}
+
+/**********************
+
+Page Setup
+
+**********************/
+
+#container{
+	max-width:1000px;
+	margin:auto;
+	background:#ffffff;
+	padding-bottom:50px;
+}
+#header{
+	margin:auto;
+}
+.masthead{
+	display:block;
+	margin:auto;
+	padding:5% 3% 3%;
+}
+.hr{
+	display:block;
+	margin:auto;
+}
+.section-header{
+	max-width:807px;
+	margin:auto auto .5em;
+}
+.tileContainer{
+	max-width:807px;
+	margin:auto auto 1em;
+}
+.new_tile{
+	margin-bottom:12px;
+}
+.categories{
+	max-width:807px;
+	margin:1em auto auto auto;
+}
+.categories ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+.footnotes{
+	max-width:807px;
+	margin:48px auto auto;
+	font-size:10px;
+}
+.footnotes p{
+	font-size:10px;
+	line-height:12px;
+}
+
+
+/**********************
+
+Custom Elements
+
+**********************/
+
+.ctaBtn{
+	float:right;
+	border:#00dddb 2px solid;
+	background:transparent !important;
+	margin-top:.8em;
+	padding:6px 12px;
+	color:#212721;
+	font-size:12px;
+	font-weight:bold;
+}
+.ctaBtn:hover{
+	color:#006a8e;
+}
+.tile{
+	background:#ededed url('../img/act_mkt_tile_bgd.png') top left repeat-x;
+	border:#c0c0c0 1px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width:251px;
+	height:176px;
+	padding:9px;
+}
+.tileHdr{
+}
+.tile img{
+	float:left;
+	margin-right:9px;
+	margin-bottom:6px;
+	max-width:50px;
+	max-height:50px;
+}
+.tile h3{
+	margin-top:1em;
+}
+.tile p{
+	clear:both;
+}
+.tile ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.tile li{
+	display:block;
+	margin-bottom:.5em;
+}
+.tile a{
+	font-weight:bold;
+}
+.tile span, .tile_row span{
+	color:#fe5000;
+}
+
+/**********************
+
+Query Styles
+
+**********************/
+
+.hov{display:none;}
+
+@media (min-width: 769px) {
+	#bc_products_sm,
+	#fs_products_sm
+		{
+			display:none;
+		}
+}
+
+/**********************
+
+MOBILE & TABLETS
+
+**********************/
+
+@media (max-width: 768px) {
+	.lg-tile, .section-wrap{display:none;}
+
+	.section-header{
+		background:#444;
+		margin:0 0 0 0;
+		padding:.1em .3em .3em;
+	}
+	.section-header h2{
+		color:#FFF;
+		padding:0 0;
+	}
+	.tileContainer{
+		margin:0 0;
+	}
+
+	.hr{
+		display:none;
+	}
+	
+	.ctaBtn{
+		color:#FFF;
+	}
+	.ctaBtn:Hover{
+		color:#ededed;
+	}
+
+	.tile_row{
+		display:block;
+		padding:12px 24px 3px;
+		background:#fff url('../img/act_mkt_tile_bgd.png') bottom left repeat-x;
+		border-bottom:#c0c0c0 1px solid;
+	}
+	.tile_row img{
+		float:left;
+		margin-right:12px;
+		border:#c0c0c0 1px solid;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		padding:2px;
+	}
+	.details_sm{
+		float:left;
+		max-width:80%;
+	}
+}
+
+/**********************
+
+SMALL MOBILE
+
+**********************/
+
+@media (max-width: 400px) {
+	.details_sm{
+		max-width:60%;
+	}
+}

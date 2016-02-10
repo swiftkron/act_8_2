@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<!-- Thursday -->
+	<THURSDAY>
+		
+		<event>
+			<start>8h00</start>
+			<end>9h00</end>
+            <title>Inscriptions/café <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>Technical</track>
+            <description>Inscriptions auprès de l’équipe Evénements Swiftie, remise des badges délégué et café.</description>
+		</event>
+        <event>
+			<start>9h00</start>
+			<end>9h45</end>
+            <title>Adoption utilisateur : Pratiques exemplaires <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Tout déploiement efficace de logiciel passe par une bonne adoption utilisateur. De nombreuses entreprises concentrent leurs efforts sur le déploiement sans trop chercher à faire comprendre l’intérêt du nouveau logiciel à leurs employés pour éviter qu’ils continuent à utiliser d’anciennes méthodes. Cette session examinera les moyens les plus efficaces de faire réussir l’adoption d’Act! en proposant aux utilisateurs des formations efficaces assurant satisfaction et productivité.</description>
+		</event>
+        <event>
+			<start>9h45</start>
+			<end>10h45</end>
+            <title>Atelier Act! v.18 <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Une session interactive qui s’intéresse de très près aux nouvelles fonctionnalités et améliorations d’Act! v18, dont la nouvelle interface Web, la gestion des utilisateurs Act! emarketing, ainsi que les principaux correctifs.</description>
+		</event>
+        <event>
+			<start>10h45</start>
+			<end>11h00</end>
+            <title>Pause</title>
+			<track></track>
+		</event>
+        <event>
+			<start>11h00</start>
+			<end>11h30</end>
+            <title>Présentation d’Act! Premium Cloud <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Comment donne-t-on vie à un produit cloud ? Cette session sera consacrée à la technologie qui se cache derrière Act! Premium Cloud et a ses futurs développements.</description>
+		</event>
+        <event>
+			<start>11h30</start>
+			<end>12h30</end>
+            <title>SDK et API pour une utilisation optimale d’Act <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Une présentation de nos outils SDK et Web API pour découvrir de multiples opportunités de développement permettant aux partenaires d’aller plus loin avec les fonctionnalités d’Act! en vue de satisfaire des exigences utilisateur plus poussées.</description>
+		</event>
+        <event>
+			<start>12h30</start>
+			<end>13h30</end>
+            <title>Déjeuner</title>
+			<track></track>
+		</event>
+        <event>
+			<start>13h30</start>
+			<end>14h30</end>
+            <title>Act! for Web : Trucs et astuces techniques <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Cette année, notre session Trucs et astuces sera consacrée à Act! Premium Web. Nous aborderons en détail plusieurs  sujets complexes, par exemple comment configurer des HTTPS ou comment modifier des fichiers web.config, ainsi que diverses techniques utiles en matière de soutien technique.</description>
+		</event>
+        <event>
+			<start>14h30</start>
+			<end>15h30</end>
+            <title>Add Ons Den <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Le titre et la mise en scène de cette session s’inspirent de Dragons Den, une série télévisée diffusée par la BBC. Installés sur une plateforme surélevée, les développeurs d’add-ons  Act! ont cinq minutes pour « pitcher » leurs solutions aux participants ACC, qui pourront choisir d’investir dans les solutions proposées pour de futures implémentations Act!. Votre rôle de « dragon » consiste à poser des questions, à la fin de la session, sur les projets présentés. Serez-vous prêt à jouer le jeu ?</description>
+		</event>
+        <event>
+			<start>15h30</start>
+			<end>15h45</end>
+            <title>Pause</title>
+			<track></track>
+		</event>
+        <event>
+			<start>15h45</start>
+			<end>17h00</end>
+            <title>Atelier AutomACT! <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Cette session détaillée portera sur l’utilisation des AutomACT! pour automatiser certains processus commerciaux conçus pour augmenter la productivité des PME. Découvrez comment utiliser les outils d’automatisation Act! emarketing et AutomACT! efficacement pour votre activité.</description>
+		</event>
+        <event>
+			<start>18h00</start>
+			<end>19h30</end>
+            <title>Inscriptions soir <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Accueil des participants qui arrivent le soir. Inscription auprès de l’équipe Swiftie au bar de l’hôtel, remise des badges et pot de bienvenue.</description>
+		</event>
+        <event>
+			<start>19h30</start>
+			<end>23h00</end>
+            <title>Winter Party <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Pour bien entrer dans l’esprit des fêtes : cocktail d’accueil et buffet, ambiance conviviale pour discuter et réseauter entre ACC et Swifties.</description>
+		</event>
+	</THURSDAY>
+    
+	<!-- Friday -->
+	<FRIDAY>
+		<event>
+			<start>8h00</start>
+			<end>9h00</end>
+			<title>Inscriptions/café <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Inscriptions auprès de l’équipe Evénements Swiftie, remise des badges délégué et café.</description>
+		</event>
+		<event>
+			<start>9h00</start>
+			<end>10h00</end>
+			<title>Présentation keynote produits et ventes <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Animé par l’équipe de la direction de Swiftpage. Présentation de notre  vision d’entreprise et de nos projets pour l’avenir, bilan des progrès accomplis. Nous vous parlerons des nouveaux modèles d’abonnement, d’innovations et de stratégies commerciales.</description>
+		</event>
+		<event>
+			<start>10h00</start>
+			<end>11h00</end>
+			<title>Transition vers l’abonnement : de la vente au client automatique <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Cette session sera consacrée au changement de modèle commercial, à savoir la transition d’un modèle classique, où les clients achètent Act! et ont la possibilité d’ajouter un contrat d’assistance et des prestations (personnalisation ou formation), vers un nouveau modèle d’abonnement, où les clients achètent notre logiciel et nos services sous la forme d’une offre groupée à durée indéterminée. Nous tirerons des leçons de l’application de ces changements au Etats-Unis et au Canada et apprendront comment nos partenaires outre-Atlantique se sont adaptés au modèle d’abonnement.</description>
+		</event>
+		<event>
+			<start>11h00</start>
+			<end>11h15</end>
+			<title>Pause</title>
+			<track>General</track>
+		</event>
+		<event>
+			<start>11h15</start>
+			<end>12h15</end>
+			<title>Présentation du portefeuille Act! <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Un examen détaillé de notre catalogue produit : mise en avant des dernières nouveautés et des futures évolutions de notre feuille de route.</description>
+		</event>
+		<event>
+			<start>12h15</start>
+			<end>12h30</end>
+			<title>Session sponsor <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Présentation dirigée par notre sponsor officiel.</description>
+		</event>
+		<event>
+			<start>12h30</start>
+			<end>1h30</end>
+			<title>Déjeuner</title>
+			<track>General</track>
+		</event>
+		<event>
+			<start>13h30</start>
+			<end>14h00</end>
+			<title>Abonné à la réussite <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Cette session vous permettra de tout savoir sur comment positionner les abonnements auprès de vos clients et prospects, de la familiarisation des prix aux outils que nous mettrons à votre disposition pour vous aider avec vos ventes.</description>
+		</event>
+		<event>
+			<start>14h00</start>
+			<end>14h20</end>
+			<title>De l’assistance client à la réussite client <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>À l’origine, le rôle du service client consistait à assister le client quand un problème survenait suite à leur achat. Dans cette session, nous aborderons notre nouvelle stratégie d’assistance et nous vous présenterons des outils visant à améliorer notre collaboration pour offrir à nos clients un nouveau modèle proactif d’assistance numérique.</description>
+		</event>
+		<event>
+			<start>14h20</start>
+			<end>14h35</end>
+			<title>Pause</title>
+			<track>General</track>
+		</event>
+		<event>
+			<start>14h35</start>
+			<end>15h00</end>
+			<title>Le marketing au service de la croissance <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Une étude détaillée des programmes marketing d’Act! pour l’international, axée sur les futures évolutions des efforts marketing internationaux et sur l’harmonisation de notre travail de positionnement d’Act!, de la sensibilisation à la marque à la conclusion de ventes.</description>
+		</event>
+		<event>
+			<start>15h00</start>
+			<end>15h25</end>
+			<title>La plateforme croissance <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Bilan des ventes de l’année et annonce des changements à venir au niveau des ventes internationales, notamment la vérification des licences utilisateur, l’enregistrement des opportunités et la vente d’abonnements via Act! Premium Cloud.</description>
+		</event>
+		<event>
+			<start>15h25</start>
+			<end>16h00</end>
+			<title>Clôture de la conférence Questions- réponses <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Clôture de la conférence par Lindsay Boullin (VP of International Operations) : remarques finales et  parole aux participants, qui pourront donner leur avis ou poser des questions à l’équipe de Leadership Act!.</description>
+		</event>
+	</FRIDAY>
+</document>

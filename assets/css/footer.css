@@ -1,0 +1,118 @@
+/* FOOTER */
+@import url(http://fast.fonts.net/cssapi/2b711b0d-fbe0-4a83-80e8-86e2497fcbcb.css);
+
+section[role="footer"]{
+	background:#444;
+	padding:2.5em 0 3.5em;
+}
+.copyright{
+	max-width:600px;
+	margin:0 auto;
+	color:#e1dcd2;
+	font-size:.9em;
+}
+
+.social-media{
+	width:240px;
+	margin:0 auto;
+	padding:0 0 0 24px;
+}
+.social-media li{
+	display:inline-block;
+	width:30px;
+	height:31px;
+	cursor:pointer;
+	padding:0 0;
+	margin:0 0;
+}
+.social-media span{
+	display:block;
+	width:30px;
+	height:31px;
+	opacity:1.0;
+	filter:alpha(opacity=100);
+}
+li#sm-facebook{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:0 0;
+}
+li#sm-facebook:hover{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:0 -31px;
+}
+li#sm-twitter{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:-30px 0;
+}
+li#sm-twitter:hover{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:-30px -31px;
+}
+li#sm-linkedin{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:-60px 0;
+}
+li#sm-linkedin:hover{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:-60px -31px;
+}
+li#sm-googleplus{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:-90px 0;
+}
+li#sm-googleplus:hover{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:-90px -31px;
+}
+li#sm-youtube{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:-120px 0;
+}
+li#sm-youtube:hover{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:-120px -31px;
+}
+li#sm-blog{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:-150px 0;
+}
+li#sm-blog:hover{
+	background-image: url("/assets/img/soc-sprite.png");
+	background-position:-150px -31px;
+}
+
+.footerLinks{
+	overflow:hidden;
+	max-width:600px;
+	margin:0 auto;
+}
+.footerLinks h3{
+	color:#e1dcd2;
+	font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+	font-size:1em;
+	text-align:center;
+}
+.footerLinks ul{
+	list-style-type:none;
+	margin:0 0;
+	padding:0 0;
+	color:#00dedc;
+	text-align:center;
+}
+.footerLinks li:hover{
+	color:#FFF;
+	cursor:pointer;
+}
+
+.ftr-common{
+	clear:both;
+	margin:12px 0;
+	border-top:#afaa96 1px solid;
+}
+.ftr-common li{
+	display:inline-block;
+	padding:12px 12px;
+}
+.pipe{
+	color:#afaa96;
+}

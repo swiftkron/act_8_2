@@ -1,0 +1,17 @@
+		<style type="text/css">#reqOptIn{display:none;}</style>
+    <script>
+		function countryOptin(thisForm)
+			{
+				var x = document.getElementById('MailingCountry').value;
+				if (
+				(x == "Canada") ||
+				(x == "Germany") ||
+				(x == "Australia")
+				){
+					document.getElementById('reqOptIn').style.display="block";
+				}
+				else{
+					document.getElementById('reqOptIn').style.display="none";
+				}
+			}		
+		</script>

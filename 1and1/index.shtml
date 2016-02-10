@@ -1,0 +1,312 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+
+<title>Let Act! take it from here. | Act! Cloud</title>
+
+<meta name="description" content="">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="cleartype" content="on">
+
+<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/2b711b0d-fbe0-4a83-80e8-86e2497fcbcb.css"/>
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="canonical" href="http://www.act.com/products/act-cloud/1and1" />
+
+<script src="assets/js/modernizr-min.js"></script>
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="assets/js/respond-min.js"></script>
+<![endif]-->
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body id="page_home">
+
+<div class="container">
+
+	<header role="banner">
+		<div id="logo"><a name="top">Act!</a></div>
+		<a href="#menu" class="menu-link btn white">menu</a>
+		<nav id="menu" role="navigation">
+			<div id="secondary_nav">
+				<a href="https://mycloud.act.com/#/login?SID=1and1" target="_blank">Login</a>
+			</div>
+			<ul id="main-nav">
+				<li><a href="#Why_Act_Cloud">Why Act! Cloud</a></li>
+				<li><a href="#Features">Features</a></li>
+				<li><a href="#Pricing">Pricing</a></li>
+				<!-- <li><a href="http://cloud.act.com/success" target="_blank">Support</a></li>
+				<li><a href="http://social.swiftpage.com/blog/act" target="_blank">Blog</a></li>-->
+				<li><a href="#More">More</a></li>
+				<li class="last"><a href="https://mycloud.act.com/signup/?referralId=1and160&utm_campaign=1and1" target="_blank">Sign up</a></li>
+				<li id="close_nav" class="mobile"><img src="assets/img/icon_close-menu.png" /></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Why Act! Cloud -->
+	<section id="Why_Act_Cloud" class="section">
+		<div class="wrap">
+			<div class="image"><img src="assets/img/icon_cloud.png" alt="act! cloud" /></div>
+			
+      <h1>Welcome 1and1 Customers</h1>
+			<p>Act! Cloud marries the best of contact management with the best of emarketing to help you stay organized, convert new prospects, and get more from existing customers. Bring your business into focus with intelligent, prioritized recommendations based on your engagement with customers and prospects.</p>
+			
+			<div id="launch_video">
+				<p><a class="play" href="javascript:void(0);"><img src="assets/img/icon_play.png" /> <span>Watch to learn more.</span></a></p>
+			</div>
+			<div id="main_video" class="video_holder">
+				<div class="close_player"><img src="assets/img/icon_close-video.png" alt="close video" /></div>
+				<iframe id="main_video_player" src="//player.vimeo.com/video/100939453?title=0&amp;byline=0&amp;color=FE5000&api=1&player_id=main_video_player" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+			
+			<div class="cta">
+				<ul>
+					<li><a class="btn orange" href="https://mycloud.act.com/#/account/billing?utm_campaign=1and1">only $10 a month</a></li>
+					<li><a class="btn white-invert" href="https://mycloud.act.com/signup/?referralId=1and160&utm_campaign=1and1">try it for free</a></li>
+				</ul>
+			</div>
+		</div>
+			
+		<div class="scroll_controls desktop">
+			<a class="arrow_down" href="javascript:void(0);"><img src="assets/img/arrow_down.png" /></a>
+		</div>
+	</section>
+	
+	<!-- Features of Act! Cloud -->
+	<section id="Features">
+		<div class="wrap">
+			<h2>bring your business into focus</h2>
+			<div class="gb">
+				<div class="image"><img src="assets/img/icon_organized.png" /></div>
+				<h3 class="equal_gb_feat">get organized</h3>
+				<p>Bring your contacts and lists together in one organized place. Manage your time and activities and track customer interaction notes and history. Now you’re organized for growth!</p>
+			</div>
+			<div class="gb">
+				<div class="image"><img src="assets/img/icon_recommend.png" /></div>
+				<h3 class="equal_gb_feat">next step recommendations</h3>
+				<p>Rest easy knowing you’re on top of every opportunity. Prioritize your day using intelligent recommendations based on your customers’ engagement level. Less guesswork means more time to focus on what you love. </p>
+			</div>
+			<div class="gb">
+				<div class="image"><img src="assets/img/icon_marketing.png" /></div>
+				<h3 class="equal_gb_feat">marketing made easy</h3>
+				<p>Target and communicate with your customers for maximum results.  Segment your lists, customize your message and creative, hit send – and watch the results roll in.  Right message, right person, right time! </p>
+			</div>
+			
+			<div class="cta">
+				<a id="view" class="btn white-invert white50" href="javascript:void(0);">view Act! Cloud features</a>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Create Interactions -->
+	<section id="panel_03">
+		<div class="wrap">
+			<div class="mobile image"><img src="assets/img/mobile_laptop.png" /></div>
+			
+			<div class="left">
+				<h2>create interactions</h2>
+				<p>Whether you meet for coffee, call, email or capture a transaction in your estore, Act! Cloud seamlessly tracks it all and creates a holistic view so you can gain better understanding and use it to create deeper relationships.</p>
+				<ul class="mobile bullets">
+					<li>Record interactions for every relationship.</li>
+					<li>Keep contacts in one place. Import from spreadsheets, Google&trade; or iCloud&trade;. Then organize by groups.</li>
+				</ul>
+			</div>
+			
+			<div class="right desktop">
+				<div class="image"><img src="assets/img/desktop_laptop.png" /></div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Keep it Together -->
+	<section id="panel_04">
+		<div class="wrap">
+			<div class="mobile image"><img src="assets/img/mobile_phone.png" /></div>
+			
+			<div class="left desktop">
+				<div class="image"><img src="assets/img/desktop_phone.png" /></div>
+			</div>
+			
+			<div class="right">
+				<h2>keep it together</h2>
+				<p>Keep track of what needs to be accomplished, who you need to meet with, and what messages you should deliver, all from <span style="white-space:nowrap">Act! Cloud.</span></p>
+				<ul class="mobile bullets">
+					<li>See your meetings in your everyday calendar.</li>
+					<li>Create tasks and check them off as they get accomplished.</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Messages That Matter -->
+	<section id="panel_05">
+		<div class="wrap">
+			<div class="mobile image"><img src="assets/img/mobile_tablet.png" /></div>
+			
+			<div class="left">
+				<h2>messages<br />that matter</h2>
+				<p>Get the tools you need to track and create easy, professional and beautiful email templates. Create groups to give you flexibility on when and who you want to send to.</p>
+				<ul class="mobile bullets">
+					<li>Create an email invoice</li>
+					<li>Send immediately or schedule a time through our reputable CAN SPAM compliant servers.</li>
+					<li>Over 100 email templates available.</li>
+				</ul>
+			</div>
+			
+			<div class="right desktop">
+				<div class="image"><img src="assets/img/desktop_tablet.png" /></div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Always Thinking -->
+	<section id="panel_06">
+		<div class="mobile image"><img src="assets/img/mobile_screencap.jpg" /></div>
+		
+		<div class="wrap">
+			<div class="left">
+				<h2>always thinking</h2>
+				<p>Inside Act! Cloud lives an intelligent relationship analytics engine. It captures and examines all your interaction data, helping you plan your day better. It reacts to opportunities faster, and knows more about each of your relationships.</p>
+				<ul class="mobile bullets">
+					<li>Receive a list of most engaged contacts to follow up on. </li>
+				</ul>
+			</div>
+			
+			<div class="right desktop">
+				<div class="image"><img src="assets/img/desktop_screencap.png" /></div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Integration -->
+	<section id="panel_07">
+		<div class="wrap">
+			<div class="left">
+				<div class="image"><img src="assets/img/cloud_icons.png" /></div>
+			</div>
+			
+			<div class="right">
+				<h2>integration</h2>
+				<p>Act! Cloud strives to capture every interaction you have with prospects and customers because knowing more helps create meaningful relationships. Act! Cloud is developing an integration with Zapier, giving you the power to connect with more than 300 online services to create new contacts and record interaction history.<!-- <a class="yellow" href="integrations">Learn more</a> about Act! Cloud integrations. --></p>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Price -->
+	<section id="Pricing">
+		<div class="wrap">
+			<div class="image"><img src="assets/img/icon_10monthly.png" /></div>
+			
+			<h2>Import up to 10,000 contacts and utilize Lead Scoring. Send unlimited emails to 500 contacts.</h2>
+			<p><strong>Need to send more emails?  Each block of 1,000 email addresses - $5/Month.</strong></p>
+			
+			<div class="cta">
+				<ul>
+					<li><a class="btn yellow" href="https://mycloud.act.com/#/account/billing?utm_campaign=1and1">buy it</a></li>
+					<li><a class="btn yellow-invert" href="https://mycloud.act.com/signup/?referralId=1and160&utm_campaign=1and1">try it for free</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<!-- More -->
+	<section id="More">
+		<div class="wrap">
+			<!-- <div class="gb">
+				<div class="image"><img src="assets/img/icon-gears.png" /></div>
+				<h2>integrations</h2>
+				<p class="equal_gb_more">Make Act! Cloud the center of your universe. Connect to hundreds of applications through the Zapier integration platform.</p>
+				<p><a class="teal" href="/products/act-cloud/integrations">Learn more.</a></p>
+			</div>
+			
+			<div class="gb">
+				<div class="image"><img src="assets/img/icon_persona_2.png" /></div>
+				<h2>partners</h2>
+				<p class="equal_gb_more">Have customers that need a simple, better contact management solutions? Become an Act! Cloud affiliate and earn money on every referral that turns into a sale.</p>
+				<p><a class="teal" href="/products/act-cloud/partners">Learn more.</a></p>
+			</div> -->
+			
+			<div class="gb">
+				<div class="image"><img src="assets/img/icon_persona_3.png" /></div>
+				<h2>customer success</h2>
+				<p class="equal_gb_more">Visit the Act! Cloud Success Center for informative help resources, FAQs and learn from other small businesses in Community discussions.</p>
+				<p><a class="teal" href="http://cloud.act.com/success?utm_campaign=1and1">Learn more.</a></p>
+			</div>
+		</div>
+	</section>
+
+	<footer role="contentinfo">
+		<div class="wrap">
+			<div id="footer_menu">
+			</div>
+			<div id="footer_social">
+				<ul class="social-media">
+		          	<li id="sm_facebook"><a href="/facebook" target="_blank"><span> </span></a></li>
+		          	<li id="sm_twitter"><a href="/twitter" target="_blank"><span> </span></a></li>
+		          	<li id="sm_linkedin"><a href="/linkedin" target="_blank"><span> </span></a></li>
+		          	<li id="sm_googleplus"><a href="/googleplus" target="_blank"><span> </span></a></li>
+		          	<li id="sm_youtube"><a href="/youtube" target="_blank"><span> </span></a></li>
+		          	<li id="sm_blog"><a href="http://social.swiftpage.com/blog/act" target="_blank"><span> </span></a></li>
+				</ul>
+        <p><a href="/products/act-cloud/tos">Terms of Service</a></p>
+			</div>
+		</div>
+	</footer>
+
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="assets/js/plugins-min.js"></script>
+<script src="assets/js/script-min.js"></script>
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+<!-- KISS -->
+    
+		<script type="text/javascript">
+		// Kiss Metrics capture code points to Red Cloud Production config at moment
+		var _kmq = _kmq || [];
+    var _kmk = _kmk || 'fb3b6dd55e5635b7f5eb80ac69d927bd54d760b6';
+    function _kms(u) {
+        setTimeout(function () {
+            var d = document, f = d.getElementsByTagName('script')[0],
+            s = d.createElement('script');
+            s.type = 'text/javascript'; s.async = true; s.src = u;
+            f.parentNode.insertBefore(s, f);
+        }, 1);
+    }
+    _kms('//i.kissmetrics.com/i.js');
+    _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+		// Get URL Parameters
+    function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+		//Parse URL Parameters and Record
+		var sidid = getParameterByName('sid').toString();
+		_kmq.push(['record', 'SID', { 'SID': sidid }]);
+		
+		</script>
+ 
+ <!-- end KISS -->
+
+</body>
+</html>

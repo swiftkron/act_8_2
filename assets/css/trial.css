@@ -1,0 +1,165 @@
+/* TRIAL */
+
+section[role="trial"]{
+	background:#444 url('/assets/img/hero-laptop-watch.jpg') top left no-repeat;
+	background-size:cover;
+	min-height:700px;
+	/*background-position:0 -100px;*/
+	padding-bottom:2em;
+	overflow:hidden;
+	color:#FFF;
+}
+section[role="trial"] h1{
+	font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+	font-size:3.5em;
+	margin:96px 5% 24px;
+	text-align:center;
+	color:#fff;
+	text-shadow:#444 0 0 8px;
+}
+.formWrapper{
+	max-width:1080px;
+	margin:0 auto 48px;
+	background:rgba(68,68,68,.6);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	overflow:hidden;
+	padding-bottom:2em;
+}
+.formItem{
+	font-family:"HelveticaNeueW01-45Ligh",Helvetica,Arial,sans-serif;
+	font-size:1.3em;
+	margin:1em;
+}
+.formItem label{
+	font-family:"HelveticaNeueW01-45Ligh",Helvetica,Arial,sans-serif;
+	font-weight:normal;
+	width:40%;
+}
+.radio label{
+	width:auto;
+	float:left;
+	padding-right:24px;
+}
+.radio input[type="radio"]{
+	display:inline-block;
+	margin-right:12px !important;
+	margin-top:6px !important;
+}
+
+section[role="trial"] input, section[role="trial"] select{
+	border:#ffaf00 2px solid;
+	padding:3px 5px;
+	font-size:1.2em;
+	font-weight:normal;
+	color:#444;
+}
+section[role="trial"] input[type=button],section[role="trial"] input[type=radio]{
+	border:none;
+}
+section[role="trial"] input[type=radio]{
+	margin:0 0;
+	padding:0 0;
+	display:inline-block;
+	float:left;
+}
+section[role="trial"] span{
+	display:inline;
+}
+section[role="trial"] input[type=text],section[role="trial"] input[type=email],section[role="trial"] input[type=tel], section[role="trial"] select{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-family:"HelveticaNeueW01-55Roma","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:1.1em;
+}
+.formBanner{
+	display:none;
+	clear:both;
+	background:#d5d5d5;
+	margin:3em 0 2em;
+	padding:2.5em 10%;
+	text-align:center;
+}
+.formBanner p{
+	font-family:"HelveticaNeueW01-55Roma","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:1.4em;
+	margin:0 0 0 0;
+	color:#444;
+}
+section[role="trial"] input[type=submit]{
+	display:block;
+	margin:1em auto 1em;
+	background:#00aab4;
+	color:#fff;
+	padding:9px 60px 12px;
+	border:none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	font-size:1.75em;
+	cursor:pointer;
+}
+section[role="trial"] input[type=submit]:hover{
+	background:#006a8e;
+	-webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+@media(max-width:1280px){
+section[role="trial"]{
+	/*background-image:none;*/
+	background-color:#939393;
+}
+}
+@media(max-width:1080px){
+section[role="trial"]{
+	background-color:#444;
+}
+.formWrapper{
+	background:none;
+}
+.formItem label{
+	width:100%;
+}
+.radio label{
+	width:40%;
+}
+}
+
+
+/***** Validation ******/
+#error {text-align:center;color:#eded00;font-size:1.4em;margin-top:1em;display:none;}
+.needsfilled {border:#eded00;box-shadow:red 0 0 5px;color:#fe5000;}
+
+
+/***** Thanks *********/
+#onlinetrial, #dltrial{display:none;}
+.thanks{
+	font-family:"HelveticaNeueW01-55Roma","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:1.2em;
+	line-height:1.75em;
+	padding:24px;
+	text-align:center;
+}
+.thanks a:link, .thanks a:active, .thanks a:visited{
+	color:#00dedc;
+}
+.thanks a:hover{
+	color:#00dedc;
+	text-decoration:underline;
+}
+.thanks h3{
+	font-family:"HelveticaNeueW01-45Ligh",Helvetica,Arial,sans-serif;
+	font-size:1.75em;
+	color:#ffaf00;
+}
+.trialDL{
+	font-family:"HelveticaNeueW01-45Ligh",Helvetica,Arial,sans-serif;
+	font-size:1.75em;
+}

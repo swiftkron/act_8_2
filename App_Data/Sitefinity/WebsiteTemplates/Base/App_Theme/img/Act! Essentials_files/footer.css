@@ -1,0 +1,71 @@
+/* footer */
+.footer h4 {
+    color:#39464F;
+    font-size:.9em;
+}
+.footer p {
+    color:#526774;
+    font-size:.75em;
+    margin:0 0 .3em;
+}
+.footer ul {
+    list-style-type:none;
+    margin:0 0;
+    padding:0 0;
+    font-size:.75em;
+}
+.footer input[type='text'], .footer input[type='email'], .footer input[type='password'], .footer input[type='number'] {
+    padding:4px 3px;
+    width:100%;
+	font-family:Helvetica,Arial,sans serif;
+    font-size:12px;
+}
+/* social */
+.footer .socialIcons{	
+    font-size:24px;
+    margin-top:12px;
+}
+a .glyphicon-linkedin{
+	color:#007bb6;
+    background-color:#fff;
+	-webkit-border-radius: 4px;    
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+a .glyphicon-facebook{
+	color:#3b5998;
+    background-color:#fff;
+	-webkit-border-radius: 4px;    
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+a .glyphicon-twitter{
+	color:#00aced;
+    background-color:#fff;
+	-webkit-border-radius: 4px;    
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.footer a .glyphicon-play{
+	color:#FFF;
+   background-color:#e52d27;
+	-webkit-border-radius: 4px;    
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size:14px;
+	padding:5px;
+	top:-4px;
+}
+a .glyphicon-blog{
+	color:#ff6600;
+    background-color:#fff;
+	-webkit-border-radius: 4px;    
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+a:hover .glyphicon-linkedin, a:hover .glyphicon-facebook, a:hover .glyphicon-twitter, a:hover .glyphicon-blog{
+	color:#8495A0;
+}
+.footer a:hover .glyphicon-play{
+	background-color:#8495A0;
+}

@@ -1,0 +1,47 @@
+<!-- <img src="http://act.com/media/en-us/images/marketplace/marketplace-banner02.jpg" alt="Act! Marketplace" /> -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>FPO Prototype</title>
+<style type="text/css">
+#container{
+	width:1000px;
+	margin:24px auto auto auto;
+}
+#controls{
+	position:absolute;
+	top:0;
+	width:100%;
+	background:#eaeaea;
+	padding:6px 0;
+	text-align:center;
+}
+#controls a:link, #controls a:active, #controls a:visited, #controls a:hover{
+	color:#FFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+}
+</style>
+<script type="text/javascript">
+function flip(){
+	document.getElementById('screenshot').src="images/marketplace_v1d_back.png";
+	document.getElementById('flip').href="javascript:flipBack()";
+}
+function flipBack(){
+	document.getElementById('screenshot').src="images/marketplace_v1d_front.png";
+	document.getElementById('flip').href="javascript:flip()";
+}
+</script>
+</head>
+<body>
+<div id="container">
+	<img id="screenshot" src="images/marketplace_v1d_front.png" />
+</div>
+<div id="controls">
+	<a href="javascript:flip()" id="flip">flip</a>
+</div>
+</body>
+</html>

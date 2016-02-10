@@ -1,0 +1,49 @@
+/* INTERIOR PAGES */
+section[role="interior"]{
+	padding:4em 5% 0;
+	/*background:#e1dcd2;*/
+	background:#eee;
+}
+section[role="interior"] .container{
+	background:#fff;
+	margin-bottom:0;
+	padding:2em 3%;
+}
+section[role="interior"] h1{
+	font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+	color:#fe5000;
+	font-size:3.5em;
+}
+section[role="interior"] h2{
+	font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+	color:#212721;
+	font-size:2em;
+	padding-bottom:.25em;
+	border-bottom:#afaa96 1px solid;
+	margin:1em 0;
+}
+section[role="interior"] h3{
+	font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+	color:#fe5000;
+	font-size:1.5em;
+}
+section[role="interior"] p, section[role="interior"] ul{
+	font-size:1.2em;
+	line-height:1.5em;
+	margin-bottom:1em;
+}
+section[role="interior"] li{
+	padding-bottom:.5em;
+}
+section[role="interior"] li:last-child{
+	padding-bottom:0;
+}
+
+/** e.g. support/training-opportunities **/
+.interiorNav ul{
+	list-style-type:none;
+}
+.interiorNav li{
+	display:inline;
+}
+

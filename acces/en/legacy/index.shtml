@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Act! | Global Conference</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/template.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+      
+    <script src="js/stickynav.js"></script>
+
+    <script>
+    $(function() {
+        $(".video1").jqueryVideoLightning({
+            autoplay: 1,
+            backdrop_opacity: 0.5,
+            color: "white"
+        });
+			});
+    </script>
+
+    <script>
+    $(document).ready(function(){
+			$('#mobile').click(function() {
+                        // When the event is triggered, grab the current element 'this' and
+                        // find it's children '.sub_navigation' and display/hide them
+			$(this).find('.mobile-links').slideToggle(); 
+			});
+		});
+    </script>
+
+    <style type="text/css">
+		.twitterWidget{display:none;}
+		</style>
+		
+    <script src="js/agenda.js"></script>
+
+    <!--- lightbox -->
+		<script>
+    $(document).ready(function(){
+    var all = $('.lb_img').addClass("lb_inactive");
+    
+    var i = -1;
+    
+    $('#prev').click(function() {
+        lbNav( i = !i ? all.length - 1 : --i );
+    });
+    $('#next').click(function() {
+        lbNav( i = ++i % all.length );
+    }).click();
+    
+    function lbNav(ele) {
+        all.removeClass("lb_active").addClass("lb_inactive");
+        all.eq(ele).removeClass("lb_inactive").addClass("lb_active");
+    }
+		
+		//Images
+		$('.lb_open').click(function() {
+			$('#overlay').show()
+			$('.lightbox').show()
+		});
+		$('.lb_close').click(function() {
+			$('#overlay').hide()
+			$('.lightbox').hide()
+		});
+		
+		//Bios 
+		$('#oconnor').click(function() {
+			$('#overlay').show()
+			$('.bios').show()
+			$('#bio_oconnor').show()
+		});
+		$('#solovik').click(function() {
+			$('#overlay').show()
+			$('.bios').show()
+			$('#bio_solovik').show()
+		});
+		$('#bullock').click(function() {
+			$('#overlay').show()
+			$('.bios').show()
+			$('#bio_bullock').show()
+		});
+		// hide all
+		$('.bio_close').click(function() {
+			$('#overlay').hide()
+			$('.bios').hide()
+			$('#bio_oconnor').hide()
+			$('#bio_solovik').hide()
+			$('#bio_bullock').hide()
+		});
+
+    });
+    </script>
+        
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40741589-1']);
+  _gaq.push(['_setDomainName', 'act.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40741589-3', 'act.com');
+  ga('send', 'pageview');
+
+</script>
+    
+  </head>
+  <body>
+
+  <div id="overlay"></div>
+    
+  <header id="header-banner" role="banner">
+  	<div class="cover">
+      <div class="col-md-5 year">
+        <img src="img/2014-chalet-paris.png" class="img-responsive" />
+      </div>
+      <div class="hdr-logo col-md-7">
+        <img src="img/act-logo.png" class="img-responsive" />
+        <div class="tagline">
+          <h2>Global Partner Conference</h2>
+          <a href="#register"><button id="btn-register">register</button></a>
+          <a href="#register"><button id="btn-register-mobile">register</button></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <nav id="menu">
+  	<a href="#about" class="ini-nav" id="nav-about">About</a>
+  	<a href="#register" class="ini-nav" id="nav-register">Register</a>
+  	<a href="#agenda" class="ini-nav" id="nav-agenda">Agenda</a>
+  	<a href="#sponsors" class="ini-nav" id="nav-sponsors">Exhibitors &amp; Sponsors</a>
+  	<a href="#speakers" class="ini-nav" id="nav-speakers">Speakers</a>
+  	<a href="#travel" class="ini-nav" id="nav-travel">Travel Information</a>
+  	<a href="#media" class="ini-nav" id="nav-media">Buzz</a>
+  </nav>
+
+  <nav id="fixed">
+  	<div class="fixed-title">
+    	<div class="fixed-year">
+      	<a href="#header-banner"><img src="img/2014-chalet-ny.png" /></a>
+      </div>
+      <div class="fixed-tagline">
+      	<a href="#header-banner"><h2>Global Partner Conference</h2></a>
+      </div>
+      <div class="fixed-logo">
+      	<a href="#header-banner"><img src="img/act-logo.png" /></a>
+      </div>
+    </div>
+    <div class="fixed-menu">
+      <a href="#about" class="ini-nav" id="nav-about2">About</a>
+      <a href="#register" class="ini-nav" id="nav-register2">Register</a>
+      <a href="#agenda" class="ini-nav" id="nav-agenda2">Agenda</a>
+      <a href="#sponsors" class="ini-nav" id="nav-sponsors2">Exhibitors &amp; Sponsors</a>
+      <a href="#speakers" class="ini-nav" id="nav-speakers2">Speakers</a>
+      <a href="#travel" class="ini-nav" id="nav-travel2">Travel Information</a>
+      <a href="#media" class="ini-nav" id="nav-media2">Buzz</a>
+    </div>
+  </nav>
+
+  <nav id="mobile">
+    <div id="mobile-menu">
+    	<div class="mobile-links">
+        <div class="mobile-column">
+          <a href="#about" id="nav-about3">About</a>
+          <a href="#register" id="nav-register3">Register</a>
+          <a href="#agenda" id="nav-agenda3">Agenda</a>
+          <a href="#sponsors" id="nav-sponsors3">Exhibitors &amp; Sponsors</a>
+        </div>
+        <div class="mobile-column">
+          <a href="#speakers" id="nav-speakers3">Speakers</a>
+          <a href="#travel" id="nav-travel3">Travel Information</a>
+          <a href="#media" id="nav-media3">Buzz</a>
+          <a href="#header-banner">Home</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <section id="when">
+  	<h1>November <span class="datesq">&#9642;</span> 6<span class="ordinal">th</span> - 9<span class="ordinal">th</span> <span class="datesq">&#9642;</span> 2014</h1>
+    <h2>Scottsdale, Arizona</h2>
+    <h3>The McCormick Scottsdale</h3>
+  </section>
+  
+  <section id="about">
+  	<h1>About</h1>
+    <div class="section-inner">
+    	<div class="col-md-8">
+      <p>Please join us in Scottsdale, AZ as the Act! and Swiftpage nations converge for the <strong>2014 Act! Global Conference Nov 6th &ndash; 9th, 2014</strong>.  Act! welcomes our entire ACC partner community to join thought leaders and key developer personnel, convened to collaborate, cross-train, entertain, and be inspired.</p>
+      <h2>Conference</h2>
+      <p>Join us for our main 3-day event which will include in-depth product, commercial and international sessions, as well as enlightening topics with plenty of opportunities for networking and connecting.</p>
+      <ul>
+      	<li><strong>Share our strategy</strong>, our new product roadmaps, our new levels of innovation and our energy to work together on a fast track to growth</li>
+      	<li><strong>Discuss how we can align our businesses</strong> to ensure our future growth together</li>
+      	<li><strong>Meet key members</strong> of our Swiftpage business including the Executive Team: <strong>Chairman Bob Ogdon</strong>, <strong>CEO John Oechsle</strong>, and <strong>SVP &amp; General Manager Bob Anderson</strong></li>
+      	<li><strong>Network and develop relationships</strong> with ACC&rsquo;s and developers from around the world</li>
+      	<li><strong>Meet with ‘Swifties&rsquo;</strong> from our executive, sales, technical, and marketing teams</li>
+      	<li><strong>Meet with Act! product specialists</strong> and discuss any issues you have</li>
+      	<li><strong>Check out the exhibitor area</strong>, network with other business partners and visit our add-on marketplace and development partners</li>
+      </ul>
+      </div>
+      <div class="col-md-4">
+      	<img src="img/john-1.gif" alt="CEO John Oechsle" class="img-responsive ftr-photo" /> 
+      </div>
+    </div>
+  </section>		
+
+  <section id="register">
+  	<h1>Registration Details</h1>
+    <div class="section-inner">
+
+      <p><strong>This year&rsquo;s registration fee has been reduced and space is limited &ndash; don&rsquo;t miss out, register today!</strong>
+      <div id="pkg-1" class="col-sm-9">
+      <h3>Full Conference package includes the following**</h3>
+      <ul>
+      	<li>3 Day Conference</li>
+        <li>Accommodations on 6th, 7th and 8th November
+        	<ul>
+          	<li>Check in from 4:00PM on the 6th, check out on the 9th at 12:00PM latest</li>
+            <Ii>Late checkout inquiries to be made at the front desk on the day of departure</li>
+          </ul></li>
+       	<li>Meals
+        	<ul>
+          	<li>November 6th, 6-9pm: Welcome Reception</li>
+            <li>November 7th, 8th and 9th: Breakfast, AM and PM breaks and lunch buffet</li>
+            <li>November 7th and 8th: 2 hour Evening Reception</li>
+          </ul>
+        </li>
+      	<li>Hi-speed internet access to attendees (wired and wireless) in all guestrooms and public areas (including meeting rooms)</li>
+        <li>Toll-free and local telephone calls</li>
+      	<li>Nightly resort charge and taxes</li>
+      	<li>Valet and self-parking</li>
+      	<li>Use of the fitness center, sand volleyball and tennis courts</li>
+      	<li>Use of the 24-hour business center</li>
+      	<li>Housekeeping attendant gratuities</li>
+      </ul></p>
+      <table>
+      	<tr style="background-color:#00dedc;">
+        	<td style="font-size:1.2em;">Early Bird Rate</td>
+          <td style="font-size:1.2em;">$1,275.00 USD</td>
+          <td style="font-size:1.2em;"><span class="nobr">July 15</span> &ndash; <span class="nobr">August 31</span></td>
+        </tr>
+      	<tr>
+        	<td style="color:#666666;">Standard Rate</td>
+          <td style="color:#666666;">$1,575.00 USD</td>
+          <td style="color:#666666;"><span class="nobr">September 1</span> &ndash;<span class="nobr">November 5</span></td>
+        </tr>
+      </table>
+      
+      <a href="https://actforeveryone.eventbrite.com" target="_blank"><button>register now</button></a>
+      </div>
+      <div id="pkg-2" class="col-sm-3">
+      <h3>Alternative packages**</h3>
+      <ul>
+      	<li>Guest (no conference)</li>
+      	<li>Full Conference (single, double or triple occupancy rooms)</li>
+      	<li>Conference only (no accommodation)</li>
+      </ul>
+      </div>
+      <p class="smalltext">**Except where indicated</p>
+
+    </div>
+  </section>		
+
+<!-- agenda -->
+<!--#include virtual="/conference/inc/agenda.html" -->
+
+  <section id="sponsors">
+  	<h1>Exhibitors and Event Sponsors</h1>
+    <div class="section-inner">
+    	
+    		<p><b>Imagine your logo here...</b></p>
+        <p>There&rsquo;s no better way to highlight your products and services than through our exhibitor/sponsorship packages.  To increase your brand and product awareness, why not become our Ultimate Event Sponsor, or take up one of the many other opportunities we&rsquo;re offering you to network and promote your business.</p>
+        <p>To secure your spot in the on-site Expo and take advantage of other sponsorship activities, please contact our conference team by <a href="mailto:act.sponsors@swiftpage.com">email</a> or call 480-304-4525.</span></p>      
+    </div>
+  </section>		
+
+  <section id="speakers">
+  	<h1>Speakers</h1>
+    <div class="section-inner">
+    	<div class="speakerWrap">
+        
+        <div id="oconnor" class="speaker">
+          <img src="img/speakers/jim-oconnor.jpg" class="img-responsive" />
+          <p>Jim O'Connor<br/><span>Former Member of the Navy's SpecWarfare Unit and Special Investigator for the Department of Defense</span></p>
+        </div>
+        <div id="solovik" class="speaker">
+          <img src="img/speakers/susan-solovik.jpg" class="img-responsive" />
+          <p>Susan Solovic<br><span>Small Business Expert</span></p>
+        </div>
+        <div id="bullock" class="speaker">
+          <img src="img/speakers/tracybullock.jpg" class="img-responsive" />
+          <p>Tracy Bullock<br><span>President, Bullock Training &amp; Development, Inc.</span></p>
+        </div>
+      
+      </div>
+
+      <!-- Bios -->
+      <div class="bios">
+    		<img class="bio_close img-responsive" src="img/lightbox/lb_close.png" />
+        
+        <div id="bio_oconnor">
+        	<img src="img/speakers/jim-oconnor.jpg" class="img-responsive right" />
+        	<h2>Jim O'Connor</h2>
+          <h3>Former Member of the Navy's SpecWarfare Unit and Special Investigator for the Department of Defense</h3>
+          <p>No matter what path you choose to head down in life, you will need to be a warrior.  <strong>Jim O’Connor</strong>, former member of the Navy’s SpecWarfare Unit and Special Investigator for the Department of Defense, will present “<strong>Becoming a Warrior.</strong>” Whether you are in the corporate world, private sector or active duty military, there will be times when the only thing you can do is fight for what you believe in.</p>
+        </div>      
+
+        <div id="bio_solovik">
+        	<img src="img/speakers/susan-solovik.jpg" class="img-responsive right" />
+        	<h2>Susan Solovic</h2>
+          <h3>Small Business Expert</h3>
+          <p>Susan Solovic is THE small business expert. She¹s an award-winning, serial entrepreneur, media personality (Former ABC News Small Business Contributor) and a New York Times, Wall Street Journal, USA Today &amp; Amazon  bestselling author.</p>
+          <p>Susan highlights from her book topics like:</p>
+          <ul>
+          	<li>How to build a disruptive strategy</li>
+            <li>How to find your true value proposition</li>
+            <li>How to stop competing on price</li>
+            <li>How to build a sustainable business with long-term value</li>
+            <li>How to hire the right people to scale your business</li>
+          </ul>
+        </div>      
+
+        <div id="bio_bullock">
+        	<img src="img/speakers/tracybullock.jpg" class="img-responsive right" />
+        	<h2>Tracy Bullock</h2>
+          <h3>President, Bullock Training &amp; Development, Inc.</h3>
+          <p>Tracy Bullock is the President of Bullock Training &amp; Development, Inc., an authorized Sandler Training® center.  She delivered strategic business development with Procter &amp; Gamble for almost 30 years in the U.S. and globally, and now works with businesses owners and managers to accelerate their competitive advantage in the market.</p>
+          <p>Her tremendous sales experience has been uniquely supplemented by her variety of other P&amp;G roles, including Operations, Information Technology, and Capability Development.  This broad range of assignments allows for innovation in all aspects of joint business with customers.</p>
+          <p>Tracy was presented a Lifetime Achievement Award, Top Female Executive, and noted as a Top 101 Industry Experts for her work in Global management Training Development by Cambridge’s Worldwide Who’s Who.</p>
+        </div>      
+      
+      </div>
+    </div>
+
+  </section>		
+		
+  <section id="travel">
+  	<h1>Hotel &amp; Travel Information</h1>
+    <div class="section-inner">
+    	<h2>The Hotel</h2>
+      <p><a href="http://www.millenniumhotels.com/usa/millenniumscottsdale/" target="_blank">The McCormick Scottsdale</a> is an idyllic retreat that features stunning lakeside views in a resort setting. Situated just minutes from Phoenix, Arizona and three short miles from Old Town Scottsdale, The McCormick Scottsdale captures the spirit of warm southwestern hospitality in a modern, relaxed setting. Golf, swimming, tennis, sand volleyball, fishing and boating can all be enjoyed during a stay at this Scottsdale hotel. The property features breathtaking views of McCormick Ranch Golf Club, Camelback Lake, the McDowell Mountains, and Camelback Mountain.</p>
+      <p><a href="http://www.millenniumhotels.com/usa/millenniumscottsdale/hotel-location.html" target="_blank">How to get there &raquo;</a></p>
+     
+    </div>
+  </section>		
+
+  <section id="media">
+  	<h1>Buzz</h1>
+    <div class="section-inner">
+    	<div class="right">
+      	<a href="#media"><img class="lb_open" src="img/slideshow.jpg" /></a>
+      </div>
+      <p>There&rsquo;s no better way to stay up to date with all things Act! than through our social channels!  Follow us, like us, connect with us, and be among the first to hear conference updates.</p>
+					<ul class="social-media">
+          	<li id="sm-facebook"><a href="http://act.com/facebook" target="_blank"><span></span></a></li>
+          	<li id="sm-twitter"><a href="http://act.com/twitter" target="_blank"><span></span></a></li>
+          	<li id="sm-linkedin"><a href="http://act.com/linkedin" target="_blank"><span></span></a></li>
+          	<li id="sm-googleplus"><a href="http://act.com/googleplus" target="_blank"><span></span></a></li>
+          	<li id="sm-youtube"><a href="http://act.com/youtube" target="_blank"><span></span></a></li>
+          	<li id="sm-blog"><a href="http://act.com/blog" target="_blank"><span></span></a></li>
+          </ul>
+    </div>
+    <div class="lightbox">
+    	<img class="lb_close img-responsive" src="img/lightbox/lb_close.png" />
+      <ul class="lb_img_set">
+        <li>
+        	<img class="lb_img img-responsive" src="img/conf2013/img1.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img2.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img3.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img4.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img5.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img6.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img7.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img8.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img9.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img10.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img11.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img12.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img13.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img14.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img15.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img16.jpg" />
+          <img class="lb_img img-responsive" src="img/conf2013/img17.jpg" />
+        </li>
+      </ul>
+      <p class="lb_paginate"><a href="#media" id="prev">« Previous</a> | <a href="#media" id="next">Next »</a></p>
+    </div>
+  </section>		
+
+    <!-- FOOTER -->
+    <div class="footer">
+    	<div class="ftr_copy">
+      	<p>&copy; 2014 Swiftpage ACT! LLC. All rights reserved. Swiftpage, Act!, Saleslogix, and the Swiftpage product and service names mentioned herein are registered trademarks or trademarks of Swiftpage ACT! LLC, or its affiliated entities. All other trademarks are property of their respective owners.</p>
+      </div>
+      <div class="ftr_links">
+      	<div id="ftr_logo"><img src="http://www.act.com/media/en-us/images/act_lp_footer_logo.png" /></div>
+        <div id="connect">
+        	<p>connect with us</p>
+					<ul class="social-media">
+          	<li id="sm-facebook"><a href="http://act.com/facebook" target="_blank"><span></span></a></li>
+          	<li id="sm-twitter"><a href="http://act.com/twitter" target="_blank"><span></span></a></li>
+          	<li id="sm-linkedin"><a href="http://act.com/linkedin" target="_blank"><span></span></a></li>
+          	<li id="sm-googleplus"><a href="http://act.com/googleplus" target="_blank"><span></span></a></li>
+          	<li id="sm-youtube"><a href="http://act.com/youtube" target="_blank"><span></span></a></li>
+          	<li id="sm-blog"><a href="http://act.com/blog" target="_blank"><span></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- .end footer -->
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-video-lightning.min.js"></script>
+	<script type="text/javascript">
+		$('.activate-modal').modal();
+	</script>
+
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 985967635;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/985967635/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+<!-- AdRoll SmartPixel Code -->
+<script type="text/javascript"> 
+adroll_adv_id = "7PE7KOB7HBDCZPXMS7TVZR"; 
+adroll_pix_id = "EZITWM6ZDRB4DMNQIFCZID"; 
+(function () { 
+var oldonload = window.onload; 
+window.onload = function(){ 
+   __adroll_loaded=true; 
+   var scr = document.createElement("script"); 
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com"); 
+   scr.setAttribute('async', 'true'); 
+   scr.type = "text/javascript"; 
+   scr.src = host + "/j/roundtrip.js"; 
+   ((document.getElementsByTagName('head') || [null])[0] || 
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr); 
+   if(oldonload){oldonload()}}; 
+}()); 
+</script> 
+  </body>
+</html>

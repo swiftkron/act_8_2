@@ -1,0 +1,709 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Act! Marketplace</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+
+
+<style>
+#content.fullwidth {
+	padding-right: 15px;
+}
+#content h2.indent {
+	color:#4d4f53;
+	font-size:20px;
+	line-height:22px;
+	padding-left:15px;
+}
+
+#mkt-banner{
+	margin-bottom:20px;
+}
+.intro .logo-sage {
+	width:140px;
+	height: 32px;
+	background: url(/media/en-us/images/marketplace/SageACT.gif) left top no-repeat;
+}
+
+
+
+.featured-solutions {
+	margin-bottom:200px;
+}
+
+.featured-solutions .featured-grid {
+	width: 100%;
+	/*background: url(/media/en-us/images/marketplace/section-divide.png) left top no-repeat;*/
+	margin: 0;
+	padding: 30px 0 0;
+}
+.featured-solutions .featured-grid ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+}
+
+.featured-solutions .featured-grid ul li {
+	border-top:1px solid #dedede;
+	border-bottom:1px solid #dedede;
+	border-left:1px solid #dedede;
+	cursor:pointer;
+	float:left;
+	height:160px;
+	margin:0;
+	padding:0;
+	position:relative;
+	text-align:center;
+	width:160px;
+	overflow: hidden;
+}
+
+.featured-solutions .featured-grid  ul li:hover {
+}
+
+.featured-solutions .featured-grid ul li img {
+	margin-top:40px; 
+}
+
+.featured-solutions .featured-grid ul li.first {
+	border-radius:10px 0 0 10px;
+}
+
+.featured-solutions .featured-grid ul li.end {
+	border-radius:0 10px 10px 0;
+	border-right:1px solid #dedede;
+}
+
+.featured-solutions .featured-grid ul li a {
+	background: #f4f4f4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f4f4f4 0%, #fdfdfd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(100%,#fdfdfd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f4f4f4 0%,#fdfdfd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f4f4f4 0%,#fdfdfd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f4f4f4 0%,#fdfdfd 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f4f4f4 0%,#fdfdfd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#fdfdfd',GradientType=0 ); /* IE6-9 */
+	color:#4d4f53;
+	display: block;
+	font-size:18px;
+	font-weight:bold;
+	height:148px;
+	left: 0;
+	padding-top:25px;
+	position: absolute;
+	text-decoration:none;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.featured-solutions .featured-grid ul li a:hover {
+	background: #f8de9e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8de9e 0%, #fbfbfb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8de9e), color-stop(100%,#fbfbfb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8de9e 0%,#fbfbfb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8de9e 0%,#fbfbfb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8de9e 0%,#fbfbfb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8de9e 0%,#fbfbfb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8de9e', endColorstr='#fbfbfb',GradientType=0 ); /* IE6-9 */
+	color:#ea8300;
+}
+
+.featured-solutions .featured-grid ul li.first a {
+	border-radius:10px 0 0 10px;
+}
+
+.featured-solutions .featured-grid ul li.end a {
+	border-radius:0 10px 10px 0;
+	border-right:1px solid #dedede;
+}
+
+.business-needs {
+	
+}
+
+.business-needs .needs-grid {
+	width: 100%;
+	/*background: url(/media/en-us/images/marketplace/section-divide.png) left top no-repeat;*/
+	margin: 0;
+	padding: 30px 0 0 0;
+}
+.business-needs .needs-grid ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+}
+.business-needs .needs-grid ul li .business-need-icon {
+	background-color: #fbfbfb;/* Old browsers */
+	background:-moz-linear-gradient(top,  #e9e9e9 0%, #fbfbfb 100%); /* FF3.6+ */
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#e9e9e9), color-stop(100%,#fbfbfb)); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top,  #e9e9e9 0%,#fbfbfb 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top,  #e9e9e9 0%,#fbfbfb 100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top,  #e9e9e9 0%,#fbfbfb 100%); /* IE10+ */
+	background:linear-gradient(to bottom,  #e9e9e9 0%,#fbfbfb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#fbfbfb',GradientType=0 ); /* IE6-9 */
+	height:100%;
+	width:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.business-needs .needs-grid ul li .business-need-icon:hover {	
+	background: #c0c0c0; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dddddd 0%, #dddddd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dddddd), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dddddd 0%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dddddd 0%,#dddddd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dddddd 0%,#dddddd 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dddddd 0%,#dddddd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+}
+.business-needs .needs-grid ul li {
+	border:1px solid #dedede;
+	border-radius:10px;
+	cursor: pointer;
+	float: left;
+	height: 150px;
+	margin: 0 9px 9px 0;
+	padding: 0;
+	position: relative;
+	text-align:center;
+	width: 150px;
+	overflow: hidden;
+}
+.business-needs .needs-grid ul li:hover {
+}
+.business-needs .needs-grid ul li.end {
+	margin-right: 0;
+}
+.business-needs .needs-grid ul li.accounting a {
+	background-position:0 0;
+}
+.business-needs .needs-grid ul li.address-shipping a {
+	background-position:-231px 0;
+}
+.business-needs .needs-grid ul li.data-mgmt a {
+	background-position:-462px 0;
+}
+.business-needs .needs-grid ul li.document-mgmt a {
+	background-position:-696px 0;
+}
+.business-needs .needs-grid ul li.email-direct-mrktg a {
+	background-position: 0 -186px;
+}
+.business-needs .needs-grid ul li.faxing a {
+	background-position:-230px -186px;
+}
+.business-needs .needs-grid ul li.helpdsk-support a {
+	background-position:-461px -186px;
+}
+.business-needs .needs-grid ul li.import-export a {
+	background-position:-693px -186px;
+}
+.business-needs .needs-grid ul li.mobile-devices a {
+	background-position:0px -368px;
+}
+.business-needs .needs-grid ul li.project-mgmt a {
+	background-position:-227px -368px;
+}
+.business-needs .needs-grid ul li.queries-quotes-reports a {
+	background-position:-458px -363px;
+}
+.business-needs .needs-grid ul li.quick-study-guide a {
+	background-position:-689px -363px;
+}
+.business-needs .needs-grid ul li.sales-mgmt a {
+	background-position:0px -547px;
+}
+.business-needs .needs-grid ul li.telephony a {
+	background-position:-229px -547px;
+}
+.business-needs .needs-grid ul li.utilities a {
+	background-position:-461px -542px;
+}
+
+.business-needs .needs-grid ul li a {
+	display: block;
+	background-image: url('/media/en-us/images/marketplace/spriteNew.png');
+	border-radius:10px;
+	color:#4d4f53;
+	display: block;
+	font-size:12px;
+	height:30px;
+	left: 0;
+	padding-top:130px;
+	position: absolute;
+	text-decoration:none;
+	top: 0;
+	width: 100%;
+}
+.business-needs .needs-grid ul li a:hover {
+	color:#fe5000;
+}
+
+.list-filters {
+	background: #e0e0e0;
+	width: 910px;
+	height: 24px;
+	padding: 6px 10px 6px;
+	margin:20px 0 40px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-weight: bold;
+	color: #4e4f51;
+}
+.list-filters .filters {
+	width: 35%;
+	float: left;
+	display: inline-block;
+}
+.list-filters .jumpto {
+	width: 59%;
+	float: right;
+	display: inline-block;
+}
+.list-filters .dropdown {
+	background: #fff;
+	color:#666;
+	border: 1px solid #c3c3c4;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	font-weight: normal;
+	position: relative;
+}
+
+.list-filters .dropdown span {
+	display: block;
+	background: #fff url(/media/en-us/images/marketplace/dropdown-arrow.jpg) right bottom no-repeat;
+	width:195px;
+	height: 14px;
+	padding: 3px 24px 5px 6px;
+	cursor: pointer;
+}
+.list-filters .dropdown#businessNeed {
+	margin: 0 0 0 5px;
+}
+.list-filters .dropdown#solution {
+	margin: 0 10px 0 5px;
+}
+.list-filters .dropdown#programLevel {
+	margin: 0 30px 0 10px;
+}
+.list-filters .dropdown#programLevel span {
+	width: 128px;
+}
+.list-filters .dropdown .dropdown-expand {
+	display: none;
+	background: #fff;
+	border: 1px solid #c3c3c4;
+	border-top: 0;
+	width:205px;
+	padding: 10px;
+	position: absolute;
+	top: 22px;
+	left: -1px;
+	cursor: default;
+}
+.list-filters .dropdown.select .dropdown-expand {
+	max-height: 400px;
+	overflow-y: scroll;
+}
+.list-filters .dropdown#programLevel .dropdown-expand {
+	width: 138px;
+}
+.list-filters .dropdown.select .dropdown-expand ul {
+	margin: 0;
+	padding: 0;
+}
+.list-filters .dropdown.select .dropdown-expand li {
+	border-top: 1px solid #c3c3c4;
+	margin: 0;
+	padding: 0;
+}
+.list-filters .dropdown.select .dropdown-expand li a {
+	display: block;
+	padding: 5px;
+	color: #4e4f51;
+	text-decoration: none;
+}
+.list-filters .dropdown.select .dropdown-expand li a:hover {
+	background: #dedede;
+}
+.list-filters .dropdown .dropdown-expand ul {
+	margin: 0 0 8px;
+	padding: 0;
+	list-style-type: none;
+	border-bottom: 1px solid #dedede;
+}
+.list-filters .dropdown .dropdown-expand li {
+	margin: 0;
+	padding: 0 0 5px;
+}
+.list-filters .dropdown .dropdown-expand .clear-filter {
+	line-height: 24px;
+	font-size: 11px;
+}
+
+.partners {
+	min-height: 200px;
+}
+.partners h2 .current {
+	color: #007f64;
+}
+.partners .partners-list {
+	width: 100%;
+	margin: 0;
+	padding: 10px 0 0;
+	float: left;
+}
+.partners .partners-list .partner-row {
+	width: 100%;
+	padding: 30px 0 20px;
+	background: url(/media/en-us/images/marketplace/section-divide-wide.png) left top no-repeat;
+	float: left;
+}
+.partners .partners-list .partner-row .partner-logo {
+	float: left;
+	width: 155px;
+	margin-right: 20px;
+	margin-left: 50px;
+	padding: 4px 0 0;
+	text-align: center;
+}
+.partners .partners-list .partner-row .partner-logo img {
+	max-width:66%;
+}
+.partners .partners-list .partner-row .partner-description {
+	float: left;
+	width: 650px;
+	margin-right: 55px;
+}
+
+.partners .partners-list .partner-row .partner-description  h2 { 
+	font-size:20px;
+	line-height:22px;
+}
+
+.partners .partners-list .partner-row .partner-description p {
+	color:#666;
+	font-size:14px;
+	line-height:18px;
+}
+.partners .partners-list .partner-row .partner-description .buynow {
+	border: 1px solid #dedede;
+	border-radius:10px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 120px;
+	overflow: hidden;
+}
+.partners .partners-list .partner-row .partner-description .buynow > div {
+	background: #e9e9e9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e9e9e9 0%, #fafafa 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e9e9e9), color-stop(100%,#fafafa)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e9e9e9 0%,#fafafa 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e9e9e9 0%,#fafafa 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e9e9e9 0%,#fafafa 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e9e9e9 0%,#fafafa 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
+	border-radius:10px;
+	padding: 10%;
+	width: 80%;
+	height: 80%;
+}
+.partners .partners-list .partner-row .partner-description .buynow a {
+	margin-top: 6px;
+}
+.partners .partners-list .partner-row .partner-description .buynow .price {
+	color:#007f64;
+	font-size:18px;
+	font-weight:600;
+	line-height:22px;
+}
+
+.partners .partners-list .partner-row .partner-description .buynow strike {
+	color:#4d4f53;
+	font-size:14px;
+	font-weight:normal;
+	line-height:22px;
+}
+
+a.btnOrangeSM {
+	background: url('/media/en-us/images/marketplace/spriteNew.png') -19px -794px no-repeat;
+	padding: 0 0 0 3px;
+	display: inline-block;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 28px;
+	vertical-align: top;
+	width:80px;
+}
+
+.partners .partners-list .partner-row .partner-level {
+	float: left;
+	width: 70px;
+	padding: 18px 20px 0 15px;
+	background: url(/media/en-us/images/marketplace/level-divide.png) left top no-repeat;
+	min-height: 42px;
+	color: #007f64;
+}
+</style>
+ 
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2994']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li>Marketplace</li>
+                </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+					    
+					    <img id="mkt-banner" src="/media/en-us/images/marketplace/marketplace-banner02New.jpg" alt="Act! Marketplace" />
+					    
+					    <p>A variety of add-on solutions are available to meet the unique needs of your business—extending the power and possibilities of what Act! can do for you.</p>
+					    
+					    <div class="section featured-solutions">
+					    	 <h2>Featured Solutions</h2>
+					    	 <div class="featured-grid">
+					    	 	<ul>
+					    	 		
+					    	 		<li class="CompanionLink-Software first">
+					    	 			<a href="Partner-CompanionLink">
+					    	 				CompanionLink<sup>&trade;</sup><br />
+					    	 				<img src="/media/en-us/images/marketplace/logo-CompanionLink.png" alt="CompanionLink Software" />
+					    	 			</a>
+					    	 		</li>
+					    	 		<li class="CRM-Addon">
+					    	 			<a href="Partner-CRMAddon">
+					    	 				CRM Addon<sup>&trade;</sup><br />
+					    	 				<img src="/media/en-us/images/marketplace/logo-crmaddon-factory-gmbh.png" alt="CRM Addon" />
+					    	 			</a>
+					    	 		</li>
+					    	 		<li class="e-Grabber">
+					    	 			<a href="Partner-eGrabber">
+					    	 				eGrabber<sup>&trade;</sup><br />
+					    	 				<img src="/media/en-us/images/marketplace/logo-eGrabber.png" alt="eGrabber" />
+					    	 			</a>
+					    	 		</li>
+					    	 		<li class="QuoteWerks end">
+					    	 			<a href="Partner-QuoteWerks">
+					    	 				QuoteWerks<sup>&trade;</sup><br />
+					    	 				<img src="/media/en-us/images/marketplace/logo-aspire.png" alt="QuoteWerks" />
+					    	 			</a>
+					    	 		</li>
+					    	 		
+					    	 	</ul>
+					    	 </div>
+					    </div>
+					    
+					    <div class="section business-needs">
+						    <h2>Shop Products by Business Need</h2>
+						    <div class="needs-grid">
+							    <ul>
+								    <li class="accounting">
+								    	<div class="business-need-icon">
+									    	<a href="Accounting">Accounting</a>
+									    </div>
+								    </li>
+								    <li class="address-shipping">
+								    	<div class="business-need-icon">
+								    		<a href="Address">Address / Shipping</a>
+									    </div>
+								    </li>
+								    <li class="data-mgmt">
+								    	<div class="business-need-icon">
+								    		<a href="Data">Data Management</a>
+									    </div>
+								    </li>
+								    <li class="document-mgmt">
+								    	<div class="business-need-icon">
+								    		<a href="Document">Document Management</a>
+									    </div>
+								    </li>
+								    <li class="email-direct-mrktg">
+								    	<div class="business-need-icon">
+								    		<a href="Email">Email / Direct Marketing</a>
+									    </div>
+								    </li>
+								    <li class="faxing">
+								    	<div class="business-need-icon">
+								    		<a href="Faxing">Faxing</a>
+									    </div>
+								    </li>
+								    <li class="helpdsk-support">
+								    	<div class="business-need-icon">
+								    		<a href="Help">Help Desk / Support</a>
+									    </div>
+								    </li>
+								    <li class="import-export">
+								    	<div class="business-need-icon">
+								    		<a href="Import">Import / Export</a>
+									    </div>
+								    </li>
+								    <li class="mobile-devices">
+								    	<div class="business-need-icon">
+								    		<a href="Mobile">Mobile Devices</a>
+									    </div>
+								    </li>
+								    <li class="project-mgmt">
+								    	<div class="business-need-icon">
+								    		<a href="Project">Project Management</a>
+									    </div>
+								    </li>
+								    <li class="queries-quotes-reports">
+								    	<div class="business-need-icon">
+								    		<a href="Queries">Queries / Quotes / Reports</a>
+									    </div>
+								    </li>
+								    <li class="quick-study-guide">
+								    	<div class="business-need-icon">
+								    		<a href="QuickStudy">QuickStudy Guide</a>
+									    </div>
+								    </li>
+								    <li class="sales-mgmt">
+								    	<div class="business-need-icon">
+								    		<a href="Sales">Sales Management</a>
+									    </div>
+								    </li>
+								    <li class="telephony">
+								    	<div class="business-need-icon">
+								    		<a href="Telephony">Telephony</a>
+									    </div>
+								    </li>
+								    <li class="utilities">
+								    	<div class="business-need-icon">
+								    		<a href="Utilities">Utilities</a>
+									    </div>
+								    </li>
+							    </ul>
+						    </div>
+					    </div>
+					    
+					
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+              <div class="mainSidebar">
+                    <!--#include virtual="/media/en-us/includes/marketplacenavInclude.html" -->
+                   
+                    <div class="side-block">
+                  <a href="/partners/development-partner-program/"><img src="/media/en-us/images/development-partner.png" /></a>
+                    
+                    
+                  
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div></div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

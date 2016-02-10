@@ -1,0 +1,381 @@
+----------------------------------------
+Timestamp: 10/27/2015 9:59:06 PM
+
+Message: HandlingInstanceID: 38ba2bfb-3f9c-4dc3-9df8-a820abb23d2b
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+10/27/2015 15:59:06
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The control with ID 'Breadcrumb' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it.
+Source : Telerik.Web.UI
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.UI.ScriptManager GetScriptManager(System.Web.UI.Control)
+HResult : -2146233079
+Stack Trace :    at Telerik.Web.UI.ScriptRegistrar.GetScriptManager(Control control)
+   at Telerik.Web.UI.RadDataBoundControl.RegisterScriptControl()
+   at Telerik.Web.UI.RadDataBoundControl.ControlPreRender()
+   at Telerik.Web.UI.RadDataBoundControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 9:59:06 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130904545650364437
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/resources/act-premium-resources
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130904545650364437
+
+ProcessId: 9872
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13436
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 9:59:26 PM
+
+Message: HandlingInstanceID: 1c892494-c8ca-4e64-8228-a5d21a0eb144
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+10/27/2015 15:59:26
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The control with ID 'Breadcrumb' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it.
+Source : Telerik.Web.UI
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.UI.ScriptManager GetScriptManager(System.Web.UI.Control)
+HResult : -2146233079
+Stack Trace :    at Telerik.Web.UI.ScriptRegistrar.GetScriptManager(Control control)
+   at Telerik.Web.UI.RadDataBoundControl.RegisterScriptControl()
+   at Telerik.Web.UI.RadDataBoundControl.ControlPreRender()
+   at Telerik.Web.UI.RadDataBoundControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 9:59:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130904545650364437
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/resources/downloads
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130904545650364437
+
+ProcessId: 9872
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3452
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 9:59:33 PM
+
+Message: HandlingInstanceID: d8471ff3-a6b9-40be-b277-8ce2ba53101b
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+10/27/2015 15:59:33
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The control with ID 'Breadcrumb' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it.
+Source : Telerik.Web.UI
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.UI.ScriptManager GetScriptManager(System.Web.UI.Control)
+HResult : -2146233079
+Stack Trace :    at Telerik.Web.UI.ScriptRegistrar.GetScriptManager(Control control)
+   at Telerik.Web.UI.RadDataBoundControl.RegisterScriptControl()
+   at Telerik.Web.UI.RadDataBoundControl.ControlPreRender()
+   at Telerik.Web.UI.RadDataBoundControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 9:59:33 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130904545650364437
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/resources/demos
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130904545650364437
+
+ProcessId: 9872
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13828
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 10:00:45 PM
+
+Message: HandlingInstanceID: 684b71af-f582-4b25-85f9-63a10b213853
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+10/27/2015 16:00:45
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The control with ID 'Breadcrumb' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it.
+Source : Telerik.Web.UI
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.UI.ScriptManager GetScriptManager(System.Web.UI.Control)
+HResult : -2146233079
+Stack Trace :    at Telerik.Web.UI.ScriptRegistrar.GetScriptManager(Control control)
+   at Telerik.Web.UI.RadDataBoundControl.RegisterScriptControl()
+   at Telerik.Web.UI.RadDataBoundControl.ControlPreRender()
+   at Telerik.Web.UI.RadDataBoundControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 10:00:45 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130904545650364437
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/resources/demos
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130904545650364437
+
+ProcessId: 9872
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6192
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 10:00:58 PM
+
+Message: HandlingInstanceID: e0f700de-9ae8-4a09-b850-c7e7db6e819f
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+10/27/2015 16:00:58
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CreateChildControls(System.Web.UI.Page)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.CreateChildControls(Page page)
+   at Telerik.Sitefinity.Modules.Pages.PageDraftProxy.CreateChildControls(Page page)
+   at Telerik.Sitefinity.Web.PageEditorRouteHandler.ApplyLayoutsAndControls(Page page, RequestContext requestContext)
+   at Telerik.Sitefinity.Web.RouteHandler.InitializeContent(Page handler, RequestContext requestContext)
+   at Telerik.Sitefinity.Web.RouteHandler.Handler_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 10:00:58 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130904545650364437
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/resources/act-premium-resources/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130904545650364437
+
+ProcessId: 9872
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3452
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/28/2015 5:37:50 PM
+
+Message: HandlingInstanceID: f2986d8d-539e-407c-8dd0-74a0bdf6c900
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+10/28/2015 11:37:50
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : An item with the URL '/2015/10/28/chat-banner' already exists.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : An item with the URL '/2015/10/28/chat-banner' already exists.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowDuplicateUrlException(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Fluent.CommonMethods.ThrowDuplicateUrlException(String url)
+   at Telerik.Sitefinity.Fluent.CommonMethods.ValidateUrlConstraints[TContent](IManager manager, TContent item, Boolean revertChangesOnError, Boolean recompileAutoGenerateUrlOnConflict)
+   at Telerik.Sitefinity.Fluent.CommonMethods.RecompileItemUrls(Content item, IManager manager)
+   at Telerik.Sitefinity.Modules.GenericContent.Web.Services.ContentItemService.SaveContent(ContentItemContext`1 context, String contentId, String providerName, String version, Boolean published, Boolean checkOut, String workflowOperation)
+   at SyncInvokeSaveContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/28/2015 5:37:50 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130904545650364437
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Content/ContentItemService.svc/00000000-0000-0000-0000-000000000000/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130904545650364437
+
+ProcessId: 9872
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10924
+
+Extended Properties: Url - /2015/10/28/chat-banner
+
+----------------------------------------

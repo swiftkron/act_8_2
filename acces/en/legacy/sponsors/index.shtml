@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Act! | Global Conference</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/template.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+      
+    <script src="js/stickynav.js"></script>
+
+    <script>
+    $(document).ready(function(){
+			$('#mobile').click(function() {
+                        // When the event is triggered, grab the current element 'this' and
+                        // find it's children '.sub_navigation' and display/hide them
+			$(this).find('.mobile-links').slideToggle(); 
+			});
+		});
+    </script>
+
+    <script src="js/agenda.js"></script>
+
+    <style type="text/css">
+		.twitterWidget{display:none;}
+		</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40741589-1']);
+  _gaq.push(['_setDomainName', 'act.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40741589-3', 'act.com');
+  ga('send', 'pageview');
+
+</script>
+    
+  </head>
+  <body>
+
+  <div id="overlay"></div>
+    
+  <header id="header-banner" role="banner">
+  	<div class="cover">
+      <div class="col-md-5 year">
+        <img src="img/2014-chalet-paris.png" class="img-responsive" />
+      </div>
+      <div class="hdr-logo col-md-7">
+        <img src="img/act-logo.png" class="img-responsive" />
+        <div class="tagline">
+          <h2>Global Partner Conference</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <nav id="menu">
+  	<a href="#about" class="ini-nav" id="nav-about">General Information</a>
+  	<a href="#info" class="ini-nav" id="nav-info">Sponsorship Information</a>
+  	<a href="#sponsors" class="ini-nav" id="nav-sponsors">Sponsorship Packages</a>
+  	<a href="#agenda" class="ini-nav" id="nav-agenda">Agenda</a>
+  	<a href="#contact" class="ini-nav" id="nav-contact">Contact</a>
+  </nav>
+
+  <nav id="fixed">
+  	<div class="fixed-title">
+    	<div class="fixed-year">
+      	<a href="#header-banner"><img src="img/2014-chalet-ny.png" /></a>
+      </div>
+      <div class="fixed-tagline">
+      	<a href="#header-banner"><h2>Global Partner Conference</h2></a>
+      </div>
+      <div class="fixed-logo">
+      	<a href="#header-banner"><img src="img/act-logo.png" /></a>
+      </div>
+    </div>
+    <div class="fixed-menu">
+      <a href="#about" class="ini-nav" id="nav-about2">General Information</a>
+      <a href="#info" class="ini-nav" id="nav-info2">Sponsorship Information</a>
+      <a href="#sponsors" class="ini-nav" id="nav-sponsors2">Sponsorship Packages</a>
+      <a href="#agenda" class="ini-nav" id="nav-agenda2">Agenda</a>
+      <a href="#contact" class="ini-nav" id="nav-contact2">Contact</a>
+    </div>
+  </nav>
+
+  <nav id="mobile">
+    <div id="mobile-menu">
+    	<div class="mobile-links">
+        <div class="mobile-column">
+          <a href="#about" id="nav-about3">General Information</a>
+          <a href="#info" id="nav-info3">Sponsorship Information</a>
+          <a href="#sponsors" id="nav-sponsors3">Sponsorship Packages</a>
+          <a href="#agenda" id="nav-sponsors3">Agenda</a>
+          <a href="#contact" id="nav-contact3">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <section id="when">
+  	<div class="section-inner">
+      <!-- <h1>November <span class="datesq">&#9642;</span> 6<span class="ordinal">th</span> - 9<span class="ordinal">th</span> <span class="datesq">&#9642;</span> 2014</h1>
+      <h2>Scottsdale, Arizona</h2>
+      <h3>The Millennium Resort and Villas</h3> -->
+      <h1>Join us for the<br/>2014 Act! Global Partner Conference</h1>
+    </div>
+  </section>
+  
+  <section id="about">
+  	<h1>General Information</h1>
+    <div class="section-inner">
+    	<div class="col-sm-5">
+      <table cellpadding="0" cellspacing="0">
+      	<tr>
+        	<td>Conference</td>
+          <td>2014 Act! Global Partner Conference</td>
+        </tr>
+      	<tr>
+        	<td>Dates</td>
+          <td>November 6 – 9, 2014</td>
+        </tr>
+      	<tr>
+        	<td>Conference Website</td>
+          <td><a href="http://act.com/conference">www.act.com/conference</a></td>
+        </tr>
+      	<tr>
+        	<td>Agenda</td>
+          <td>View latest <a href="#agenda" id="agendalink">agenda</a></td>
+        </tr>
+      	<tr>
+        	<td>Venue/Hotel</td>
+          <td>Millennium Resort and Villas Scottsdale<br/>
+          Scottsdale, AZ  85253<br/>
+          Tel: 800-243-1332<br/>
+          <a href="http://www.millenniumhotels.com/usa/millenniumscottsdale/" target="_blank">Visit the Hotel Website</a></td>
+        </tr>
+      </table>
+      </div>
+      <div class="col-sm-7">
+      	<p>The 2014 Act! Global Conference brings together our dedicated Act! Certified Consultants and Business Development Partners. Information about the different exhibitor and sponsorship packages is included in this document. To secure your spot in the on-site Expo and take advantage of other sponsorship activities, please contact us:</p>
+        <p>Please contact our conference team by <a href="mailto:act.sponsors@swiftpage.com">email</a> or call 480-304-4525.</p>
+      </div>
+    </div>
+  </section>		
+
+  <section id="info">
+  	<h1>Sponsorship Information</h1>
+    <div class="section-inner">
+      <h2>Why sponsor the 2014 Act! Global Partner Conference?</h2>
+      <ul>
+      	<li>Unparalleled networking access to the Act! Partner community </li>
+      	<li>Showcase your solutions to our channel, representing hundreds of thousands of end users globally</li>
+      	<li>Hundreds of businesses represented</li>
+      </ul>
+      <h2>Becoming a Conference Sponsor</h2>
+      <p>The Act! Global Partner conference is an annual event bringing together the Act! business partner channel including VARs, solution developers and consultants.  This year’s conference includes in-depth Swiftpage and Partner led content with special keynote and guest speakers.  This includes special sessions focusing on new release features and deployment which is driving high levels of engagement throughout the Act! Community.</p>
+
+    </div>
+  </section>		
+
+  <section id="sponsors">
+  	<h1>Sponsorship Packages</h1>
+    <div class="section-inner">
+    	
+      <!-- title sponsor -->
+      <div class="sponsor-group" id="title-sponsor">
+      	<h2>Title Sponsor Package - $15,000</h2>
+
+        <!-- CTA
+        <div id="sponsor-cta-desktop" class="sponsor-cta">
+        <p>To secure your spot in the on-site Expo and take advantage of other sponsorship activities, please contact Michael Brent by <a href="mailto:michael.brent@swiftpage.com" target="_blank">email</a> or call <span>480-304-4525</span></p>
+        </div>
+        <!-- end CTA -->
+
+        <p>The Title Sponsor is the main sponsor. This package provides the highest visibility and engagement to increase brand and product awareness, demonstrate your latest offerings, and maximize your exposure by engaging conference attendees during the main conference. The Title Sponsor Package includes:</p>
+
+        <ul>
+        	<li>Exclusive day one, Main Stage speaking engagement</li>
+        	<li>Sponsorship of the pre-event golf tournament including branding on the winner’s trophy</li>
+        	<li>Primary location in the on-site Exhibition Hall (includes: 2 x 6’ tables, 2 chairs, 1 electrical outlet, internet)</li>
+        	<li>1 full 3-day all-inclusive conference pass with accommodation/meals</li>
+        	<li>Inclusion in all pre-conference email messaging featuring your logo</li>
+        	<li>Inclusion in all post-conference email messages sent to event attendees</li>
+        	<li>Recognition during the keynote presentation</li>
+        	<li>Full page logo, URL, and 250-word description in the conference packet and guide</li>
+        	<li>One literature piece and giveaway (provided by you) included in the conference packet</li>
+        	<li>Prominent position as the Title Sponsor on event signage</li>
+        	<li>Dedicated joint webcast promoted to all attendees following the conference</li>
+        	<li>Receive a list of attendees post event</li>
+        </ul>
+      </div>
+
+        <!-- CTA
+        <div id="sponsor-cta-mobile" class="sponsor-cta">
+        <p>To secure your spot in the on-site Expo and take advantage of other sponsorship activities, please contact Michael Brent by <a href="mailto:michael.brent@swiftpage.com" target="_blank">email</a> or call <span>480-304-4525</span></p>
+        </div>
+        <!-- end CTA -->
+
+      <!-- ultimate sponsor -->
+      <div class="sponsor-group" id="ultimate-sponsor">
+      	<h2>Ultimate Sponsor Package - $6,000</h2>
+        <p>The Ultimate Event Sponsor is a primary sponsor.  This package provides high visibility and engagement to increase brand and product awareness, demonstrate your latest offerings, and maximize your exposure by engaging conference attendees during the main conference. The Ultimate Event Sponsorship Package includes:</p>
+        <ul>
+        	<li>Primary location in the on-site Exhibition Hall (includes: 2 x 6’ tables, 2 chairs, 1 electrical outlet, internet)</li>
+        	<li>1 full 3-day all-inclusive conference pass with accommodation/meals</li>
+        	<li>15 minute presentation during conference</li>
+        	<li>Inclusion in all pre-conference email messaging featuring your logo</li>
+        	<li>Inclusion in all post-conference email messages sent to event attendees</li>
+        	<li>Recognition during the keynote presentation</li>
+        	<li>Half page logo, URL, and 250-word description in the conference packet and guide</li>
+        	<li>One literature piece and giveaway (provided by you) included in the conference packet</li>
+        	<li>Prominent position as Ultimate Sponsor on event signage</li>
+        	<li>Dedicated joint webcast promoted to all attendees following the conference</li>
+          <li>Receive a list of attendees post event</li>
+       </ul>   
+      </div>
+
+      <!-- premium sponsor -->
+      <div class="sponsor-group" id="premium-sponsor">
+      	<h2>Premium Sponsor Package - $3,500</h2>
+        <p>This package provides a host of benefits to promote your company and solutions, including:</p>
+        <ul>
+        	<li>Inclusion in the on-site Exhibition Hall (1 x 6’ table, 2 chairs, 1 electrical outlet, internet)</li>
+        	<li>1 full 3-day all-inclusive conference pass with accommodation</li>
+        	<li>1 Coffee Break Sponsorship</li>
+        	<li>Your logo in the “Sponsors” section of the Conference website</li>
+        	<li>Logo, URL, and 100-word description in the conference packet and guide</li>
+        	<li>Inclusion in 1 pre-conference email message featuring your logo</li>
+        	<li>Inclusion in 1 post-conference email message sent to event attendees</li>
+        	<li>One literature piece and giveaway (provided by you) included in the conference packet</li>
+          <li>Logo listed on event signage as an Event Sponsor (all branding supplied by you)</li>
+          <li>Receive a list of attendees post event</li>
+       </ul>   
+      </div>
+
+      <!-- exhibitor sponsor -->
+      <div class="sponsor-group" id="exhibitor-sponsor">
+      	<h2>Exhibitor Package - $2,000</h2>
+        <p>This package provides a host of benefits to promote your company and its solutions, including:</p>
+        <ul>
+        	<li>Inclusion in the on-site Exhibition Hall (1 x 6’ table, 2 chairs, 1 electrical outlet, internet)</li>
+        	<li>1 full 3-day all-inclusive conference pass with accommodation</li>
+        	<li>Your logo in the “Sponsors” section of the Conference website</li>
+        	<li>Inclusion in 1 post-conference email message sent to event attendees</li>
+          <li>Logo and URL included in the conference packet and guide</li>
+          <li>One literature piece and giveaway (provided by you) included in the conference packet</li>
+          <li>Logo listed on event signage as an Exhibitor (all branding supplied by you)</li>
+          <li>Receive a list of attendees post event</li>
+       </ul>   
+      </div>
+
+      <!-- evening sponsor -->
+      <div class="sponsor-group" id="evening-sponsor">
+      	<h2>Evening Reception Sponsor - $3,000</h2>
+        <p>This package provides the opportunity for your company to sponsor an Evening Reception. Sponsorship is available for the main Welcome Reception or either of the other 2 evenings (price shown is for one evening, but ask us if you want to sponsor all 3).  We expect many attendees at these informal networking opportunities. Get to know the “Swiftie” team and make valuable contacts with everyone attending. This package includes:</p>
+        <ul>
+        	<li>1 full 3-day all-inclusive conference pass with accommodation/meals</li>
+        	<li>Your company logo and URL co-branded with Swiftpage, prominently displayed during the reception</li>
+        	<li>Prominent mention during conference remarks</li>
+          <li>Receive a list of attendees post event</li>
+       </ul>   
+      </div>
+
+      <!-- lunch sponsor -->
+      <div class="sponsor-group" id="lunch-sponsor">
+      	<h2>Lunch Sponsor - $2,500</h2>
+        <p>This package provides the opportunity for your company to sponsor a Lunch (price shown is for one lunch, but ask us if you want to sponsor all 3).  We expect many attendees at these informal networking opportunities. Get to know the “Swiftie” team and make valuable contacts with everyone attending. This package includes:</p>
+        <ul>
+        	<li>1 full 3-day all-inclusive conference pass with accommodation/meals</li>
+        	<li>Your company logo and URL co-branded with Swiftpage, prominently displayed during lunch</li>
+          <li>Receive a list of attendees post event</li>
+       </ul>   
+      </div>
+
+      <!-- coffee sponsor -->
+      <div class="sponsor-group" id="coffee-sponsor">
+      	<h2>Coffee Sponsor - $750</h2>
+        <p>This package provides the opportunity for your company to sponsor one (or more) of the Conference coffee breaks.  We expect many attendees at these informal networking opportunities. Get to know the “Swiftie” team and make valuable contacts with everyone attending. This package includes:</p>
+        <ul>
+        	<li>Your company logo and URL co-branded with Swiftpage, prominently displayed during the break</li>
+        </ul>
+      </div>
+
+      <!-- packet sponsor -->
+      <div class="sponsor-group" id="packet-sponsor">
+      	<h2>Packet and Merchandise Inclusions - $750</h2>
+        <p>Increase your brand and product awareness by including literature pieces and/or logo/URLs on pens, bags, giveaways etc. in the official conference packet that every attendee receives at registration (all items supplied by you). Price shown is for up to 3 items.</p>
+      </div>
+
+      <!-- badge sponsor -->
+      <div class="sponsor-group" id="badge-sponsor">
+      	<h2>Lanyard Sponsor - $1,000</h2>
+        <p>Have your company’s name around the neck of every Conference attendee with our Lanyard Sponsorship. You will have over 100 walking advertisements and countless impressions! Sponsorship can include your company name, logo, and URL—co-branded with Act! and/or Swiftpage—displayed on the lanyard for the entire conference.</p>
+      </div>
+
+      <!-- logo sponsor -->
+      <div class="sponsor-group" id="logo-sponsor">
+      	<h2>Logo Sponsor - $500</h2>
+        <p>Have your company logo, name, URL, and your headline/bio, included in the “Sponsors” section of the Conference website, in the Conference packet, and in on-site signage.</p>
+      </div>
+
+      <!-- title sponsor -->
+      <div class="sponsor-group" id="title-sponsor">
+      	<h2>A la carte Sponsorship - $ TBD/negotiable</h2>
+      </div>
+      
+    </div>
+  </section>		
+
+<!-- agenda -->
+<!--#include virtual="/conference/inc/agenda.html" -->
+
+  <section id="contact">
+  	<h1>Contact</h1>
+    <div class="section-inner">
+      <p>Contact us today to reserve your sponsorship at the <span class="nobr">2014 Act! Global Partner Conference</span> Exhibitor and Sponsorship contact:</p>
+      <p><strong>1-480-304-4525</strong></p>
+      <p><a href="mailto:act.sponsors@swiftpage.com" target="_blank">act.sponsors@swiftpage.com</a><br/><a href="http://act.com/conference">www.act.com/conference</a></p>
+      <p><a href="Exhibitor_and_Sponsorship_Kit_for_2014_Act_Conference.pdf" target="_blank">Download PDF Version</a></p>
+    </div>
+  </section>
+		
+    
+    <!-- FOOTER -->
+    <div class="footer">
+    	<div class="ftr_copy">
+      	<p>&copy; 2014 Swiftpage ACT! LLC. All rights reserved. Swiftpage, Act!, Saleslogix, and the Swiftpage product and service names mentioned herein are registered trademarks or trademarks of Swiftpage ACT! LLC, or its affiliated entities. All other trademarks are property of their respective owners.</p>
+      </div>
+      <div class="ftr_links">
+      	<div id="ftr_logo"><img src="http://www.act.com/media/en-us/images/act_lp_footer_logo.png" /></div>
+        <div id="connect">
+        	<p>connect with us</p>
+					<ul class="social-media">
+          	<li id="sm-facebook"><a href="http://act.com/facebook" target="_blank"><span></span></a></li>
+          	<li id="sm-twitter"><a href="http://act.com/twitter" target="_blank"><span></span></a></li>
+          	<li id="sm-linkedin"><a href="http://act.com/linkedin" target="_blank"><span></span></a></li>
+          	<li id="sm-googleplus"><a href="http://act.com/googleplus" target="_blank"><span></span></a></li>
+          	<li id="sm-youtube"><a href="http://act.com/youtube" target="_blank"><span></span></a></li>
+          	<li id="sm-blog"><a href="http://act.com/blog" target="_blank"><span></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- .end footer -->
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-video-lightning.min.js"></script>
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 985967635;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/985967635/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+<!-- AdRoll SmartPixel Code -->
+<script type="text/javascript"> 
+adroll_adv_id = "7PE7KOB7HBDCZPXMS7TVZR"; 
+adroll_pix_id = "EZITWM6ZDRB4DMNQIFCZID"; 
+(function () { 
+var oldonload = window.onload; 
+window.onload = function(){ 
+   __adroll_loaded=true; 
+   var scr = document.createElement("script"); 
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com"); 
+   scr.setAttribute('async', 'true'); 
+   scr.type = "text/javascript"; 
+   scr.src = host + "/j/roundtrip.js"; 
+   ((document.getElementsByTagName('head') || [null])[0] || 
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr); 
+   if(oldonload){oldonload()}}; 
+}()); 
+</script> 
+  </body>
+</html>

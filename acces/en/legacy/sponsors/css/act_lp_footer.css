@@ -1,0 +1,110 @@
+/*** Act! LP FOOTER ***/
+			 .footer{
+				 background:#e1dcd2;
+				 padding:24px 24px 120px;
+				 color:#444444;
+				 overflow:hidden;
+				 font-size:11px;
+			 }
+			 .ftr_copy{
+			 	float:left;
+				max-width:60%;
+			 }
+			 .ftr_links{
+				 float:right;
+				 text-align:right;
+			 }
+			 #ftr_logo img{
+				 max-width:150px;
+				 float:right;
+			 }
+			 #connect p{
+				clear:both;
+				font-size:13px;
+			 	font-weight:bold;
+				margin-top:2em;
+				margin-right:1em;
+			 }
+			/*** SOCIAL MEDIA ***/
+			.social-media{
+				margin-top:9px;
+			}
+			.social-media li{
+				/*background-color:#0C0;*/
+				display:inline-block;
+				width:30px;
+				height:32px;
+			}
+			.social-media span{
+				display:block;
+				width:30px;
+				height:32px;
+				opacity:1.0;
+				filter:alpha(opacity=100);
+			}
+			
+li#sm-facebook{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:0 0;
+}
+li#sm-facebook:hover{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:0 -31px;
+}
+li#sm-twitter{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:-30px 0;
+}
+li#sm-twitter:hover{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:-30px -31px;
+}
+li#sm-linkedin{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:-60px 0;
+}
+li#sm-linkedin:hover{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:-60px -31px;
+}
+li#sm-googleplus{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:-90px 0;
+}
+li#sm-googleplus:hover{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:-90px -31px;
+}
+li#sm-youtube{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:-150px 0;
+}
+li#sm-youtube:hover{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:-150px -31px;
+}
+li#sm-blog{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:-210px 0;
+}
+li#sm-blog:hover{
+	background-image: url("http://www.act.com/media/en-us/images/social_sprite.png");
+	background-position:-210px -31px;
+}
+			
+			/** TABLET **/
+@media (max-width:799px){
+			 /*** FOOTER ***/
+			 .ftr_copy{
+			 	float:none;
+				max-width:100%;
+			 }
+			 .ftr_links{
+				 float:none;
+				 text-align:left;
+			 }
+			 .social-media{
+			 	margin-left:0;
+				padding-left:0;
+			 }
+}

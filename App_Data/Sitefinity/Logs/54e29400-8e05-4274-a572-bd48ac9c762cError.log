@@ -1,0 +1,622 @@
+----------------------------------------
+Timestamp: 1/28/2016 9:36:15 PM
+
+Message: HandlingInstanceID: 36ecdc05-f3e0-49e9-bfae-da9061b4b366
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+01/28/2016 14:36:15
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+
+Page Whats New: The specified URL already exists in page: Products > Whats New
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForPages(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.CallWorkflowBatch(String[] pageIDs, String operationName, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContentInternal(String[] ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContent(String[] Ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 1/28/2016 9:36:15 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130984832679276596
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageNode&hierarchyMode=true&provider=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130984832679276596
+
+ProcessId: 3896
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8544
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/28/2016 10:38:40 PM
+
+Message: HandlingInstanceID: e5fbd9fc-bd62-4712-ad26-86bfa241b99d
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+01/28/2016 15:38:40
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+
+Page Act! emarketing Pricing: The specified URL already exists in page: Pricing
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForPages(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.CallWorkflowBatch(String[] pageIDs, String operationName, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContentInternal(String[] ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContent(String[] Ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 1/28/2016 10:38:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130984832679276596
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageNode&hierarchyMode=true&provider=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130984832679276596
+
+ProcessId: 3896
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11236
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/28/2016 10:39:18 PM
+
+Message: HandlingInstanceID: 409a5a6b-d09b-45ef-b9a2-e3de65d1300e
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+01/28/2016 15:39:18
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+
+Page Act! emarketing Pricing: The specified URL already exists in page: Pricing
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForPages(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.CallWorkflowBatch(String[] pageIDs, String operationName, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContentInternal(String[] ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContent(String[] Ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 1/28/2016 10:39:18 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130984832679276596
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageNode&hierarchyMode=true&provider=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130984832679276596
+
+ProcessId: 3896
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4224
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/28/2016 10:39:50 PM
+
+Message: HandlingInstanceID: 8176f48f-30c8-494e-879a-6e95b3262817
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+01/28/2016 15:39:50
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+
+Page Act! emarketing Pricing: The specified URL already exists in page: Pricing
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForPages(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.CallWorkflowBatch(String[] pageIDs, String operationName, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContentInternal(String[] ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContent(String[] Ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 1/28/2016 10:39:50 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130984832679276596
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageNode&hierarchyMode=true&provider=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130984832679276596
+
+ProcessId: 3896
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11236
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/28/2016 11:17:42 PM
+
+Message: HandlingInstanceID: 2261513b-f6c2-4a07-bc16-fc0d3991a6ee
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+01/28/2016 16:17:42
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+
+Page Terms of Service: The specified URL already exists in page: Legal > Terms of Service
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForPages(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.CallWorkflowBatch(String[] pageIDs, String operationName, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContentInternal(String[] ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContent(String[] Ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 1/28/2016 11:17:42 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130984832679276596
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageNode&hierarchyMode=true&provider=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130984832679276596
+
+ProcessId: 3896
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8988
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/28/2016 11:19:16 PM
+
+Message: HandlingInstanceID: 5951ec8f-c6c8-4fe0-ac61-304af0a75b92
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+01/28/2016 16:19:16
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 4 item(s) cannot be deleted (see below).
+
+Page Act! emarketing Pricing: The specified URL already exists in page: Pricing
+Page Terms of Service: The specified URL already exists in page: Legal > Terms of Service
+Page Whats New: The specified URL already exists in page: Products > Whats New
+Page System Requirements: The specified URL already exists in page: Products > System Requirements
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForPages(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.CallWorkflowBatch(String[] pageIDs, String operationName, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContentInternal(String[] ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContent(String[] Ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 1/28/2016 11:19:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130984832679276596
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageNode&hierarchyMode=true&provider=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130984832679276596
+
+ProcessId: 3896
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9464
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/29/2016 2:40:08 PM
+
+Message: HandlingInstanceID: b4351ebc-edd4-4133-ba5a-fb8fcd122cb6
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+01/29/2016 07:40:08
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+
+Page Terms of Service: The specified URL already exists in page: Legal > Terms of Service
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForPages(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.CallWorkflowBatch(String[] pageIDs, String operationName, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContentInternal(String[] ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContent(String[] Ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 1/29/2016 2:40:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130984832679276596
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageNode&hierarchyMode=true&provider=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130984832679276596
+
+ProcessId: 3896
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/29/2016 3:03:07 PM
+
+Message: HandlingInstanceID: 52360abe-3c0b-4f33-87b9-431fd18d4312
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+01/29/2016 08:03:07
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+
+Page Whats New: The specified URL already exists in page: Products > Whats New
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForPages(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.CallWorkflowBatch(String[] pageIDs, String operationName, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContentInternal(String[] ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContent(String[] Ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 1/29/2016 3:03:07 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130984832679276596
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageNode&hierarchyMode=true&provider=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130984832679276596
+
+ProcessId: 3896
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6784
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/29/2016 3:06:55 PM
+
+Message: HandlingInstanceID: fd388195-1ffc-4b13-9fa1-9e4a51241f6f
+An exception of type 'Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------
+01/29/2016 08:06:55
+Type : Telerik.Sitefinity.Pages.Model.DuplicatePageUrlException, Telerik.Sitefinity.Model, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : The specified URL already exists in page: Pricing
+Source : Telerik.Sitefinity
+Help link : 
+Page : Telerik.Sitefinity.Pages.Model.PageNode
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.String MessageWorkflow(System.Guid, System.Type, System.String, System.String, Boolean, System.Collections.Generic.Dictionary`2[System.String,System.String])
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowManager.MessageWorkflow(Guid itemId, Type itemType, String providerName, String operationName, Boolean isCheckedOut, Dictionary`2 contextBag)
+   at Telerik.Sitefinity.Workflow.Services.WorkflowService.MessageWorkflowInternal(KeyValuePair`2[] contextBag, String itemId, String itemType, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Workflow.Services.WorkflowService.MessageWorkflow(KeyValuePair`2[] contextBag, String itemId, String itemType, String providerName, String workflowOperation)
+   at SyncInvokeMessageWorkflow(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 1/29/2016 3:06:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130984832679276596
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Workflow/WorkflowService.svc/MessageWorkflow/19f862e7-96e1-633a-9d88-ff00001e67f5/?itemType=Telerik.Sitefinity.Pages.Model.PageNode&workflowOperation=Delete
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130984832679276596
+
+ProcessId: 3896
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7880
+
+Extended Properties: Url - Pricing
+
+----------------------------------------

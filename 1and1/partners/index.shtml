@@ -1,0 +1,263 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+
+<title>Let Act! take it from here. | Act! Cloud</title>
+
+<meta name="description" content="">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="cleartype" content="on">
+
+<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/2b711b0d-fbe0-4a83-80e8-86e2497fcbcb.css"/>
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+<script src="assets/js/modernizr-min.js"></script>
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="assets/js/respond-min.js"></script>
+<![endif]-->
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div id="logo"><a href="/products/act-cloud/">Act!</a></div>
+		<a href="#menu" class="menu-link btn white">menu</a>
+		<nav id="menu" role="navigation">
+			<ul id="main-nav">
+				<li><a href="/products/act-cloud/#Why_Act_Cloud">Why Act! Cloud</a></li> 
+				<li><a href="/products/act-cloud/#Features">Features</a></li>
+				<li><a href="/products/act-cloud/#Pricing">Pricing</a></li>
+				<li><a href="http://cloud.act.com/success" target="_blank">Support</a></li>
+				<li><a href="http://social.swiftpage.com/blog/act" target="_blank">Blog</a></li>
+				<li><a href="/products/act-cloud/#More" target="_blank">More</a></li>
+				<li class="last"><a href="https://mycloud.act.com/signup/" target="_blank">Sign up</a></li>
+				<li id="close_nav" class="mobile"><img src="assets/img/icon_close-menu.png" /></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="top_banner">
+		<div class="wrap">
+			<h1>become an affiliate partner</h1>
+			<h3>Your customers will thank you, and your wallet will too.</h3>
+			<a href="#" class="btn orange">start earning</a>
+		</div>
+	</section>
+
+	<section id="sign_up" class="section">
+		<div class="wrap">
+			<h2>Becoming an Act! Cloud affiliate is now easier that ever.</h2>
+			<p>Do you have contacts looking for a contact management solution that will help them focus their efforts and manage their time better? Do they want to send tailored messages and know their most engaged contacts to follow up with? Act! Cloud is just what they need.</p>
+			<p><strong>Become an Act! Cloud affiliate and be paid for every referral that turns into a sale.</strong></p>
+			<a href="#slide_down" class="btn yellow slide_show">sign up</a>
+		</div>
+	</section>
+
+	<section id="slide_down" class="section">
+		<div class="wrap">
+			<h2>Become an affiliate</h2>
+			<form action="" method="post">
+				<ul>
+					<li><input type="text" name="first_name" placeholder="First name" /></li>
+					<li class="right"><input type="text" name="last_name" placeholder="Last name" /></li>
+					<li><input type="email" name="email" placeholder="Email" /></li>
+					<li class="right"><input type="tel" name="phone" placeholder="Phone" /></li>
+					<li><input type="text" name="country" placeholder="Country" /></li>
+					<li class="right"><input type="text" name="state" placeholder="State" /></li>
+					<li><input type="text" name="company" placeholder="Company" /></li>
+					<li class="right"><input type="submit" class="btn yellow-invert dark" name="submit" value="get started" /></li>
+				</ul>
+			</form>
+		</div>
+		<a class="close" href="javascript:void(0);">close</a>
+	</section>
+
+	<section id="program" class="section">
+		<div class="wrap">
+			<h2>get with the program</h2>
+			<ul>
+				<li>
+					<div class="left">1</div>
+					<div class="right">
+						<strong>join</strong><br />
+						Get a unique referral link, give it to your audience.
+					</div>
+				</li>
+				<li class="right">
+					<div class="left">2</div>
+					<div class="right">
+						<strong>click</strong><br />
+						They click, &amp; are sent to an Act! Cloud free trial landing page.
+					</div>
+				</li>
+				<li>
+					<div class="left">3</div>
+					<div class="right">
+						<strong>convert</strong><br />
+						Referrals take the trial and convert to a paying customer.
+					</div>
+				</li>
+				<li class="right last">
+					<div class="left">4</div>
+					<div class="right">
+						<strong>collect</strong><br />
+						You get paid. It’s as simple as that.
+					</div>
+				</li>
+			</ul>
+			<p><strong>You earn 20% on the monthly value of each account – for as long as the account is paying.</strong></p>
+		</div>
+	</section>
+
+	<section id="membership" class="section">
+		<div class="wrap">
+			<h2>get the most out of your membership</h2>
+			<h4><strong>Act! Cloud provides a number of features to help keep the customers coming.</strong></h4>
+			<ul>
+				<li>
+					Access to assets like images use on websites &amp; advertising.
+				</li>
+				<li class="right">
+					Access to product briefs to use in your sales calls.
+				</li>
+				<li>
+					Track the number of trials you set up.
+				</li>
+				<li class="right">
+					Free use of Act! Cloud.
+				</li>
+			</ul>
+			<p><strong>Knowing that you refer the #1 best-selling contact and customer manager of all time.</strong></p>
+			<a href="#slide_down" class="btn orange slide_show">sign up</a>
+		</div>
+	</section>
+
+	<div id="learn_more" class="section">
+		<div class="wrap">
+			<div id="integrations" class="learn-more-item first">
+				<img src="assets/img/icon-integrations.png" />
+				<h3>integrations</h3>
+				<p class="equal_txt">Make Act! Cloud the center of your universe. Connect to hundreds of applications through the Zapier integration platform.</p>
+				<a href="/products/act-cloud/integrations">Learn more.</a>
+			</div>
+			<div id="partners" class="learn-more-item">
+				<img src="assets/img/icon-partners.png" />
+				<h3>partners</h3>
+				<p class="equal_txt">Have customers that need a simple, better contact management solutions? Become an Act! Cloud affiliate and earn money on every referral that turns into a sale.</p>
+				<a href="/products/act-cloud/partners">Learn more.</a>
+			</div>
+			<div id="customers" class="learn-more-item last">
+				<img src="assets/img/icon-customers.png" />
+				<h3>customers success</h3>
+				<p class="equal_txt">Visit the Act! Cloud Success Center for informative help resources, FAQs and learn from other small businesses in Community discussions.</p>
+				<a href="http://cloud.act.com/success" target="_blank">Learn more.</a>
+			</div>
+		</div>
+	</div>
+
+	<footer role="contentinfo">
+		<div class="wrap">
+			<div id="footer_menu">
+				<div id="primary_links">
+					<ul class="footer_links">
+						<li class="title">Products</li>
+						<li><a href="/products/act-pro/">Act! Pro</a></li>
+						<li><a href="/products/act-premium/">Act! Premium</a></li>
+						<li><a href="/why-choose-act/cloud-on-premise-deployment/#cloud">Act! Hosted</a></li>
+						<li><a href="http://interact.com/" target="_blank">Act! Cloud</a></li>
+					</ul>
+
+					<ul class="footer_links">
+						<li class="title">Customer Resources</li>
+						<li><a href="/support/getting-started/">Getting Started</a></li>
+						<li><a href="/support/">Support</a></li>
+						<li><a href="/support/download-center/">Download Center</a></li>
+						<li><a href="/marketplace/">Marketplace</a></li>
+					</ul>
+
+					<ul class="footer_links">
+						<li class="title">Partners</li>
+						<li><a href="/partners/">Find a Partner</a></li>
+						<li><a href="http://crm.saleslogixcloud.com/partners" target="_blank">Partner Resources</a></li>
+					</ul>
+				</div>
+				<div id="secondary_links">
+					<ul class="footer_links">
+						<li class="phone"><a href="tel:866-873-2006" class="tel">866-873-2006</a></li>
+						<li><a href="/contact">Contact Us</a></li>
+						<li><a href="/privacy">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer_social">
+				<ul class="social-media">
+		          	<li id="sm_facebook"><a href="http://act.com/facebook" target="_blank"><span> </span></a></li>
+		          	<li id="sm_twitter"><a href="http://act.com/twitter" target="_blank"><span> </span></a></li>
+		          	<li id="sm_linkedin"><a href="http://act.com/linkedin" target="_blank"><span> </span></a></li>
+		          	<li id="sm_googleplus"><a href="http://act.com/googleplus" target="_blank"><span> </span></a></li>
+		          	<li id="sm_youtube"><a href="http://act.com/youtube" target="_blank"><span> </span></a></li>
+		          	<li id="sm_blog"><a href="http://social.swiftpage.com/blog/act" target="_blank"><span> </span></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="assets/js/plugins-min.js"></script>
+<script src="assets/js/script-min.js"></script>
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+<!-- Kiss Metrics capture code points to Red Cloud Production config at moment-->
+    <script type="text/javascript">
+var _kmq = _kmq || [];
+    var _kmk = _kmk || 'fb3b6dd55e5635b7f5eb80ac69d927bd54d760b6';
+    function _kms(u) {
+        setTimeout(function () {
+            var d = document, f = d.getElementsByTagName('script')[0],
+            s = d.createElement('script');
+            s.type = 'text/javascript'; s.async = true; s.src = u;
+            f.parentNode.insertBefore(s, f);
+        }, 1);
+    }
+    _kms('//i.kissmetrics.com/i.js');
+    _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+    </script>
+
+
+      <!--This is Query String capture code -->
+     <script>
+    function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+
+
+   <!--Here we pass the sourceID (sid) value from the query string to Kiss Metrics a a custom event called SID-->
+    <script type="text/javascript">  _kmq.push(['record', 'SID', { 'SID': getParameterByName('sid') }]);</script>
+
+</body>
+</html>

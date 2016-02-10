@@ -1,0 +1,755 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Act! Marketplace - Import&#47;Export</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+
+<!-- SLIDER JS & CSS -->
+ <link href="css/CustomerSuccesses.css" rel="stylesheet" type="text/css" /> 
+ 
+<script type="text/javascript" src="/media/en-us/js/plugins.js"></script>
+
+<script type="text/javascript" src="/media/en-us/js/script.js"></script>  
+<script type="text/javascript" src="/media/en-us/js/modernizr253min.js"></script>
+
+<link rel="stylesheet" href="/media/en-us/css/sliders.css">
+
+<!-- .end SLIDER JS & CSS -->
+
+ 
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2994']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace/">Marketplace</a></li>
+                    <li>></li>
+                    <li>Import&#47;Export</li>
+                </ul>
+                
+                <div class="mainSingleColumn">
+                
+                  <!-- CONTENT -->
+                  <img id="mkt-banner-v16" src="/app-marketplace/img/act_mkt_logo.png" alt="Act! Marketplace" />
+                               
+                  <div class="mkt">
+                  <h1>Business Need: <strong>Import&#47;Export</strong></h1>
+
+<!-- 123 Sync 2013 for Act! 1-User Client -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/123-Sync-Exchange-1-User-Client"><img src="/media/en-us/images/marketplace/123SyncBoxWithSageAct.Jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/123-Sync-Exchange-1-User-Client">123 Sync 2013 for Act! 1-User Client</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;195.00</p>
+                          <a class="btn-orange" href="/marketplace/123-Sync-Exchange-1-User-Client"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>123 Sync 2013 synchronizes Act! contacts, calendar, todos, and emails with Outlook/Exchange.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- 123 Sync Server for Exchange - 5-User Server License -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/123-Sync-Server-for-Exchange-5-User"><img src="/media/en-us/images/marketplace/123SyncServerforExchange5UserServerLicense.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/123-Sync-Server-for-Exchange-5-User">123 Sync Server for Exchange - 5-User Server License</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;1,295.00</p>
+                          <a class="btn-orange" href="/marketplace/123-Sync-Server-for-Exchange-5-User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Synchronize multiple Act! Users to their individual Exchange Mailboxes with 123 Sync Server for Act! and Exchange. Supports server-based, full, unattended, synchronization of Contact, Calendar and Tasks between Act! and Exchange.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Advanced Excel Templates for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Advanced-Excel-Templates-for-Sage-ACT-2012"><img src="/media/en-us/images/marketplace/AdvancedExcelTemplatesforSageACT.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Advanced-Excel-Templates-for-Sage-ACT-2012">Advanced Excel Templates for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;69.95</p>
+                          <a class="btn-orange" href="/marketplace/Advanced-Excel-Templates-for-Sage-ACT-2012"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Ever wished you could merge contact information in Excel using the same easy method you use for Word? With Excel Templates you can!</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Data Fields Exporter for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Data-Field-Export"><img src="/media/en-us/images/marketplace/Data-Fields-Exporter.Jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Data-Field-Export">Data Fields Exporter for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;325.00</p>
+                          <a class="btn-orange" href="/marketplace/Data-Field-Export"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Data Fields Exporter for Act! exports all the Act! data tables with generated fields.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Duplicate Remover Expert 2013 -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Duplicate-Remover-Expert-2013"><img src="/media/en-us/images/marketplace/DuplicateRemoverExpert2013.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Duplicate-Remover-Expert-2013">Duplicate Remover Expert 2013</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;149.99</p>
+                          <a class="btn-orange" href="/marketplace/Duplicate-Remover-Expert-2013"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>This standalone program will combine and remove duplicate contacts and companies in a Act! database. You can check for duplicates on up to 6 fields. You can apply "fuzzy" logic to find records that "might" be dups. No data is lost.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Duplicate Remover Expert Wizard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Duplicate-Remover-Expert-Wizard"><img src="/media/en-us/images/marketplace/DuplicateRemoverExpert2013.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Duplicate-Remover-Expert-Wizard">Duplicate Remover Expert Wizard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;149.99</p>
+                          <a class="btn-orange" href="/marketplace/Duplicate-Remover-Expert-Wizard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>This standalone program will combine and remove duplicate contacts and companies in a Act! database. You can check for duplicates on up to 6 fields. You can apply &ldquo;fuzzy&rdquo; logic to find records that &ldquo;might&rdquo; be dups. No data is lost.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- eMail-Lead Grabber Business -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/eMail-Lead-Grabber-Business"><img src="/media/en-us/images/marketplace/eMailLeadGrabberBusiness.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/eMail-Lead-Grabber-Business">eMail-Lead Grabber Business</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;749.95</p>
+                          <a class="btn-orange" href="/marketplace/eMail-Lead-Grabber-Business"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Automate your Lead Email Processing. eMail-Lead Grabber is a must have tool for every lead manager to automatically enter email information into Act!.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Export IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Export-IT-Standard"><img src="/marketplace/Export-IT-Standard/img/ExportIT_en_200x200.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Export-IT-Standard">EXPORT|IT Standard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;295.29</p>
+                          <a class="btn-orange" href="/marketplace/Export-IT-Standard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>EXPORT|IT Standard add-on allows you to export Act! Contacts, Companies, Groups, Secondary Contacts and Unique IDs.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Fetch IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/FetchIT-Standard"><img src="/media/en-us/images/marketplace/FetchIT_lg.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/FetchIT-Standard">Fetch IT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;748.50</p>
+                          <a class="btn-orange" href="/marketplace/FetchIT-Standard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>FetchIT allows you to download data from system generated e-mails automatically and insert them into your Act! database.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Impact Report Designer -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Impact-Report-Designer"><img src="/media/en-us/images/marketplace/ImpactReportDesigner.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Impact-Report-Designer">Impact Report Designer</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;389.00</p>
+                          <a class="btn-orange" href="/marketplace/Impact-Report-Designer"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>The Report Designer provides all tools that may be necessary to create professional reports of virtually any type, including hierarchical master-detail reports from custom tables, table and multi-column reports, as well as interactive drill-down and drill-through reports.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Import IT Advanced -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/it-Import-Net-1-Database"><img src="/media/en-us/images/marketplace/ImportITAdvanced.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/it-Import-Net-1-Database">Import IT Advanced</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;485.26</p>
+                          <a class="btn-orange" href="/marketplace/it-Import-Net-1-Database"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>To prevent you from entering your data manually into your database, we have developed an add-on which allows you to easily import this data.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Import IT Basic -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/import-it-basic"><img src="/media/en-us/images/marketplace/ImportITBasic.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/import-it-basic">Import IT Basic</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;221.11</p>
+                          <a class="btn-orange" href="/marketplace/import-it-basic"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>To prevent you from entering your data manually into your database, we have developed an add-on which allows you to easily import this data.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Import IT Pro/Unlimited -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/it-Import-Net-Unlimited-Databases"><img src="/media/en-us/images/marketplace/ImportITProUnlimited.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/it-Import-Net-Unlimited-Databases">Import IT Pro/Unlimited</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;838.44</p>
+                          <a class="btn-orange" href="/marketplace/it-Import-Net-Unlimited-Databases"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>To prevent you from entering your data manually into your database, we have developed an add-on which allows you to easily import this data.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Import IT Pro/USB -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/import-it-pro-usb"><img src="/media/en-us/images/marketplace/ImportITProUSB.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/import-it-pro-usb">Import IT Pro/USB</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;1,150.00</p>
+                          <a class="btn-orange" href="/marketplace/import-it-pro-usb"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>To prevent you from entering your data manually into your database, we have developed an add-on which allows you to easily import this data.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Import IT Standard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/import-it-standard"><img src="/media/en-us/images/marketplace/ImportITStandard.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/import-it-standard">Import IT Standard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;443.70</p>
+                          <a class="btn-orange" href="/marketplace/import-it-standard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>To prevent you from entering your data manually into your database, we have developed an add-on which allows you to easily import this data.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Info Optics 50-User License -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Info-Optics-50-User"><img src="/media/en-us/images/marketplace/InfoOptics50UserLicense.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Info-Optics-50-User">Info Optics 50-User License</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;7,500.00</p>
+                          <a class="btn-orange" href="/marketplace/Info-Optics-50-User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Synchronize Act! with any database! Integrate your Act! database with your order entry, e-commerce, loan processing, and accounting systems. Licensed for up to 50 users.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Info Optics 5-User License -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Info-Optics-5-User"><img src="/media/en-us/images/marketplace/InfoOptics5UserLicense.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Info-Optics-5-User">Info Optics 5-User License</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;1,245.00</p>
+                          <a class="btn-orange" href="/marketplace/Info-Optics-5-User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Synchronize Act! with any database! Integrate your Act! database with your order entry, e-commerce, loan processing, and accounting systems. Licensed for up to 5 users.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Info Optics for Sage ACT! 2013 (50-User License) -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Info-Optics-for-Sage-ACT-2013-50-User"><img src="/media/en-us/images/marketplace/InfoOpticsforSageACT201350UserLicense.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Info-Optics-for-Sage-ACT-2013-50-User">Info Optics for Sage ACT! 2013 (50-User License)</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;7,500.00</p>
+                          <a class="btn-orange" href="/marketplace/Info-Optics-for-Sage-ACT-2013-50-User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Synchronize Act! with any database! Integrate your Act! database with your order entry, e-commerce, loan processing, and accounting systems. Licensed for up to 50 users.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Info Optics for Sage ACT! 2013 (5-User License) -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Info-Optics-for-Sage-ACT-2013-5-User"><img src="/media/en-us/images/marketplace/InfoOpticsforSageACT20135UserLicense.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Info-Optics-for-Sage-ACT-2013-5-User">Info Optics for Sage ACT! 2013 (5-User License)</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;1,245.00</p>
+                          <a class="btn-orange" href="/marketplace/Info-Optics-for-Sage-ACT-2013-5-User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Synchronize Act! with any database! Integrate your Act! database with your order entry, e-commerce, loan processing, and accounting systems. Licensed for up to 5 users.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- MergeAdmin for Sage ACT! 2013 MergeAdmin for Sage ACT! 2013 -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/MergeAdmin-for-Sage-ACT-2013"><img src="/media/en-us/images/marketplace/MergeAdminforSageACT2013.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/MergeAdmin-for-Sage-ACT-2013">MergeAdmin for Sage ACT! 2013 MergeAdmin for Sage ACT! 2013</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;299.00</p>
+                          <a class="btn-orange" href="/marketplace/MergeAdmin-for-Sage-ACT-2013"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>MergeAdmin updates your Act! database on a field-by-field level with useful information from an external ASCII file. You determine which Act! fields to update - all other fields remain intact.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+
+                  
+<!-- MigrateAdmin for Sage ACT! 2013 -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/MigrateAdmin-for-Sage-ACT-2013"><img src="/media/en-us/images/marketplace/MigrateAdminforSageACT2013.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/MigrateAdmin-for-Sage-ACT-2013">MigrateAdmin for Sage ACT! 2013</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;299.00</p>
+                          <a class="btn-orange" href="/marketplace/MigrateAdmin-for-Sage-ACT-2013"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Convert Goldmine data directly into Act! without leaving valuable data behind.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+
+
+<!-- OAK!Merge Advanced -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/OAKMerge-Advanced"><img src="/media/en-us/images/marketplace/OAKMerge-Advanced.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/OAKMerge-Advanced">OAK!Merge Advanced</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;399.00</p>
+                          <a class="btn-orange" href="/marketplace/OAKMerge-Advanced"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>OAK!Merge Advanced is a data import and update utility that provides field-by-field merging of data into Act!. Its unlimited uses include conversions, updates, mass deletes, and clean-up of databases. Update sales info in Act! with mainframe data matching on customer number, update sales territory matching on zip code, import trade show or web leads, or update lead status from remote reps.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->                  
+
+<!-- OAK!Merge Basic -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/OAKMerge-Basic"><img src="/media/en-us/images/marketplace/OAKMerge-Basic.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/OAKMerge-Basic">OAK!Merge Basic</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;149.00</p>
+                          <a class="btn-orange" href="/marketplace/OAKMerge-Basic"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>OAK!Merge Basic is a data import and update utility that provides field-by-field merging of data into Act!. Its unlimited uses include conversions, updates, mass deletes, and clean-up of databases. Update sales info in Act! with mainframe data matching on customer number, update sales territory matching on zip code, import trade show or web leads, or update lead status from remote reps.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- OAK!Merge Enterprise with SalesForce Data Migration Kit -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/OAKMerge-Enterprise-with-SalesForce-Data-Migration-Kit"><img src="/media/en-us/images/marketplace/OAKMergeEnterprisewithSalesForceDataMigrationKit.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/OAKMerge-Enterprise-with-SalesForce-Data-Migration-Kit">OAK!Merge Enterprise with SalesForce Data Migration Kit</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;1,499.00</p>
+                          <a class="btn-orange" href="/marketplace/OAKMerge-Enterprise-with-SalesForce-Data-Migration-Kit"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>OAK!Merge Enterprise with SalesForce Data Migration Kit converts your data from SalesForce to Act!. The SalesForce data migration kit includes all the SalesForce users, accounts, contacts, leads, tasks, activity history, opportunities, and attachments. All this in a load and go, one click utility.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- OAK!Merge Pro -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/OAKMerge-Pro"><img src="/media/en-us/images/marketplace/OAKMerge-Pro.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/OAKMerge-Pro">OAK!Merge Pro</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;499.00</p>
+                          <a class="btn-orange" href="/marketplace/OAKMerge-Pro"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>OAK!Merge Pro is a data import and update utility that provides field-by-field merging of data into Act!. Its unlimited uses include conversions, updates, mass deletes, and clean-up of databases. Update sales info in Act! with mainframe data matching on customer number, update sales territory matching on zip code, import trade show or web leads, or update lead status from remote reps.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- OAK!Merge Standard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/OAKMerge-Standard"><img src="/media/en-us/images/marketplace/OAKMerge-Standard.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/OAKMerge-Standard">OAK!Merge Standard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;299.00</p>
+                          <a class="btn-orange" href="/marketplace/OAKMerge-Standard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>OAK!Merge Standard is a data import and update utility that provides field-by-field merging of data into Act!. Its unlimited uses include conversions, updates, mass deletes, and clean-up of databases. Update sales info in Act! with mainframe data matching on customer number, update sales territory matching on zip code, import trade show or web leads, or update lead status from remote reps.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Outreach 1 User -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/outreach-1-user"><img src="/media/en-us/images/marketplace/Outreach1User.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/outreach-1-user">Outreach 1 User</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;384.32</p>
+                          <a class="btn-orange" href="/marketplace/outreach-1-user"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Outreach provides bulk mailings for HR, Headhunters and anyone wishing to send multiple documents from multiple candidates to several recipients.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Quick Navigation List -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Quick-Navigation-List-for-Act"><img src="/marketplace/Quick-Navigation-List-for-Act/img/qnl_100.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Quick-Navigation-List-for-Act">Quick Navigation List for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;24.95</p>
+                          <a class="btn-orange" href="/marketplace/Quick-Navigation-List-for-Act"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>The "Quick Navigation" addon is a Lookup Manager, Mini-contact List &amp; Query Tool embedded into Act! Detail View.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Scan IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Scan-IT"><img src="/marketplace/Scan-IT/img/ScanIT_en_200x200.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Scan-IT">SCAN|IT for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;206.25</p>
+                          <a class="btn-orange" href="/marketplace/Scan-IT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>SCAN|IT lets you import your scanned from business cards data into Act! fast and easily avoiding duplicates and scheduling activities.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Scan2CRM for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Scan2CRM-for-Sage-ACT"><img src="/media/en-us/images/marketplace/Scan2CRMforSageACT.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Scan2CRM-for-Sage-ACT">Scan2CRM for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;299.00</p>
+                          <a class="btn-orange" href="/marketplace/Scan2CRM-for-Sage-ACT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Scan2CRM for Act! is a fully integrated, add-on scanning system for Act!. It scans business cards and automatically inputs both their textual data and image into a new contact record.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+                  </div>
+                  <!-- .end CONTENT -->
+
+                        <div class="social clear">
+                        <h3>Connect with Act!</h3>
+                        	<ul>
+                            	<li><a class="facebook" href="#">Facebook</a></li>
+                                <li><a class="twitter" href="#">Twitter</a></li>
+                                <li><a class="linkedin" href="#">LinkedIn</a></li>
+                                <li><a class="you-tube" href="#">YouTube</a></li>
+                                <li><a class="google" href="#">Google+</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

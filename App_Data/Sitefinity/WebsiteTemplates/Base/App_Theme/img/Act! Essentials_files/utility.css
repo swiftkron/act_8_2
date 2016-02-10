@@ -1,0 +1,99 @@
+/* Utility */
+.utility{
+    z-index:999;
+    width:100%;
+    overflow:hidden;
+    padding:12px 0 32px;
+    color:#FE5000;
+}
+.utility a:link, .utility a:active, .utility a:visited{
+    color:#308dc6;
+}
+.utility a:hover{
+    color:#34566b;
+}
+.uToggle{
+    display:none;
+}
+.uBrand {
+    z-index:999;
+    background:url(../img/act.png) center left no-repeat;
+    background-size:60px 60px;
+    min-height:60px;
+    min-width:60px;
+	margin-left:12px;
+    cursor:pointer;
+}
+.uTrial {
+    position:relative;
+    left:90px;
+    margin-top: -65px;
+}
+.uTrial .btnSecondary{
+    border:#Fe5000 2px solid;
+}
+.uPhone {
+    position:relative;
+    left:250px;
+    margin-top: -44px;
+}
+.uPhone a{
+    color:#fe5000 !important;
+}
+.uIntl {
+    position:relative;
+    float:right;
+    right:84px;
+    margin-top:-20px;
+    cursor:pointer;
+}
+.uLogin{
+    position:relative;
+    float:right;
+    margin-top:-18px;
+}
+.uDropdown {
+    display:none;
+    position:fixed;
+    z-index:999;
+    list-style-type:none;
+    margin:3px 0 0 -12px;
+    padding:3px;
+    background:#FFF;
+	-webkit-border-radius: 2px;    
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+    box-shadow:#a5b7c2 0px 2px 3px;
+}
+.uDropdown > li {
+    font-size:.9em;
+    padding:6px;
+}
+.uDropdown > li:hover {
+    background:#dfe3e6;
+}
+.uDropdown.lang{
+	font-size:.7em;
+}
+@media(max-width:767px) {
+    .utility {
+        padding: 12px 0 12px;
+    }    
+    .uToggle{
+        display:block;
+        float:right;
+        right:36px;
+        padding-top:16px;
+        padding-right:12px;
+        font-size:32px;
+        cursor:pointer;
+    }
+    .uToggleElements{
+        display:none;
+    }
+    .uAlt {
+        display:none;
+        font-size:14px;
+        right:12px;
+    }
+}

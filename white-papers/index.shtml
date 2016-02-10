@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>White Papers | Act!</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+<link rel="stylesheet" href="/media/en-us/css/regionPopUp.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+
+
+ 
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2994']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li>Act! White Papers</li>
+              </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+               <h1>Act! White Papers</h1>
+<br />
+<a name="pagetop" id="pagetop"></a>
+<ul>
+     <li><a href="#tasks">Act! Smart Tasks</a> <strong><em>New!</em></strong></li>
+     <li><a href="#architecture">Act! Architecture</a> <em>Updated!</em></li>
+      <li><a href="#integration">Act! Integration and Deployment</a> <em>Updated!</em></li>
+       <li><a href="#security">Act! Security Model</a> <em>Updated!</em></li>
+        <li><a href="#sync">Act! Synchronization</a> <em>Updated!</em></li>
+        <li><a href="#email">How to Build Successful Email Marketing Campaigns </a><em>Updated!</em> </li>
+    <!-- <li><a href="#sac">Work at the Speed of Light: Act! Connect Puts your Contacts and Calendar in the Cloud.</a> <em>Updated!</em> </li> -->
+         <li><a href="#cheap">The Choice Between What&rsquo;s Cheap and What Works</a> <em>Updated!</em> </li>
+          <li><a href="#mobility">Aberdeen: Sales Mobility Deployment Practices to Help Better Seal the Deal</a> </li>
+    <li><a href="#contact">Aberdeen: The Choice Between Contact Management and Customer Relationship Management</a> </li>
+    <li><a href="#selling">The Automated Selling Machine</a> </li>
+    
+    <li><a href="#reporting">Act! Reporting and Data Access Methods</a></li>
+   
+    <li><a href="#terminal">Act! and Citrix Terminal Server Deployments</a></li>
+    <li><a href="#scalability">Act! Scalability Results</a></li>
+</ul>
+<br />
+<br />
+<p><a id="tasks" name="tasks"></a><b><a href="/media/en-us/docs/wp/Act_Smart_Tasks.pdf" target="_blank">Act! Smart Tasks</a> <em>New!</em></b> <br />
+<b>Audience: </b>Owners, Sales People,and Sales Managers<br />
+<b>Summary: </b>Smart Tasks are a series of common and connected steps, such as those in a workflow, that automatically perform key tasks or actions for contacts or opportunities. Smart Tasks are ideal for automating routine tasks. You can use Smart Tasks to create processes that help you work smarter and reduce the time spent on manual repetitive tasks. <span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+<p><a id="integration" name="integration"></a><b><a href="/media/en-us/docs/wp/Act_Architecture.pdf" target="_blank">Act! Architecture</a> <em>Updated!</em></b> <br />
+<b>Audience: </b>IT  Managers and System Administrators<br />
+<b>Summary: </b>Act! enables an organization to configure a contact and customer management solution based on the organization’s needs, whether users require online access, offline access, mobile access, or a combination of access types. This white paper describes the Act! architecture, which is founded on a feature-rich and customizable contact management platform, with a focus on scalability, reliability, and extensibility.  <span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+<p><a id="security" name="security"></a><b><a href="/media/en-us/docs/wp/Act_Integration_and_Deployment.pdf" target="_blank">Act! Integration and Deployment</a> <em>Updated!</em></b> <br />
+<b>Audience: </b>IT  Managers and System Administrators<br />
+<b>Summary: </b>Act! provides many integration points with the Microsoft® Office suite of products to leverage email, word processing, data sync capabilities and more. Act! also provides a connection to Google™ contacts, calendar, and email. In addition, you can use accounting integration capabilities to share information between Act! <a id="sync" name="sync"></a>and a supported accounting application. This white paper also explores various deployment scenarios based on the organization’s needs, and whether users require online, offline, or a combination of access methods. <span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+<p><b><a href="/media/en-us/docs/wp/Act_Security_Model.pdf" target="_blank">Act! Security Model</a> <em>Updated!</em></b> <br />
+<b>Audience: </b>Current and Potential Act! Customers<br />
+<b>Summary: </b>The Act! security model is designed to maximize flexibility and provide a variety of options for securing data. This whitepaper explains the Act! security model, including descriptions of the key features, capabilities, and concepts. <span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+<p><b><a href="/media/en-us/docs/wp/Act_Synchronization.pdf" target="_blank">Act! Synchronization</a> <em>Updated!</em></b> <br />
+<b>Audience: </b>IT Managers and System Administrators<br />
+<b>Summary: </b>The Act! synchronization architecture is designed for performance, scalability, and data integrity. This whitepaper is written for those who want a better understanding of Act! synchronization, including its features, abilities, and concepts.  <span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+
+<p><b><a id="email" name="email"></a><a href="/media/en-us/docs/wp/Swiftpage_Emarketing_Your_Guide_to_Email_Marketing.pdf" target="_blank">How to Build Successful Email Marketing Campaigns</a> <em>Updated!</em></b><br />
+<b>Audience: </b>Owners, Sales People, Sales Managers, and Marketing Professionals<br />
+<b>Summary: </b>This white paper provides you with a guide to email marketing so that you will ultimately increase your return on investment. After reading through this white paper, you should be well on your way to creating your first email marketing campaign.<span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+<!-- <p><b><a id="sac" name="sac"></a><a href="/media/en-us/docs/wp/Act_Connect_Work_at_the_Speed_of_Light.pdf" target="_blank">Work at the Speed of Light: Act! Connect Puts your Contacts and Calendar in the Cloud.</a> <em>Updated!</em></b><br />
+<b>Audience:</b> Owners, Sales People, and Sales Managers<br />
+<b>Summary: </b>This white paper provides you with an overview of industry trends in mobile devices, benefits of the leveraging the Cloud, and a day-in-the-life with Act! Connect.<span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p> -->
+<p><b><a id="cheap" name="cheap"></a><a href="/media/en-us/docs/wp/Act_Customer_Management_Whats_Cheap_vs_What_Works.pdf" target="_blank">The Choice Between What's Cheap and What Works</a> <em>Updated!</em> </b><br />
+<b>Audience:</b> Owners, Sales People, and Sales Managers<br />
+<b>Summary: </b>This white paper examines the benefits of free and paid contact management solutions for small-to-medium sized businesses. Organizations in need of a sales automation solution to manage account, contact, and company information will be advised on how to select a contact management tool that can satisfy short-term needs and meet long-term goals.<span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+<p><b><a id="mobility" name="mobility"></a><a href="/media/en-us/docs/wp/Aberdeen_Report_Sales_Mobility_Practices_to_Better_Seal_the_Deal.pdf" target="_blank">Aberdeen: Sales Mobility Deployment Practices to Help Better Seal the Deal</a></b><br />
+<b>Audience:</b> Owners, Sales People, and Sales Managers<br />
+<b>Summary: </b>This research brief analyzes in detail four key sales mobility trends adopted by the strongest-performing sales organizations within Aberdeen's research. Explore successful sales practices, including "smarter selling" techniques and accomplishments realized as a result of effective mobile deployment.  <span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+<p><b><a id="contact" name="contact"></a><a href="/media/en-us/docs/wp/Choice_Between_Contact_Management_or_CRM.pdf" target="_blank"><b>The Choice Between Contact Management and Customer Relationship Management</b></a> </b><br />
+<b>Audience:</b> Owners, Sales People, and Sales Managers<br />
+<b>Summary:</b> Authored by Aberdeen, this white paper helps readers to determine which solution best fits their business type, as well as the organizational capabilities necessary to ensure the successful adoption of a Contact Management or Customer Relationship Management solution.<span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+<p><a id="selling" name="selling"></a><a href="/media/en-us/docs/wp/The_Automated_Selling_Machine.pdf" target="_blank"><b>The Automated Selling Machine</b></a> <br />
+<b>Audience:</b> Owners, Sales People, Sales Managers, and Marketing Professionals<br />
+<b>Summary: </b>This white paper details the powerful, yet easy-to-use functionality in Act! that can help you turn your sales and marketing efforts into a consistent, systematic lead generation and selling machine.<span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+<p><b><a id="reporting" name="reporting"></a><a href="/media/en-us/docs/wp/Reporting_and_Data_Access_Methods.pdf" target="_blank"><b>Act! Reporting and Data Access Methods</b></a> </b><br />
+  <b>Audience:</b> IT Managers and System Administrators<br />
+  <b>Summary: </b>Act! provides its own report writer that offers a number
+of stock reports, envelopes, and labels which allow users to produce a variety of reports and correspondence. These items are based on templates which can be further modified or copied (from right within Act!) to create a customized and specific solution as
+needed. Additionally, Act! offers additional Data Access Methods outside of Act! to offer greater flexibility in creating reports, lists, or other documents to suit most any need. This includes data extraction to consolidated databases for rollup, as well
+as highly-customized reports using third-party software such as Crystal Reports&reg;. <span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+<p><a id="terminal" name="terminal"></a><a href="/media/en-us/docs/wp/Act_and_Citrix_and_Terminal_Server_Deployments.pdf" target="_blank"><b>Act! and Citrix Terminal Server Deployments</b></a> <br />
+  <b>Audience:</b> IT Managers and System Administrators<br />
+  <b>Summary:</b> This white paper explores the benefits of deploying Act! Premium through Terminal Services, outlines deployment requirements and recommendations, and provides installation and performance tips.<span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+<p><b><a id="scalability" name="scalability"></a><a href="/media/en-us/docs/wp/Act_Scalability_Results.pdf" target="_blank"><b>Act! Scalability Results</b></a> </b><br />
+<b>Audience:</b> IT Managers and System Administrators<br />
+<b>Summary: </b>This white paper includes performance and scalability test results, and hardware recommendations to deliver a cost effective and positive end-user experience. While each organization&rsquo;s needs differ, this white paper provides guidance to help an organization select a hardware configuration to optimize performance across a variety of deployment scenarios and user counts.<span style="font-size: 8pt;">[<a href="#pagetop">top</a>] </span></p>
+
+                 
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+              </div>
+               
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* Google Custom Search Engine for Support */
+			/* google overrides */
+			.gsc-control-cse{
+				padding:0 0 !important;
+			}
+			/* restore google defaults */
+			.gsc-search-box{
+			}
+			.gsc-input-box{
+				box-shadow:none !important;
+				padding-bottom:3px !important;
+			}
+			.gsc-search-box .gsc-input{
+				padding-right: 12px !important;
+			}
+			input.gsc-input {
+					font-size: 18px !important;
+					padding: 0 0 !important;
+					width: 99% !important;
+			}
+			.gsc-search-button-v2{
+				margin-top:6px !important;
+				padding:6px 12px !important;
+			}
+			
+			.searchUtility,
+			.searchUtility *,
+			.searchResults,
+			.searchResults *{
+				/*overflow:hidden;*/
+				-webkit-box-sizing: content-box;
+					 -moz-box-sizing: content-box;
+								box-sizing: content-box;
+			}
+			.searchUtility{
+				background:#dfe3e6;
+				padding:12px 24px;
+			}
+			.searchUtility input:focus{
+                box-shadow:none;
+			}
+
+			.gsc-selected-option-container {
+					color: #39464f;
+					cursor: default;
+					font-size: 11px;
+					font-weight: normal !important;
+					line-height: 27px;
+					text-align: center;
+			}
+			
+			.gsc-table-result, .gsc-thumbnail-inside, .gsc-url-top {
+    		padding-left: 0 !important;
+    		padding-right: 8px !important;
+			}
+			.gs-title{
+				font-size:18px !important;
+			}

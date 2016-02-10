@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Act! Marketplace - Project Management</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+
+<!-- SLIDER JS & CSS -->
+ <link href="css/CustomerSuccesses.css" rel="stylesheet" type="text/css" /> 
+ 
+<script type="text/javascript" src="/media/en-us/js/plugins.js"></script>
+
+<script type="text/javascript" src="/media/en-us/js/script.js"></script>  
+<script type="text/javascript" src="/media/en-us/js/modernizr253min.js"></script>
+
+<link rel="stylesheet" href="/media/en-us/css/sliders.css">
+
+<!-- .end SLIDER JS & CSS -->
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace/">Marketplace</a></li>
+                    <li>></li>
+                    <li>Project Management</li>
+                </ul>
+                
+                <div class="mainSingleColumn">
+                
+                  <!-- CONTENT -->
+                  <img id="mkt-banner-v16" src="/app-marketplace/img/act_mkt_logo.png" alt="Act! Marketplace" />
+                               
+                  <div class="mkt">
+                  <h1>Business Need: <strong>Project Management</strong></h1>
+
+<!-- ACTIVATOR! - 12 months of service -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/ACTIVATOR-by-Mastermind-12-months"><img src="/media/en-us/images/marketplace/ACTIVATOR12monthsofservice.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/ACTIVATOR-by-Mastermind-12-months">ACTIVATOR! - 12 months of service</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;3,488.00</p>
+                          <a class="btn-orange" href="/marketplace/ACTIVATOR-by-Mastermind-12-months"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>ACTIVATOR! adds marketing and sales process automation to Act!. Pre-defined sales action plans and document templates for your industry help you win more sales, make more money and become a greater hero to your customers.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Do it! Bill it! Do it! Bill it! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Do-it-Bill-it"><img src="/media/en-us/images/marketplace/doitbillit.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Do-it-Bill-it">Do it! Bill it! Do it! Bill it!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;239.00</p>
+                          <a class="btn-orange" href="/marketplace/Do-it-Bill-it"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Because tracking your time, should not waste your time. Now use Act! to track your hours and easily create invoices. Perfect for consultants, accountants, lawyers and other hourly professionals!</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- dpFolders -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Hogan-dpFolders"><img src="/marketplace/Hogan-dpFolders/img/boxshot.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Hogan-dpFolders">dpFolders</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;49.00</p>
+                          <a class="btn-orange" href="/marketplace/Hogan-dpFolders"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Manage your windows documents in Act!. Extra tab in Act! allows control of your documents your way. dpFolders automatically creates folder structure based on your needs.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- dpHistory -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Hogan-dpHistory"><img src="/marketplace/Hogan-dpHistory/img/boxshot.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Hogan-dpHistory">dpHistory</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;49.00</p>
+                          <a class="btn-orange" href="/marketplace/Hogan-dpHistory"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>dpHistory provides users with a better method of managing Act! activities and histories, and allowing access to all Act! data in all windows while dpHistory is launched.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Durkin Impact Suite v5 -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Durkin-Impact-Suite-v5"><img src="/media/en-us/images/marketplace/durkinimpactv5.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Durkin-Impact-Suite-v5">Durkin Impact Suite v5</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;249.99</p>
+                          <a class="btn-orange" href="/marketplace/Durkin-Impact-Suite-v5"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Impact Suite bring you power, flexibility and features not found in native ACT! Impact has 10 add-ons to fit your business needs. Purchased separately or together they make ACT! work for you!</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->                  
+                  
+<!-- Durkin Toolkit for Custom Tables -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Durkin-Toolkit-Designer"><img src="/media/en-us/images/marketplace/DurkinToolkitforCustomTables.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Durkin-Toolkit-Designer">Durkin Toolkit for Custom Tables</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;149.00</p>
+                          <a class="btn-orange" href="/marketplace/Durkin-Toolkit-Designer"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Use it to organize, catalog and track incoming and outgoing inventory items. You could use it to integrate project management using your existing contact database. You could create tables to track any type of data such as tickets or service calls.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Email2Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Email2Act"><img src="/marketplace/Email2Act/img/email2act_160x160.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Email2Act">Email2Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;89.00</p>
+                          <a class="btn-orange" href="/marketplace/Email2Act"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Email2Act! lets you attach Outlook email messages to Act! Contacts, Companies, Groups and Opportunities. You can also create Act! Contacts from email messages, and much more.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->                  
+                  
+<!-- Info Optics 50-User License -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Info-Optics-50-User"><img src="/media/en-us/images/marketplace/InfoOptics50UserLicense.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Info-Optics-50-User">Info Optics 50-User License</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;7,500.00</p>
+                          <a class="btn-orange" href="/marketplace/Info-Optics-50-User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Synchronize Act! with any database! Integrate your Act! database with your order entry, e-commerce, loan processing, and accounting systems. Licensed for up to 50 users.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Info Optics 5-User License -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Info-Optics-5-User"><img src="/media/en-us/images/marketplace/InfoOptics5UserLicense.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Info-Optics-5-User">Info Optics 5-User License</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;1,245.00</p>
+                          <a class="btn-orange" href="/marketplace/Info-Optics-5-User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Synchronize Act! with any database! Integrate your Act! database with your order entry, e-commerce, loan processing, and accounting systems. Licensed for up to 5 users.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Info Optics for Sage ACT! 2013 (50-User License) -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Info-Optics-for-Sage-ACT-2013-50-User"><img src="/media/en-us/images/marketplace/InfoOpticsforSageACT201350UserLicense.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Info-Optics-for-Sage-ACT-2013-50-User">Info Optics for Sage ACT! 2013 (50-User License)</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;7,500.00</p>
+                          <a class="btn-orange" href="/marketplace/Info-Optics-for-Sage-ACT-2013-50-User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Synchronize Act! with any database! Integrate your Act! database with your order entry, e-commerce, loan processing, and accounting systems. Licensed for up to 50 users.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Info Optics for Sage ACT! 2013 (5-User License) -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Info-Optics-for-Sage-ACT-2013-5-User"><img src="/media/en-us/images/marketplace/InfoOpticsforSageACT20135UserLicense.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Info-Optics-for-Sage-ACT-2013-5-User">Info Optics for Sage ACT! 2013 (5-User License)</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;1,245.00</p>
+                          <a class="btn-orange" href="/marketplace/Info-Optics-for-Sage-ACT-2013-5-User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Synchronize Act! with any database! Integrate your Act! database with your order entry, e-commerce, loan processing, and accounting systems. Licensed for up to 5 users.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- IOC Campaign - 5 Licenses -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/IOC-Campaign-5-Licenses-for-Sage-ACT"><img src="/media/en-us/images/marketplace/IOCCampaign5Licenses.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/IOC-Campaign-5-Licenses-for-Sage-ACT">IOC Campaign - 5 Licenses</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;1,245.00</p>
+                          <a class="btn-orange" href="/marketplace/IOC-Campaign-5-Licenses-for-Sage-ACT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>IOC Campaign follows up with your customers, prospects, and sales team via email, letter, fax, and Act! activities. Five licenses.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- IOC Campaign - 50 Licenses IOC Campaign - 50 Licenses -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/IOC-Campaign-50-Licenses-for-Sage-ACT"><img src="/media/en-us/images/marketplace/IOCCampaign50Licenses.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/IOC-Campaign-50-Licenses-for-Sage-ACT">IOC Campaign - 50 Licenses</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;7,500.00</p>
+                          <a class="btn-orange" href="/marketplace/IOC-Campaign-50-Licenses-for-Sage-ACT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>IOC Campaign follows up with your customers, prospects, and sales team via email, letter, fax, and Act! activities. Fifty licenses.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- TableIT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/TableIT"><img src="/media/en-us/images/marketplace/TableIT.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/TableIT">TableIT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;208.50</p>
+                          <a class="btn-orange" href="/marketplace/TableIT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Table IT is a robust, multidimensional software add-on that lets you build custom tables and define relationships between Contacts, Companies and Groups in Act!</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- TopLine Designer -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/TopLine-Designer"><img src="/media/en-us/images/marketplace/TopLine-Designer.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/TopLine-Designer">TopLine Designer</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;99.99</p>
+                          <a class="btn-orange" href="/marketplace/TopLine-Designer"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>TopLine Designer is the architect which will help you create, design and employ custom tables in Act! 2008 v.10.0.2 or higher. This navigation and design tool provides flexible, robust database solutions for Act! custom tables.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+                  </div>
+                  <!-- .end CONTENT -->
+
+                        <div class="social clear">
+                        <h3>Connect with Act!</h3>
+                        	<ul>
+                            	<li><a class="facebook" href="#">Facebook</a></li>
+                                <li><a class="twitter" href="#">Twitter</a></li>
+                                <li><a class="linkedin" href="#">LinkedIn</a></li>
+                                <li><a class="you-tube" href="#">YouTube</a></li>
+                                <li><a class="google" href="#">Google+</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* DISCLAIMER */
+
+section[role="disclaimer"]{
+	background:#e1dcd2;
+	padding:2em 5%;
+	color:#444;
+}
+section[role="disclaimer"] h2{
+	font-family:'HelveticaNeueW01-Thin', helvetica, arial, sans serif;
+	font-size:42px;
+	text-align:center;
+	margin-bottom:1em;
+}
+section[role="disclaimer"] h2 span{
+	color:#fe5000;
+}
+
+section[role="disclaimer"] p{
+	font-size:.9em;
+	max-width:1080px;
+	margin:0 auto 1em;
+}
+#productsDisclaimer{
+	background:#eee;
+}

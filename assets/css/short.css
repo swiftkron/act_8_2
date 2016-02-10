@@ -1,0 +1,49 @@
+/* ALTERNATE PRODUCT DISPLAY */
+section[role="short"]{
+	padding:1em 0;
+	background:#444;
+	color:#FFF;
+}
+section[role="short"] .shortWrapper{
+	max-width:1280px;
+	margin:0 auto;
+	padding:2em 5%;
+}
+section[role="short"] h1{
+	font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+	font-size:3em;
+	color:#00dedc;
+	margin-bottom:.25em;
+}
+section[role="short"] p{
+	font-size:1.2em;
+	line-height:1.5em;
+}
+section[role="short"] img.short-ftr-img{
+	float:right;
+	margin-left:30px;
+	max-height:200px;
+}
+
+section[role="short"] button{
+	display:block;
+	margin:24px auto;
+	color:#00dedc;
+	background:#444;
+	padding:6px 36px 9px;
+	border:#00dedc 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+	font-size:1.1em;
+	cursor:pointer;
+}
+section[role="short"] button:hover{
+	color:#FFF;
+	-webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}

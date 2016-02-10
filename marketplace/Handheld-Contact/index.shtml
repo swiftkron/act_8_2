@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Handheld Contact</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+  
+ 
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace">Marketplace</a></li>
+                    <li>></li>
+                    <li>Handheld Contact</li>
+              </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+                  <div class="product-bubble left">
+                  	<img src="/media/en-us/images/marketplace/HandheldContactPocketPC.png" />
+                    <div class="price">
+                      <div style="float:left;max-width:90px; margin-right:12px;">
+                        <p>New</p>
+                        <p class="price-details"><strong>&#36;79.00/yr</strong></p>
+                      </div>
+                      <div class="clear"></div>
+                      <a class="btn-orange" href="http://store.act.com/app/site/backend/additemtocart.nl?c=3669565&buyid=multi&multi=629,1"><strong class="buynow">Buy Now</strong></a>
+                      <p style="font-size:11px; max-width:150px; margin-top:24px;">This estore is for U.S. and Canada only. All prices are in U.S. dollars.</p>
+                    </div>
+                  </div>
+                  <div class="product-description left">
+                    <h1>Handheld Contact</h1>
+                    
+					<p>Handheld Contact&trade; for Act! makes it simple to go mobile with the power to wirelessly access and manage your Act! Contacts, Calendar, Activites, and more right on your mobile device - even if you have no Internet connection.
+</p><p>Easy to setup, easy to use, and easy to manage users - Handheld Contact&trade; gives you access to the Act! features that matter. </p>
+
+					<ul><li>
+					  Freedom  of wireless  syncing - if there is no Internet connection, your device will update the next  time it connects.
+                     <li> Track every interaction - whenever  you call, email, or text message a contact, Handheld Contact&trade; automatically  creates an Act! history record for you and asks for details.
+                     <li> Never miss a meeting - your  smartphone or tablet will alert you of all your scheduled Act! Alarms.
+                   <li>  Top-notch collaboration on the go -  Handheld Contact&trade; automatically keeps all Act!  computers or laptops and all Handheld Contact&trade; powered mobile devices up-to-date  with the latest details. 
+</ul></p>
+				   
+					<p><b>Service Includes</b></p>
+					<ul>
+					  <li>One  year of Handheld Contact&trade; sync service </li>
+					  <li>Software  upgrades</li>
+					  <li><a href="http://support.handheldcontact.com/Tickets/Submit" target="_blank">Email  support</a></li>
+					  <li><a href="http://support.handheldcontact.com/Knowledgebase/List" target="_blank">Access  to Knowledge Base</a></li>
+				    </ul></p>
+					<p><b><a href="http://support.handheldcontact.com/Knowledgebase/Article/View/45/6/handheld-contact-requirements" target="_blank">System  Requirements</a></b> </p>
+          					
+                  </div>
+                                                       
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                <div class="mainSidebar">
+                    <div class="side-block sidenav">
+                    <h3><a href="/marketplace">Marketplace</a></h3>
+                    	<ul>
+                        <li><a href="/marketplace">By Business Need</a></li>
+                      </ul>
+                    </div>
+                    <div class="sideblock">
+                      <img src="/media/en-us/images/marketplace/compatilibility_2013_v16.jpg" />
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

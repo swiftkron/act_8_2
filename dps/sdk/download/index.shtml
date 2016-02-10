@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Partners | Download the SDK</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style>
+ 
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2994']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/partners/">Partners</a></li>
+                    <li>></li>
+                    <li><a href="/partners/development-partner-program/">Development Partner Program</a></li>
+                    <li>></li>
+                    <li><a href="/partners/development-partner-program/sdk">Get the SDK</a></li>
+                    <li>></li>
+                    <li>Download</li>
+              </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+     
+		
+		<h1>Download the SDK</h1>
+<br />
+<p>Thank you for your interest in the Act! Add-on Partner Program. You may download the following resources: </p>
+<ul>
+    <li><a href="/dps/sdk/v18-eula">Act! v18 SDK</a>&nbsp; </li>
+    <li><a href="/dps/sdk/v17-eula">Act! v17 SDK</a>&nbsp; </li>
+<li><a href="/dps/sdk/v16-eula">Get the Act! v16 SDK</a>&nbsp; </li>
+<li><a href="/dps/sdk/2013-eula">Get the Sage ACT! 2013 SDK</a>&nbsp; </li>
+    <li><a href="/dps/sdk/2012-eula">Get the Sage ACT! 2012 SDK</a>&nbsp; </li>
+    <li><a href="/dps/sdk/2011-eula">Get the Sage ACT! 2011 SDK</a>&nbsp; </li>
+    <li><a href="/dps/sdk/2010-eula">Get the ACT! 2010 SDK</a>&nbsp; </li>
+    <li><a href="/dps/sdk/2009-eula">Get the ACT! 2009 (11.1) SDK</a>&nbsp;</li>
+    <li><a href="/dps/sdk/2008-eula">Get the ACT! 2008 (10.0) SDK</a>&nbsp;&nbsp; </li>
+    <li><a href="/dps/sdk/2007-eula">Get the ACT! 2007 (9.0.X) SDK</a>&nbsp;</li>
+    <li><a href="/dps/sdk/2007-web-eula">Get the ACT! Premium for Web 2007 (9.0.X) SDK</a>&nbsp;</li>
+    <li><a href="/dps/sdk/2006">Get the ACT! 2006 (8.0.X) SDK</a>&nbsp;</li>
+    <li><a href="/dps/sdk/2005-eula">Get the ACT! 2005 (7.0.X) SDK</a></li>
+</ul>
+
+
+<!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                <div class="mainSidebar">
+                    
+                    <!--#include virtual="/media/en-us/includes/partnersnavInclude.html" -->
+                    </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

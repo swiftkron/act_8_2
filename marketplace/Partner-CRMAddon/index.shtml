@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Act! Marketplace - CRM Addon&trade;</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+
+
+<!-- SLIDER JS & CSS -->
+ <link href="css/CustomerSuccesses.css" rel="stylesheet" type="text/css" /> 
+ 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="/media/en-us/js/plugins.js"></script>
+
+<script type="text/javascript" src="/media/en-us/js/script.js"></script>  
+<script type="text/javascript" src="/media/en-us/js/modernizr253min.js"></script>
+
+<link rel="stylesheet" href="/media/en-us/css/sliders.css">
+
+<!-- .end SLIDER JS & CSS -->
+
+ 
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2994']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace/">Marketplace</a></li>
+                    <li>></li>
+                    <li>CRM Addon&trade;</li>
+                </ul>
+                
+                <div class="mainSingleColumn">
+                
+                  <!-- CONTENT -->
+                  <img id="mkt-banner" src="/media/en-us/images/marketplace/marketplace-banner-wide02NEW.jpg" alt="Act! Marketplace" />
+                               
+                  <div class="mkt">
+                  <h1>Business Need: <strong>Data Management, Utilities, Mobile Devices, Telephony, Import/Export, Document Management, Queries/Quotes/Reports, Sales Management, Project Management</strong></h1>
+                  
+<!-- Bulk Change IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Bulk Change IT"><img src="/media/en-us/images/marketplace/BulkChangeIT.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Bulk Change IT">Bulk Change IT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;57.87</p>
+                          <a class="btn-orange" href="/marketplace/Bulk-Change-IT/"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Bulk Change IT for Act!, allows you to edit Opportunity fields across multiple entries in one easy process. With Bulk Change IT, you can save time, increase report accuracy, and avoid the hassle of updating Opportunity fields one entry at a time.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Dial IT – TAPI -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Dial-IT-TAPI"><img src="/media/en-us/images/marketplace/DialITTAPI.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Dial-IT-TAPI">Dial IT – TAPI</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;206.27</p>
+                          <a class="btn-orange" href="/marketplace/Dial-IT-TAPI"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Identify incoming calls and display a pop-up window with the contact's record. Maintain your database with Scheduled Call Lists and automatic Activity clearing. Create activities for unanswered incoming calls with the option to send it directly to your PDA if you have wireless synchronization.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Dial IT Pro (Call Center) -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Dial-IT-Pro"><img src="/media/en-us/images/marketplace/DialITProCallCenter.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Dial-IT-Pro">Dial IT Pro (Call Center)</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;285.95</p>
+                          <a class="btn-orange" href="/marketplace/Dial-IT-Pro"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Dial IT is a highly efficient addon for Act! that manages your communication process with business partners. It allows to manage your work by a mouse click. All necessary tabs and icons are in one screen.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Dial IT Skype for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Dial-IT-Skype-for-Sage-ACT"><img src="/media/en-us/images/marketplace/DialITSkypeforSageACT.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Dial-IT-Skype-for-Sage-ACT">Dial IT Skype for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;74.05</p>
+                          <a class="btn-orange" href="/marketplace/Dial-IT-Skype-for-Sage-ACT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>With Dial IT Skype for Act! you can dial and answer calls, update contact information, add new contacts, create history, and schedule activities for incoming and outgoing calls.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Export IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Export IT"><img src="/media/en-us/images/marketplace/ExportIT.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Export IT">Export IT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;295.31</p>
+                          <a class="btn-orange" href="/marketplace/Export IT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Export IT for Act! is an efficient time saver that improves upon Act!'s built-in exporting utility. Export IT allows you to export all data from Act! to an Excel spreadsheet.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Fetch IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Fetch IT"><img src="/media/en-us/images/marketplace/FetchIT_lg.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Fetch IT">Fetch IT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;748.50</p>
+                          <a class="btn-orange" href="/marketplace/Fetch IT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>FetchIT allows you to download data from system generated e-mails automatically and insert them into your Act! database.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Group IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Group IT"><img src="/media/en-us/images/marketplace/Group-IT.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Group IT">Group IT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;43.03</p>
+                          <a class="btn-orange" href="/marketplace/Group IT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Group IT makes managing and searching groups in Act! easier than ever. Using Group IT, you can search multiple groups and companies within your Act! database to find contacts quickly, efficiently, and without duplication.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Import IT Advanced -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/it-Import-Net-1-Database"><img src="/media/en-us/images/marketplace/ImportITAdvanced.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/it-Import-Net-1-Database">Import IT Advanced</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;485.26</p>
+                          <a class="btn-orange" href="/marketplace/it-Import-Net-1-Database"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>To prevent you from entering your data manually into your database, we have developed an add-on which allows you to easily import this data.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Import IT Basic -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/import-it-basic"><img src="/media/en-us/images/marketplace/ImportITBasic.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/import-it-basic">Import IT Basic</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;221.11</p>
+                          <a class="btn-orange" href="/marketplace/import-it-basic"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>To prevent you from entering your data manually into your database, we have developed an add-on which allows you to easily import this data.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Import IT Pro/Unlimited -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/it-Import-Net-Unlimited-Databases"><img src="/media/en-us/images/marketplace/ImportITProUnlimited.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/it-Import-Net-Unlimited-Databases">Import IT Pro/Unlimited</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;838.44</p>
+                          <a class="btn-orange" href="/marketplace/it-Import-Net-Unlimited-Databases"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>To prevent you from entering your data manually into your database, we have developed an add-on which allows you to easily import this data.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Import IT Pro/USB -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/import-it-pro-usb"><img src="/media/en-us/images/marketplace/ImportITProUSB.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/import-it-pro-usb">Import IT Pro/USB</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;1,150.00</p>
+                          <a class="btn-orange" href="/marketplace/import-it-pro-usb"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>To prevent you from entering your data manually into your database, we have developed an add-on which allows you to easily import this data.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Import IT Standard -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/import-it-standard"><img src="/media/en-us/images/marketplace/ImportITStandard.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/import-it-standard">Import IT Standard</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;443.70</p>
+                          <a class="btn-orange" href="/marketplace/import-it-standard"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>To prevent you from entering your data manually into your database, we have developed an add-on which allows you to easily import this data.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- Outreach 1 User -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Outreach 1 User"><img src="/media/en-us/images/marketplace/Outreach1User.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Outreach 1 User">Outreach 1 User</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;384.32</p>
+                          <a class="btn-orange" href="/marketplace/Outreach 1 User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Outreach provides bulk mailings for HR, Headhunters and anyone wishing to send multiple documents from multiple candidates to several recipients.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Scan IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Scan IT"><img src="/media/en-us/images/marketplace/ScanIT.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Scan IT">Scan IT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;206.27</p>
+                          <a class="btn-orange" href="/marketplace/Scan IT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Are you searching for a simple way to enter important business card information into Act!? Scan It for Act! lets you enter business card information directly into Act! using a CardScan business card scanner. Feature-rich and fully integrated with your Act! software, Scan It is the easiest, most accurate way to enter your business cards into Act! without manual data entry.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Search IT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Search-IT"><img src="/media/en-us/images/marketplace/SearchIT.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Search-IT">Search IT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;43.03</p>
+                          <a class="btn-orange" href="/marketplace/Search-IT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Do you want to search for specific text in multiple fields, but not all fields? Do you want to be able to save and modify the search? CRM Add On Factory’s Search It for Act! gets you the information you want without the wait.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- ServiceIT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/ServiceIT"><img src="/media/en-us/images/marketplace/ServiceIT_lg.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/ServiceIT">ServiceIT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;298.50</p>
+                          <a class="btn-orange" href="/marketplace/ServiceIT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>ServiceIT is an executable module that performs specific functions without requiring a Windows login.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+<!-- TableIT -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/TableIT"><img src="/media/en-us/images/marketplace/TableIT.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/TableIT">TableIT</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;208.50</p>
+                          <a class="btn-orange" href="/marketplace/TableIT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Table IT is a robust, multidimensional software add-on that lets you build custom tables and define relationships between Contacts, Companies and Groups in Act!</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+                  </div>
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                
+                
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

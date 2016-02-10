@@ -1,0 +1,18 @@
+/* CSS Document */
+
+<style type="text/css">
+
+	.header { font-family: Arial; font-size: 12px; font weight: bold; color: #000000; }
+	.subheader { font-family: Tahoma; font-size: 10pt; font-weight: bold; color: #000000; margin-bottom: -10px;}
+	.subheader2 { font-family: Tahoma; font-size: 10pt; font-weight: bold; color: #000000; margin-bottom: -10px; margin-top: -3px;}
+	.items { font-family: Tahoma; font-size: 9pt; font weight: bold; color: #626469; line-height:16px; padding-left:21px; padding-bottom:5px;}
+	.items a:link { color: #626469; text-decoration:none; }
+	.items a:visited { color: #626469; text-decoration:none; }
+	.items a:hover { color: #626469; text-decoration: underline; }
+	
+.style1 {
+	color: #FF0000;
+	font-style: italic;
+}
+.style2 {color: #FF0000}
+</style>

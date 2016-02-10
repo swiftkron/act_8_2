@@ -1,0 +1,17 @@
+/* BUTTONS */
+
+.try{
+	background:#00aab4;
+}
+.try:hover{
+	background:#006a8e;
+}
+.buy{
+	background:#fe5000;
+}
+.buy:hover{
+	background:#d94400;
+}
+.buttons{
+	margin-top:5%;
+}

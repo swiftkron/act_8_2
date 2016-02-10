@@ -1,0 +1,47 @@
+.heroBanner{
+	background-size:cover;
+	margin-top:-80px;
+}
+.heroBannerInner{
+	max-width:1170px;
+	margin:24px auto 0;
+	padding:24px 24px;
+}
+.heroBanner h1, .heroBanner p{
+	color:#FFF;
+}
+.heroBanner h2{
+	color:#B1CADC;
+}
+.heroInnerCta{
+	background:#EDF0F2;
+	margin:24px 0;
+}
+
+.heroInnerCta p{
+	color:#526774;
+}
+.heroInnerCta a, .heroInnerCta strong{
+	color:#FE5000;
+}
+@media(min-width:768px){
+.heroBanner{
+	text-align:left;
+}	
+}
+@media(min-width:1515px){
+.heroBanner{
+	min-height:300px;
+	text-align:left;
+}
+.heroBannerInner{
+	margin:36px auto 0;
+	padding:48px 0;
+}
+.heroBanner h1{
+	font-size:72px;
+}
+.heroBanner p{
+	font-size:24px;
+}
+}

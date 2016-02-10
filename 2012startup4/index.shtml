@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="/media/en-us/css/welcomepage_startup4.css">
+
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+-->
+</style>
+<table width="570" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td class="style8" style="padding-left: 13px; font-family: tahoma; font-size: 10pt;">
+            <a href="http://act.com/products/whats-new" target="_blank"><img src="img/v18_banner_welcome.png" border="0"></a>
+           
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+        </tr>
+        <tr>
+           <td valign="top">
+            <p class="subheader2">Self-service resources</p>
+            <p class="items"> 
+            <a href="http://kb.swiftpage.com/" target="_blank">Act! Knowledgebase</a>: Search the extensive Act! knowledgebase to find answers to <a href="http://kb.swiftpage.com/" target="_blank">frequently asked questions</a>, details on what's new in Act!, and documentation to assist you in using your Act! product.<br />
+            <a href="http://community.act.com/" target="_blank">Act! Community</a>: Connect with other Act! users in the Act! Community, get answers to your questions, and learn how to make the most of Act! from a community of over 50,000 Act! fanatics!</p>
+          </td>
+        </tr>
+    </tbody>
+</table>

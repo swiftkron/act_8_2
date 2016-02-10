@@ -1,0 +1,45 @@
+		/* hero + form */
+		.hero{overflow:hidden;margin:80px 0 0;padding:0;color:#EFF1F3;}
+		.heroInner{margin:0;padding:0;}
+		.hero h1{color:#FFF;font-size:38px;margin-bottom:12px;}
+		.heroText{padding:24px 48px 48px;}
+		.heroForm, .heroSide{padding:24px 48px 48px;margin:0;}
+		.heroForm h2, .heroSide h2{margin-bottom:24px;}
+		.heroTextInner button{font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;border:none;color:#FFF;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;margin:24px 0 0 0;padding:18px 24px;font-size:18px;letter-spacing:.035em;}
+		.heroTextInner button:hover{}/* INLINE 10% darker than pallete */
+		@media(min-width:768px){
+			.hero h1{font-size:44px;}
+			.hero p{font-size:24px;line-height:1.1em;}
+			.heroText{float:left; max-width:63%; padding:2% 2%;}
+			.heroForm, .heroSide{min-height:448px;width:37%;padding:2%;float:right;}
+			.heroTextInner, .heroFormInner, .heroSideInner{width:55%;margin:0 auto;}
+		}
+		@media(min-width:1170px){
+			.hero h1{font-size:44px;}
+		}
+		@media(min-width:1280px){
+			.hero h1{font-size:54px;}
+		}
+		form{}
+		.heroForm input, .heroForm button, .heroForm select{font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;width:100%;padding:9px 18px;font-size:16px;letter-spacing:.035em;}
+		.heroForm input[type=text], .heroForm input[type=email], .heroForm input[type=tel], .heroForm select{display:block;margin-bottom:18px;color:#2A353D;border:#C0C8CE 1px solid;}
+		.heroForm input[type=submit], .heroForm button{font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;border:none;color:#FFF;padding:18px 18px;font-size:18px;}
+		.heroForm input[type=submit]:hover, .heroForm button:hover{}/* INLINE 10% darker than pallete */
+		 .heroForm button{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+    /* columns */
+		.colWrap{clear:both;overflow:hidden;max-width:1170px;margin:25px auto;text-align:center;color:#546C7A;}
+		.colWrap div{padding:3%;}
+		.colWrap h3{color:#2A353D;}
+		.colWrap a:link, .colWrap a:active, .colWrap a:visited{color:#33A1AF;text-decoration:underline;}
+		.colWrap a:hover{color:#2A353D;text-decoration:none;}
+		@media(min-width:768px){
+		.colWrap{margin:75px auto;}
+		.colWrap div{padding:0 3%;}
+		}
+		.glyphicon-play{font-size:1.5em;margin-bottom:12px;}
+		.btnCenter{display:inline-block;margin:0 auto;}
+		@media(min-width:768px){
+		.glyphicon-play{display:inline-block;float:left;margin-right:12px;margin-bottom:0;}
+		.btnText{display:block;float:left;padding-top:3px;}
+		}
+		.sup{font-size:24px;}

@@ -1,0 +1,277 @@
+----------------------------------------
+Timestamp: 2/8/2016 6:14:58 PM
+
+Message: Upgrading Sitefinity from build version 5700 to 5911.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:13 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:13 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:13 PM
+
+Message: Adding an index(indices) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:14 PM
+
+Message: -- add column for field ControlData.personalizationSegmentId
+ALTER TABLE [sf_object_data] ADD [personalization_segment_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:14 PM
+
+Message: -- add column for field ControlData.isPersonalized
+ALTER TABLE [sf_object_data] ADD [is_personalized] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:14 PM
+
+Message: -- add column for field ControlData.ControlData_personalizedControls
+ALTER TABLE [sf_object_data] ADD [personalization_master_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:14 PM
+
+Message: -- Index 'idx_sf_od_pers_master_id' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_od_pers_master_id] ON [sf_object_data]([personalization_master_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:18 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:18 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:19 PM
+
+Message: -- add column for field metadata
+ALTER TABLE [sf_version_chnges] ADD [metadata] varchar(4000) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:19 PM
+
+Message: -- add column for field isSyncedItem
+ALTER TABLE [sf_vesion_items] ADD [synced] tinyint NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:19 PM
+
+Message: UPDATE [sf_vesion_items] SET [synced] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:19 PM
+
+Message: ALTER TABLE [sf_vesion_items] ALTER COLUMN [synced] tinyint NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:24 PM
+
+Message: PASSED : SiteInitializer : Upgrade to 5703 (Updates the notification list for all workflows in order to configure notifications for all users in the administrator role.)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:24 PM
+
+Message: PASSED : SiteInitializer : Upgrade to 5800 (method: UpgradeDecimalCustomFields)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:25 PM
+
+Message: PASSED : SiteInitializer : Upgrade to 5800 (method: RegisterChangeQuestionAndAnswerTemplate)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:25 PM
+
+Message: PASSED : SiteInitializer : Upgrade to 5800 (method: UpgradePresentationData)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:46 PM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:46 PM
+
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:15:47 PM
+
+Message: -- Column was read from database as: [password_question] varchar(255) null
+-- modify column for field passwordQuestion
+ALTER TABLE [sf_users] ALTER COLUMN [password_question] NVARCHAR(500) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:16:04 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:16:04 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:16:05 PM
+
+Message: -- add column for field subscriptionListId
+ALTER TABLE [sf_scheduled_tasks] ADD [subscr_lst_id] uniqueidentifier NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:16:26 PM
+
+Message: PASSED : Changing the AzureBlobStorageProvider namespace and assembly.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:16:26 PM
+
+Message: PASSED : LibrariesModule : Upgrade to 5900 (AzureBlobStorageProvider is now extracted in a separate Git project. The new assembly is Telerik.Sitefinity.Azure and the new namespace is Telerik.Sitefinity.Azure.BlobStorage.)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:16:38 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:16:38 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:16:39 PM
+
+Message: -- add column for field <Framework>k__BackingField
+ALTER TABLE [sf_form_description] ADD [frmwrk] int NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:16:39 PM
+
+Message: UPDATE [sf_form_description] SET [frmwrk] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:16:39 PM
+
+Message: ALTER TABLE [sf_form_description] ALTER COLUMN [frmwrk] int NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:17:47 PM
+
+Message: PASSED : ModuleBuilderModule : Upgrade to 5900 (Upgrades the DynamicModuleConfig file to change the value of the 'allowMultiple' taxonomy field to true. This field was not taken into account until now.)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:17:56 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:17:56 PM
+
+Message: Adding an index(indices) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:17:57 PM
+
+Message: -- Index 'idx_sf_rdsgn_md_qry_rl_prnt_md' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_rdsgn_md_qry_rl_prnt_md] ON [sf_rdsgn_media_query_rule]([parent_media_query_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:18:33 PM
+
+Message: PASSED : DataIntelligenceConnectorModule : Upgrade to 5900 (Upgrades the server handlers and adds a handler to track personalized widgets rendering)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:18:52 PM
+
+Message: PASSED : Telerik.Sitefinity.Services.Notifications.Data.OpenAccessNotificationsProvider : Upgrade to 5800 - Removing unused subscriptions. Count: 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 6:18:52 PM
+
+Message: PASSED : Telerik.Sitefinity.Services.Notifications.Data.OpenAccessNotificationsProvider : Upgrade to 5800 - Removing unused subscription lists. Count: 0
+
+
+----------------------------------------

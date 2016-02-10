@@ -1,0 +1,51 @@
+/* LOGOS */
+
+section[role="logos"]{
+	background:#f7f6f6;
+	padding:2.5em 0;
+}
+
+section[role="logos"] .carousel{
+position:relative;
+}
+.logo-carousel-inner{
+position:relative;
+overflow:hidden;
+max-width:960px;
+margin:0 auto;
+}
+.logo-carousel-inner>.item{
+display:none;
+position:relative;
+-webkit-transition:.6s ease-in-out left;
+transition:.6s ease-in-out left
+}
+.logo-carousel-inner>.item>img,.logo-carousel-inner>.item>a>img{
+line-height:1
+}
+.logo-carousel-inner>.active,.logo-carousel-inner>.next,.logo-carousel-inner>.prev{
+display:block
+}
+.logo-carousel-inner>.active{
+left:0
+}
+.logo-carousel-inner>.next,.logo-carousel-inner>.prev{
+position:absolute;
+top:0;
+width:100%
+}
+.logo-carousel-inner>.next{
+left:100%
+}
+.logo-carousel-inner>.prev{
+left:-100%
+}
+.logo-carousel-inner>.next.left,.logo-carousel-inner>.prev.right{
+left:0
+}
+.logo-carousel-inner>.active.left{
+left:-100%
+}
+.logo-carousel-inner>.active.right{
+left:100%
+}

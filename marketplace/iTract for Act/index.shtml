@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>iTract for Act!</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+ 
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace">Marketplace</a></li>
+                    <li>></li>
+                    <li>iTract for Act!</li>
+                </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+                  <div class="product-bubble left">
+                  	<img src="/media/en-us/images/marketplace/iTract.png" />
+                    <div class="price">
+                      <p>New</p>
+                      <p class="price-details"><strong>&#36;69.99</strong></p> 
+                      <a class="btn-orange" href="javascript:alert('Need Link')"><strong class="buynow">Buy Now</strong></a>
+<p style="font-size:11px; max-width:150px; margin-top:24px;">This estore is for U.S. and Canada only. All prices are in U.S. dollars.</p>
+                    </div>
+                  </div>
+                  <div class="product-description left">
+                    <h1>iTract for Act!</h1>
+                    
+										<p>TrAct for ACT! is the Ultimate Act! Experience on the iPad &amp; iPhone. Download iTract for ACT! to your iPad &amp; iPhone and you can INSTANTLY play with it, as it features the ACT! Demo Database.</p>
+                    <p><strong>iTract for ACT!  App Features</strong></p>
+                    <ul>
+                      <li>No Monthly Fees</li>
+                      <li>Sync your ACT! Data to your iPad &amp; iPhone, you can use iTract for ACT! when you’re not connected to network</li>
+                      <li>Email Contact, records to history</li>
+                      <li>Contact: Add, Edit, Delete</li>
+                      <li>Activities: Add, Edit, Clear</li>
+                      <li>Notes: Add, Edit, Delete</li>
+                      <li>Histories: Add, Edit, Delete</li>
+                      <li>Supports 50 Custom Fields</li>
+                      <li>Multiple ACT! Database*</li>
+                      <li>ACT! Data is in iTract app, does not require the device iCal or Address Book apps.</li>
+                      <li>Network sync, No Cables require.</li>
+                      <li>No Messy Sync Through software (Outlook, Google, etc)</li>
+                      <li>Advanced Lookups*</li>
+                      <li>Contact Simple Search</li>
+                      <li>Easy List Filtering*</li>
+                      <li>Column Sorting</li>
+                      <li>New Record Defaults &amp; Preferences</li>
+                      <li>Activity Alarms</li>
+                      <li>Schedule Activities with Contact</li>
+                      <li>Schedule Activities for Other Users</li>
+                      <li>View Other Users Calendars</li>
+                    </ul>
+                    
+                    <p>*No Other ACT! iPad &amp; iPhone Solution offers this feature</p>
+                    
+                    <p><strong>System Requirements</strong></p>
+                    <ul>
+                    	<li>iOS 5.1 or above</li>
+                      <li>Minimum System Requirements for iTract Sync Service</li>
+                      <li>Windows® XP SP3 (32-bit only), Windows Server® 2003 SP2 (32-bit and 64-bit)</li>
+                      <li>Windows Vista® SP2 (32-bit and 64-bit), Windows Server 2008 SP2 (32-bit and 64-bit)</li>
+                      <li>Windows 7 SP2 Professional, Enterprise, and Ultimate (32-bit and 64-bit)</li>
+                      <li>Act! Pro 2010 – Act! Premium 2010 or above</li>
+                      <li>iTract Sync Service License</li>
+                    </ul>
+                  
+                  </div>
+                                                       
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                <div class="mainSidebar">
+                    <div class="side-block sidenav">
+                    <h3><a href="/marketplace">Marketplace</a></h3>
+                    	<ul>
+                        <li><a href="/marketplace">By Business Need</a></li>
+                      </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

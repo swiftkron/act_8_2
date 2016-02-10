@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AGENDA>
+	<!-- Thursday -->
+	<THU>
+		<item>
+			<start>8:00am</start>
+			<end>1:00pm</end>
+			<title>ACC &amp; Swiftie Fun Day</title>
+			<more>MORE</more>
+			<description>Join your fellow ACCs and favorite Swifties for some fun and friendly competition in the beautiful fall weather in Scottsdale. Stay tuned for additional details and sign-up information!</description>
+			<location></location>
+			<class></class>
+			<modal>thu01</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>1:00pm</start>
+			<end>5:00pm</end>
+			<title>Act! v17 Deep Dive Workshop &amp; Feature Prioritization</title>
+			<more>MORE</more>
+			<description>We'll cover every change we've made in as great of detail as possible for the first two hours. Guided by a list of what changed and your desired focus.</description>
+			<location></location>
+			<class></class>
+			<modal>thu02</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>6:00pm</start>
+			<end>9:00pm</end>
+			<title>Welcome Reception &amp; Vendor Expo</title>
+			<more>MORE</more>
+			<description>Welcome to the Act! 2014 Global Partner Conference, we're glad you're here! Mingle with Swiftpage staff, see and network with old friends and make new ones, and visit with our valued Sponsors to learn about their innovative products and business solutions. A fun time will be had by all!</description>
+			<location></location>
+			<class></class>
+			<modal>thu03</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+	</THU>
+	<!-- Friday -->
+	<FRI>
+		<item>
+			<start>8:30am</start>
+			<end>9:15am</end>
+			<title>Breakfast</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break nodesc</class>
+			<modal>fri01</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>9:15am</start>
+			<end>9:45am</end>
+			<title>Executive Keynote - "Swiftpage: Investing for Growth"</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class></class>
+			<modal>fri02</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>9:45am</start>
+			<end>10:45am</end>
+			<title>Living the Exclamation - Exclusive Special Guest!</title>
+			<more>MORE</more>
+			<description>&lt;p&gt;The "Warrior" approach to Living the Exclamation!&lt;/p&gt;&lt;p&gt;No matter what path you choose to head down in life, you will need to be a warrior. Whether you are in the corporate world, private sector, or active duty military, there will be times when the only thing you can do is fight for what you believe in. Although you must identify and define what YOU VALUE in order to give purpose to your fight.&lt;/p&gt;&lt;p&gt;The drive of the ‘Being a Warrior’ presentation is to first identify what values define you and educate how to fight for those values. These values are the things that you cannot replace and refuse to give up. They are far from material and definitely non-perishable. The presentation will delve deeper in what it means to have values and what you must be willing to do in order to protect your values from faltering.&lt;/p&gt;</description>
+			<location></location>
+			<class></class>
+			<modal>fri03</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>10:45am</start>
+			<end>11:45am</end>
+			<title>Act! Vision &amp; Roadmap - What's New &amp; What's Next</title>
+			<more>MORE</more>
+			<description>Join Act! General Manager Bob Anderson and key Act! leaders to learn more about recent innovations, new business and commercial strategies, and a detailed future roadmap. We’ll cover the recent v17 release and what’s coming next, as well as new developments in emarketing, Cloud and Cloud services, Business Care, Hosting, and licensing models. This is a can’t-miss session, so make sure you’re up to speed on the strategies, products, and programs that will drive success for Act! and ACCs in 2015 and beyond!</description>
+			<location></location>
+			<class></class>
+			<modal>fri04</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>11:45am</start>
+			<end>12:00pm</end>
+			<title>Break</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>fri05</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>12:00pm</start>
+			<end>1:00pm</end>
+			<title>Act! emarketing Deep Dive Workshop – Session 1</title>
+			<more>MORE</more>
+			<description>Join us as we roll up our sleeves and review every nook and cranny of Act! Emarketing. We will combine product review with best practice tips and tricks to help you win prospects and drive client success. In this session we will provide a general tour and drill down in the areas of Web Forms, Template Creation, Sending and Reports.</description>
+			<location></location>
+			<class></class>
+			<modal>fri06</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>1:00pm</start>
+			<end>2:15pm</end>
+			<title>Lunch &amp; Vendor Expo</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>fri07</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>2:15pm</start>
+			<end>3:15pm</end>
+			<title>Act! emarketing Deep Dive Workshop – Session 2</title>
+			<more>MORE</more>
+			<description>Join us as we roll up our sleeves and review every nook and cranny of Act! Emarketing. A continuation of Session 1, we will cover Call List and Automation in depth. We will close with several simple and effective steps you can take right now to grow your business with AEM.</description>
+			<location></location>
+			<class></class>
+			<modal>fri08</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>3:15pm</start>
+			<end>3:35pm</end>
+			<title>Break</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>fri09</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>3:35pm</start>
+			<end>4:35pm</end>
+			<title>Best Practices for Large Deployments with Act! v17</title>
+			<more>MORE</more>
+			<description>Learn the tips and tricks that we use to do large installations. Some old suggestions that you forgot you knew and some new tricks</description>
+			<location></location>
+			<class></class>
+			<modal>fri10</modal>
+			<attendance></attendance>
+			<category>Product</category>
+		</item>
+		<item>
+			<start>3:35pm</start>
+			<end>4:35pm</end>
+			<title>Commercial Round Table Discussions &amp; Competition</title>
+			<more>MORE</more>
+			<description>Collaborate with a team of ACC colleagues and Act! team members to tackle a pressing commercial challenge you're experiencing in the field.  Teams will present their approach and solution later in the conference and compete for a valuable prize!</description>
+			<location></location>
+			<class>merge-above</class>
+			<modal>fri11</modal>
+			<attendance></attendance>
+			<category>Commercial</category>
+		</item>
+		<item>
+			<start>4:35pm</start>
+			<end>5:35pm</end>
+			<title>Partnering for Success</title>
+			<more>MORE</more>
+			<description>Come meet your Swiftpage Executives, Sales Team, and BPAC! We’ll outline the roles and responsibilities of each in order to establish the proper and best lines of communication to voice your ideas, questions, and concerns.</description>
+			<location></location>
+			<class></class>
+			<modal>fri12</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>4:35pm</start>
+			<end>5:35pm</end>
+			<title>Partnering for Success - Swiftpage International &amp; ACC Engagement &amp; Enablement</title>
+			<more>MORE</more>
+			<description>This session will review the first 5 months of the new ACC program and provide updates on what to expect from the program for 2015.</description>
+			<location></location>
+			<class>merge-above</class>
+			<modal>fri13</modal>
+			<attendance></attendance>
+			<category>International</category>
+		</item>
+		<item>
+			<start>5:35pm</start>
+			<end>6:30pm</end>
+			<title>Open</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>fri14</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>6:30pm</start>
+			<end>8:30pm</end>
+			<title>Evening Reception w/ Film Festival &amp; Vendor Expo</title>
+			<more>MORE</more>
+			<description>Keep the good times rolling with more food, drink, and fun.  Visit with our valued sponsors and have a good laugh as we view the masterpiece short films your fellow ACCs produced before the event!</description>
+			<location></location>
+			<class></class>
+			<modal>fri15</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+	</FRI>
+	<!-- Saturday -->
+	<SAT>
+		<item>
+			<start>8:00am</start>
+			<end>9:00am</end>
+			<title>Breakfast</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>sat01</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>9:00am</start>
+			<end>10:00am</end>
+			<title>Guest Keynote - The Small Business Expert</title>
+			<more>MORE</more>
+			<description>&lt;p&gt;Susan Solovic is THE small business expert. She’s an award-winning, serial entrepreneur, media personality (Former ABC News Small Business Contributor) and a New York Times, Wall Street Journal, USA Today &amp; Amazon bestselling author.&lt;/p&gt;&lt;p&gt;Susan highlights from her book topics like:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;How to build a disruptive strategy&lt;/li&gt;&lt;li&gt;How to find your true value proposition&lt;/li&gt;&lt;li&gt;How to stop competing on price&lt;/li&gt;&lt;li&gt;How to build a sustainable business with long-term value&lt;/li&gt;&lt;li&gt;How to hire the right people to scale your business&lt;/li&gt;&lt;/ul&gt;</description>
+			<location></location>
+			<class></class>
+			<modal>sat02</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>10:00am</start>
+			<end>11:00am</end>
+			<title>The Act! Advantage - Winning with Content</title>
+			<more>MORE</more>
+			<description>Next time you find yourself competing with Infusionsoft or Zoho, focus on content versus software. The secret to success growing any business lies within the knowledge and advice on how to Brand, Market &amp; Sell your unique value. To meet this need, Act! will launch “CustomerU” with best practices and lessons from proven methodologies and business celebrities — interactively assembled to focus on the pathway to growth. Combining Act! with CustomerU will help set us apart in the Marketing &amp; CRM Industry; come learn how at this session!</description>
+			<location></location>
+			<class></class>
+			<modal>satU103014-1</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>11:00am</start>
+			<end>11:20am</end>
+			<title>Break</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>sat04</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>11:20am</start>
+			<end>12:20pm</end>
+			<title>Act! Cloud - The Next Generation Essential Tool for Small Businesses</title>
+			<more>MORE</more>
+			<description>In this session you will learn about the Act! Cloud Web based API, how to access the API and discover what integration opportunities exist through the API. A sample integration will be demonstrated and a discussion about current and upcoming integration opportunities will be held with crowd participation.</description>
+			<location></location>
+			<class></class>
+			<modal>sat05</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>12:20pm</start>
+			<end>12:35pm</end>
+			<title>Ultimate Sponsor Welcome &amp; Introduction</title>
+			<more>MORE</more>
+			<description>Get to know the Ultimate Sponsor for the 2014 Act! Global Partner Conference and learn about how they can help ACCs grow revenue and delight customers.</description>
+			<location></location>
+			<class></class>
+			<modal>sat06</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>12:35pm</start>
+			<end>1:50pm</end>
+			<title>Lunch &amp; Vendor Expo</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>sat07</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>1:50pm</start>
+			<end>2:50pm</end>
+			<title>Effective Marketing Strategies for Growth</title>
+			<more>MORE</more>
+			<description>&lt;p&gt;Lessons and Strategies to “Grow your Business.”  This session will explore best practices implemented at world class brands to provide practical answers and tactics for growth... &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Define your Brand&lt;/li&gt;&lt;li&gt;Develop a Pyramid of Success Strategy&lt;/li&gt;&lt;li&gt;Identify your Target Market &amp; Customer Persona&lt;/li&gt;&lt;li&gt;From Social Listening to Expand your Network&lt;/li&gt;&lt;li&gt;Become a publisher, the power of copy &amp; creative&lt;/li&gt;&lt;li&gt;First “when,” develop your Marketing Calendar&lt;/li&gt;&lt;li&gt;Next “who,” manage &amp; group your contacts&lt;/li&gt;&lt;li&gt;Then “what,” execute emarketing interactions&lt;/li&gt;&lt;/ul&gt;</description>
+			<location></location>
+			<class></class>
+			<modal>satU103014-2</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>2:50pm</start>
+			<end>3:50pm</end>
+			<title>Mitigating Top Issues &amp; Best Practices from Tech Support</title>
+			<more>MORE</more>
+			<description>Join our support team for a discussion on the most common calls and the best way to resolve them.</description>
+			<location></location>
+			<class></class>
+			<modal>sat10</modal>
+			<attendance></attendance>
+			<category>Product</category>
+		</item>
+		<item>
+			<start>2:50pm</start>
+			<end>3:50pm</end>
+			<title>Battlefield Stories: Winning vs. Salesforce and ZoHo</title>
+			<more>MORE</more>
+			<description>Have you ever lost a sale to a competing product? Are you tired of losing out to Salesforce or Zoho? Would you like to know how to fight back and win?  Join our experts as they share their knowledge on how to sell against the competition and win. Leverage their knowledge and experience for your own “win.”</description>
+			<location></location>
+			<class>merge-above</class>
+			<modal>sat11</modal>
+			<attendance></attendance>
+			<category>Commercial</category>
+		</item>
+		<item>
+			<start>3:50pm</start>
+			<end>4:10pm</end>
+			<title>Break</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>sat12</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>4:10pm</start>
+			<end>5:10pm</end>
+			<title>Act! Town Hall - Live Q&amp;A with Act! Leadership</title>
+			<more>MORE</more>
+			<description>Open to everybody in the community, attendees are encouraged to voice their opinions and ask questions of the Act! Leadership team
+The objective of this town hall meeting is to give as many people as possible an opportunity to speak and ask questions.</description>
+			<location></location>
+			<class></class>
+			<modal>satU102814-2</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>5:10pm</start>
+			<end>6:10pm</end>
+			<title>Training End Users &amp; Database Administrator Best Practices</title>
+			<more>MORE</more>
+			<description>We all know that without proper training, any CRM implementation will fail. But now what?  Do you train on-site, lecture style, hands-on, remotely? Do you try to fit everything into one session or spread out the training over many weeks/months. How much training is needed for end users or admins?  How do you best train users with various computer skill levels in the same session?  How do you handle the know-it-all, the monopolizer, the Bambi in the headlights?  This session will help you put together best practices to deal with your training challenges.</description>
+			<location></location>
+			<class></class>
+			<modal>sat15</modal>
+			<attendance></attendance>
+			<category>Products</category>
+		</item>
+		<item>
+			<start>5:10pm</start>
+			<end>6:10pm</end>
+			<title>Positioning &amp; Selling Business Care: Grow Revenue &amp; Retain Loyal Customers</title>
+			<more>MORE</more>
+			<description>Business Care is the best way to ensure your customers maintain their technology and get the support they need to ensure business continuity.  It’s also a lucrative, predictable source of recurring revenue for ACCs who master the art of selling and renewing it within their customer base.  Learn best practices sourced from your most successful peers and formulate a strategy that complements your business profile and objectives.  There’s something here for everyone, come learn and share!</description>
+			<location></location>
+			<class>merge-above</class>
+			<modal>sat16</modal>
+			<attendance></attendance>
+			<category>Commercial</category>
+		</item>
+		<item>
+			<start>6:30pm</start>
+			<end>7:00pm</end>
+			<title>Open</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>sat18</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>7:00pm</start>
+			<end>9:00pm</end>
+			<title>Evening Reception w/ Foosball Challenge &amp; Vendor Expo</title>
+			<more>MORE</more>
+			<description>Food, fun, friends….and foosball!  Mingle with your fellow ACCs and Sponsor Vendors and challenge our Chairman, CEO, and General Manager to a game of foosball.  They think they're pretty good - how about you?!</description>
+			<location></location>
+			<class></class>
+			<modal>sat19</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+	</SAT>
+	<SUN>
+		<item>
+			<start>7:30am</start>
+			<end>8:30am</end>
+			<title>Breakfast</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>sun01</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>8:30am</start>
+			<end>9:30am</end>
+			<title>Act! Architecture and Technology - Open Mic w/ Development &amp; QA</title>
+			<more>MORE</more>
+			<description>Here is your opportunity to ask questions about Act! Development and QA. We're happy to take questions about the product, but will also answer questions about our processes and practices related to development and QA.</description>
+			<location></location>
+			<class></class>
+			<modal>sunU103014-1</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>9:30am</start>
+			<end>10:30am</end>
+			<title>Data Migration Tools, Strategies &amp; Best Practices</title>
+			<more>MORE</more>
+			<description>Join us for a review of some of the more capable tools for importing data into Act!, as well as a discussion of common "gotchas" and caveats you might encounter while converting data from other systems.</description>
+			<location></location>
+			<class></class>
+			<modal>sun03</modal>
+			<attendance></attendance>
+			<category>Product</category>
+		</item>
+		<item>
+			<start>9:30am</start>
+			<end>10:30am</end>
+			<title>Delivering Successful Roadshows - Live and Virtual</title>
+			<more>MORE</more>
+			<description>Join us as we disect roadshows and what should go into both virtual and in person shows. We will talk about how to determine your goals for a show, its length and structure, how to enlist partners and how to market to get the most quality attendees you can. And a show shouldn't stop there…what do you do when the show is over to ensure that your road show pays you over and over.</description>
+			<location></location>
+			<class>merge-above</class>
+			<modal>sun04</modal>
+			<attendance></attendance>
+			<category>Commercial</category>
+		</item>
+		<item>
+			<start>10:30am</start>
+			<end>10:45am</end>
+			<title>Break</title>
+			<more></more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>sun05</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>10:45am</start>
+			<end>11:45am</end>
+			<title>Database Repair: A How-to Guide</title>
+			<more>MORE</more>
+			<description>Curious what happens behind the scenes in Act!?  Want to know how to solve some common database issues yourself?  Come take a look underneath the covers and gain some insight about how Act! does what it does, and why it sometimes doesn't work how we'd like.</description>
+			<location></location>
+			<class></class>
+			<modal>sunU102814-2</modal>
+			<attendance></attendance>
+			<category>Product</category>
+		</item>
+		<item>
+			<start>10:45am</start>
+			<end>11:45am</end>
+			<title>Leveraging Marketplace Solutions To Solve Problems &amp; Win Deals</title>
+			<more>MORE</more>
+			<description>This session’s goal is to educate Act! Certified Consultants so that they understand the value of Act! Marketplace Solutions and how Act! Addons can help take a simple Act! software deployment and turn it into a complete business solution.</description>
+			<location></location>
+			<class>merge-above</class>
+			<modal>sunU102814-3</modal>
+			<attendance></attendance>
+			<category>Commercial</category>
+		</item>
+		<item>
+			<start>11:45am</start>
+			<end>12:45pm</end>
+			<title>Mastering IIS &amp; SSL</title>
+			<more>MORE</more>
+			<description>Understanding IIS and SSL is critical to assisting your customers with rolling out Act! for Web and Act! Premium Mobile. Join us for an overview of what you need to know about IIS and SSL for working with Act! and its web-enabled components.</description>
+			<location></location>
+			<class></class>
+			<modal>sun07</modal>
+			<attendance></attendance>
+			<category>Products</category>
+		</item>
+		<item>
+			<start>11:45am</start>
+			<end>12:45pm</end>
+			<title>I'm a New ACC...Now What?</title>
+			<more>MORE</more>
+			<description>So, you have gone through the ACC training and passed the test-Congratulations! You have the title, now what do you do? What does an Act! consultancy look like. What does it take to move forward? How do you navigate the maze of the channel and who do you need to know to be successful? Join us as we talk about the trials and tribulations of the life of an Act! Consultant.</description>
+			<location></location>
+			<class>merge-above</class>
+			<modal>sun08</modal>
+			<attendance></attendance>
+			<category>Commercial</category>
+		</item>
+		<item>
+			<start>12:45pm</start>
+			<end>1:45pm</end>
+			<title>Lunch &amp; Vendor Expo</title>
+			<more>MORE</more>
+			<description></description>
+			<location></location>
+			<class>break</class>
+			<modal>sun09</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>1:45pm</start>
+			<end>2:30pm</end>
+			<title>Sales Strategies for the Act! Techie</title>
+			<more>MORE</more>
+			<description>Feel that you can talk tech for hours but get tongue tied when you try to sell? Do you have no trouble implementing a solution but have difficulties when it comes to selling a new project. Learn how to sell, relying on your tech skills instead. Join this session for strategies and methods to sell without being a salesperson.</description>
+			<location></location>
+			<class></class>
+			<modal>sun10</modal>
+			<attendance></attendance>
+			<category>Product</category>
+		</item>
+		<item>
+			<start>1:45pm</start>
+			<end>2:30pm</end>
+			<title>To Grow or Not to Grow: Tips, Tricks, and Horror Stories</title>
+			<more>MORE</more>
+			<description>Do you want to grow? What is the best strategy for you to successfully grow your business? You can merge with other companies, collaborate, sell your company outright or just stay where you are and hire staff.  What are the advantages and the risks, what do you need to think about and how do you protect yourself and your brand? Join us as ACCs who have been there and done that talk about the joys and challanges of growth.</description>
+			<location></location>
+			<class>merge-above</class>
+			<modal>sun11</modal>
+			<attendance></attendance>
+			<category>Commercial</category>
+		</item>
+		<item>
+			<start>2:30pm</start>
+			<end>3:30pm</end>
+			<title>Lather, Rinse, Repeat: Managing Successful Projects, Large or Small</title>
+			<more>MORE</more>
+			<description>Standardizing projects with well-documented and scoped repeatable processes, saves time, money and stress. Join us as we take a look at how to design documents, reports and procedures that help you streamline these critical elements of any size project. Learn how you can reduce frustration, grow a happy client base and add to your project bottom line.</description>
+			<location></location>
+			<class></class>
+			<modal>sun12</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+		<item>
+			<start>2:30pm</start>
+			<end>3:30pm</end>
+			<title>Q&amp;A with the Swiftpage International Team</title>
+			<more>MORE</more>
+			<description>A chance to engage with the International team in an interactive 1 to many forum. You set the agenda and ask the questions!</description>
+			<location></location>
+			<class></class>
+			<modal>sun13</modal>
+			<attendance></attendance>
+			<category>International</category>
+		</item>
+		<item>
+			<start>3:30pm</start>
+			<end>3:45pm</end>
+			<title>Awards &amp; Closing Remarks</title>
+			<more>MORE</more>
+			<description>Wrap up your conference experience with a few closing words form the General Manager of Act!, Bob Anderson. Bob will present the winners and awards from the week's events!</description>
+			<location></location>
+			<class></class>
+			<modal>sun14</modal>
+			<attendance></attendance>
+			<category>General/All</category>
+		</item>
+	</SUN>
+	<MON>
+		<item>
+			<start>8:00am</start>
+			<end>12:00pm</end>
+			<title>"The Power of Expectation Setting" - Expert Sales Training</title>
+			<more>MORE</more>
+			<description>&lt;p&gt;When time, your most valuable asset, battles with your desire to build lasting relationships, begin with expectation setting. During this sales training bootcamp, we'll explore critical lessons from Sandler by outlining the anatomy of the “Upfront Contract,” as well as CustomerU content that delivers training from online experts like Jeffrey Gittomer, Harvey MacKay and dozens more. These advisors will share the power of branding, marketing, and creating unique value propositions for you to become more engaging and provocative, while building the personal rapport that is so critical to initial interactions.&lt;/p&gt;&lt;p&gt;The “Upfront Contract” from Sandler ensures you move from rapport to expectation setting.  You will learn to implement and answer things like:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;What your expectations are of me?&lt;/li&gt;&lt;li&gt;What my expectations are of you?&lt;/li&gt;&lt;li&gt;What our expectations are for next steps?&lt;/li&gt;&lt;li&gt;And most importantly — give your customer permission to say “No” at any next step in the engagement.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Far too many of us want to skip expectation setting and immediately begin solving problems or fulfilling needs. Making this lesson a habit will ensure you get back more of your most valuable asset — time!&lt;/p&gt;&lt;p&gt;This session will also be done in collaboration with the Act! Sales &amp; Management Team. We are dedicated to aligning our sales and account management efforts within our ACC’s engagement model. This sales training will be offered in a workshop setting that will combine online expert advice, tips, tricks, lessons, and techniques to be found at CustomerU.&lt;/p&gt;&lt;p&gt;Please sign up today for this highly collaborative session designed to ensure our mutual sales successes while perfecting &amp; promoting the very same content destined for Act! customers’ successes.&lt;/p&gt;&lt;p class="small"&gt;&lt;em&gt;*Excludes accommodations. If your conference fee includes accommodations (6th, 7th &amp; 8th) and you'd like to enquire about additional room nights you will be able to do so at the end of the booking process, the hotel will contact you directly to arrange this.&lt;/em&gt;&lt;/p&gt;</description>
+			<location></location>
+			<class></class>
+			<modal>mon01</modal>
+			<attendance></attendance>
+			<category>Optional - Fee-based</category>
+		</item>
+	</MON>
+	<ADD>
+		<item>
+			<start></start>
+			<end></end>
+			<title>Partner Account Manager Drop-Ins (by appointment)</title>
+			<more>MORE</more>
+			<description>Meet with the Business Partner Management team. Spend one-on-one time with your BPM.  Discuss best practices, review year to date performance and create a plan to increase sales for the remainder of the year. Share the latest updates on your company, ask questions, discuss opportunities and build a strong relationship.</description>
+			<location></location>
+			<class></class>
+			<modal>add01</modal>
+			<attendance></attendance>
+			<category></category>
+		</item>
+		<item>
+			<start></start>
+			<end></end>
+			<title>Tech Support Drop-Ins</title>
+			<more>MORE</more>
+			<description>Schedule an appointment to talk tech with Act! and AEM Product Specialists and Senior Support Analysts.  Gain tacit problem solving knowledge from the reps who handle the most challenging issues every day.</description>
+			<location></location>
+			<class></class>
+			<modal>add02</modal>
+			<attendance></attendance>
+			<category></category>
+		</item>
+		<item>
+			<start></start>
+			<end></end>
+			<title>Developer Drop-Ins (by appointment)</title>
+			<more>MORE</more>
+			<description>Schedule 1:1 face time with one of our expert Act! developers.  Slots are limited so sign up onsite at registration!</description>
+			<location></location>
+			<class></class>
+			<modal>add03</modal>
+			<attendance></attendance>
+			<category></category>
+		</item>
+		<item>
+			<start></start>
+			<end></end>
+			<title>Swiftpage Executive Drop-Ins (by appointment)</title>
+			<more>MORE</more>
+			<description>Schedule 1:1 face time with a Swiftpage executive.  Slots are limited so sign up onsite at registration!</description>
+			<location></location>
+			<class></class>
+			<modal>add04</modal>
+			<attendance></attendance>
+			<category></category>
+		</item>
+	</ADD>
+</AGENDA>

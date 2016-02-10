@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- intl domains -->
+<script src="/_assets/js/domain.js" type="text/javascript"></script>
+<!-- .end intl domains -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cinsay: Video eCommerce</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+
+<style type="text/css">
+.sideblock img{
+	display:block;
+	margin:10px auto;
+	cursor:pointer;
+}
+.overlay{
+	display:none;
+	background:#000;
+	opacity:.75;
+	position:absolute;
+	width:100%;
+	height:200%;
+}
+.videoContainer{
+	display:none;
+	position:fixed;
+	background:#000;
+	width:704px;
+	height:555px;
+	margin:10% 25%;
+	z-index:999;
+}
+.product-description h3{
+	font-weight:bold;
+	font-size:14px;
+	color:#2a353d;
+}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	var location = ["http://services.cinsay.com/html-player/embed.jsp?playerid=89391e92-ba3a-4dee-b5fe-ddfe389df335&rmiurl=services.cinsay.com&cdnurl=prodcdn.cinsay.edgesuite.net&width=704&height=555&inmarketplace=false&flavor=expanded&ver=3","http://services.cinsay.com/html-player/embed.jsp?playerid=1c5ef4c9-5b17-4360-bdd9-326c7588542f&rmiurl=services.cinsay.com&cdnurl=prodcdn.cinsay.edgesuite.net&width=704&height=555&inmarketplace=false&flavor=expanded&ver=3"];
+	$('.overlay').click(function(){
+		$('.overlay').css('display','none');
+		$('.videoContainer').css('display','none');
+	});
+	$('#video1').click(function(){
+		$('.overlay').css('display','block');
+		$('.videoContainer').css('display','block');
+		$('.videoContainer iframe').attr('src', location[0]);
+	});
+	$('#video2').click(function(){
+		$('.overlay').css('display','block');
+		$('.videoContainer').css('display','block');
+		$('.videoContainer iframe').attr('src', location[1]);
+	});
+});
+</script>
+ 
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- video container -->
+<div class="overlay"></div>
+<div class="videoContainer">
+	<iframe src='' WIDTH='704' HEIGHT='555' FRAMEBORDER='0' SCROLLING='no' style='padding:0;margin:0;border:none;' allowfullscreen='true'></iframe>
+</div>
+<!-- end video container -->
+
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace">Marketplace</a></li>
+                    <li>></li>
+                    <li>Cinsay: Transactional Video Platform</li>
+                </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+                  <div class="product-bubble left">
+                  	<img src="/media/en-us/images/marketplace/CinsayVideoeCommerce.gif" width="180" height="auto" />
+                    <div class="price">
+                      <p>New</p>
+                      <p class="price-details"><strong>&#36;19.99/month</strong></p>
+                      <p style="margin-bottom:12px; font-size:1.3em; font-weight:bold;">1st 30 Days Free</p> 
+                      <a class="btn-orange" href="http://admin.cinsay.com/signup?channel=8f0f6bb5-da15-11e3-8dba-005056847539&plan=2c92a0fb46fab87a0147122904d7155f&salesRepID=act_marketplace"><strong class="buynow">Buy Now</strong></a>
+                      <p style="font-size:11px; max-width:150px; margin-top:24px;">Supported Languages:<br />
+                      English [US]<br />
+                      Spanish [Mexico]<br />
+                      Spanish [Colombia]<br />
+                      Spanish [Argentina]<br />
+                      Portuguese [Brazil]</p>
+                      <p style="font-size:11px; max-width:150px; margin-top:24px;">This solution is available for USA and Canada customers only at the current time.</p>
+                    </div>
+                  </div>
+                  <div class="product-description left">
+                    <h1>Cinsay: Use Video to increase traffic to your website.</h1>                    
+										<p>Promote any service, generate more leads, and increase product sales with Cinsay's video platform made easy</p>
+                    <p>&bull; On Websites &bull; In Social Media &bull; On Blogs &bull; In Emails</p>
+                    <h2 class="orange">Cinsay makes it easy</h2>
+                    <ul>
+                    	<li>Easy to sign up and start using today.</li>
+                      <li>Easy to use on websites and in social media.</li>
+                      <li>Easy to see how many views your video is getting.</li>
+                      <li>Easy to see all of your leads, donations and sales.</li>
+                      <li>Easy to share from your phone, tablet and computer.</li>
+                      <li>Easy to see where your video is being watched and shared.</li>
+                      <li>Easy for your audience to watch, shop and share everywhere.</li>
+                    </ul>
+                    <h2 class="orange">How it Works</h2>
+                    <p>As simple as 1-2-3<br/>
+                    Or as we like to call it: <span class="orange">WATCH.SHOP.SHARE&trade;</span></p>
+                    <h2 class="orange">WATCH</h2>
+                    <h3>Watch on Websites, Blogs, Social Media, and Emails</h3>
+                    <p>It's easy for anyone to view your video on any website. Once you have uploaded, it can be easily embedded and viewed by your customers. Here is an example of Mario Andretti's video embedded on his shop website, <a href="http://www.ShopMarioA.com" target="_blank">ShopMarioA.com</a>, as well as Andretti Auto Sports (<a href="http://www.ShopAndretti.com" target="_blank">ShopAndretti.com</a>) and Strokers Dallas (<a href="http://www.ShopStrokersDallas.com" target="_blank">ShopStrokersDallas.com</a>)</p>
+                    <h3>Watch in Social Media Worldwide</h3>
+                    <p>Your potential and existing customers can watch your video in social media networks worldwide. They can clearly see your video on your profile, timeline, or a specific page you have dedicated for your business within a social media network.</p>
+                    <h3>Watch in Emails</h3>
+                    <ul>
+                    	<li>You and your customer can view and share your video via email.</li>
+                      <li>Cinsay has built the sharing feature right into the video player.  Simply click the share link, choose email and cut and paste your email addresses.</li> 
+                      <li>Each message has a pre-populated 'call to action' share message that you can use or customize.</li>
+                      <li>Since over 50% of emails are read on mobile, Cinsay has also optimized email links to play on any mobile device.</li>
+                    </ul>
+                    <h2 class="orange">SHOP</h2>
+                    <h3>In-Player Transactions</h3>
+                    <p>Images of your products appear in the bottom of your video. As your customers mouse over the product images, they expand for easier viewing. Once your customer clicks on the product, a full product description and product image is displayed in the video.  Your customer simply clicks add to cart and it is saved for further shopping until they checkout.</p>
+                    <p>Checkout is quick, simple and easy for your customers. They simply enter their contact information, choose their shipping method, and enter their payment information. Once completed, they submit their order and you are immediately notified via email.</p>
+                    <h3>Link-Out</h3>
+                    <p>Drive more traffic to your website, blog, or social media page.  Your customers will see images of your link-out products at the bottom of the video. As they mouse over them, they will see a bigger image and brief description.  After they click on the “More Info” option, they will be taken to a destination you choose. It can be a website, blog, or social media page</p>
+                    <h3>Donations</h3>
+                    <p>The most successful way to generate donations is while your supporters are watching your video. As they mouse over the donate image in the bottom of the video, it will expand to show them a bigger image and a brief description. After they click on it, a full description about your cause and donation amounts will be displayed in the video. They simply choose the amount they want to donate and click “Next.”  They will enter their contact information and their payment information. Once they have submitted their donation, you will be immediately notified via email.</p>
+                    <h3>Lead Generation</h3>
+                    <p>It’s easy for you to connect with your customers and capture their contact information.  Your customer will click on the Contact Me image at the bottom of the video.  It opens inside the video and your customer will enter their contact information.   After your customer submits their information, you will be notified immediately via email.</p>
+                    <h2 class="orange">SHARE</h2>
+                    <h3>Different options to share your video</h3>
+                    <p>You can choose one of three methods to share the videos that you like. Choose to share via social media, email or embedding on a website.</p>
+                    <h3>Fast Sharing in Social Media Worldwide</h3>
+                    <p>Your customers can immediately share your video with their friends worldwide. They will choose the social media network where they want to share it, add a message, and click the Share Link and their done. The video will be immediately posted on the social media network with their personal message and an image from the video.</p>
+                    <h3>Let users Watch and Shop without leaving Facebook</h3>
+                    <p>Your video appears on the selected wall with its full capabilities. Watch, Shop, Share is now available right from inside the social media network, and any of your friends can watch, shop and share on their own, without ever having to leave the post.</p>
+                    <h3>Easy to add on your website</h3>
+                    <p>Just click on the “Embed” option in the Share section. You will be able to copy the embed code and paste it into your website. All the functionality of WATCH.SHOP.SHARE™ is now on your website. It also helps increase your ability to be seen by Google when people search for your products and services.</p>
+                    <h3>Share on Emails</h3>
+                    <p>Whether you are sending this to a friend, or a group of friends, it is as simple as clicking on the “Email” option and entering their email address. If you have a list of friends, you can paste their email addresses into the “To” field and separate them by commas.  A personal message can be included as well. Your friends will receive the email with a picture from the video and your message.</p>
+                    <h2 class="orange">Analytics</h2>
+                    <p>Cinsay's technology comes with the most powerful analytics to manage and track the progress of your video worldwide. The analytics allow you to gauge and track performance in 4 categories: overall views, shares, interactions and transactions.</p>
+                    <h3>Summary</h3>
+                    <p>An overall summary shows clearly the progress and patterns of your video over any time period. You can choose any length of time to display an overview of your video’s performance.</p>
+                    <h3>Shares</h3>
+                    <p>See where your video has been shared on websites, social media, blogs and emails worldwide. See where people are viewing your video and adjust your strategy to better reach your targeted audience.</p>
+                    <h3>Interactions</h3>
+                    <p>Identify how, where and who has interacted with your video for tracking lead generations and link-outs.</p>
+                    <h3>Transactions</h3>
+                    <p>Track merchandise sales, analyze billing, credit card processing and shipping to optimize your marketing and product pricing.</p>
+                  
+                  </div>
+                                                       
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                <div class="mainSidebar">
+                    <div class="side-block sidenav">
+                    <h3><a href="/marketplace">Marketplace</a></h3>
+                    	<ul>
+                        <li><a href="/marketplace">By Business Need</a></li>
+                      </ul>
+                    </div>
+                    <div class="sideblock">
+                    	<img id="video1" src="img/video1_hov.png" />
+                    	<img id="video2" src="img/video2_hov.png" />
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+
+
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

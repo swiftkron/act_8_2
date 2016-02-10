@@ -1,0 +1,1785 @@
+<?xml version="1.0"?>
+<!-- 
+    Note: As an alternative to hand editing this file you can use the  
+    web admin tool to configure settings for your application. Use
+    the Website->Asp.Net Configuration option in Visual Studio.
+    A full list of settings and comments can be found in 
+    machine.config.comments usually located in 
+    \Windows\Microsoft.Net\Framework\v2.x\Config 
+-->
+<configuration>
+  <configSections>
+    <section requirePermission="false" name="microsoft.identityModel" type="Microsoft.IdentityModel.Configuration.MicrosoftIdentityModelSection, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+    <!--<sectionGroup name="telerik">
+      <section name="sitefinity" type="Telerik.Sitefinity.Configuration.SectionHandler, Telerik.Sitefinity" requirePermission="false" />
+    </sectionGroup>-->
+    <sectionGroup name="system.web.webPages.razor" type="System.Web.WebPages.Razor.Configuration.RazorWebSectionGroup, System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35">
+      <section name="host" type="System.Web.WebPages.Razor.Configuration.HostSection, System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" requirePermission="false"/>
+      <section name="pages" type="System.Web.WebPages.Razor.Configuration.RazorPagesSection, System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" requirePermission="false"/>
+    </sectionGroup>
+  </configSections>
+  <appSettings>
+    <add key="TestLocalization" value="false"/>
+    <add key="enableSimpleMembership" value="false"/>
+  </appSettings>
+  <system.web.webPages.razor>
+    <host factoryType="System.Web.Mvc.MvcWebRazorHostFactory, System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+    <pages pageBaseType="System.Web.Mvc.WebViewPage" enableViewState="false">
+      <namespaces>
+        <add namespace="System.Web.Mvc"/>
+        <add namespace="System.Web.Mvc.Ajax"/>
+        <add namespace="System.Web.Mvc.Html"/>
+        <add namespace="System.Web.Routing"/>
+      </namespaces>
+    </pages>
+  </system.web.webPages.razor>
+  <location path="Sitefinity/CMIS/RestAtom">
+    <system.web>
+      <httpRuntime maxRequestLength="6048000" executionTimeout="7200" maxUrlLength="102400" maxQueryStringLength="102400" requestValidationType="Telerik.Sitefinity.Security.Claims.CustomRequestValidator, Telerik.Sitefinity"/>
+    </system.web>
+    <system.webServer>
+      <security>
+        <requestFiltering>
+          <requestLimits maxAllowedContentLength="2147483648"/>
+        </requestFiltering>
+      </security>
+    </system.webServer>
+  </location>
+  <!-- SERVICE STACK-->
+  <location path="RestApi">
+    <system.web>
+      <httpHandlers>
+        <add path="*" type="ServiceStack.HttpHandlerFactory, ServiceStack" verb="*"/>
+      </httpHandlers>
+    </system.web>
+    <!--Required for IIS7-->
+    <system.webServer>
+      <modules runAllManagedModulesForAllRequests="true"/>
+      <validation validateIntegratedModeConfiguration="false"/>
+      <handlers>
+        <remove name="ServiceStack.Factory"/>
+        <add path="*" name="ServiceStack.Factory" type="ServiceStack.HttpHandlerFactory, ServiceStack" verb="*" preCondition="integratedMode" resourceType="Unspecified" allowPathInfo="true"/>
+      </handlers>
+    </system.webServer>
+  </location>
+  <!-- END SERVICE STACK-->
+  <location path="Telerik.Sitefinity.Html5UploadHandler.ashx">
+    <system.web>
+      <httpRuntime maxRequestLength="6048000" executionTimeout="7200" maxUrlLength="102400" maxQueryStringLength="102400" requestValidationType="Telerik.Sitefinity.Security.Claims.CustomRequestValidator, Telerik.Sitefinity"/>
+    </system.web>
+    <system.webServer>
+      <security>
+        <requestFiltering>
+          <requestLimits maxAllowedContentLength="2147483648"/>
+          <!--2GB-->
+        </requestFiltering>
+      </security>
+    </system.webServer>
+  </location>
+  <system.web>
+    <httpRuntime maxRequestLength="102400" maxUrlLength="102400" maxQueryStringLength="10000" requestValidationType="Telerik.Sitefinity.Security.Claims.CustomRequestValidator, Telerik.Sitefinity"/>
+    <siteMap defaultProvider="SitefinitySiteMap">
+      <providers>
+        <add name="SitefinitySiteMap" type="Telerik.Sitefinity.Web.SitefinitySiteMap, Telerik.Sitefinity"/>
+      </providers>
+    </siteMap>
+    <roleManager enabled="false"/>
+    <membership defaultProvider="Default">
+      <providers>
+        <clear/>
+        <add name="Default" type="Telerik.Sitefinity.Security.Data.SitefinityMembershipProvider, Telerik.Sitefinity"/>
+      </providers>
+    </membership>
+    <globalization uiCulture="auto" culture="auto" resourceProviderFactoryType="Telerik.Sitefinity.Localization.ExtendedResourceProviderFactory, Telerik.Sitefinity"/>
+    <!-- 
+            Set compilation debug="true" to insert debugging 
+            symbols into the compiled page. Because this 
+            affects performance, set this value to true only 
+            during development.
+        -->
+    <compilation debug="true" targetFramework="4.0" numRecompilesBeforeAppRestart="50">
+      <assemblies>
+        <add assembly="System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+        <add assembly="System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <add assembly="WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+        <add assembly="PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+      </assemblies>
+      <buildProviders>
+        <remove extension=".svc"/>
+        <add extension=".svc" type="System.ServiceModel.Activation.ServiceBuildProvider, System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+      </buildProviders>
+    </compilation>
+    <!--
+            The <authentication> section enables configuration 
+            of the security authentication mode used by 
+            ASP.NET to identify an incoming user. 
+        -->
+    <authentication mode="None"/>
+    <customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm">
+      <error statusCode="403" redirect="~/error-pages/403"/>
+      <error statusCode="404" redirect="~/error-pages/404"/>
+      <error statusCode="500" redirect="~/error-pages/500"/>
+    </customErrors>
+    <!--
+            The <customErrors> section enables configuration 
+            of what to do if/when an unhandled error occurs 
+            during the execution of a request. Specifically, 
+            it enables developers to configure html error pages 
+            to be displayed in place of a error stack trace.
+
+        -->
+    <pages>
+      <controls>
+        <add tagPrefix="asp" namespace="System.Web.UI" assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+        <add tagPrefix="asp" namespace="System.Web.UI.WebControls" assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+        <add tagPrefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI"/>
+        <add tagPrefix="sitefinity" namespace="Telerik.Sitefinity.Web.UI.Fields" assembly="Telerik.Sitefinity"/>
+      </controls>
+    </pages>
+    <httpHandlers>
+      <remove verb="*" path="*.asmx"/>
+      <add verb="*" validate="false" path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler, Telerik.Web.UI"/>
+      <add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.Upload.RadUploadProgressHandler, Telerik.Web.UI"/>
+      <add verb="*" path="Telerik.Sitefinity.FilesDownloadHandler.ashx" type="Telerik.Sitefinity.Modules.Files.FilesDownloadHandler, Telerik.Sitefinity"/>
+      <add verb="*" path="Telerik.Sitefinity.ExportSubscribersHttpHandler.ashx" type="Telerik.Sitefinity.Modules.Newsletters.Web.ExportSubscribersHttpHandler, Telerik.Sitefinity"/>
+      <add verb="*" path="Telerik.Sitefinity.LibrariesRadUploadHandler.ashx" type="Telerik.Sitefinity.Modules.Libraries.Web.LibrariesRadUploadHandler, Telerik.Sitefinity"/>
+      <add verb="*" path="Telerik.Sitefinity.Html5UploadHandler.ashx" type="Telerik.Sitefinity.Modules.Libraries.Web.Html5UploadHandler, Telerik.Sitefinity"/>
+      <add verb="*" path="Telerik.Sitefinity.ThumbnailUploadHandler.ashx" type="Telerik.Sitefinity.Modules.Libraries.Web.ThumbnailUploadHandler, Telerik.Sitefinity"/>
+      <add verb="*" path="*.asmx" validate="false" type="System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      <add verb="*" path="*_AppService.axd" validate="false" type="System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      <add verb="GET,HEAD" path="ScriptResource.axd" type="System.Web.Handlers.ScriptResourceHandler, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" validate="false"/>
+      <add verb="*" validate="false" path="Telerik.Web.UI.DialogHandler.axd" type="Telerik.Web.UI.DialogHandler, Telerik.Web.UI"/>
+      <add verb="*" path="Telerik.Sitefinity.AsyncImageUploadHandler.ashx" type="Telerik.Sitefinity.Modules.Libraries.Web.AsyncImageUploadHandler, Telerik.Sitefinity"/>
+      <add verb="*" path="Telerik.Sitefinity.AsyncFileUploadHandler.ashx" type="Telerik.Sitefinity.Workflow.AsyncFileUploadHandler, Telerik.Sitefinity"/>
+      <add verb="*" path="Telerik.Sitefinity.AsyncToolsetXmlUploadHandler.ashx" type="Telerik.Sitefinity.Configuration.Web.Services.AsyncToolsetXmlUploadHandler, Telerik.Sitefinity"/>
+      <add verb="*" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" validate="false"/>
+      <add path="Telerik.Web.UI.DialogHandler.aspx" verb="*" type="Telerik.Web.UI.DialogHandler" validate="false"/>
+      <add verb="*" path="Telerik.ReportViewer.axd" type="Telerik.ReportViewer.WebForms.HttpHandler, Telerik.ReportViewer.WebForms"/>
+    </httpHandlers>
+    <httpModules>
+      <remove name="FormsAuthentication"/>
+      <remove name="RoleManager"/>
+      <add name="ClaimsPrincipalHttpModule" type="Microsoft.IdentityModel.Web.ClaimsPrincipalHttpModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+      <add name="SitefinityClaimsAuthenticationModule" type="Telerik.Sitefinity.Security.Claims.SitefinityClaimsAuthenticationModule, Telerik.Sitefinity"/>
+      <add name="Sitefinity" type="Telerik.Sitefinity.Web.SitefinityHttpModuleIIS6, Telerik.Sitefinity"/>
+      <add name="SessionAuthenticationModule" type="Telerik.Sitefinity.Security.Claims.SitefinitySessionAuthenticationModule, Telerik.Sitefinity"/>
+      <add name="ScriptModule" type="System.Web.Handlers.ScriptModule, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI"/>
+      <add name="SitefinityAnalyticsModule" type="Telerik.Sitefinity.Analytics.Server.DependencyResolution.Module.DependencyRegistrarHttpModule, Telerik.Sitefinity.Analytics.Server.Infrastructure"/>
+    </httpModules>
+  </system.web>
+  <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="basicHttpBinding" maxReceivedMessageSize="2147483647" maxBufferSize="2147483647">
+          <security mode="None"/>
+        </binding>
+        <!-- note: To enable https/SSL support for the Analytics module, uncomment this binding -->
+        <!--<binding name="webBinding" maxReceivedMessageSize="2147483647" maxBufferSize="2147483647">
+          <security mode="Transport">
+            <transport clientCredentialType="None"/>
+          </security>
+        </binding>-->
+      </basicHttpBinding>
+    </bindings>
+    <behaviors>
+      <endpointBehaviors>
+        <behavior name="SitefinityWebApp.Sitefinity.Services.Content.EventsAspNetAjaxBehavior">
+          <enableWebScript/>
+        </behavior>
+        <behavior name="EndpBehavior">
+          <webHttp/>
+        </behavior>
+      </endpointBehaviors>
+      <serviceBehaviors>
+        <behavior>
+          <serviceMetadata httpGetEnabled="true"/>
+          <serviceDebug includeExceptionDetailInFaults="true"/>
+          <!--<openAccessWorkflowTracking applicationName="/workflow" />-->
+        </behavior>
+        <behavior name="Telerik.Sitefinity.Web.Services.LocalizationBehavior"/>
+        <behavior name="ServiceBehavior">
+          <serviceMetadata httpGetEnabled="true"/>
+          <serviceDebug includeExceptionDetailInFaults="true"/>
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+    <services>
+      <service name="SitefinityWebApp.Sitefinity.Services.Content.Events">
+        <endpoint address="" behaviorConfiguration="SitefinityWebApp.Sitefinity.Services.Content.EventsAspNetAjaxBehavior" binding="webHttpBinding" contract="SitefinityWebApp.Sitefinity.Services.Content.Events"/>
+      </service>
+    </services>
+    <serviceHostingEnvironment aspNetCompatibilityEnabled="true" multipleSiteBindingsEnabled="true"/>
+  </system.serviceModel>
+  <!-- 
+        The system.webServer section is required for running ASP.NET AJAX under Internet
+        Information Services 7.0.  It is not necessary for previous version of IIS.
+    -->
+  <system.webServer>
+    <validation validateIntegratedModeConfiguration="false"/>
+    <modules runAllManagedModulesForAllRequests="true">
+      <remove name="WebDAVModule"/>
+      <remove name="UrlRoutingModule"/>
+      <remove name="ScriptModule"/>
+      <remove name="RadUploadModule"/>
+      <remove name="Sitefinity"/>
+      <remove name="SitefinityAnalyticsModule"/>
+      <remove name="FormsAuthentication"/>
+      <remove name="RoleManager"/>
+      <add name="ClaimsPrincipalHttpModule" type="Microsoft.IdentityModel.Web.ClaimsPrincipalHttpModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+      <add name="SitefinityClaimsAuthenticationModule" type="Telerik.Sitefinity.Security.Claims.SitefinityClaimsAuthenticationModule, Telerik.Sitefinity"/>
+      <add name="Sitefinity" type="Telerik.Sitefinity.Web.SitefinityHttpModule, Telerik.Sitefinity"/>
+      <add name="SessionAuthenticationModule" type="Telerik.Sitefinity.Security.Claims.SitefinitySessionAuthenticationModule, Telerik.Sitefinity"/>
+      <add name="ScriptModule" preCondition="managedHandler" type="System.Web.Handlers.ScriptModule, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI"/>
+      <add name="SitefinityAnalyticsModule" type="Telerik.Sitefinity.Analytics.Server.DependencyResolution.Module.DependencyRegistrarHttpModule, Telerik.Sitefinity.Analytics.Server.Infrastructure"/>
+    </modules>
+    <handlers accessPolicy="Read, Script">
+      <remove name="WebDAV"/>
+      <remove name="ScriptHandlerFactory"/>
+      <remove name="ScriptHandlerFactoryAppServices"/>
+      <remove name="ScriptResource"/>
+      <remove name="UrlRoutingHandler"/>
+      <remove name="WildCard"/>
+      <remove name="WildCard32"/>
+      <remove name="Telerik.Web.UI.DialogHandler"/>
+      <remove name="Telerik.RadUploadProgressHandler"/>
+      <remove name="Telerik.Sitefinity.FilesDownloadHandler"/>
+      <remove name="Telerik.Sitefinity.ExportSubscribersHttpHandler"/>
+      <remove name="Telerik.Sitefinity.LibrariesRadUploadHandler"/>
+      <remove name="Telerik.Sitefinity.Html5UploadHandler"/>
+      <remove name="Telerik.Sitefinity.AsyncImageUploadHandler"/>
+      <remove name="Telerik.Sitefinity.AsyncFileUploadHandler"/>
+      <remove name="Telerik.Sitefinity.AsyncToolsetXmlUploadHandler"/>
+      <remove name="Telerik.Web.UI.SpellCheckHandler"/>
+      <remove name="Telerik_Web_UI_WebResource_axd"/>
+      <remove name="Telerik_Web_UI_DialogHandler_aspx"/>
+      <add name="sfXAMLX2" path="*.xamlx" verb="GET,HEAD,POST,DEBUG" modules="IsapiModule" scriptProcessor="C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" preCondition="classicMode,runtimeVersionv4.0,bitness32"/>
+      <add name="sfServices2" path="*.svc" verb="*" modules="IsapiModule" scriptProcessor="C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" preCondition="classicMode,runtimeVersionv4.0,bitness32"/>
+      <add name="sfXAMLX" path="*.xamlx" verb="GET,HEAD,POST,DEBUG" type="System.Xaml.Hosting.XamlHttpHandlerFactory, System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" resourceType="Unspecified" preCondition="integratedMode"/>
+      <add name="sfServices" path="*.svc" verb="*" type="System.ServiceModel.Activation.ServiceHttpHandlerFactory, System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" resourceType="Unspecified" preCondition="integratedMode"/>
+      <add name="ScriptHandlerFactory" verb="*" path="*.asmx" preCondition="integratedMode" type="System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      <add name="ScriptHandlerFactoryAppServices" verb="*" path="*_AppService.axd" preCondition="integratedMode" type="System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      <add name="ScriptResource" preCondition="integratedMode" verb="GET,HEAD" path="ScriptResource.axd" type="System.Web.Handlers.ScriptResourceHandler, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"/>
+      <add name="WildCard" path="*" verb="*" modules="IsapiModule" scriptProcessor="%windir%\Microsoft.NET\Framework64\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" requireAccess="None" preCondition="classicMode,runtimeVersionv4.0,bitness64"/>
+      <add name="WildCard32" path="*" verb="*" modules="IsapiModule" scriptProcessor="%windir%\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" requireAccess="None" preCondition="classicMode,runtimeVersionv4.0,bitness32"/>
+      <add name="Telerik.Web.UI.DialogHandler" path="Telerik.Web.UI.DialogHandler.axd" verb="*" type="Telerik.Web.UI.DialogHandler, Telerik.Web.UI"/>
+      <add name="Telerik.RadUploadProgressHandler" path="Telerik.RadUploadProgressHandler.ashx" verb="*" type="Telerik.Web.UI.Upload.RadUploadProgressHandler, Telerik.Web.UI"/>
+      <add name="Telerik.Sitefinity.FilesDownloadHandler" path="Telerik.Sitefinity.FilesDownloadHandler.ashx" verb="*" type="Telerik.Sitefinity.Modules.Files.FilesDownloadHandler, Telerik.Sitefinity"/>
+      <add name="Telerik.Sitefinity.ExportSubscribersHttpHandler" path="Telerik.Sitefinity.ExportSubscribersHttpHandler.ashx" verb="*" type="Telerik.Sitefinity.Modules.Newsletters.Web.ExportSubscribersHttpHandler, Telerik.Sitefinity"/>
+      <add name="Telerik.Sitefinity.LibrariesRadUploadHandler" path="Telerik.Sitefinity.LibrariesRadUploadHandler.ashx" verb="*" type="Telerik.Sitefinity.Modules.Libraries.Web.LibrariesRadUploadHandler, Telerik.Sitefinity"/>
+      <add name="Telerik.Sitefinity.Html5UploadHandler" path="Telerik.Sitefinity.Html5UploadHandler.ashx" verb="*" type="Telerik.Sitefinity.Modules.Libraries.Web.Html5UploadHandler, Telerik.Sitefinity"/>
+      <add name="Telerik.Sitefinity.ThumbnailUploadHandler" path="Telerik.Sitefinity.ThumbnailUploadHandler.ashx" verb="*" type="Telerik.Sitefinity.Modules.Libraries.Web.ThumbnailUploadHandler, Telerik.Sitefinity"/>
+      <add name="Telerik.Sitefinity.AsyncImageUploadHandler" path="Telerik.Sitefinity.AsyncImageUploadHandler.ashx" verb="*" type="Telerik.Sitefinity.Modules.Libraries.Web.AsyncImageUploadHandler, Telerik.Sitefinity"/>
+      <add name="Telerik.Sitefinity.AsyncFileUploadHandler" path="Telerik.Sitefinity.AsyncFileUploadHandler.ashx" verb="*" type="Telerik.Sitefinity.Workflow.AsyncFileUploadHandler, Telerik.Sitefinity"/>
+      <add name="Telerik.Sitefinity.AsyncToolsetXmlUploadHandler" path="Telerik.Sitefinity.AsyncToolsetXmlUploadHandler.ashx" verb="*" type="Telerik.Sitefinity.Configuration.Web.Services.AsyncToolsetXmlUploadHandler, Telerik.Sitefinity"/>
+      <add name="Telerik.Web.UI.SpellCheckHandler" verb="*" path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler, Telerik.Web.UI"/>
+      <add name="Telerik_Web_UI_WebResource_axd" verb="*" path="Telerik.Web.UI.WebResource.axd" preCondition="integratedMode" type="Telerik.Web.UI.WebResource"/>
+      <add name="Telerik_Web_UI_DialogHandler_aspx" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.DialogHandler.aspx" type="Telerik.Web.UI.DialogHandler"/>
+      <add name="Telerik.ReportViewer.axd_*" verb="*" preCondition="integratedMode" path="Telerik.ReportViewer.axd" type="Telerik.ReportViewer.WebForms.HttpHandler, Telerik.ReportViewer.WebForms"/>
+    </handlers>
+    <staticContent>
+      <clientCache cacheControlMode="UseMaxAge" cacheControlMaxAge="31.00:00:00"/>
+    </staticContent>
+    <urlCompression doDynamicCompression="true" doStaticCompression="true" dynamicCompressionBeforeCache="false"/>
+    <security>
+      <requestFiltering>
+        <requestLimits maxQueryString="10000"/>
+      </requestFiltering>
+    </security>
+    <defaultDocument>
+      <files>
+        <add value="index.aspx"/>
+        <add value="index.shtml"/>
+      </files>
+    </defaultDocument>
+    <directoryBrowse enabled="false"/>
+  </system.webServer>
+  <microsoft.identityModel>
+    <service>
+      <claimsAuthenticationManager type="Telerik.Sitefinity.Security.Claims.SFClaimsAuthenticationManager, Telerik.Sitefinity"/>
+      <securityTokenHandlers>
+        <add type="Telerik.Sitefinity.Security.Claims.SWT.SWTSecurityTokenHandler, Telerik.Sitefinity"/>
+      </securityTokenHandlers>
+      <audienceUris mode="Never"/>
+      <federatedAuthentication>
+        <wsFederation passiveRedirectEnabled="true" issuer="http://localhost" realm="http://localhost" requireHttps="false"/>
+        <cookieHandler requireSsl="false"/>
+      </federatedAuthentication>
+      <issuerNameRegistry type="Telerik.Sitefinity.Security.Claims.CustomIssuerNameRegistry, Telerik.Sitefinity">
+        <trustedIssuers/>
+      </issuerNameRegistry>
+      <issuerTokenResolver type="Telerik.Sitefinity.Security.Claims.SWT.WrapIssuerTokenResolver, Telerik.Sitefinity"/>
+    </service>
+  </microsoft.identityModel>
+  <!-- Begin telerik section  -->
+  <!--<telerik>
+    <sitefinity>
+      <environment platform="WindowsAzure"/>
+      <sitefinityConfig storageMode="Database" />
+    </sitefinity>
+  </telerik>-->
+  <!-- End telerik section  -->
+  <!-- Upgrade of NewtonsoftJson.dll to version 6.0.2. The Web API/MVC 4 has been built with version 4.5
+  of NewtonsoftJson.dll, so we need a redirect in the web.config for now.-->
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Mvc" publicKeyToken="31BF3856AD364E35" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-2.6.8.0" newVersion="2.6.8.0"/>
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Threading.Tasks" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-2.6.8.0" newVersion="2.6.8.0"/>
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <!-- 301 Redirects -->
+  <location path="trial">
+    <system.webServer>
+      <httpRedirect enabled="true" destination="https://buy.act.com/trial/product/ActPremium/plan/Month" httpResponseStatus="Permanent"/>
+    </system.webServer>
+  </location>
+  <system.webServer>
+    <rewrite>
+      <rewriteMaps>
+        <rewriteMap name="Redirects">
+          <add key="/2010startup" value="http://download.act.com/welcomepage/index.html"/>
+          <add key="/2010startup.htm" value="http://download.act.com/welcomepage/index.html"/>
+          <add key="/2011systreq" value="/products/system/2011"/>
+          <add key="/2012systreq" value="/products/system/2012"/>
+          <add key="/acc" value="/partners/act-certified-consultants"/>
+          <add key="/actcc" value="http://www.supersaas.com/schedule/SwiftpageSupport/ACC_Callbacks"/>
+          <add key="/actcloudbetasweepstakes" value="/media/en-us/docs/ACBetaSweepsRules.pdf"/>
+          <add key="/actcloudopenbetasweeps" value="/media/en-us/docs/AC_OpenBetaSweepsRules.pdf"/>
+          <add key="/actcloudwebinar" value="http://now.act.com/af2?LinkID=CH00096340eR00000247AD"/>
+          <add key="/act-emarketing" value="/products/act-emarketing"/>
+          <add key="/act-essentials/" value="/products/act-essentials"/>
+          <add key="/act-essentials" value="/products/act-essentials"/>
+          <add key="/act-premium/" value="/products/act-premium"/>
+          <add key="/act-premium" value="/products/act-premium"/>
+          <add key="/ACTOptIn" value="http://go.act.com/ACTOptIn"/>
+          <add key="/actsql" value="http://kb.swiftpage.com/app/answers/detail/a_id/37934/"/>
+          <add key="/actsql/" value="http://kb.swiftpage.com/app/answers/detail/a_id/37934/"/>
+          <add key="/actstory" value="http://www.actstory.com"/>
+          <add key="/addons" value="/marketplace"/>
+          <add key="/addons/" value="/marketplace"/>
+          <add key="/aem-buy/" value="/products/act-emarketing/how-to-buy/"/>
+          <add key="/aem-buy" value="/products/act-emarketing/how-to-buy/"/>
+          <add key="/aem-start/" value="/products/act-emarketing/getting-started/"/>
+          <add key="/aem-start" value="/products/act-emarketing/getting-started/"/>
+          <add key="/aphterms" value="http://www.swiftpage.com/billing-policy/"/>
+          <add key="/aphtraining" value="http://www.supersaas.com/schedule/SwiftpageSupport/Act!_Premium_Hosted"/>
+          <add key="/appointmentscheduling" value="https://actgoldbc.swiftpage.timetrade.com"/>
+          <add key="/bcgold" value="http://www.supersaas.com/schedule/SwiftpageSupport/BC_Gold"/>
+          <add key="/brochure" value="/media/en-us/docs/briefs/SageACT2013ProductBrief.pdf"/>
+          <add key="/businesscare" value="/support/business-care"/>
+          <add key="/CCOptIn" value="http://sage.act.com/CCOptIn"/>
+          <add key="/channel" value="http://www.supersaas.com/schedule/SwiftpageSupport/Channel_Success"/>
+          <add key="/chat" value="/support/"/>
+          <add key="/chat_au" value="/en-uk/support/"/>
+          <add key="/cloudsuccess" value="http://cloud.act.com/success"/>
+          <add key="/community" value="http://community.act.com"/>
+          <add key="/connectsysreq" value="/products/mobility/act-connect/system/"/>
+          <add key="/connectsystreq" value="/products/mobility/act-connect/system/"/>
+          <add key="/customersuccesses" value="/customer-successes/"/>
+          <add key="/demo" value="/products/demo-center"/>
+          <add key="/democenter" value="/products/demo-center"/>
+          <add key="/docs/Act!_Premium_Web_Administrators_Guide.pdf" value="/media/en-us/docs/documentation/v16/Act!_Premium_Web_Administrators_Guide.pdf"/>
+          <add key="/en" value="/en-uk"/>
+          <add key="/en-uk/systreq" value="/en-uk/products/system/v17/"/> --&gt;
+          <add key="/facebook" value="http://www.facebook.com/actcrm"/>
+          <add key="/getstarted" value="/support/getting-started"/>
+          <add key="/gettingstarted" value="/support/getting-started"/>
+          <add key="/googleplus" value="https://plus.google.com/u/0/b/118404928110128112551/118404928110128112551/posts"/>
+          <add key="/guarantee" value="/support/"/>
+          <add key="/hosted" value="/products/act-premium/"/>
+          <add key="/hostedsuccessesjda" value="/media/en-us/docs/success/JDA-Group.pdf"/>
+          <add key="/hosting" value="/partners/hosting-providers"/>
+          <add key="/in-product/us/sub-mgmt" value="https://buy.act.com"/>
+          <add key="/in-product/uk/sub-mgmt" value="https://buy.act.com"/>
+          <add key="/in-product/la/sub-mgmt" value="https://buy.act.com"/>
+          <add key="/in-product/ca/sub-mgmt" value="https://buy.act.com"/>
+          <add key="/in-product/de/sub-mgmt" value="https://buy.act.com"/>
+          <add key="/in-product/au/sub-mgmt" value="https://buy.act.com"/>
+          <add key="/in-product/eu/sub-mgmt" value="https://buy.act.com"/>
+          <add key="/in-product/fr/sub-mgmt" value="https://buy.act.com"/>
+          <add key="/inproduct/aem/dashboard/accountinfo" value="http://kb.act.com/app/answers/detail/a_id/36502"/>
+          <add key="/inproduct/aem/dashboard/advertising" value="http://kb.act.com/app/answers/detail/a_id/36503"/>
+          <add key="/inproduct/aem/dashboard/getstarted" value="http://kb.act.com/app/answers/detail/a_id/36500"/>
+          <add key="/inproduct/aem/dashboard/help" value="http://kb.act.com/app/answers/detail/a_id/36504"/>
+          <add key="/inproduct/aem/dashboard/privacy" value="http://kb.act.com/app/answers/detail/a_id/36498"/>
+          <add key="/inproduct/aem/dashboard/report" value="http://kb.act.com/app/answers/detail/a_id/36499"/>
+          <add key="/inproduct/aem/dashboard/social" value="http://kb.act.com/app/answers/detail/a_id/36501"/>
+          <add key="/inproduct/aem/dashboard/tc" value="http://kb.act.com/app/answers/detail/a_id/36497"/>
+          <add key="/inproduct/aem/editor/addblocks" value="http://kb.act.com/app/answers/detail/a_id/36520"/>
+          <add key="/inproduct/aem/editor/customizing" value="http://kb.act.com/app/answers/detail/a_id/36521"/>
+          <add key="/inproduct/aem/editor/editblocks" value="http://kb.act.com/app/answers/detail/a_id/36522"/>
+          <add key="/inproduct/aem/editor/images" value="http://kb.act.com/app/answers/detail/a_id/36518"/>
+          <add key="/inproduct/aem/editor/mailmerge" value="http://kb.act.com/app/answers/detail/a_id/36524"/>
+          <add key="/inproduct/aem/editor/overview" value="http://kb.act.com/app/answers/detail/a_id/36519"/>
+          <add key="/inproduct/aem/editor/text" value="http://kb.act.com/app/answers/detail/a_id/36523"/>
+          <add key="/inproduct/aem/email/contactinfo" value="http://kb.act.com/app/answers/detail/a_id/36548"/>
+          <add key="/inproduct/aem/email/marketingfooter" value="http://kb.act.com/app/answers/detail/a_id/36547"/>
+          <add key="/inproduct/aem/email/overview" value="http://kb.act.com/app/answers/detail/a_id/36544"/>
+          <add key="/inproduct/aem/email/sender" value="http://kb.act.com/app/answers/detail/a_id/36546"/>
+          <add key="/inproduct/aem/email/social" value="http://kb.act.com/app/answers/detail/a_id/36545"/>
+          <add key="/inproduct/aem/lists/call" value="http://kb.act.com/app/answers/detail/a_id/36505"/>
+          <add key="/inproduct/aem/lists/contact" value="http://kb.act.com/app/answers/detail/a_id/36511"/>
+          <add key="/inproduct/aem/lists/database" value="http://kb.act.com/app/answers/detail/a_id/36510"/>
+          <add key="/inproduct/aem/lists/importingcsv" value="http://kb.act.com/app/answers/detail/a_id/36506"/>
+          <add key="/inproduct/aem/lists/importtime" value="http://kb.act.com/app/answers/detail/a_id/36508"/>
+          <add key="/inproduct/aem/lists/overview" value="http://kb.act.com/app/answers/detail/a_id/36507"/>
+          <add key="/inproduct/aem/lists/target" value="http://kb.act.com/app/answers/detail/a_id/36509"/>
+          <add key="/inproduct/aem/media/categories" value="http://kb.act.com/app/answers/detail/a_id/36534"/>
+          <add key="/inproduct/aem/media/documents" value="http://kb.act.com/app/answers/detail/a_id/36532"/>
+          <add key="/inproduct/aem/media/imageediting" value="http://kb.act.com/app/answers/detail/a_id/36530"/>
+          <add key="/inproduct/aem/media/myimages" value="http://kb.act.com/app/answers/detail/a_id/36533"/>
+          <add key="/inproduct/aem/media/overview" value="http://kb.act.com/app/answers/detail/a_id/36529"/>
+          <add key="/inproduct/aem/media/stockimages" value="http://kb.act.com/app/answers/detail/a_id/36531"/>
+          <add key="/inproduct/aem/reports/clickchart" value="http://kb.act.com/app/answers/detail/a_id/36537"/>
+          <add key="/inproduct/aem/reports/creative" value="http://kb.act.com/app/answers/detail/a_id/36535"/>
+          <add key="/inproduct/aem/reports/deliverability" value="http://kb.act.com/app/answers/detail/a_id/36542"/>
+          <add key="/inproduct/aem/reports/email" value="http://kb.act.com/app/answers/detail/a_id/36541"/>
+          <add key="/inproduct/aem/reports/openrate" value="http://kb.act.com/app/answers/detail/a_id/36538"/>
+          <add key="/inproduct/aem/reports/overview" value="http://kb.act.com/app/answers/detail/a_id/36536"/>
+          <add key="/inproduct/aem/reports/overviewchart" value="http://kb.act.com/app/answers/detail/a_id/36540"/>
+          <add key="/inproduct/aem/reports/social" value="http://kb.act.com/app/answers/detail/a_id/36539"/>
+          <add key="/inproduct/aem/reports/terms" value="http://kb.act.com/app/answers/detail/a_id/36543"/>
+          <add key="/inproduct/aem/send/overview" value="http://kb.act.com/app/answers/detail/a_id/36525"/>
+          <add key="/inproduct/aem/send/review" value="http://kb.act.com/app/answers/detail/a_id/36526"/>
+          <add key="/inproduct/aem/send/social" value="http://kb.act.com/app/answers/detail/a_id/36527"/>
+          <add key="/inproduct/aem/send/spam" value="http://kb.act.com/app/answers/detail/a_id/36528"/>
+          <add key="/inproduct/aem/templates/imported" value="http://kb.act.com/app/answers/detail/a_id/36516"/>
+          <add key="/inproduct/aem/templates/mobile" value="http://kb.act.com/app/answers/detail/a_id/36512"/>
+          <add key="/inproduct/aem/templates/mytemplates" value="http://kb.act.com/app/answers/detail/a_id/36515"/>
+          <add key="/inproduct/aem/templates/overview" value="http://kb.act.com/app/answers/detail/a_id/36513"/>
+          <add key="/inproduct/aem/templates/pdfs" value="http://kb.act.com/app/answers/detail/a_id/36517"/>
+          <add key="/inproduct/aem/templates/stock" value="http://kb.act.com/app/answers/detail/a_id/36514"/>
+          <add key="/inproduct/aem/webinars/getstarted" value="http://kb.act.com/app/answers/detail/a_id/36549"/>
+          <add key="/inproduct/au/addons" value="/marketplace"/>
+          <add key="/inproduct/au/aem-canspam" value="http://www.swiftpage.com/anti-spam-policy"/>
+          <add key="/inproduct/au/aemvideo" value="http://youtu.be/qwioKyx5Vrg"/>
+          <add key="/inproduct/au/app-marketplace" value="/app-marketplace/en-au"/>
+          <add key="/inproduct/au/billing" value="http://www.swiftpage.com/billing-policy"/>
+          <add key="/inproduct/au/blog" value="/blog"/>
+          <add key="/inproduct/au/contact" value="http://swiftpage.com/en-us/contact-us.shtml"/>
+          <add key="/inproduct/au/emarketing" value="/products/act-emarketing/"/>
+          <add key="/inproduct/au/estore" value="/"/>
+          <add key="/inproduct/au/estore/inproduct/us/app-marketplace" value="/app-marketplace/en-au"/>
+          <add key="/inproduct/au/estore/inproduct/us/web/app-marketplace" value="/app-marketplace/en-au"/>
+          <add key="/inproduct/au/featuretours" value="/support/getting-started-feature-tours/"/>
+          <add key="/inproduct/au/gettingstarted" value="/support/getting-started"/>
+          <add key="/inproduct/au/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/au/mobile" value="/products/act-premium/"/>
+          <add key="/inproduct/au/news" value="http://blog.act.com/pr/"/>
+          <add key="/inproduct/au/partners" value="/partners/"/>
+          <add key="/inproduct/au/privacy" value="http://www.swiftpage.com/privacy-policy"/>
+          <add key="/inproduct/au/privacypolicy" value="http://www.swiftpage.com/privacy-policy"/>
+          <add key="/inproduct/au/support" value="/support/"/>
+          <add key="/inproduct/au/termsofservice" value="/products/act-emarketing/terms-of-service"/>
+          <add key="/inproduct/au/web/app-marketplace" value="/app-marketplace/en-au"/>
+          <add key="/inproduct/au/welcome" value="/2014startup"/>
+          <add key="/inproduct/au/welcome-web" value="/2014startup4"/>
+          <add key="/inproduct/ca/aem-canspam" value="http://www.swiftpage.com/anti-spam-policy"/>
+          <add key="/inproduct/ca/aemvideo" value="http://youtu.be/qwioKyx5Vrg"/>
+          <add key="/inproduct/ca/app-marketplace" value="/app-marketplace/"/>
+          <add key="/inproduct/ca/billing" value="http://www.swiftpage.com/billing-policy"/>
+          <add key="/inproduct/ca/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/ca/inproduct/us/app-marketplace" value="/app-marketplace"/>
+          <add key="/inproduct/ca/privacy" value="http://www.swiftpage.com/privacy-policy"/>
+          <add key="/inproduct/ca/termsofservice" value="/products/act-emarketing/terms-of-service"/>
+          <add key="/inproduct/ca/web/app-marketplace" value="/app-marketplace/"/>
+          <add key="/inproduct/ca/welcome" value="/2014startup"/>
+          <add key="/inproduct/ca/welcome-web" value="/2014startup4"/>
+          <add key="/inproduct/de" value="/de-de/"/>
+          <add key="/inproduct/de/actconnect" value="/de-de/products/mobility/act-connect/"/>
+          <add key="/inproduct/de/aem/dashboard/accountinfo" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36880"/>
+          <add key="/inproduct/de/aem/dashboard/advertising" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36893"/>
+          <add key="/inproduct/de/aem/dashboard/getstarted" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36899"/>
+          <add key="/inproduct/de/aem/dashboard/help" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36901"/>
+          <add key="/inproduct/de/aem/dashboard/privacy" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36915"/>
+          <add key="/inproduct/de/aem/dashboard/report" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36916"/>
+          <add key="/inproduct/de/aem/dashboard/social" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36924"/>
+          <add key="/inproduct/de/aem/dashboard/tc" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36932"/>
+          <add key="/inproduct/de/aem/editor/addblocks" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36882"/>
+          <add key="/inproduct/de/aem/editor/customizing" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36891"/>
+          <add key="/inproduct/de/aem/editor/editblocks" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36894"/>
+          <add key="/inproduct/de/aem/editor/images" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36883"/>
+          <add key="/inproduct/de/aem/editor/mailmerge" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36907"/>
+          <add key="/inproduct/de/aem/editor/overview" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36929"/>
+          <add key="/inproduct/de/aem/editor/text" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36933"/>
+          <add key="/inproduct/de/aem/email/contactinfo" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36880"/>
+          <add key="/inproduct/de/aem/email/marketingfooter" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36896"/>
+          <add key="/inproduct/de/aem/email/overview" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36881"/>
+          <add key="/inproduct/de/aem/email/sender" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36897"/>
+          <add key="/inproduct/de/aem/email/social" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36922"/>
+          <add key="/inproduct/de/aem/lists/call" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36884"/>
+          <add key="/inproduct/de/aem/lists/contact" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36887"/>
+          <add key="/inproduct/de/aem/lists/database" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36889"/>
+          <add key="/inproduct/de/aem/lists/importingcsv" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36903"/>
+          <add key="/inproduct/de/aem/lists/importtime" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36905"/>
+          <add key="/inproduct/de/aem/lists/overview" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36906"/>
+          <add key="/inproduct/de/aem/lists/target" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36928"/>
+          <add key="/inproduct/de/aem/media/categories" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36885"/>
+          <add key="/inproduct/de/aem/media/documents" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36910"/>
+          <add key="/inproduct/de/aem/media/imageediting" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36902"/>
+          <add key="/inproduct/de/aem/media/myimages" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36911"/>
+          <add key="/inproduct/de/aem/media/overview" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36908"/>
+          <add key="/inproduct/de/aem/media/stockimages" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36926"/>
+          <add key="/inproduct/de/aem/reports/clickchart" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36886"/>
+          <add key="/inproduct/de/aem/reports/creative" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36890"/>
+          <add key="/inproduct/de/aem/reports/deliverability" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36892"/>
+          <add key="/inproduct/de/aem/reports/email" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36895"/>
+          <add key="/inproduct/de/aem/reports/openrate" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36900"/>
+          <add key="/inproduct/de/aem/reports/overview" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36918"/>
+          <add key="/inproduct/de/aem/reports/overviewchart" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36914"/>
+          <add key="/inproduct/de/aem/reports/social" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36923"/>
+          <add key="/inproduct/de/aem/reports/terms" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36917"/>
+          <add key="/inproduct/de/aem/send/overview" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36919"/>
+          <add key="/inproduct/de/aem/send/review" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36920"/>
+          <add key="/inproduct/de/aem/send/social" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36921"/>
+          <add key="/inproduct/de/aem/send/spam" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36925"/>
+          <add key="/inproduct/de/aem/templates/imported" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36912"/>
+          <add key="/inproduct/de/aem/templates/mobile" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36909"/>
+          <add key="/inproduct/de/aem/templates/mytemplates" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36913"/>
+          <add key="/inproduct/de/aem/templates/overview" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36930"/>
+          <add key="/inproduct/de/aem/templates/pdfs" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36931"/>
+          <add key="/inproduct/de/aem/templates/stock" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36927"/>
+          <add key="/inproduct/de/aem/webinars/getstarted" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36898"/>
+          <add key="/inproduct/de/aem/webinars/importcontacts" value="http://kb-de.swiftpage.com/app/answers/detail/a_id/36904"/>
+          <add key="/inproduct/de/aem-canspam" value="http://www.swiftpage.com/de-de/anti-spam-policy"/>
+          <add key="/inproduct/de/aem-learnmore" value="/de-de/products/act-emarketing/"/>
+          <add key="/inproduct/de/aemvideo" value="http://youtu.be/qwioKyx5Vrg"/>
+          <add key="/inproduct/de/app-marketplace" value="/app-marketplace/"/>
+          <add key="/inproduct/de/billing" value="http://www.swiftpage.com/billing-policy"/>
+          <add key="/inproduct/de/businesscare" value="/de-de/support/"/>
+          <add key="/inproduct/de/community" value="http://kb.act.com"/>
+          <add key="/inproduct/de/contactus" value="/de-de/contact/"/>
+          <add key="/inproduct/de/customerservice" value="/de-de/support/"/>
+          <add key="/inproduct/de/emarketing" value="/de-de/products/act-emarketing"/>
+          <add key="/inproduct/de/featuretours" value="/support/getting-started-feature-tours/"/>
+          <add key="/inproduct/de/gettingstarted" value="/en-uk/support/getting-started"/>
+          <add key="/inproduct/de/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/de/knowledgebase" value="http://kb.act.com/"/>
+          <add key="/inproduct/de/marketplace" value="/app-marketplace/"/>
+          <add key="/inproduct/de/partners" value="/de-de/partners/"/>
+          <add key="/inproduct/de/privacy" value="http://www.swiftpage.com/de-de/privacy"/>
+          <add key="/inproduct/de/support" value="/de-de/support/"/>
+          <add key="/inproduct/de/termsofservice" value="/products/act-emarketing/terms-of-service"/>
+          <add key="/inproduct/de/training" value="/de-de/support/"/>
+          <add key="/inproduct/de/v17/welcome" value="/de-de/2015startup/index.html"/>
+          <add key="/inproduct/de/web/app-marketplace" value="/app-marketplace/de-de/"/>
+          <add key="/inproduct/de/webadminguide" value="/media/de-de/docs/documentation/ActPremiumWebAdministratorsGuide.pdf"/>
+          <add key="/inproduct/de/welcome" value="/de-de/2014startup"/>
+          <add key="/inproduct/de/welcome-web" value="/de-de/2014startup4"/>
+          <add key="/inproduct/eu/aem-canspam" value="http://www.swiftpage.com/anti-spam-policy"/>
+          <add key="/inproduct/eu/aemvideo" value="http://youtu.be/qwioKyx5Vrg"/>
+          <add key="/inproduct/eu/app-marketplace" value="/app-marketplace/en-eu"/>
+          <add key="/inproduct/eu/billing" value="http://www.swiftpage.com/billing-policy"/>
+          <add key="/inproduct/eu/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/eu/inproduct/us/app-marketplace" value="/app-marketplace/en-eu"/>
+          <add key="/inproduct/eu/inproduct/us/web/app-marketplace" value="/app-marketplace/en-eu"/>
+          <add key="/inproduct/eu/privacy" value="http://www.swiftpage.com/privacy-policy"/>
+          <add key="/inproduct/eu/termsofservice" value="/products/act-emarketing/terms-of-service"/>
+          <add key="/inproduct/eu/web/app-marketplace" value="/app-marketplace/en-eu"/>
+          <add key="/inproduct/eu/welcome" value="/en-uk/2015startup"/>
+          <add key="/inproduct/eu/welcome-web" value="/en-uk/2015startup4"/>
+          <add key="/inproduct/fr" value="/fr-fr/"/>
+          <add key="/inproduct/fr/act-connect" value="/fr-fr/products/act-emarketing/"/>
+          <add key="/inproduct/fr/aem/dashboard/accountinfo" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36826"/>
+          <add key="/inproduct/fr/aem/dashboard/advertising" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36839"/>
+          <add key="/inproduct/fr/aem/dashboard/getstarted" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36845"/>
+          <add key="/inproduct/fr/aem/dashboard/help" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36847"/>
+          <add key="/inproduct/fr/aem/dashboard/privacy" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36839"/>
+          <add key="/inproduct/fr/aem/dashboard/report" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36862"/>
+          <add key="/inproduct/fr/aem/dashboard/social" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36870"/>
+          <add key="/inproduct/fr/aem/dashboard/tc" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36878"/>
+          <add key="/inproduct/fr/aem/editor/addblocks" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36828"/>
+          <add key="/inproduct/fr/aem/editor/customizing" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36837"/>
+          <add key="/inproduct/fr/aem/editor/editblocks" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36840"/>
+          <add key="/inproduct/fr/aem/editor/images" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36829"/>
+          <add key="/inproduct/fr/aem/editor/mailmerge" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36853"/>
+          <add key="/inproduct/fr/aem/editor/overview" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36875"/>
+          <add key="/inproduct/fr/aem/editor/text" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36879"/>
+          <add key="/inproduct/fr/aem/email/contactinfo" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36834"/>
+          <add key="/inproduct/fr/aem/email/marketingfooter" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36842"/>
+          <add key="/inproduct/fr/aem/email/overview" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36827"/>
+          <add key="/inproduct/fr/aem/email/sender" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36843"/>
+          <add key="/inproduct/fr/aem/email/social" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36868"/>
+          <add key="/inproduct/fr/aem/lists/call" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36830"/>
+          <add key="/inproduct/fr/aem/lists/contact" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36833"/>
+          <add key="/inproduct/fr/aem/lists/database" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36835"/>
+          <add key="/inproduct/fr/aem/lists/importingcsv" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36849"/>
+          <add key="/inproduct/fr/aem/lists/importtime" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36851"/>
+          <add key="/inproduct/fr/aem/lists/overview" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36852"/>
+          <add key="/inproduct/fr/aem/lists/target" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36874"/>
+          <add key="/inproduct/fr/aem/media/categories" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36831"/>
+          <add key="/inproduct/fr/aem/media/documents" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36856"/>
+          <add key="/inproduct/fr/aem/media/imageediting" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36848"/>
+          <add key="/inproduct/fr/aem/media/myimages" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36857"/>
+          <add key="/inproduct/fr/aem/media/overview" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36854"/>
+          <add key="/inproduct/fr/aem/media/stockimages" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36872"/>
+          <add key="/inproduct/fr/aem/reports/clickchart" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36832"/>
+          <add key="/inproduct/fr/aem/reports/creative" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36836"/>
+          <add key="/inproduct/fr/aem/reports/deliverability" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36838"/>
+          <add key="/inproduct/fr/aem/reports/email" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36841"/>
+          <add key="/inproduct/fr/aem/reports/openrate" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36846"/>
+          <add key="/inproduct/fr/aem/reports/overview" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36864"/>
+          <add key="/inproduct/fr/aem/reports/overviewchart" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36860"/>
+          <add key="/inproduct/fr/aem/reports/social" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36869"/>
+          <add key="/inproduct/fr/aem/reports/terms" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36863"/>
+          <add key="/inproduct/fr/aem/send/overview" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36865"/>
+          <add key="/inproduct/fr/aem/send/review" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36866"/>
+          <add key="/inproduct/fr/aem/send/social" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36867"/>
+          <add key="/inproduct/fr/aem/send/spam" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36871"/>
+          <add key="/inproduct/fr/aem/templates/imported" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36858"/>
+          <add key="/inproduct/fr/aem/templates/mobile" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36855"/>
+          <add key="/inproduct/fr/aem/templates/mytemplates" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36859"/>
+          <add key="/inproduct/fr/aem/templates/overview" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36876"/>
+          <add key="/inproduct/fr/aem/templates/pdfs" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36877"/>
+          <add key="/inproduct/fr/aem/templates/stock" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36873"/>
+          <add key="/inproduct/fr/aem/webinars/getstarted" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36844"/>
+          <add key="/inproduct/fr/aem/webinars/importcontacts" value="http://kb-fr.swiftpage.com/app/answers/detail/a_id/36850"/>
+          <add key="/inproduct/fr/aem-canspam" value="http://www.swiftpage.com/anti-spam-policy"/>
+          <add key="/inproduct/fr/aem-learnmore" value="/fr-fr/products/act-emarketing/"/>
+          <add key="/inproduct/fr/aemvideo" value="http://youtu.be/qwioKyx5Vrg"/>
+          <add key="/inproduct/fr/app-marketplace" value="/app-marketplace/"/>
+          <add key="/inproduct/fr/billing" value="http://www.swiftpage.com/billing-policy"/>
+          <add key="/inproduct/fr/businesscare" value="/fr-fr/support"/>
+          <add key="/inproduct/fr/community" value="http://kb.act.com"/>
+          <add key="/inproduct/fr/contactus" value="/fr-fr/contact/"/>
+          <add key="/inproduct/fr/customerservice" value="/fr-fr/support/"/>
+          <add key="/inproduct/fr/emarketing" value="/fr-fr/products/act-emarketing/"/>
+          <add key="/inproduct/fr/featuretours" value="/support/getting-started-feature-tours/"/>
+          <add key="/inproduct/fr/gettingstarted" value="/support/getting-started"/>
+          <add key="/inproduct/fr/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/fr/knowledgebase" value="http://kb.act.com/"/>
+          <add key="/inproduct/fr/marketplace" value="/app-marketplace/"/>
+          <add key="/inproduct/fr/partners" value="/fr-fr/partners/"/>
+          <add key="/inproduct/fr/privacy" value="http://www.swiftpage.com/privacy-policy"/>
+          <add key="/inproduct/fr/support" value="/fr-fr/support/"/>
+          <add key="/inproduct/fr/termsofservice" value="/products/act-emarketing/terms-of-service"/>
+          <add key="/inproduct/fr/v17/welcome" value="/fr-fr/2015startup/index.html"/>
+          <add key="/inproduct/fr/web/app-marketplace" value="/app-marketplace/"/>
+          <add key="/inproduct/fr/webadminguide" value="/media/fr-fr/docs/documentation/ActPremiumWebAdministratorsGuide.pdf"/>
+          <add key="/inproduct/fr/welcome" value="/fr-fr/2014startup"/>
+          <add key="/inproduct/fr/welcome-web" value="/fr-fr/2014startup4"/>
+          <add key="/inproduct/la/aem-canspam" value="http://www.swiftpage.com/anti-spam-policy"/>
+          <add key="/inproduct/la/aemvideo" value="http://youtu.be/qwioKyx5Vrg"/>
+          <add key="/inproduct/la/app-marketplace" value="/app-marketplace/"/>
+          <add key="/inproduct/la/billing" value="http://www.swiftpage.com/billing-policy"/>
+          <add key="/inproduct/la/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/la/inproduct/us/app-marketplace" value="/app-marketplace"/>
+          <add key="/inproduct/la/privacy" value="http://www.swiftpage.com/privacy-policy"/>
+          <add key="/inproduct/la/termsofservice" value="/products/act-emarketing/terms-of-service"/>
+          <add key="/inproduct/la/web/app-marketplace" value="/app-marketplace/"/>
+          <add key="/inproduct/la/welcome" value="/2014startup"/>
+          <add key="/inproduct/la/welcome-web" value="/2014startup4"/>
+          <add key="/inproduct/syscommit-fix_32" value="http://CDN.updates.swiftpage.act.com/updates/cu6-x86.exe"/>
+          <add key="/inproduct/syscommit-fix_64" value="http://CDN.updates.swiftpage.act.com/updates/cu6_x64.exe"/>
+          <add key="/inproduct/uk" value="/en-uk/"/>
+          <add key="/inproduct/uk%20/inproduct/us/app-marketplace" value="/app-marketplace/en-eu"/>
+          <add key="/inproduct/uk/aem-canspam" value="http://www.swiftpage.com/anti-spam-policy"/>
+          <add key="/inproduct/uk/aemvideo" value="http://youtu.be/qwioKyx5Vrg"/>
+          <add key="/inproduct/uk/app-marketplace" value="/app-marketplace/en-uk"/>
+          <add key="/inproduct/uk/billing" value="http://www.swiftpage.com/billing-policy"/>
+          <add key="/inproduct/uk/emarketing" value="/en-uk/products/act-emarketing/"/>
+          <add key="/inproduct/uk/featuretours" value="/support/getting-started-feature-tours/"/>
+          <add key="/inproduct/uk/gettingstarted/" value="/support/getting-started/"/>
+          <add key="/inproduct/uk/gettingstarted" value="/support/getting-started/"/>
+          <add key="/inproduct/uk/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/uk/inproduct/us/app-marketplace" value="/app-marketplace/en-uk"/>
+          <add key="/inproduct/uk/inproduct/us/web/app-marketplace" value="/app-marketplace/en-uk"/>
+          <add key="/inproduct/uk/mobility" value="/en-uk/products/mobility/"/>
+          <add key="/inproduct/uk/privacy" value="http://www.swiftpage.com/privacy-policy"/>
+          <add key="/inproduct/uk/support" value="/en-uk/support/"/>
+          <add key="/inproduct/uk/termsofservice" value="/products/act-emarketing/terms-of-service"/>
+          <add key="/inproduct/uk/web/app-marketplace" value="/app-marketplace/en-uk"/>
+          <add key="/inproduct/uk/welcome" value="/en-uk/2015startup"/>
+          <add key="/inproduct/uk/welcome-web" value="/en-uk/2015startup4"/>
+          <add key="/inproduct/us/acc" value="/partners/act-certified-consultants/"/>
+          <add key="/inproduct/us/aem-canspam" value="http://www.swiftpage.com/anti-spam-policy"/>
+          <add key="/inproduct/us/aemvideo" value="http://youtu.be/qwioKyx5Vrg"/>
+          <add key="/inproduct/us/app-marketplace" value="/app-marketplace/"/>
+          <add key="/inproduct/us/billing" value="http://www.swiftpage.com/billing-policy"/>
+          <add key="/inproduct/us/businesscare" value="/support/business-care/"/>
+          <add key="/inproduct/us/customerservice" value="/support/"/>
+          <add key="/inproduct/us/emearesellers" value="/partners/act-resellers/"/>
+          <add key="/inproduct/us/featuretours" value="/support/getting-started-feature-tours/"/>
+          <add key="/inproduct/us/featuretoursweb" value="/support/getting-started-feature-tours/"/>
+          <add key="/inproduct/us/gettingstarted" value="/support/getting-started/"/>
+          <add key="/inproduct/us/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/us/marketplace" value="/marketplace/"/>
+          <add key="/inproduct/us/privacy" value="http://www.swiftpage.com/privacy-policy"/>
+          <add key="/inproduct/us/products/" value="/products"/>
+          <add key="/inproduct/us/silentinstall" value="http://kb.act.com/app/answers/detail/a_id/37611"/>
+          <add key="/inproduct/us/support" value="/support"/>
+          <add key="/inproduct/us/termsofservice" value="/products/act-emarketing/terms-of-service"/>
+          <add key="/inproduct/us/training" value="/support/training-opportunities/"/>
+          <add key="/inproduct/us/web/app-marketplace" value="/app-marketplace/"/>
+          <add key="/inproduct/us/marketplace/import" value="/import"/>
+          <add key="/inproduct/ca/marketplace/import" value="/import"/>
+          <add key="/inproduct/la/marketplace/import" value="/import"/>
+          <add key="/inproduct/au/marketplace/import" value="/import"/>
+          <add key="/inproduct/eu/marketplace/import" value="/import"/>
+          <add key="/inproduct/uk/marketplace/import" value="/import"/>
+          <add key="/inproduct/fr/marketplace/import" value="/import"/>
+          <add key="/inproduct/de/marketplace/import" value="/import"/>
+          <!-- v17 welcome -->
+          <add key="/inproduct/us/welcome-web" value="/2016startup4"/>
+          <add key="/inproduct/us/v17/welcome" value="/2015startup"/>
+          <add key="/inproduct/uk/v17/welcome" value="/en-uk/2015startup"/>
+          <add key="/inproduct/eu/v17/welcome" value="/en-eu/2015startup"/>
+          <add key="/inproduct/au/v17/welcome" value="/2015startup"/>
+          <add key="/inproduct/la/v17/welcome" value="/2015startup"/>
+          <add key="/inproduct/ca/v17/welcome" value="/2015startup"/>
+          <add key="/inproduct/us/v17/welcome-web" value="/2015startup4"/>
+          <add key="/inproduct/uk/v17/welcome-web" value="/en-uk/2015startup4"/>
+          <add key="/inproduct/eu/v17/welcome-web" value="/en-eu/2015startup4"/>
+          <add key="/inproduct/au/v17/welcome-web" value="/2015startup4"/>
+          <add key="/inproduct/la/v17/welcome-web" value="/2015startup4"/>
+          <add key="/inproduct/ca/v17/welcome-web" value="/2015startup4"/>
+          <add key="/inproduct/us/aem-learnmore" value="/products/act-emarketing/"/>
+          <add key="/inproduct/uk/aem-learnmore" value="/en-uk/products/act-emarketing/"/>
+          <add key="/inproduct/eu/aem-learnmore" value="/en-uk/products/act-emarketing/"/>
+          <add key="/inproduct/au/aem-learnmore" value="/products/act-emarketing/"/>
+          <add key="/inproduct/la/aem-learnmore" value="/products/act-emarketing/"/>
+          <add key="/inproduct/ca/aem-learnmore" value="/products/act-emarketing/"/>
+          <add key="/inproduct/en-us/iedotnetkb" value="http://kb.swiftpage.com/app/answers/detail/a_id/38177/"/>
+          <add key="/inproduct/en-ca/iedotnetkb" value="http://kb.swiftpage.com/app/answers/detail/a_id/38177/"/>
+          <add key="/inproduct/en-jm/iedotnetkb" value="http://kb.swiftpage.com/app/answers/detail/a_id/38177/"/>
+          <add key="/inproduct/en-ie/iedotnetkb" value="http://kb.swiftpage.com/app/answers/detail/a_id/38177/"/>
+          <add key="/inproduct/en-gb/iedotnetkb" value="http://kb.swiftpage.com/app/answers/detail/a_id/38177/"/>
+          <add key="/inproduct/en-au/iedotnetkb" value="http://kb.swiftpage.com/app/answers/detail/a_id/38177/"/>
+          <add key="/inproduct/fr-fr/iedotnetkb" value="http://kb.swiftpage.com/app/answers/detail/a_id/38177/"/>
+          <add key="/inproduct/de-de/iedotnetkb" value="http://kb.swiftpage.com/app/answers/detail/a_id/38177/"/>
+          <add key="/inproduct/en-us/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/en-ca/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/en-jm/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/en-gb/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/en-ie/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/en-au/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/fr-fr/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/fr-ca/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/de-de/gsyncfix" value="http://kb.swiftpage.com/app/answers/detail/a_id/38005/"/>
+          <add key="/inproduct/us/hosted-buynow" value="https://buy.act.com/"/>
+          <add key="/inproduct/ca/hosted-buynow" value="https://buy.act.com/"/>
+          <add key="/inproduct/la/hosted-buynow" value="https://buy.act.com/"/>
+          <add key="/inproduct/au/hosted-buynow" value="https://buy.act.com/"/>
+          <add key="/inproduct/eu/hosted-buynow" value="https://buy.act.com/"/>
+          <add key="/inproduct/uk/hosted-buynow" value="https://buy.act.com/"/>
+          <add key="/inproduct/fr/hosted-buynow" value="https://buy.act.com/"/>
+          <add key="/inproduct/de/hosted-buynow" value="https://buy.act.com/"/>
+          <add key="/kbtrial" value="http://kb.swiftpage.com/app/answers/detail/a_id/36564"/>
+          <add key="/knowledgebase" value="http://kb.act.com"/>
+          <add key="/LegalZoom" value="/lp/LegalZoom"/>
+          <add key="/linkedin" value="http://www.linkedin.com/groups/?gid=1914089"/>
+          <add key="/lp/editions" value="/"/>
+          <add key="/lp/editions/" value="/products"/>
+          <add key="/theone" value="/lp/editions"/>
+          <add key="/media/en-us/docs/briefs/SageACTConnectBrief.pdf" value="/products/Mobility"/>
+          <add key="/marketplace/DIAL-IT-Skype-for-Sage-ACT/" value="/marketplace/DIAL-IT-BASIC"/>
+          <add key="/marketplace/DIAL-IT-tapi/" value="/marketplace/DIAL-IT-Standard"/>
+          <add key="/mobile" value="/products/mobility/"/>
+          <add key="/mobilesystreq" value="/products/mobility/"/>
+          <add key="/mobiletour" value="/products/mobility/"/>
+          <add key="/napkinmike" value="http://youtu.be/Fcv_bK0Yupw"/>
+          <add key="/netsol" value="http://go.act.com/netsol-trial"/>
+          <add key="/notes" value="/importantnotes"/>
+          <add key="/notes/" value="/importantnotes"/>
+          <add key="/obs" value="/support/obsolescence-policies/"/>
+          <add key="/obsolescence" value="/support/obsolescence-policies/"/>
+          <add key="/partners/act-certified-consultants/" value="http://acc.swiftpage.com/"/>
+          <add key="/partners/act-certified-consultants" value="http://acc.swiftpage.com/"/>
+          <add key="/products/act-premium-upgrade" value="/products/upgrade/"/>
+          <add key="/products/act-premium-upgrade/" value="/products/upgrade/"/>
+          <add key="/products/act-pro-upgrade" value="/products/upgrade/"/>
+          <add key="/products/act-pro-upgrade/" value="/products/upgrade/"/>
+          <add key="/products/act-pro-upgrade/?cc=C-4324-0005" value="/products/upgrade/"/>
+          <add key="/products/act-cloud/success/" value="https://actcloud1.zendesk.com/hc/en-us"/>
+          <add key="/products/act-cloud/success" value="https://actcloud1.zendesk.com/hc/en-us"/>
+          <add key="/products/act-premium-mobile/" value="/products/act-premium"/>
+          <add key="/products/act-premium-mobile" value="/products/act-premium"/>
+          <add key="/products/act-premium-mobile/tour" value="/products/act-premium"/>
+          <add key="/products/act-premium-mobile/tour/" value="/products/act-premium"/>
+          <add key="/products/mobility/act-connect" value="/products/Mobility"/>
+          <add key="/products/mobility/act-connect/" value="/products/Mobility"/>
+          <add key="/products/upgrade/" value="/whats-new/"/>
+          <add key="/products/upgrade" value="/whats-new/"/>
+          <add key="/Products-and-Services/Connected-Services/Sage-ACT-Connect" value="/products/mobility/act-connect/"/>
+          <add key="/register" value="http://kb.swiftpage.com/app/answers/detail/a_id/37447"/>
+          <add key="/register/" value="http://kb.swiftpage.com/app/answers/detail/a_id/37447"/>
+          <add key="/resourcecenter" value="/support/getting-started/"/>
+          <add key="/sac" value="/products/mobility/act-connect/"/>
+          <add key="/sacbrochure" value="/media/en-us/docs/briefs/SageACTConnectBrief.pdf"/>
+          <add key="/sacvid" value="http://www.youtube.com/watch?v=BJlWdT5FGO4"/>
+          <add key="/sacwebcast" value="http://go.act.com/webcasts"/>
+          <add key="/sbc" value="/support/business-care/"/>
+          <add key="/sc" value="https://swiftpage-act.webex.com"/>
+          <add key="/sema" value="/products/swiftpage-emarketing/"/>
+          <add key="/semadl" value="/download/sema"/>
+          <add key="/semaoffer" value="https://www.swiftpage1.com/spesimplesignup.aspx?ref=316c9c3ed45a83ee318b1f859d9b8b79&amp;Mkt_ID=ACT05DM&amp;SourceID=FreeACT"/>
+          <add key="/semaplansandpricing" value="/media/en-us/docs/SageEmarketingforACTPlansandPricingChart.pdf"/>
+          <add key="/SEMAsuccesseschalaran" value="/media/en-us/docs/success/SEMA_Chalaran-Direct-Marketing.pdf"/>
+          <add key="/SEMAsuccessestruechoice" value="/media/en-us/docs/success/SEMA_True-Choice-Benefits.pdf"/>
+          <add key="/service" value="/support/"/>
+          <add key="/smarttasks" value="http://youtu.be/SKn43FEYjvw"/>
+          <add key="/SQLEXPR_x64_ENU.exe" value="http://download.microsoft.com/download/D/1/8/D1869DEC-2638-4854-81B7-0F37455F35EA/SQLEXPR_x64_ENU.exe"/>
+          <add key="/SQLEXPR_x86_ENU.exe" value="http://download.microsoft.com/download/D/1/8/D1869DEC-2638-4854-81B7-0F37455F35EA/SQLEXPR_x86_ENU.exe"/>
+          <add key="/SQLEXPR32_x86_ENU.exe" value="http://download.microsoft.com/download/D/1/8/D1869DEC-2638-4854-81B7-0F37455F35EA/SQLEXPR32_x86_ENU.exe"/>
+          <add key="/sqlserver2008r2expr_x64" value="http://download.microsoft.com/download/D/1/8/D1869DEC-2638-4854-81B7-0F37455F35EA/"/>
+          <add key="/sqlserver2008r2expr_x86" value="http://download.microsoft.com/download/D/1/8/D1869DEC-2638-4854-81B7-0F37455F35EA/"/>
+          <add key="/support/databaseservices/gmconversion" value="http://act.com/marketplace/MigrateAdmin-for-Sage-ACT-2013/"/>
+          <!-- <add key="/support/downloads/Act-Premium-v16" value="/support/download-center/act-premium-v16"/>
+          <add key="/support/downloads/Act-Premium-v16/" value="/support/download-center/act-premium-v16"/>
+          <add key="/support/downloads/Act-Premium-v17" value="/support/download-center/act-premium-v17"/>
+          <add key="/support/downloads/Act-Premium-v17/" value="/support/download-center/act-premium-v17"/>
+          <add key="/support/downloads/Act-Pro-v16" value="/support/download-center/act-pro-v16"/>
+          <add key="/support/downloads/Act-Pro-v16/" value="/support/download-center/act-pro-v16"/>
+          <add key="/support/downloads/Act-Pro-v17" value="/support/download-center/act-pro-v17"/>
+          <add key="/support/downloads/Act-Pro-v17/" value="/support/download-center/act-pro-v17"/>
+          <add key="/support/downloads/AP" value="/support/download-center/ap"/>
+          <add key="/support/downloads/AP/" value="/support/download-center/ap"/>
+          <add key="/support/downloads/EMEA" value="/support/download-center/emea"/>
+          <add key="/support/downloads/EMEA/" value="/support/download-center/emea"/>
+          <add key="/support/downloads/LA" value="/support/download-center/la"/>
+          <add key="/support/downloads/LA/" value="/support/download-center/la"/>
+          <add key="/support/downloads/Sage-ACT-Premium-2011" value="/support/download-center/sage-act-premium-2011"/>
+          <add key="/support/downloads/Sage-ACT-Premium-2011/" value="/support/download-center/sage-act-premium-2011"/>
+          <add key="/support/downloads/Sage-ACT-Premium-2012" value="/support/download-center/sage-act-premium-2012"/>
+          <add key="/support/downloads/Sage-ACT-Premium-2012/" value="/support/download-center/sage-act-premium-2012"/>
+          <add key="/support/downloads/Sage-ACT-Premium-2013" value="/support/download-center/sage-act-premium-2013"/>
+          <add key="/support/downloads/Sage-ACT-Premium-2013/" value="/support/download-center/sage-act-premium-2013"/>
+          <add key="/support/downloads/Sage-ACT-Pro-2011" value="/support/download-center/sage-act-pro-2011"/>
+          <add key="/support/downloads/Sage-ACT-Pro-2011/" value="/support/download-center/sage-act-pro-2011"/>
+          <add key="/support/downloads/Sage-ACT-Pro-2012" value="/support/download-center/sage-act-pro-2012"/>
+          <add key="/support/downloads/Sage-ACT-Pro-2012/" value="/support/download-center/sage-act-pro-2012"/>
+          <add key="/support/downloads/Sage-ACT-Pro-2013" value="/support/download-center/sage-act-pro-2013"/>
+          <add key="/support/downloads/Sage-ACT-Pro-2013/" value="/support/download-center/sage-act-pro-2013"/> -->
+          <add key="/support/kb" value="http://kb.act.com/"/>
+          <add key="/surveysweepstakes" value="/media/en-us/docs/Act!-emarketing-Sweeps-rules.pdf"/>
+          <add key="/swiftpageemarketing" value="/products/swiftpage-emarketing"/>
+          <add key="/system2013" value="/products/system/2013"/>
+          <add key="/systreq" value="/products/system/v18"/>
+          <add key="/tabletsweepstakes" value="/media/en-us/docs/FAF-Promo-Sweepstakes-Official-Rules.pdf"/>
+          <add key="/TestDrivePDF" value="/media/en-us/docs/SageACTTrialExperienceTestDrive.pdf"/>
+          <add key="/theupsstore" value="/lp/UPS"/>
+          <add key="/top10listbuilding" value="/media/en-us/docs/toptenlistbuilding.pdf"/>
+          <add key="/top10summertips" value="/media/en-us/docs/summertips.pdf"/>
+          <add key="/tours/de/v16/overview" value="http://www.act.com"/>
+          <add key="/tours/de/v16/overview.htm" value="http://www.act.com"/>
+          <add key="/tours/de/v16/web/integration" value="http://www.act.com"/>
+          <add key="/tours/de/v16/web/integration.htm" value="http://www.act.com"/>
+          <add key="/tours/de/v16/web/workspace" value="http://youtu.be/Tylq1LmBUJ0"/>
+          <add key="/tours/de/v16/web/workspace.htm" value="http://youtu.be/Tylq1LmBUJ0"/>
+          <add key="/tours/de/v16/windows/activities" value="http://youtu.be/qmD0daP7_pA"/>
+          <add key="/tours/de/v16/windows/activities.htm" value="http://youtu.be/qmD0daP7_pA"/>
+          <add key="/tours/de/v16/windows/companies" value="http://youtu.be/2JUhjcwEHPg"/>
+          <add key="/tours/de/v16/windows/companies.htm" value="http://youtu.be/2JUhjcwEHPg"/>
+          <add key="/tours/de/v16/windows/dashboard" value="http://youtu.be/EiTLbp346k0"/>
+          <add key="/tours/de/v16/windows/dashboard.htm" value="http://youtu.be/EiTLbp346k0"/>
+          <add key="/tours/de/v16/windows/email" value="http://youtu.be/ZA6sI6ioeyU"/>
+          <add key="/tours/de/v16/windows/email.htm" value="http://youtu.be/ZA6sI6ioeyU"/>
+          <add key="/tours/de/v16/windows/finding-information" value="http://youtu.be/EE0wQJZoD4g"/>
+          <add key="/tours/de/v16/windows/finding-information.htm" value="http://youtu.be/EE0wQJZoD4g"/>
+          <add key="/tours/de/v16/windows/groups" value="http://youtu.be/peaEs0hdjZQ"/>
+          <add key="/tours/de/v16/windows/groups.htm" value="http://youtu.be/peaEs0hdjZQ"/>
+          <add key="/tours/de/v16/windows/importing-contacts" value="http://youtu.be/LMwLzhYvDjs"/>
+          <add key="/tours/de/v16/windows/importing-contacts.htm" value="http://youtu.be/LMwLzhYvDjs"/>
+          <add key="/tours/de/v16/windows/integration" value="http://youtu.be/arzE4ih_HXM"/>
+          <add key="/tours/de/v16/windows/integration.htm" value="http://youtu.be/arzE4ih_HXM"/>
+          <add key="/tours/de/v16/windows/mail-merge" value="http://youtu.be/wX2AbvY5R3M"/>
+          <add key="/tours/de/v16/windows/mail-merge.htm" value="http://youtu.be/wX2AbvY5R3M"/>
+          <add key="/tours/de/v16/windows/opportunities" value="http://youtu.be/8RKpUQJu-F4"/>
+          <add key="/tours/de/v16/windows/opportunities.htm" value="http://youtu.be/8RKpUQJu-F4"/>
+          <add key="/tours/de/v16/windows/printing" value="http://youtu.be/k0ATCK8aJB4"/>
+          <add key="/tours/de/v16/windows/printing.htm" value="http://youtu.be/k0ATCK8aJB4"/>
+          <add key="/tours/de/v16/windows/setup-assistant" value="http://youtu.be/Fcv_bK0Yupw"/>
+          <add key="/tours/de/v16/windows/setup-assistant.htm" value="http://youtu.be/Fcv_bK0Yupw"/>
+          <add key="/tours/de/v16/windows/sharing-database" value="http://youtu.be/X5t9NjA8Kmc"/>
+          <add key="/tours/de/v16/windows/sharing-database.htm" value="http://youtu.be/X5t9NjA8Kmc"/>
+          <add key="/tours/de/v16/windows/smart-tasks" value="http://youtu.be/D5PumeB7DJw"/>
+          <add key="/tours/de/v16/windows/smart-tasks.htm" value="http://youtu.be/D5PumeB7DJw"/>
+          <add key="/tours/de/v16/windows/social-media" value="http://www.act.com"/>
+          <add key="/tours/de/v16/windows/social-media.htm" value="http://www.act.com"/>
+          <add key="/tours/de/v16/windows/synchronizing" value="http://www.act.com"/>
+          <add key="/tours/de/v16/windows/synchronizing.htm" value="http://www.act.com"/>
+          <add key="/tours/de/v16/windows/workspace" value="http://youtu.be/PGjPrGGxrYA"/>
+          <add key="/tours/de/v16/windows/workspace.htm" value="http://youtu.be/PGjPrGGxrYA"/>
+          <add key="/tours/de/v16/windows/writing-letter" value="http://youtu.be/yOGPFlIhDk4"/>
+          <add key="/tours/de/v16/windows/writing-letter.htm" value="http://youtu.be/yOGPFlIhDk4"/>
+          <add key="/tours/fr/v16/google" value="http://youtu.be/arzE4ih_HXM"/>
+          <add key="/tours/fr/v16/google.htm" value="http://youtu.be/arzE4ih_HXM"/>
+          <add key="/tours/fr/v16/web/integration" value="http://www.act.com"/>
+          <add key="/tours/fr/v16/web/integration.htm" value="http://www.act.com"/>
+          <add key="/tours/fr/v16/web/workspace" value="http://youtu.be/Tylq1LmBUJ0"/>
+          <add key="/tours/fr/v16/web/workspace.htm" value="http://youtu.be/Tylq1LmBUJ0"/>
+          <add key="/tours/fr/v16/windows/activities" value="http://youtu.be/qmD0daP7_pA"/>
+          <add key="/tours/fr/v16/windows/activities.htm" value="http://youtu.be/qmD0daP7_pA"/>
+          <add key="/tours/fr/v16/windows/companies" value="http://youtu.be/2JUhjcwEHPg"/>
+          <add key="/tours/fr/v16/windows/companies.htm" value="http://youtu.be/2JUhjcwEHPg"/>
+          <add key="/tours/fr/v16/windows/dashboard" value="http://youtu.be/EiTLbp346k0"/>
+          <add key="/tours/fr/v16/windows/dashboard.htm" value="http://youtu.be/EiTLbp346k0"/>
+          <add key="/tours/fr/v16/windows/email" value="http://youtu.be/ZA6sI6ioeyU"/>
+          <add key="/tours/fr/v16/windows/email.htm" value="http://youtu.be/ZA6sI6ioeyU"/>
+          <add key="/tours/fr/v16/windows/finding-information" value="http://youtu.be/EE0wQJZoD4g"/>
+          <add key="/tours/fr/v16/windows/finding-information.htm" value="http://youtu.be/EE0wQJZoD4g"/>
+          <add key="/tours/fr/v16/windows/groups" value="http://youtu.be/peaEs0hdjZQ"/>
+          <add key="/tours/fr/v16/windows/groups.htm" value="http://youtu.be/peaEs0hdjZQ"/>
+          <add key="/tours/fr/v16/windows/importing-contacts" value="http://youtu.be/LMwLzhYvDjs"/>
+          <add key="/tours/fr/v16/windows/importing-contacts.htm" value="http://youtu.be/LMwLzhYvDjs"/>
+          <add key="/tours/fr/v16/windows/integration" value="http://youtu.be/arzE4ih_HXM"/>
+          <add key="/tours/fr/v16/windows/integration.htm" value="http://youtu.be/arzE4ih_HXM"/>
+          <add key="/tours/fr/v16/windows/mail-merge" value="http://youtu.be/wX2AbvY5R3M"/>
+          <add key="/tours/fr/v16/windows/mail-merge.htm" value="http://youtu.be/wX2AbvY5R3M"/>
+          <add key="/tours/fr/v16/windows/opportunities" value="http://youtu.be/8RKpUQJu-F4"/>
+          <add key="/tours/fr/v16/windows/opportunities.htm" value="http://youtu.be/8RKpUQJu-F4"/>
+          <add key="/tours/fr/v16/windows/printing" value="http://youtu.be/k0ATCK8aJB4"/>
+          <add key="/tours/fr/v16/windows/printing.htm" value="http://youtu.be/k0ATCK8aJB4"/>
+          <add key="/tours/fr/v16/windows/setup-assistant" value="http://youtu.be/Fcv_bK0Yupw"/>
+          <add key="/tours/fr/v16/windows/setup-assistant.htm" value="http://youtu.be/Fcv_bK0Yupw"/>
+          <add key="/tours/fr/v16/windows/sharing-database" value="http://youtu.be/X5t9NjA8Kmc"/>
+          <add key="/tours/fr/v16/windows/sharing-database.htm" value="http://youtu.be/X5t9NjA8Kmc"/>
+          <add key="/tours/fr/v16/windows/smart-tasks" value="http://youtu.be/D5PumeB7DJw"/>
+          <add key="/tours/fr/v16/windows/smart-tasks.htm" value="http://youtu.be/D5PumeB7DJw"/>
+          <add key="/tours/fr/v16/windows/social-media" value="http://www.act.com"/>
+          <add key="/tours/fr/v16/windows/social-media.htm" value="http://www.act.com"/>
+          <add key="/tours/fr/v16/windows/synchronizing" value="http://www.act.com"/>
+          <add key="/tours/fr/v16/windows/synchronizing.htm" value="http://www.act.com"/>
+          <add key="/tours/fr/v16/windows/workspace" value="http://youtu.be/PGjPrGGxrYA"/>
+          <add key="/tours/fr/v16/windows/workspace.htm" value="http://youtu.be/PGjPrGGxrYA"/>
+          <add key="/tours/fr/v16/windows/writing-letter" value="http://youtu.be/yOGPFlIhDk4"/>
+          <add key="/tours/fr/v16/windows/writing-letter.htm" value="http://youtu.be/yOGPFlIhDk4"/>
+          <add key="/tours/v16/web/activities" value="http://youtu.be/_s3BIoRPgj0"/>
+          <add key="/tours/v16/web/activities.htm" value="http://youtu.be/_s3BIoRPgj0"/>
+          <add key="/tours/v16/web/companies" value="http://youtu.be/462gHROnnGM"/>
+          <add key="/tours/v16/web/companies.htm" value="http://youtu.be/462gHROnnGM"/>
+          <add key="/tours/v16/web/finding-information" value="http://youtu.be/bL4XElcKqjE"/>
+          <add key="/tours/v16/web/finding-information.htm" value="http://youtu.be/bL4XElcKqjE"/>
+          <add key="/tours/v16/web/groups" value="http://youtu.be/hwNRy3bGcxk"/>
+          <add key="/tours/v16/web/groups.htm" value="http://youtu.be/hwNRy3bGcxk"/>
+          <add key="/tours/v16/web/integration" value="http://www.act.com"/>
+          <add key="/tours/v16/web/integration.htm" value="http://www.act.com"/>
+          <add key="/tours/v16/web/opportunities" value="http://youtu.be/EiHVRIjUzuU"/>
+          <add key="/tours/v16/web/opportunities.htm" value="http://youtu.be/EiHVRIjUzuU"/>
+          <add key="/tours/v16/web/premium-mobile" value="http://www.act.com"/>
+          <add key="/tours/v16/web/premium-mobile.htm" value="http://www.act.com"/>
+          <add key="/tours/v16/web/workspace" value="http://youtu.be/Tylq1LmBUJ0"/>
+          <add key="/tours/v16/web/workspace.htm" value="http://youtu.be/Tylq1LmBUJ0"/>
+          <add key="/tours/v16/windows/activities" value="http://youtu.be/qmD0daP7_pA"/>
+          <add key="/tours/v16/windows/activities.htm" value="http://youtu.be/qmD0daP7_pA"/>
+          <add key="/tours/v16/windows/companies" value="http://youtu.be/2JUhjcwEHPg"/>
+          <add key="/tours/v16/windows/companies.htm" value="http://youtu.be/2JUhjcwEHPg"/>
+          <add key="/tours/v16/windows/dashboard" value="http://youtu.be/EiTLbp346k0"/>
+          <add key="/tours/v16/windows/dashboard.htm" value="http://youtu.be/EiTLbp346k0"/>
+          <add key="/tours/v16/windows/email" value="http://youtu.be/ZA6sI6ioeyU"/>
+          <add key="/tours/v16/windows/email.htm" value="http://youtu.be/ZA6sI6ioeyU"/>
+          <add key="/tours/v16/windows/finding-information" value="http://youtu.be/EE0wQJZoD4g"/>
+          <add key="/tours/v16/windows/finding-information.htm" value="http://youtu.be/EE0wQJZoD4g"/>
+          <add key="/tours/v16/windows/groups" value="http://youtu.be/peaEs0hdjZQ"/>
+          <add key="/tours/v16/windows/groups.htm" value="http://youtu.be/peaEs0hdjZQ"/>
+          <add key="/tours/v16/windows/importing-contacts" value="http://youtu.be/LMwLzhYvDjs"/>
+          <add key="/tours/v16/windows/importing-contacts.htm" value="http://youtu.be/LMwLzhYvDjs"/>
+          <add key="/tours/v16/windows/integration" value="http://youtu.be/arzE4ih_HXM"/>
+          <add key="/tours/v16/windows/integration.htm" value="http://youtu.be/arzE4ih_HXM"/>
+          <add key="/tours/v16/windows/mail-merge" value="http://youtu.be/wX2AbvY5R3M"/>
+          <add key="/tours/v16/windows/mail-merge.htm" value="http://youtu.be/wX2AbvY5R3M"/>
+          <add key="/tours/v16/windows/opportunities" value="http://youtu.be/8RKpUQJu-F4"/>
+          <add key="/tours/v16/windows/opportunities.htm" value="http://youtu.be/8RKpUQJu-F4"/>
+          <add key="/tours/v16/windows/printing" value="http://youtu.be/k0ATCK8aJB4"/>
+          <add key="/tours/v16/windows/printing.htm" value="http://youtu.be/k0ATCK8aJB4"/>
+          <add key="/tours/v16/windows/setup-assistant" value="http://youtu.be/Fcv_bK0Yupw"/>
+          <add key="/tours/v16/windows/setup-assistant.htm" value="http://youtu.be/Fcv_bK0Yupw"/>
+          <add key="/tours/v16/windows/sharing-database" value="http://youtu.be/X5t9NjA8Kmc"/>
+          <add key="/tours/v16/windows/sharing-database.htm" value="http://youtu.be/X5t9NjA8Kmc"/>
+          <add key="/tours/v16/windows/smart-tasks" value="http://youtu.be/D5PumeB7DJw"/>
+          <add key="/tours/v16/windows/smart-tasks.htm" value="http://youtu.be/D5PumeB7DJw"/>
+          <add key="/tours/v16/windows/social-media" value="http://www.act.com"/>
+          <add key="/tours/v16/windows/social-media.htm" value="http://www.act.com"/>
+          <add key="/tours/v16/windows/synchronizing" value="http://www.act.com"/>
+          <add key="/tours/v16/windows/synchronizing.htm" value="http://www.act.com"/>
+          <add key="/tours/v16/windows/workspace" value="http://youtu.be/PGjPrGGxrYA"/>
+          <add key="/tours/v16/windows/workspace.htm" value="http://youtu.be/PGjPrGGxrYA"/>
+          <add key="/tours/v16/windows/writing-letter" value="http://youtu.be/yOGPFlIhDk4"/>
+          <add key="/tours/v16/windows/writing-letter.htm" value="http://youtu.be/yOGPFlIhDk4"/>
+          <add key="/training" value="/support/training-opportunities/"/>
+          <add key="/TrialPDF" value="/media/en-us/docs/SageACTTrialExperienceTestDrive.pdf"/>
+          <add key="/twitter" value="https://www.twitter.com/actstory"/>
+          <add key="/uk/" value="/en-uk"/>
+          <add key="/UpgObs" value="/support/obsolescence-policies/"/>
+          <add key="/upgrade" value="/upgrade/act-premium/"/>
+          <add key="/upgrade/" value="/upgrade/act-premium/"/>
+          <add key="/upgrade2013" value="/products/upgrade/"/>
+          <add key="/us/customerservice" value="/support"/>
+          <add key="/us/customerservice/" value="/support"/>
+          <add key="/us/products" value="/products"/>
+          <add key="/us/products/" value="/products"/>
+          <add key="/v17roadshows" value="/v17roadshow/"/>
+          <add key="/v17roadshows/" value="/v17roadshow/"/>
+          <add key="/vimeo" value="http://vimeo.com/user18601191"/>
+          <add key="/webcom" value="http://go.act.com/webcom-trial"/>
+          <add key="/webdemo" value="http://afwdemo.act.com/APFW/default.aspx?ReturnUrl=%2fapfw%2f"/>
+          <add key="/webinarsweeps" value="/media/en-us/docs/AmazonGiftCardSweeps_Final.pdf"/>
+          <add key="/whatsnew" value="/products/upgrade"/>
+          <add key="/whatsnew2012" value="/media/en-us/docs/briefs/WhatsNewBriefforSageACT2012.pdf"/>
+          <add key="/whatsnew2013" value="/media/en-us/docs/briefs/SageACT2013WhatsNewBrief.pdf"/>
+          <add key="/whatsnewvid" value="http://www.youtube.com/watch?v=2-HRM84zNdw"/>
+          <add key="/whitepapers" value="/white-papers"/>
+          <add key="/Win2k8/Windows6.0-KB958655-v2-x64.msu" value="http://download.microsoft.com/download/5/A/5/5A596F65-7E09-4052-A4C1-E50E7F3CF749/Windows6.0-KB958655-v2-x64.msu"/>
+          <add key="/Win2k8/windowsserver2008_x86.msu" value="http://download.microsoft.com/download/F/4/D/F4D4B51C-83BA-47DC-8EB1-12F756E1C808/Windows6.0-KB958655-v2-x86.msu"/>
+          <add key="/Windows6.0-KB980368-x64.msu" value="http://download.microsoft.com/download/5/8/0/580086AB-CF9A-461C-A5EA-4F681088879A/Windows6.0-KB980368-x64.msu"/>
+          <add key="/Windows6.1-KB980368-x64.msu" value="http://download.microsoft.com/download/0/6/1/061D2914-AED3-480B-A035-11A5105F4AB7/Windows6.1-KB980368-x64.msu"/>
+          <add key="/windowsserver2003_x64" value="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/"/>
+          <add key="/windowsserver2003_x86" value="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/"/>
+          <add key="/WindowsServer2003-KB942288-v4-x64.exe" value="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/WindowsServer2003-KB942288-v4-x64.exe"/>
+          <add key="/WindowsServer2003-KB942288-v4-x86.exe" value="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/WindowsServer2003-KB942288-v4-x86.exe"/>
+          <add key="/windowsserver2008_x64" value="http://download.microsoft.com/download/5/A/5/5A596F65-7E09-4052-A4C1-E50E7F3CF749/"/>
+          <add key="/windowsserver2008_x86" value="http://download.microsoft.com/download/F/4/D/F4D4B51C-83BA-47DC-8EB1-12F756E1C808/"/>
+          <add key="/windowsvista_x64" value="http://download.microsoft.com/download/0/1/E/01ED0B16-0A39-41DD-838A-2CD9E1A1913A/"/>
+          <add key="/windowsvista_x86" value="http://download.microsoft.com/download/A/C/D/ACD324FD-5A89-4A33-98F5-0AC56F8FAC78/"/>
+          <add key="/windowsxp_x86" value="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/"/>
+          <add key="/WindowsXP-KB942288-v3-x86.exe" value="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/WindowsXP-KB942288-v3-x86.exe"/>
+          <add key="/WinVista/windowsvista_x64.msu" value="http://download.microsoft.com/download/0/1/E/01ED0B16-0A39-41DD-838A-2CD9E1A1913A/Windows6.0-KB958655-v2-x64.msu"/>
+          <add key="/WinVista/windowsvista_x86.msu" value="http://download.microsoft.com/download/A/C/D/ACD324FD-5A89-4A33-98F5-0AC56F8FAC78/Windows6.0-KB958655-v2-x86.msu"/>
+          <add key="/youtube" value="https://www.youtube.com/user/ActStory"/>
+          <!-- NEW INTL REDIRECTS -->
+          <add key="/uk" value="/en-uk/"/>
+          <add key="/en-uk/contact/" value="/en-uk/contact-us"/>
+          <add key="/en-uk/products/act-emarketing/" value="/en-uk/act-emarketing"/>
+          <add key="/en-uk/products/Mobility/" value="/en-uk/act-productpage-mobility"/>
+          <add key="/en-uk/products/mobility/act-connect/system/" value="/en-uk/act-productpage-mobility"/>
+          <add key="/en-uk/products/mobility/act-premium-mobile/" value="/en-uk/act-productpage-mobility"/>
+          <add key="/en-uk/products/mobility/act-premium-mobile/tour/" value="/en-uk/act-productpage-mobility"/>
+          <add key="/en-uk/products/mobility/premium-mobile" value="/en-uk/act-productpage-mobility"/>
+          <add key="/en-uk/products/swiftpage-emarketing/" value="/en-uk/act-emarketing"/>
+          <add key="/en-uk/products/system/2008/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2009/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2010/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2010/act-by-sage/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2010/act-by-sage-corporate-edition/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2010/act-by-sage-premium/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2010/affp-premium-v12/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2010/affp-v12/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2010/afre-premium-v12/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2010/afre-v12/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2011/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2011/premium/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2011/pro/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2012/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2012/premium/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/products/system/2012/pro/" value="/en-uk/support/obsolescence-policies"/>
+          <add key="/en-uk/support/business-care/" value="/en-uk/support"/>
+          <add key="/en-uk/support/customer-service/refunds/" value="/en-uk/refunds"/>
+          <add key="/en-uk/support/getting-started/" value="/en-uk/support"/>
+          <add key="/en-uk/support/getting-started-documentation/" value="/en-uk/support"/>
+          <add key="/en-uk/support/getting-started-feature-tours/" value="/en-uk/support"/>
+          <add key="/en-uk/support/getting-started-videos/" value="/en-uk/support"/>
+          <add key="/en-uk/trial/" value="/en-uk/free-trial"/>
+          <add key="/en-uk/marketplace/Advanced-Excel-Templates-for-Sage-ACT-2012/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Company-Group-Limited-Access/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Create-Companies-From-Contacts/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Data-Field-Export/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/dbLinkUp-Professional-with-1yr-Upgrade-Protection/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/dbLinkUp-Standard-with-1yr-Upgrade-Protection/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Delete-Secondary-Contacts/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Dial-IT-Skype-for-Sage-ACT/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Dial-IT-TAPI/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Do-it-Bill-it/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Duplicate-Remover-Expert-2013/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Duplicate-Remover-Expert-Wizard/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Durkin-Toolkit-Runtime/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Excel-Quote-Invoice-Maker-for-Sage-ACT-2012/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/FaxAdmin-for-Sage-ACT-2013/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Field-and-Tables-Wizard-2013/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Handheld-Contact-2013/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/High-Impact-eMail-5-0-Professional/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Impact-Report-Designer/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Import/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Info-Optics-5-User/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/IOC-Campaign-5-Licenses-for-Sage-ACT/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/ListGrabber-Standard-2010/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/outreach-1-user/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Queries/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Quosal-for-Sage-ACT/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Scan2CRM-for-Sage-ACT/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/marketplace/Scan-IT/" value="/app-marketplace/en-uk/"/>
+          <add key="/en-uk/partners/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/asia/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/asia/details.shtml%3Fpid%3D4%26region%3Das" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/australia/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/1St%20Computer%20Consultancy/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/A%20C%20I%20T%20Solutions%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Abc%20Accounting%20By%20Computer/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Access%20Networks%20Solutions/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Accountable%20Solutions/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Acorn%20It%20Solutions/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Act%20Today%20-%20Adelaide/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Act%20Today%20-%20North%20Sydney/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Act%20Today%20-%20Queensland/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Action%20Planning%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Active%20Office%20Scotland%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/ACUITY%20SOLUTIONS%20LTD/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Adept%20Computer%20Support%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Advantage%20Services%20(Europe)%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/ALEX%20JOHNSON%20SOFTWARE%20LTD/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Alpha%20Technology%20Systems%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Alphalogix%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Ashgoal%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/ASPECT%20BUSINESS%20COMMUNICATIONS%20LTD/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Asperiti%20Group%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/B%20T%20C%20Business%20Solutions%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Balanced%20Solutions%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/BBSOL%20LTD/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Big%20Blue%20(Marketing)%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Blue%20Logic%20Computer%20Systems%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Bluebird%20Sales%20Marketing/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Bluemoon%20Solutions%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Boldfield%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Broken%20Stones%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Businessplus%20(Letchworth)%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/C%20I%20M%20Services%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Caldere%20Associates%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Ceetec%20Solutions%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Celullar%20Solutions%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Centre%20Point%20Software%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Centurion%20Management%20Sys%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Century%20Computing%20Software/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Cjp%20Accounting%20Solutions%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Coast%20Business%20Solutions%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/COMP%20AIDED%20MGMNT%20SVCS%20LTD(CAMS/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Computer%20Solutions%20Cymru%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Condie%20IT%20Solutions/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Corazon/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Cornerstone%20Business%20Solutions/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Counting%20House%20Software%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Creative%20Computing/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/CRM%20ESSENTIALS%20LIMITED/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/DIVIDEND%20TRAINING%20LTD/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Dmc%20Software%20Solutions%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Economic%20Data%20Services%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Eiger%20Group%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Elite%20Business%20Services%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Entec%20Novare%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Essam%20Systems%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Eureka%20Solutions%20Ltd%20(Scotland)/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Evolution%20Marketing%20Services/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Financial%20Controls%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Fortec%20Communications%20SL/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/G%20M%20T%20COMPUTERS%20LTD/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Greenpoint%20Computer%20Services/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Hunter%20Enterprises/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/I%20T%20Works/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/IDL%20SYSTEMS%20LTD/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Integratech%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Interalia/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Interface%20(Dcb)%20Technology%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Johnson%20Hunt%20(Uk)%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Kf%20Systems%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Kinspeed%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Knowledge%20Processes%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/LATERAL%20SOLUTIONS/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Leviosa%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Marsdens%20Computer%20Systems/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/MCC%20COMPUTERS/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Mci%20Diventi%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Mercer%20Lal%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Micro%20Computer%20Solutions%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Micromedia%20BV/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Microspec%20Computers%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Micross%20Logic%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Midland%20Computers%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/MITCHELLS/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Oakley%20Computer%20Training%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Onesys%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Opus%20Uk%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Powertek/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Preact%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Project%20Support%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Providian%20Global%20Solutions%20FZE/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Pw%20Beere%20Accounting%20Solutions%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Reality%20Solutions%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Rimington%20Solutions%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Sales%20Dynamics%20Uk/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Skill%20Sets%20Solutions%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Smith%20Cooper/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Solutions%20For%20Accounting%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/SOLVE%20IT%20ENTERPRISES%20LTD/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Stonehouse%20Logic%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Systematic%20Business/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/T%20L%20C%20(Trevor%20Lever%20Consulting)/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Technology%20Partners%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/The%20northern%20Path%20Limited/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Thom%20Micro%20Systems%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Training%20Link/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Tri%20It%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Trillium%20Developments%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Trym%20Data/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Tsg/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Vsi%20(Uk)%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Whitfurrows%20Ltd/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Wildcat%20Solutions/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/details/Zelite%20Solutions/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/europe/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/europe/details.shtml%3Fpid%3D2%26region%3Dpd" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/ireland/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/netherlands/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/new-zealand/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/north-africa/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/south-africa/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/act-resellers/uk/" value="/en-uk/partners-map"/>
+          <add key="/en-uk/partners/development-partner-program/" value="/en-uk/partners-map"/>
+          <add key="/fr" value="/fr-fr/"/>
+          <add key="/fr-fr/download/v16/premium/" value="/fr-fr/telechargement/v16/premium"/>
+          <add key="/fr-fr/download/v16/pro/" value="/fr-fr/telechargement/v16/pro"/>
+          <add key="/fr-fr/paiements/international/" value="/fr-fr/paiements"/>
+          <add key="/fr-fr/partners/" value="/fr-fr/partenaires"/>
+          <add key="/fr-fr/partners/act-resellers/belgium/" value="/fr-fr/partenaires"/>
+          <add key="/fr-fr/partners/act-resellers/canada/" value="/fr-fr/partenaires"/>
+          <add key="/fr-fr/partners/act-resellers/canada/details.shtml%3Fpid%3D1%26region%3Dfca" value="/fr-fr/partenaires"/>
+          <add key="/fr-fr/partners/act-resellers/details/ACS/" value="/fr-fr/partenaires"/>
+          <add key="/fr-fr/partners/act-resellers/details/DEBISCOM/" value="/fr-fr/partenaires"/>
+          <add key="/fr-fr/partners/act-resellers/details/eSolutions/" value="/fr-fr/partenaires"/>
+          <add key="/fr-fr/partners/act-resellers/details/M4Y/" value="/fr-fr/partenaires"/>
+          <add key="/fr-fr/partners/act-resellers/details/Power%20ACT!/" value="/fr-fr/partenaires"/>
+          <add key="/fr-fr/partners/act-resellers/details/Zeus%20computer/" value="/fr-fr/partenaires"/>
+          <add key="/fr-fr/partners/act-resellers/french/" value="/fr-fr/partenaires"/>
+          <add key="/fr-fr/products/" value="/fr-fr/produits"/>
+          <add key="/fr-fr/products/act-emarketing/" value="/fr-fr/produits/act-emarketing"/>
+          <add key="/fr-fr/products/act-premium/" value="/fr-fr/produits/act-premium"/>
+          <add key="/fr-fr/products/act-pro/" value="/fr-fr/produits/act-pro"/>
+          <add key="/fr-fr/products/mobility/" value="/fr-fr/produits/act-premium"/>
+          <add key="/fr-fr/products/mobility/act-connect/" value="/fr-fr/produits/act-premium"/>
+          <add key="/fr-fr/products/mobility/act-connect/system/" value="/fr-fr/produits/systeme/v17/premium"/>
+          <add key="/fr-fr/products/mobility/act-premium-mobile/" value="/fr-fr/produits/act-premium"/>
+          <add key="/fr-fr/products/swiftpage-emarketing/" value="/fr-fr/produits/act-premium"/>
+          <add key="/fr-fr/products/system/2008/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2009/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2010/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2010/act-by-sage-corporate-edition/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2010/act-by-sage-premium/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2010/act-by-sage/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2010/affp-premium-v12/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2010/affp-v12/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2010/afre-premium-v12/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2010/afre-v12/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2011/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2011/premium/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2011/pro/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2012/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2012/premium/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2012/pro/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/products/system/2013/" value="/fr-fr/produits/systeme"/>
+          <add key="/fr-fr/products/system/2013/premium/" value="/fr-fr/produits/systeme/2013/premium"/>
+          <add key="/fr-fr/products/system/2013/pro/" value="/fr-fr/produits/systeme/2013/pro"/>
+          <add key="/fr-fr/products/system/v16/" value="/fr-fr/produits/systeme/v16"/>
+          <add key="/fr-fr/products/system/v16/premium/" value="/fr-fr/produits/systeme/v16"/>
+          <add key="/fr-fr/products/upgrade/" value="/fr-fr/produits/nouveautes"/>
+          <add key="/fr-fr/support/" value="/fr-fr/assistance"/>
+          <add key="/fr-fr/support/customer-service/refunds/" value="/fr-fr/assistance"/>
+          <add key="/fr-fr/support/downloads/EMEA/" value="/fr-fr/assistance/telechargements"/>
+          <add key="/fr-fr/support/feature-packs/" value="/fr-fr/assistance/telechargements"/>
+          <add key="/fr-fr/support/obsolescence-policies/" value="/fr-fr/assistance/obsolescence"/>
+          <add key="/fr-fr/trial/" value="/fr-fr/essai"/>
+          <add key="/fr-fr/why-choose-act/" value="/fr-fr/pourquoi-choisir"/>
+          <add key="/fr-fr/why-choose-act/cloud-on-premise-deployment/" value="/fr-fr/produits/act-emarketing"/>
+          <add key="/de" value="/de-de/"/>
+          <add key="/de-de/contact/" value="/de-de/kontakt"/>
+          <add key="/de-de/partners/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/AriBis%20GmbH/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/Bents%20Informationssysteme%20GmbH/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/bizz%20consult%20GmbH/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/Caprez%20Consulting/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/Datentechnik%20Kalloch/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/ERM%20Consulting%20GmbH/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/Ingenieurb%25C3%25BCro%20Hombach/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/IT-Direkt%20GmbH/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/JBT-Consulting/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/LHL%20Computer-Service%20GmbH/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/Reischer%20CRM%20Consultants%20GmbH/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/SIT%20Consult%20e%20K/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/details/WCT%20GmbH/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/germany/" value="/de-de/partner-finden"/>
+          <add key="/de-de/partners/act-resellers/switzerland/" value="/de-de/partner-finden"/>
+          <add key="/de-de/products/" value="/de-de/produkte"/>
+          <add key="/de-de/products/act-emarketing/" value="/de-de/act-emarketing"/>
+          <add key="/de-de/products/act-premium/" value="/de-de/produkte/act-premium"/>
+          <add key="/de-de/products/act-pro/" value="/de-de/produkte/act-pro"/>
+          <add key="/de-de/products/demo-center/" value="/de-de/kostenlos-testen"/>
+          <add key="/de-de/products/mobility/" value="/de-de/produkte/act-premium"/>
+          <add key="/de-de/products/mobility/act-connect/" value="/de-de/produkte/act-premium"/>
+          <add key="/de-de/products/mobility/act-connect/system/" value="/de-de/produkte/act-premium"/>
+          <add key="/de-de/products/mobility/act-premium-mobile/" value="/de-de/produkte/act-premium"/>
+          <add key="/de-de/products/mobility/act-premium-mobile/tour/" value="/de-de/produkte/act-premium"/>
+          <add key="/de-de/products/mobility/pro/" value="/de-de/produkte/act-premium"/>
+          <add key="/de-de/products/swiftpage-emarketing/" value="/de-de/act-emarketing"/>
+          <add key="/de-de/products/system/2008/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2009/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2010/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2010/act-by-sage-corporate-edition/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2010/act-by-sage-premium/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2010/act-by-sage/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2010/affp-premium-v12/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2010/affp-v12/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2010/afre-premium-v12/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2010/afre-v12/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2011/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2011/premium/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2011/pro/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2012/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2012/premium/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2012/pro/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/products/system/2013/" value="/de-de/produkte/2013/Pro/Systemvoraussetzungen"/>
+          <add key="/de-de/products/system/2013/premium/" value="/de-de/produkte/2013/Premium/Systemvoraussetzungen"/>
+          <add key="/de-de/products/system/2013/pro/" value="/de-de/produkte/2013/Pro/Systemvoraussetzungen"/>
+          <add key="/de-de/products/system/v16/" value="/de-de/produkte/v16/pro-premium/Systemvoraussetzungen"/>
+          <add key="/de-de/products/system/v16/Act!-v16-System%20Requirements_de.pdf" value="/de-de/produkte/v16/pro-premium/Systemvoraussetzungen"/>
+          <add key="/de-de/products/upgrade/" value="/de-de/produkte/was-ist-neu"/>
+          <add key="/de-de/support/" value="/de-de/support/wartungsvertraege"/>
+          <add key="/de-de/support/customer-service/refunds/" value="/de-de/support/wartungsvertraege"/>
+          <add key="/de-de/support/downloads/EMEA/" value="/de-de/support/downloads"/>
+          <add key="/de-de/support/feature-packs/" value="/de-de/support/wartungsvertraege"/>
+          <add key="/de-de/support/obsolescence-policies/" value="/de-de/support/obsoleszenz-regelung"/>
+          <add key="/de-de/systreq" value="/de-de/produkte/Systemvoraussetzungen"/>
+          <add key="/de-de/trial/" value="/de-de/kostenlos-testen"/>
+          <add key="/de-de/why-choose-act/" value="/de-de/produkte"/>
+          <add key="/de-de/why-choose-act/cloud-on-premise-deployment/" value="/de-de/warum-act"/>
+          <add key="/de-de/why-choose-act/customer-successes/" value="/de-de/kundenreferenzen"/>
+          <add key="/de-de/Zahlungsbedingungen/international/" value="/de-de/zahlungsmoeglichkeiten"/>
+          <!-- INTL Redirect no trailing slashes-->
+          <add key="/en-uk/contact" value="/en-uk/contact-us/"/>
+          <add key="/en-uk/products/mobility/act-connect/system" value="/en-uk/act-productpage-mobility/"/>
+          <add key="/en-uk/products/mobility/act-premium-mobile" value="/en-uk/act-productpage-mobility/"/>
+          <add key="/en-uk/products/mobility/act-premium-mobile/tour" value="/en-uk/act-productpage-mobility/"/>
+          <add key="/en-uk/products/mobility/premium-mobile/" value="/en-uk/act-productpage-mobility/"/>
+          <add key="/en-uk/products/system/2009" value="/en-uk/support/obsolescence-policies/"/>
+          <add key="/en-uk/products/system/2010" value="/en-uk/support/obsolescence-policies/"/>
+          <add key="/en-uk/products/system/2010/act-by-sage" value="/en-uk/support/obsolescence-policies/"/>
+          <add key="/en-uk/products/system/2010/act-by-sage-corporate-edition" value="/en-uk/support/obsolescence-policies/"/>
+          <add key="/en-uk/products/system/2010/act-by-sage-premium" value="/en-uk/support/obsolescence-policies/"/>
+          <add key="/en-uk/products/system/2010/affp-premium-v12" value="/en-uk/support/obsolescence-policies/"/>
+          <add key="/en-uk/products/system/2010/affp-v12" value="/en-uk/support/obsolescence-policies/"/>
+          <add key="/en-uk/products/system/2010/afre-premium-v12" value="/en-uk/support/obsolescence-policies/"/>
+          <add key="/en-uk/products/system/2010/afre-v12" value="/en-uk/support/obsolescence-policies/"/>
+          <add key="/en-uk/products/system/2012/pro" value="/en-uk/support/obsolescence-policies/"/>
+          <add key="/en-uk/support/business-care" value="/en-uk/support/"/>
+          <add key="/en-uk/support/getting-started" value="/en-uk/support/"/>
+          <add key="/en-uk/support/getting-started-documentation" value="/en-uk/support/"/>
+          <add key="/en-uk/support/getting-started-feature-tours" value="/en-uk/support/"/>
+          <add key="/en-uk/support/getting-started-videos" value="/en-uk/support/"/>
+          <add key="/en-uk/trial" value="/en-uk/free-trial/"/>
+          <add key="/de-de/contact" value="/de-de/kontakt/"/>
+          <add key="/de-de/partners/act-resellers/germany" value="/de-de/partner-finden/"/>
+          <add key="/de-de/partners/act-resellers/switzerland" value="/de-de/partner-finden/"/>
+          <add key="/de-de/products/act-premium" value="/de-de/produkte/act-premium/"/>
+          <add key="/de-de/products/act-pro" value="/de-de/produkte/act-pro/"/>
+          <add key="/de-de/products/demo-center" value="/de-de/kostenlos-testen/"/>
+          <add key="/de-de/products/mobility" value="/de-de/produkte/act-premium/"/>
+          <add key="/de-de/products/mobility/act-connect/system" value="/de-de/produkte/act-premium/"/>
+          <add key="/de-de/products/mobility/act-premium-mobile" value="/de-de/produkte/act-premium/"/>
+          <add key="/de-de/products/mobility/act-premium-mobile/tour" value="/de-de/produkte/act-premium/"/>
+          <add key="/de-de/products/mobility/pro" value="/de-de/produkte/act-premium/"/>
+          <add key="/de-de/products/system/2008" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2009" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2010" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2010/act-by-sage-corporate-edition" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2010/act-by-sage-premium" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2010/act-by-sage" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2010/affp-premium-v12" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2010/affp-v12" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2010/afre-premium-v12" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2010/afre-v12" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2011" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2011/premium" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2011/pro" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2012" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2012/premium" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2012/pro" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/products/system/2013" value="/de-de/produkte/2013/Pro/Systemvoraussetzungen/"/>
+          <add key="/de-de/products/system/2013/premium" value="/de-de/produkte/2013/Premium/Systemvoraussetzungen/"/>
+          <add key="/de-de/products/system/2013/pro" value="/de-de/produkte/2013/Pro/Systemvoraussetzungen/"/>
+          <add key="/de-de/products/system/v16" value="/de-de/produkte/v16/pro-premium/Systemvoraussetzungen/"/>
+          <add key="/de-de/support/customer-service/refunds" value="/de-de/support/wartungsvertraege/"/>
+          <add key="/de-de/support/downloads/EMEA" value="/de-de/support/downloads/"/>
+          <add key="/de-de/support/feature-packs" value="/de-de/support/wartungsvertraege/"/>
+          <add key="/de-de/support/obsolescence-policies" value="/de-de/support/obsoleszenz-regelung/"/>
+          <add key="/de-de/systreq/" value="/de-de/produkte/Systemvoraussetzungen/"/>
+          <add key="/de-de/trial" value="/de-de/kostenlos-testen/"/>
+          <add key="/de-de/why-choose-act" value="/de-de/produkte/"/>
+          <add key="/de-de/why-choose-act/cloud-on-premise-deployment" value="/de-de/warum-act/"/>
+          <add key="/de-de/why-choose-act/customer-successes" value="/de-de/kundenreferenzen/"/>
+          <add key="/de-de/Zahlungsbedingungen/international" value="/de-de/zahlungsmoeglichkeiten/"/>
+          <add key="/fr-fr/download/v16/premium" value="/fr-fr/telechargement/v16/premium/"/>
+          <add key="/fr-fr/download/v16/pro" value="/fr-fr/telechargement/v16/pro/"/>
+          <add key="/fr-fr/paiements/international" value="/fr-fr/paiements/"/>
+          <add key="/fr-fr/partners/act-resellers/belgium" value="/fr-fr/partenaires/"/>
+          <add key="/fr-fr/partners/act-resellers/canada" value="/fr-fr/partenaires/"/>
+          <add key="/fr-fr/products/act-premium" value="/fr-fr/produits/act-premium/"/>
+          <add key="/fr-fr/products/act-pro" value="/fr-fr/produits/act-pro/"/>
+          <add key="/fr-fr/products/mobility" value="/fr-fr/produits/act-premium/"/>
+          <add key="/fr-fr/products/mobility/act-connect" value="/fr-fr/produits/act-premium/"/>
+          <add key="/fr-fr/products/mobility/act-connect/system" value="/fr-fr/produits/systeme/v17/premium/"/>
+          <add key="/fr-fr/products/mobility/act-premium-mobile" value="/fr-fr/produits/act-premium/"/>
+          <add key="/fr-fr/products/system/2008" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2009" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2010" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2010/act-by-sage-corporate-edition" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2010/act-by-sage-premium" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2010/act-by-sage" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2010/affp-premium-v12" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2010/affp-v12" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2010/afre-premium-v12" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2010/afre-v12" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2011" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2011/premium" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2011/pro" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2012" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2012/premium" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2012/pro" value="/fr-fr/assistance/obsolescence/"/>
+          <add key="/fr-fr/products/system/2013" value="/fr-fr/produits/systeme/"/>
+          <add key="/fr-fr/products/system/2013/premium" value="/fr-fr/produits/systeme/2013/premium/"/>
+          <add key="/fr-fr/products/system/2013/pro" value="/fr-fr/produits/systeme/2013/pro/"/>
+          <add key="/fr-fr/products/system/v16" value="/fr-fr/produits/systeme/v16/"/>
+          <add key="/fr-fr/products/system/v16/premium" value="/fr-fr/produits/systeme/v16/"/>
+          <add key="/fr-fr/products/system/v16/pro" value="/fr-fr/produits/systeme/v16/"/>
+          <add key="/fr-fr/products/system/v16/pro/" value="/fr-fr/produits/systeme/v16/"/>
+          <!-- NEW SITE REDIRECTS -->
+          <add key="/buy" value="/buy/act-premium"/>
+          <add key="/buy/" value="/buy/act-premium"/>
+          <add key="/products/act-cloud" value="/products/act-essentials"/>
+          <add key="/products/act-cloud/" value="/products/act-essentials"/>
+          <!-- <add key="/products/act-cloud/tos/" value="/products/act-premium/cloud-tos/" />
+<add key="/products/act-cloud/tos" value="/products/act-premium/cloud-tos/" /> -->
+          <add key="/products/act-cloud/toc/" value="/products/act-cloud/tos/"/>
+          <add key="/products/act-cloud/toc" value="/products/act-cloud/tos/"/>
+          <add key="/products/act-premium/cloud-tos" value="/tos"/>
+          <add key="/products/act-premium/cloud-tos/" value="/tos"/>
+          <add key="/products/act-premium-hosted" value="/products/act-premium"/>
+          <add key="/products/act-premium-hosted/" value="/products/act-premium"/>
+          <add key="/products/buy" value="/buy/act-premium"/>
+          <add key="/products/buy/" value="/buy/act-premium"/>
+          <add key="/products/demo-center" value="/support/demo-center"/>
+          <add key="/products/demo-center/" value="/support/demo-center"/>
+          <add key="/support/business-care/act-hosted" value="/support/business-care"/>
+          <add key="/support/business-care/act-hosted/" value="/support/business-care"/>
+          <add key="/support/business-care/campaign" value="/support/business-care"/>
+          <add key="/support/business-care/campaign/" value="/support/business-care"/>
+          <add key="/support/business-care/feature-packs" value="http://kb.swiftpage.com/app/answers/detail/a_id/37651"/>
+          <add key="/support/business-care/feature-packs/" value="http://kb.swiftpage.com/app/answers/detail/a_id/37651"/>
+          <add key="/support/business-care/gold" value="/support/business-care"/>
+          <add key="/support/business-care/gold/" value="/support/business-care"/>
+          <add key="/support/business-care/silver" value="/support/business-care"/>
+          <add key="/support/business-care/silver/" value="/support/business-care"/>
+          <add key="/support/business-care/bronze" value="/support/business-care"/>
+          <add key="/support/business-care/bronze/" value="/support/business-care"/>
+          <add key="/support/customer-service" value="/support/"/>
+          <add key="/support/customer-service/" value="/support/"/>
+          <add key="/why-choose-act/cloud-on-premise-deployment" value="/products/"/>
+          <add key="/why-choose-act/cloud-on-premise-deployment/" value="/products/"/>
+          <!-- landing pages -->
+          <add key="/lp/blackfridayu/" value="/"/>
+          <add key="/lp/blackfridayp/" value="/"/>
+          <add key="/lp/brand-management/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/edu/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/gov/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/laborday-p/" value="/"/>
+          <add key="/lp/laborday-c/" value="/"/>
+          <add key="/latte" value="/lp/latte"/>
+          <add key="/latte/" value="/lp/latte"/>
+          <add key="/lp/missuc/" value="/"/>
+          <add key="/lp/missup/" value="/"/>
+          <add key="/lp/np/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/perfect-pairings-p/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/ppcp/" value="/"/>
+          <add key="/lp/ppcp" value="/"/>
+          <add key="/lp/ppcu/" value="/"/>
+          <add key="/lp/ppcu" value="/"/>
+          <add key="/lp/qsalesdata-bundle/" value="/"/>
+          <add key="/lp/qsalesdata/" value="/"/>
+          <add key="/lp/real-estate/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/switch/" value="/"/>
+          <add key="/lp/time-management/" value="/lp/top-10-time-management-tips-for-business-owners/"/>
+          <add key="/lp/time-management/construction" value="/lp/top-10-time-management-tips-for-business-owners/"/>
+          <add key="/lp/time-management/education" value="/lp/top-10-time-management-tips-for-business-owners/"/>
+          <add key="/lp/time-management/financial-services" value="/lp/top-10-time-management-tips-for-financial-professionals/"/>
+          <add key="/lp/time-management/government" value="/lp/top-10-time-management-tips-for-business-owners/"/>
+          <add key="/lp/time-management/healthcare" value="/lp/top-10-time-management-tips-for-healthcare/"/>
+          <add key="/lp/time-management/manufacturing" value="/lp/top-10-time-management-tips-for-manufacturing/"/>
+          <add key="/lp/time-management/non-profit" value="/lp/top-10-time-management-tips-for-nonprofit/"/>
+          <add key="/lp/time-management/real-estate" value="/lp/top-10-time-management-tips-for-real-estate/"/>
+          <add key="/lp/time-management/retail" value="/lp/top-10-time-management-tips-for-business-owners/"/>
+          <add key="/lp/time-management/technology" value="/lp/top-10-time-management-tips-for-business-owners/"/>
+          <add key="/lp/treat25/" value="/"/>
+          <add key="/lp/treat25u/" value="/"/>
+          <add key="/lp/treat35/" value="/"/>
+          <add key="/lp/tgifp/" value="/"/>
+          <add key="/lp/tgifu/" value="/"/>
+          <add key="/lp/v17p/" value="/"/>
+          <add key="/lp/v17c/" value="/"/>
+          <add key="/lp/xp/" value="/"/>
+          <add key="/sunset" value="/lp/sunset"/>
+          <add key="/v15exclusive" value="/lp/v15exclusive"/>
+          <!-- briefs -->
+          <add key="/media/en-us/docs/Act!-Business-Care-Brief.pdf" value="/support/business-care/"/>
+          <add key="/media/en-us/docs/briefs/Act!-emarketing-Brief.pdf" value="/documents/Act_Emarketing_Brief.pdf"/>
+          <add key="/media/en-us/docs/briefs/actEmarketingBrief.pdf" value="/documents/Act_Emarketing_Brief.pdf"/>
+          <add key="/media/en-us/docs/Act!-Premium-Hosted-FAQs.pdf" value="/documents/Act_Premium_Cloud_FAQ.pdf"/>
+          <add key="/media/en-us/docs/Act!PremiumHostedTC.pdf" value="http://www.swiftpage.com/billing-policy"/>
+          <add key="/media/en-us/docs/briefs/Act!PremiumHostedBrief.pdf" value="/documents/Act_Premium_Cloud_Brief.pdf"/>
+          <add key="/media/en-us/docs/briefs/Act!-v17-Whats-New-Brief.pdf" value="/documents/Act_v17_Whats_New_Brief.pdf"/>
+          <!-- SEO redirs -->
+          <add key="/de-de." value="/"/>
+          <add key="/products/mobility/act-premium-mobile/%20" value="/"/>
+          <add key="/%20" value="/"/>
+          <add key="/support/downloads/" value="/"/>
+          <add key="/de-de/Zahlungsbedingungen/" value="/"/>
+          <add key="/en-uk/products/system/" value="/"/>
+          <add key="/lp/qbc/" value="/"/>
+          <add key="/products/2010/act/" value="/"/>
+          <add key="/support/updates/index.cfm" value="/"/>
+          <add key="/products-and-services/connected-services/sage-act-connect/~/media/Category/CRM/ACT/Assets/Documents/SageACT2012SystemRequirements.doc" value="/"/>
+          <add key="/products/index.cfm" value="/"/>
+          <add key="/Products-and-Services/Connected-Services/sage-mobile-for-act" value="/"/>
+          <add key="/Home/index.cfm" value="/"/>
+          <add key="/2008/system/" value="/"/>
+          <add key="/community/acc/index.cfm" value="/"/>
+          <add key="/support/index.cfm" value="/"/>
+          <add key="/partners/acc" value="http://acc.swiftpage.com"/>
+          <add key="/certifiedconsultants" value="/"/>
+          <add key="/Products-and-Services/Sage-ACT-Premium-2012" value="/"/>
+          <add key="/products/2008/act/" value="/"/>
+          <add key="/lp/partners" value="/"/>
+          <add key="/2010/system/act/" value="/"/>
+          <add key="/beta/~/media/Category/CRM/ACT/Assets/Documents/SageACT2012SystemRequirements.doc" value="/"/>
+          <add key="/docs/2008/ACT_NewUserFeatureChart_R3.pdf" value="/"/>
+          <add key="/2009/system" value="/"/>
+          <add key="/products/connected-services/mobile/" value="/"/>
+          <add key="/products-and-services/demo-center" value="/"/>
+          <add key="/docs/2008/whitepapers/final_whitepaper_sync_act08_03136.pdf" value="/"/>
+          <add key="/partners/addonpartners/sdk/" value="/"/>
+          <add key="/products/act-industry-solutions/" value="/"/>
+          <add key="/partners/addonpartners/index.cfm" value="/"/>
+          <add key="/products/accounting/peachtree/" value="/"/>
+          <add key="/Products-and-Services/Accounting-Integration" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Do-it-Bill-it" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Duplicate-Remover-Expert-Wizard" value="/"/>
+          <add key="/Support-and-Training/Database-Services" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Durkin-Toolkit-Designer" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Tele-Support-HelpDesk-2-Users" value="/"/>
+          <add key="/index.cfm" value="/"/>
+          <add key="/products/accounting/quickbooks/" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/MergeAdmin-for-Sage-ACT-2012" value="/"/>
+          <add key="/Newsroom" value="/"/>
+          <add key="/products/premium07cl/demo/index.cfm" value="/"/>
+          <add key="/products/large/what/index.cfm" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/AddressGrabber-Standard" value="/"/>
+          <add key="/eStore/" value="/"/>
+          <add key="/enews" value="/"/>
+          <add key="/support/resourcecenter/index.cfm" value="/"/>
+          <add key="/products/2008/faq/index.cfm" value="/"/>
+          <add key="/2010systreq" value="/"/>
+          <add key="/Products-and-Services/Sage-ACT-Pro-2011" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Tele-Support-HelpDesk-Lite" value="/"/>
+          <add key="/en-uk/products/system/2011" value="/"/>
+          <add key="/de-de/kontak" value="/"/>
+          <add key="/~/media/Company/CRM/Success%20Stories/ACT/2010_ACT_SS_DesignNorth.pdf" value="/"/>
+          <add key="/submityourstory" value="/"/>
+          <add key="/AEMwebcast" value="/"/>
+          <add key="/~/media/Company/CRM/Success%20Stories/ACT/2010_ACT_EmpireSafety.pdf" value="/"/>
+          <add key="/~/media/category/crm/act/assets/documents/SageEmarketingforACTProductBrief.pdf" value="/"/>
+          <add key="/2007systreq" value="/"/>
+          <add key="/en-uk/products/system/2011/premium" value="/"/>
+          <add key="/products/sage-act-2011/index.cfm" value="/"/>
+          <add key="/Partners/Sage-Development-Partner-Program/SDK" value="/"/>
+          <add key="/community/training/index.cfm" value="/"/>
+          <add key="/products/businessservices" value="/"/>
+          <add key="/en-uk/products/mobility" value="/"/>
+          <add key="/support/updates/" value="/"/>
+          <add key="/~/media/category/crm/act/assets/documents/SageEmarketingforACTPlansandPricingChart.pdf" value="/"/>
+          <add key="/products/accounting/" value="/"/>
+          <add key="/2010/system/actpremium/" value="/"/>
+          <add key="/community/profile/" value="/"/>
+          <add key="/~/media/Company/CRM/Success%20Stories/ACT/successstory_profittell.pdf" value="/"/>
+          <add key="/~/media/Company/CRM/Success%20Stories/ACT/2010_ACT_Pathways.pdf" value="/"/>
+          <add key="/visaoffer/" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Handheld-Contact-for-Sage-ACT" value="/"/>
+          <add key="/products/platinumcare" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Automatic-Field-Calculation-for-Sage-ACT-2012" value="/"/>
+          <add key="/~/media/Company/CRM/Success%20Stories/ACT/2010_ACT_newbroadcastnetwork.pdf" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/eMail-Lead-Grabber-Business" value="/"/>
+          <add key="/2009/system/realestate" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/QuoteWerks-by-Aspire-Technologies" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Durkin-Contact-List-Plus" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Durkin-Calendar-View-Plus" value="/"/>
+          <add key="/products/palm/index.cfm" value="/"/>
+          <add key="/plaxo" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/TopLine-Dash-Manager" value="/"/>
+          <add key="/products/large/cl/support/ppcall/index.cfm" value="/"/>
+          <add key="/privacy-policy" value="/"/>
+          <add key="/support/DualAccess" value="/"/>
+          <add key="/support/customer-service/refunds/" value="/"/>
+          <add key="/products/crm/index.cfm" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Placements" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Scan2CRM-for-Sage-ACT" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/eGrabber-DupChecker-5000" value="/"/>
+          <add key="/en-uk/partners/act-resellers/asia" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Stonefield-Query-Report-Viewer" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/TopLine-Dash-Alerts" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/OAKMerge-Pro" value="/"/>
+          <add key="/products/connected-services/emarketing/" value="/"/>
+          <add key="/docs/2009/act_datasheet_final.pdf" value="/"/>
+          <add key="/docs/2006/act_re_datasheet.pdf" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Call-On-CRM-for-Skype-and-Sage-ACT-1-User-12-months" value="/"/>
+          <add key="/2008/democenter/" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/TopLine-Designer" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/123-Sync-Server-for-Exchange-5-User" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/AutoAdmin-for-Sage-ACT-2012" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Export-IT" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Scan-IT" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Copy-Fields-Wizard" value="/"/>
+          <add key="/2009/2008sysreq" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Tele-Support-HelpDesk-5-Users" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/it-Import-Net-Unlimited-Databases" value="/"/>
+          <add key="/docs/enews/0803/corp/index4.html" value="/"/>
+          <add key="/Products-and-Services/Sage-ACT-Premium-2012-Upgrade" value="/"/>
+          <add key="/docs/pop/apfw/sstour/APFW_01.htm" value="/"/>
+          <add key="/support/plans/actadvantage/" value="/"/>
+          <add key="/products/act-premium-hosted/buy/" value="/"/>
+          <add key="/products/businessservices/paymentsolutions/" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/Durkin-Toolkit-Runtime" value="/"/>
+          <add key="/Products-and-Services/Add-on-Solutions/DocAdmin-for-Sage-ACT-2012" value="/"/>
+          <add key="/support/plans/getstarted/index.cfm" value="/"/>
+          <add key="/de-de/products/mobility/act-connect" value="/"/>
+          <!-- Trial redirects -->
+          <add key="/cdw" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/freetrial" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/trial" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/trial/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/try" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/try2013" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/tryact" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/trial/thankyou/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/trial/thankyou" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/trial/thankyou/?trial=on" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/lp/trial/thankyou/?trial=dl" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/thankyou/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/thankyou" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/thankyou/?trial=on" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/thankyou/?trial=dl" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/video/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/video" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/financial-services/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/financial-services" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/healthcare/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/healthcare" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/manufacturing/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/manufacturing" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/nonprofit/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/nonprofit" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/real-estate/" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <add key="/trial/real-estate" value="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"/>
+          <!-- Partners -->
+          <add key="/partners/select/" value="http://acc.swiftpage.com/Select/"/>
+          <add key="/partners/select" value="http://acc.swiftpage.com/Select/"/>
+          <!-- more redirects -->
+          <add key="/apc/onboarding-demo" value="http://e.act.com/demoregistration"/>
+          <add key="/apc/onboarding-demo/" value="http://e.act.com/demoregistration"/>
+          <add key="/apc/onboarding-demo-recorded" value="https://youtu.be/AygNewe8bMY"/>
+          <add key="/apc/onboarding-demo-recorded/" value="https://youtu.be/AygNewe8bMY"/>
+          <add key="/apc/onboarding-video-database" value="https://youtu.be/F1eSI6wuo4A"/>
+          <add key="/apc/onboarding-video-database/" value="https://youtu.be/F1eSI6wuo4A"/>
+          <add key="/aem-billing" value="http://server.iad.liveperson.net/hc/s-5126770/web/ticketpub/msgcontroller.jsp?surveyname=ActEmarketingBilling"/>
+          <add key="/sem-billing" value="http://server.iad.liveperson.net/hc/s-5126770/web/ticketpub/msgcontroller.jsp?surveyname=SwiftpageEmarketingbilling"/>
+          <!-- redirect post CMS launch -->
+          <add key="/expo" value="/"/>
+          <add key="/leadership" value="/about/leadership/"/>
+          <add key="/leadership/allen-duet" value="/about/leadership/allen-duet"/>
+          <add key="/leadership/andy-murray" value="/about/leadership/andy-murray"/>
+          <add key="/leadership/bob-ogdon" value="/about/leadership/bob-ogdon"/>
+          <add key="/leadership/dan-ogdon" value="/about/leadership/dan-ogdon"/>
+          <add key="/leadership/john-oechsle" value="/about/leadership/john-oechsle"/>
+          <add key="/leadership/lanae-fehr" value="/about/leadership/lanae-fehr"/>
+          <add key="/leadership/lorcan-malone" value="/about/leadership/lorcan-malone"/>
+          <add key="/leadership/melissa-rawlinson" value="/about/leadership/"/>
+          <add key="/products/act-cloud/1and1" value="/1and1/"/>
+          <add key="/products/act-cloud/hsc" value="/hsc/"/>
+          <add key="/products/act-emarketing/training" value="/aem-training/"/>
+          <add key="/products/act-emarketing/training/" value="/aem-training/"/>
+          <add key="/products/mobility/act-premium-mobile" value="/products/act-essentials"/>
+          <add key="/products/mobility/act-premium-mobile/tour" value="/mobile-tour"/>
+          <add key="/support/training-opportunities" value="http://training-act.com/act/act-lib-prem/en-us/Launch.html"/>
+          <add key="/support/docs/Install-Guide.pdf" value="/docs/default-source/user-guides/install-guide.pdf"/>
+          <add key="/support/docs/ACTQRC.pdf" value="/docs/default-source/user-guides/ACTQRC.pdf"/>
+          <add key="/support/docs/ActDiagUsersGuide.pdf" value="/docs/default-source/user-guides/ActDiagUsersGuide.pdf"/>
+          <add key="/support/docs/UpgradingfromACT2005andLater.pdf" value="/docs/default-source/user-guides/UpgradingfromACT2005andLater.pdf"/>
+          <add key="/2015startup-trial" value="/2015startup4-trial"/>
+          <add key="/products/propel-productivity" value="/products/automation-integration"/>
+          <add key="/resources/downloads/emea" value="/en-uk/support/downloads/emea"/>
+          <add key="/resources/training-opportunities" value="http://training-act.com/act/act-lib-prem/en-us/Launch.html"/>
+          <!-- sdk redir -->
+          <add key="/partners/development-partner-program/sdk" value="/dps/sdk"/>
+          <add key="/partners/development-partner-program/sdk/" value="/dps/sdk"/>
+          <add key="/partners/development-partner-program/sdk/2005" value="/dps/sdk/2005"/>
+          <add key="/partners/development-partner-program/sdk/2005-eula" value="/dps/sdk/2005-eula"/>
+          <add key="/partners/development-partner-program/sdk/2006" value="/dps/sdk/2006"/>
+          <add key="/partners/development-partner-program/sdk/2007" value="/dps/sdk/2007"/>
+          <add key="/partners/development-partner-program/sdk/2007-eula" value="/dps/sdk/2007-eula"/>
+          <add key="/partners/development-partner-program/sdk/2007-web-eula" value="/dps/sdk/2007-web-eula"/>
+          <add key="/partners/development-partner-program/sdk/2008" value="/dps/sdk/2008"/>
+          <add key="/partners/development-partner-program/sdk/2008-eula" value="/dps/sdk/2008-eula"/>
+          <add key="/partners/development-partner-program/sdk/2009" value="/dps/sdk/2009"/>
+          <add key="/partners/development-partner-program/sdk/2009-eula" value="/dps/sdk/2009-eula"/>
+          <add key="/partners/development-partner-program/sdk/2010" value="/dps/sdk/2010"/>
+          <add key="/partners/development-partner-program/sdk/2010-eula" value="/dps/sdk/2010-eula"/>
+          <add key="/partners/development-partner-program/sdk/2011" value="/dps/sdk/2011"/>
+          <add key="/partners/development-partner-program/sdk/2011-eula" value="/dps/sdk/2011-eula"/>
+          <add key="/partners/development-partner-program/sdk/2012" value="/dps/sdk/2012"/>
+          <add key="/partners/development-partner-program/sdk/2012-eula" value="/dps/sdk/2012-eula"/>
+          <add key="/partners/development-partner-program/sdk/2013" value="/dps/sdk/2013"/>
+          <add key="/partners/development-partner-program/sdk/2013-eula" value="/dps/sdk/2013-eula"/>
+          <add key="/partners/development-partner-program/sdk/download" value="/dps/sdk/download"/>
+          <add key="/partners/development-partner-program/sdk/v16" value="/dps/sdk/v16"/>
+          <add key="/partners/development-partner-program/sdk/v16-eula" value="/dps/sdk/v16-eula"/>
+          <add key="/partners/development-partner-program/sdk/v17" value="/dps/sdk/v17"/>
+          <add key="/partners/development-partner-program/sdk/v17-eula" value="/dps/sdk/v17-eula"/>
+          <add key="/documents/Act_Support_Scope_of_Services.pdf" value="/docs/default-source/Other/scope-of-services"/>
+        </rewriteMap>
+      </rewriteMaps>
+      <rules>
+        <!-- <rule name="CanonicalHostNameRule1">
+          <match url="(.*)"/>
+          <conditions>
+            <add input="{HTTP_HOST}" pattern="^www\.act\.com$" negate="true"/>
+          </conditions>
+          <action type="Redirect" url="http://www.act.com/{R:1}"/>
+        </rule> -->
+        <rule name="Redirect rule1 for Redirects">
+          <match url=".*"/>
+          <conditions>
+            <add input="{Redirects:{REQUEST_URI}}" pattern="(.+)"/>
+          </conditions>
+          <action type="Redirect" url="{C:1}" appendQueryString="false"/>
+        </rule>
+      </rules>
+    </rewrite>
+    <httpErrors errorMode="Custom">
+      <remove statusCode="403" subStatusCode="-1"/>
+      <remove statusCode="404" subStatusCode="-1"/>
+      <remove statusCode="500" subStatusCode="-1"/>
+      <error statusCode="403" path="/error-pages/403" responseMode="ExecuteURL"/>
+      <error statusCode="404" path="/error-pages/404" responseMode="ExecuteURL"/>
+      <error statusCode="500" path="/error-pages/500" responseMode="ExecuteURL"/>
+    </httpErrors>
+  </system.webServer>
+</configuration>

@@ -1,0 +1,52 @@
+#example {
+	width:690px;
+	height:152px;
+	margin-bottom:20px;
+}
+
+#frame {
+
+	width:690px;
+	height:152px;
+		background:url(/media/en-us/images/homepage/frame.png) no-repeat;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:690px;
+	overflow:hidden;
+
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width:690px;
+	height:152px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}

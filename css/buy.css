@@ -1,0 +1,122 @@
+.hero{background:#FFF; text-align:center; min-height:0;padding-bottom:0;}
+.hero h1{color:#FE5000;}
+/* reset to global */.hero p{color:#65727A;font-size:18px;line-height:1.35em;}
+.portfolio{background:#FFF;}
+.piece{
+	overflow:hidden;
+	padding:0 12px;
+}
+.piece p{min-height:0;}
+.priceOverview h2{
+	color:#FE5000;
+}
+.priceOverview p{
+	text-align:left;
+	margin-bottom:0;
+}
+.priceInfo{
+	max-width:320px;
+	margin:24px auto 0;
+	text-align:left;
+	overflow:hidden;
+}
+.priceInfo h3{
+	margin:0 0 12px;
+	text-align:center;
+	color:#fe5000;
+}
+.priceInfo p{
+	line-height:9px;
+}
+.priceInfo li strong{
+	color:#6598B8;
+}
+.priceInfo ul{
+	/*margin:0 0 0 0;
+	padding:0 0;
+	list-style-type:none;*/
+}
+.priceInfo button, .priceInfo input[type=submit]{
+	display:block;
+	width:100%;
+	max-width:200px !important;
+	margin:1em auto;
+}
+.priceInfo select{
+	display:block !important;
+	width:100%;
+	max-width:200px !important;
+	margin:1em auto;
+}
+.freetrial:hover{
+	background:#5c8ba8;
+}
+.priceWrapper{
+	overflow:hidden;
+	width:240px;
+	margin:0 auto;
+}
+.dollar{
+	float:left;
+	margin-top:18px;
+	font-size:36px;
+}
+p.price{
+	float:left;
+	font-size:108px;
+	letter-spacing:-3px;
+	color:#2A353D;
+	margin:48px 0 42px;
+	text-align:center;
+}
+.freetrial{
+	background:#6598B8;
+	margin-top:-12px !important;
+}
+.usd{
+	font-size:12px;
+	letter-spacing:normal;
+	padding-left:9px;
+}
+.usd::before{
+	content:'USD';
+}
+.reduceFont{font-size:.9em;}
+.pay{text-align:center;}
+#actPremium{
+	border-bottom:#C0C8CE 1px solid;
+	padding:24px inherit;
+}
+.priceDets p{
+	margin:48px 0 12px;
+}
+.addInfo{
+	overflow:hidden;
+	text-align:center;
+	padding:12px;
+	margin-bottom:24px;
+}
+.addInfoInner{
+	max-width:1170px;
+	margin:0 auto;
+}
+.addInfo a{color:#6598B8;}
+.addInfo a:hover{color:#5c8ba8;}
+@media(min-width:768px){
+.piece{
+	padding:0 96px;
+}
+.priceOverview p{
+	min-height:135px;
+}
+.priceInfo h3{
+	margin:0 0 12px;
+}
+#actPremium{
+	border-bottom:none;
+}
+.addInfoInner{
+	max-width:1170px;
+	margin:0 auto;
+}
+}

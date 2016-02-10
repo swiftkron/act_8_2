@@ -1,0 +1,53 @@
+/* PPC TESTIMONIAL */
+
+section[role="ppc_testimonial"]{
+	background:url(/assets/img/hero-group-meeting.jpg);
+	background-size:cover;
+	padding:2em 0;
+}
+.testimonialWrapper{
+	margin:2em auto;
+	background:rgba(255,255,255,.65);
+	padding:.5em 5%;
+	max-width:1280px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.testimonialWrapper h1{
+	font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+	font-size:3.5em;
+	color:#006a8e;
+	text-align:center;
+	margin-bottom:24px;
+}
+.testimonialWrapper h2{
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	font-size:2em;
+	color:#212721;
+	text-align:center;
+	margin-bottom:9px;
+}
+.testimonialWrapper p{
+	font-size:1.75em;
+	color:#212721;
+	text-align:center;
+	margin-bottom:24px;
+}
+.testimonialWrapper .byline{
+	font-size:1.1em;
+}
+@media(max-width:1080px){
+section[role="ppc_testimonial"]{
+	padding:0 0;
+}
+.testimonialWrapper{
+	margin:0 0;
+	background:rgba(225,220,210,.65);
+	padding:2.5em 5%;
+	max-width:100%;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+}
+}

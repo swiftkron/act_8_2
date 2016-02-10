@@ -1,0 +1,77 @@
+.testimonials{background:#EFF1F3;}
+.addInfo p{}
+.upgradeCTA{text-align:center;margin:12px auto 36px;}
+.portfolio p.center{line-height:normal;}
+#reqOptIn,#stateProv{display:none;}
+.modal #reqOptIn label{
+	display:inline;
+}
+.modal h3{color:#fe5000;}
+.modal-content{
+	margin:0 auto;
+	padding:24px 48px 48px;
+	background:#EFF1F3;
+	box-shadow:none;
+	-webkit-border-radius: 0;    
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border:none;
+}
+.modal label{
+	display:block;
+	margin:12px auto 6px;
+}
+.modal input[type=text], .modal input[type=email], .modal input[type=tel], .modal select{
+			display:block;
+			margin-bottom:18px;
+			color:#2A353D;
+			border:#C0C8CE 1px solid;
+			padding:1px 3px;
+}
+.modal input[type=submit]{
+	-webkit-border-radius: 4px;    
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border:none;
+	background:#fe5000;
+	color:#FFF;
+	margin:0 auto 1em;
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	padding:10px 16px;
+	text-decoration:none !important;
+}
+.modal input[type=submit]:hover{
+	background:#da4c1f;
+}
+
+.thanksMsg{
+	display:none;
+	background:#FFF7D6;
+	width:100%;
+	padding:12px 12px 3px;
+}
+
+.heroInnerCta{
+	background:#416378;
+	padding:24px 32px;
+	margin-bottom:24px;
+}
+.heroInnerCta p{
+	color:#F7F9FA;
+	margin-bottom:9px;
+}
+.heroInnerCta a, .heroInnerCta strong{
+	color:#FFF;
+}
+.heroInnerCta a{
+	text-decoration:underline;
+}
+
+.priceStrike{
+	text-decoration:line-through;
+	text-align:center;
+	color:#526774;
+}
+.priceStrike span{
+	color:#788E9E;
+}

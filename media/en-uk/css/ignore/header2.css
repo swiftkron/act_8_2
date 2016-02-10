@@ -1,0 +1,319 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	min-width:1100px;
+	font-family: Calibri,"Gill Sans","Gill Sans MT","Myriad Pro",Myriad,Frutiger,"Frutiger Linotype",Univers,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin:0 auto;
+	padding:0;
+	font-size:14px;
+	color:#4d4f53;
+	background-color:#e8e8e8;
+}
+
+body a {
+	outline:none;
+	color:#f2641a;
+		
+}
+
+body a:hover {
+	outline:none;
+	text-decoration:none;
+}
+
+
+
+.divHeader {
+	width:100%;
+	height:115px;
+	margin:0;
+	padding:0;
+	background-color:#e8e8e8;
+}
+
+.divNav {
+		width:1024px;
+		height:31px;
+		margin:0 auto;
+		padding:0;
+	}
+	
+	.divNav ul {
+		margin:0;
+		padding:0;
+		float:right;
+	}
+	
+	.divNav li{
+		float:left;
+		list-style:none;
+		margin:0;
+		padding:0;	
+	}
+	
+	.divNav ul li a{
+		text-decoration:none;
+		height:25px;
+		background-image:url("/media/en-uk/images/newMainNavSprite.png");
+		display:block;
+		background-repeat:no-repeat;
+		text-align:center;
+		margin:0;
+		padding:5px 0 0 0;
+		color:#8d8c8c;	
+	}
+	
+	.divNav ul li a:hover {
+		color:#8d8c8c;	
+		text-decoration:none;
+	}
+	
+	.divNav #mainHome a{
+		width:59px;
+		background-position:0 0;
+		border-right:1px solid #c2c1c1;	
+	}
+	
+	.divNav #mainHomeCurrent a{
+		width:59px;
+		background-position:0 -31px;
+		border-right:1px solid #c2c1c1;	
+	}
+	
+	.divNav #mainHome a:hover{
+		background-position:0 -31px;
+	}
+	
+	.divNav .mainPartners a{
+		width:74px;
+		background-position:-59px 0;
+		border-right:1px solid #c2c1c1;	
+		
+	}
+
+	.divNav .mainPartners a:hover{
+		background-position:-59px -31px;
+	}
+	
+	.divNav #mainSmallBusinesses a{
+		width:115px;
+		background-position:-127px 0;
+		border-right:1px solid #c2c1c1;	
+	
+	}
+	
+	.divNav #mainSmallBusinesses a:hover{
+		background-position:-127px -31px;	
+	}
+	
+	.divNav #mainConnect a{
+		width:100px;
+		background-position:-280px 0;
+}
+	
+	.divNav #mainConnect a:hover{
+		background-position:-280px -31px;
+	}
+	
+	
+.regionSelector {
+	width:170px;
+	float: right;
+	margin:0 20px 0 0;
+	padding:0;
+	color:#848484;	
+}
+
+.regionSelector img {
+	float:left;
+	margin: 5px 8px 0 0;
+	padding:0;
+	border:none;	
+}
+
+.regionSelector p {
+	margin:8px 0 0 0;
+	padding:0;	
+}
+
+.regionSelector a {
+	color:#848484;	
+	font-weight:normal;
+}
+
+
+.container {
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+	clear:both;
+}
+
+
+/* MAIN LOGO */
+.logoArea {
+		clear:both;	
+		padding-left:15px;
+	}
+	
+.logoArea .mainLogo img {
+		border:0;
+		margin:0;
+		padding:0;
+		width:290px;
+		height:59px;
+		float:left;	
+	}
+.logoArea .freeTrial img {
+	float:right;
+	margin:10px 95px 0 0;
+}
+	
+/* END MAIN LOGO
+
+/* SUB NAVIGATION 
+
+	#smallBusNav {
+		width:100%;
+		background-image:url("/media/en-uk/images/smBusNavTile.png");
+		background-color:#f2641a;
+		background-repeat:repeat;
+		border-bottom:1px solid #cbcaca;
+		padding:110px 0 10px 0;
+		margin:0 0 0 0;
+		overflow:hidden;
+		clear:both;
+	}
+	
+	#navContainer {
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+	clear:both;
+}
+	
+	#navContainer ul {
+		margin:0 auto;
+		padding:0;
+		float:right;
+		z-index:101;
+	}
+	
+	#navContainer li{
+		float:left;
+		list-style:none;
+		margin:0;
+		padding:0 15px;	
+	}
+	
+	#navContainer ul li a{
+		text-decoration:none;
+		display:block;
+		text-align:center;
+		margin:0;
+		padding:0;
+		color:#e8e8e8;
+		background:none;
+		font-size:18px;	
+	}
+	
+
+	
+	#navContainer ul li a span{
+		font-weight:bold;
+		color:#633e25;
+	}
+	
+	
+END SUB NAVIGATION */
+
+#smallBusNav {
+		width:100%;
+		background-image:url("/media/en-uk/images/smBusNavTile.png");
+		background-color:#f2641a;
+		background-repeat:repeat;
+		border-bottom:1px solid #cbcaca;
+		padding:0;
+		margin:0 0 0 0;
+		clear:both;
+		height:50px;
+	}
+	
+	#navContainer {
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+	clear:both;
+
+}
+	
+	#nav{
+	list-style:none;
+	margin:8px 0;
+	/* Clear floats */
+	float:right;
+	/* Bring the nav above everything else--uncomment if needed.
+	position:relative;*/
+	z-index:5;
+	display:block;
+	font-size:18px;	
+	text-decoration:none;
+
+}
+
+#nav span{
+		font-weight:bold;
+		color:#633e25;
+}
+#nav li{
+	float:left;
+	margin-right:10px;
+	position:relative;
+}
+#nav a{
+	display:block;
+	padding:5px;
+	color:#fff;
+	text-decoration:none;
+}
+#nav a:hover{
+	color:#fff;
+
+}
+
+/*--- DROPDOWN ---*/
+#nav ul{
+	background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+	margin:0;
+	padding:0;
+}
+#nav ul li{
+	float:none;
+	background:#e8e8e8;
+	font-size:14px;
+}
+#nav ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+		color:#4d4f53;
+		
+		
+
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+}
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	text-decoration:none;
+}
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	background:#f2641a;
+}
+	

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<!-- Thursday -->
+	<THURSDAY>
+		
+		<event>
+			<start>8.00</start>
+			<end>9.00</end>
+            <title>Registrierung und Kaffee <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>Technical</track>
+            <description>Melden Sie sich beim Swiftie Events Team an, holen Sie sich Ihren Teilnehmerausweis (Delegate Badge) und einen Kaffee und unterhalten Sie sich mit den anderen Anwesenden.</description>
+		</event>
+        <event>
+			<start>9.00</start>
+			<end>9.45</end>
+            <title>Best Practices für die Annahme eines neuen Systems durch die Endbenutzer <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Der potenzielle Wert einer neuen Software hängt immer auch von der Akzeptanz seitens der Endbenutzer ab. Viele Unternehmen konzentrieren sich auf die Implementierung, nur um dann festzustellen, dass sich die Mitarbeiter doch wieder traditionellen Methoden zuwenden, da sie die Vorteile des Einsatzes der Software nicht verstehen. In diesem Seminar besprechen wir bewährte Methoden, die eine erfolgreiche Einführung von Act! gewährleisten und mittels effektiven Schulungen zu zufriedenen, produktiven Endbenutzern führen.</description>
+		</event>
+        <event>
+			<start>9.45</start>
+			<end>10.45</end>
+            <title>Act! v.18 Workshop <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Während dieser interaktiven Sitzung werfen wir einen genauen Blick auf die neuen Funktionen und Verbesserungen in Act! v18, wie die neue Online-Benutzeroberfläche, die Anwenderverwaltung von Act! emarketing und die wichtigsten Fehlerkorrekturen.</description>
+		</event>
+        <event>
+			<start>10.45</start>
+			<end>11.00</end>
+            <title>Pause</title>
+			<track></track>
+		</event>
+        <event>
+			<start>11.00</start>
+			<end>11.30</end>
+            <title>Vorstellung der Act! Premium Cloud <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Haben Sie sich jemals gefragt, was hinter der Einführung von neuen Cloud-Produkten steckt? In diesem Seminar geht es um die Technologie, auf der Act! Premium Cloud aufbaut. Erhaschen Sie einen Blick in die Zukunft dieser vielversprechenden neuen Entwicklung.</description>
+		</event>
+        <event>
+			<start>11.30</start>
+			<end>12.30</end>
+            <title>Optimierung von Act! mit dem SDK und APIs <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Erfahren Sie mehr über unsere aktuellen SDK- und Web-API-Tools. Diese Ressourcen bieten zahlreiche Entwicklungsmöglichkeiten und erlauben es unseren Partnern, die vorhandenen Funktionen von Act! zu erweitern und so auch anspruchsvollste Anforderungen von Kunden zu erfüllen.</description>
+		</event>
+        <event>
+			<start>12.30</start>
+			<end>1.30</end>
+            <title>Mittagessen</title>
+			<track></track>
+		</event>
+        <event>
+			<start>1.30</start>
+			<end>2.30</end>
+            <title>Technische Tipps und Tricks für Act! for Web <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Dieses Jahr geht es in unserem Tipps-und-Tricks-Seminar um Act! Premium for Web. Wir widmen uns umfassend einigen fortgeschrittenen Themen, wie der HTTPS-Konfiguration, dem Abändern von web.config-Dateien und nützlichen Methoden zur Fehlerbereinigung.</description>
+		</event>
+        <event>
+			<start>2.30</start>
+			<end>3.30</end>
+            <title>Add Ons Den <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>In Anlehnung an die britische Fernsehsendung Dragons’ Den (im deutschen TV „Die Höhle der Löwen“), bei der Unternehmer erfahrenen Investoren ihre Geschäftsideen vorstellen, hat jeder Add- On-Entwickler fünf Minuten Zeit, um seinen Lösungsvorschlag anwesenden ACCs zu präsentieren und sie von einer Investition mit Blick auf zukünftige Implementierungen von Act! zu überzeugen. Nach Ablauf der Redezeit können Sie als „Dragon“ selbst Fragen zu dem Vorhaben stellen und entscheiden, ob es zu einem Deal kommt.</description>
+		</event>
+        <event>
+			<start>3.30</start>
+			<end>3.45</end>
+            <title>Pause</title>
+			<track></track>
+		</event>
+        <event>
+			<start>3.45</start>
+			<end>5.00</end>
+            <title>Smart Tasks Workshop <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Dieses Vertiefungsseminar behandelt das Thema intelligente Aufgaben (Smart Tasks), mit denen Sie Geschäftsprozesse automatisieren und die Produktivität kleinerer Unternehmen steigern können. Erfahren Sie, wie Act! emarketing und Smart Tasks als effektive Automatisierungswerkzeuge für Ihr Unternehmen eingesetzt werden können.</description>
+		</event>
+        <event>
+			<start>6.00</start>
+			<end>7.30</end>
+            <title>Abendregistrierung <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Falls Sie erst in den Abendstunden anreisen können, lassen Sie sich von einem Mitglied des Swiftie- Registrierungsteams in der Hotelbar begrüßen und holen Sie sich Ihren Ausweis und einen Drink.</description>
+		</event>
+        <event>
+			<start>7.30</start>
+			<end>11.00</end>
+            <title>Winter Party <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Genießen Sie saisonale Speisen als Vorgeschmack auf die baldigen Feiertage und nutzen Sie die Chance zum Networking mit den anderen ACCs und Swifties.</description>
+		</event>
+	</THURSDAY>
+    
+	<!-- Friday -->
+	<FRIDAY>
+		<event>
+			<start>8.00</start>
+			<end>9.00</end>
+			<title>Registrierung und Kaffee <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Melden Sie sich beim Swiftie Events Team an und holen Sie sich Ihren Teilnehmerausweis (Delegate Badge) und einen Kaffee.</description>
+		</event>
+		<event>
+			<start>9.00</start>
+			<end>10.00</end>
+			<title>Eröffnungsrede „Product and Commercial“ <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Erfahren Sie direkt von unserem Managementteam, welche Vision Swiftpage für die Zukunft hat und welche Fortschritte bereits gemacht wurden. Wir besprechen zukünftige Abonnementmodelle, Innovationen und kommerzielle Strategien.</description>
+		</event>
+		<event>
+			<start>10.00</start>
+			<end>11.00</end>
+			<title>Der Übergang zum Abonnement-modell: Automatisch wiederkehrende Kunden statt herkömmlicher Transaktionen <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>In diesem Seminar betrachten wir den Übergang vom klassischen Vertriebsmodell, bei dem Kunden Act! kaufen und optionale Services wie einen Wartungsvertrag, maßgeschneiderte Funktionalitäten und Schulungen hinzufügen, hin zum aktuellen Abonnementmodell, bei dem sich Kunden unseren Software- und Servicepaketen langfristig verpflichten. Wir lernen aus den Erfahrungen von Unternehmen in den USA und Kanada, wo dieser Wandel bereits stattgefunden hat, und schauen uns an, wie Partner auf der anderen Seite des Atlantiks den Übergang zum Abonnementmodell bewältigt haben.</description>
+		</event>
+		<event>
+			<start>11.00</start>
+			<end>11.15</end>
+			<title>Pause</title>
+			<track>General</track>
+		</event>
+		<event>
+			<start>11.15</start>
+			<end>12.15</end>
+			<title>Act! Portfolio- Präsentation <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Sie erhalten einen umfassenden Einblick in unseren gesamten Produktkatalog, lernen einige unserer neuesten Angebote kennen und erfahren unsere Pläne für die Zukunft.</description>
+		</event>
+		<event>
+			<start>12.15</start>
+			<end>12.30</end>
+			<title>Sponsor Session <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Hier haben Sie Gelegenheit, mehr über unseren Hauptsponsoren herauszufinden.</description>
+		</event>
+		<event>
+			<start>12.30</start>
+			<end>1.30</end>
+			<title>Mittagessen</title>
+			<track>General</track>
+		</event>
+		<event>
+			<start>1.30</start>
+			<end>2.00</end>
+			<title>Erfolg abonnieren <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>In diesem Seminar erklären wir Ihnen Schritt für Schritt, wie Sie das Abonnementmodell Ihren Kunden und Interessenten gegenüber optimal positionieren – von der Preisgestaltung bis hin zu den Werkzeugen, die wir Ihnen zur Vertriebsunterstützung zur Verfügung stellen.</description>
+		</event>
+		<event>
+			<start>2.00</start>
+			<end>2.20</end>
+			<title>Ein neues Kundenservicemodell für zufriedene Kunden <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>In der Vergangenheit hat sich der Kundenservice zumeist nur darauf konzentriert, den Kunden bei Problemen nach Kaufabschluss zu helfen. In diesem Seminar schauen wir uns unsere neue. Supportstrategie und zugehörige Werkzeuge an, mit deren Hilfe wir durch effiziente Zusammenarbeit unsere Kunden proaktiv und insbesondere in den digitalen Medien unterstützen.</description>
+		</event>
+		<event>
+			<start>2.20</start>
+			<end>2.35</end>
+			<title>Pause</title>
+			<track>General</track>
+		</event>
+		<event>
+			<start>2.35</start>
+			<end>3.00</end>
+			<title>Wachstums- orientiertes Marketing <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Hier erhalten Sie einen detaillierten Einblick in die internationalen Marketingprogramme von Act!, wobei wir uns auf die zukünftige Entwicklung der internationalen Marketingabläufe konzentrieren und erläutern, wie wir Act! vom Erwecken des Interesses bis zum Kaufabschluss erfolgreich positionieren.</description>
+		</event>
+		<event>
+			<start>3.00</start>
+			<end>3.25</end>
+			<title>Eine Plattform für das Wachstum <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Nach einem Rückblick auf die Vertriebsergebnisse des Jahres werfen wir einen Blick in die Zukunft auf bevorstehende Veränderungen für das internationale Vertriebsteam, wie die notwendigen Prüfungen vor der Registrierung, das Protokollieren von Absatzmöglichkeiten und den Verkauf von Abonnements mit der Act! Premium Cloud.</description>
+		</event>
+		<event>
+			<start>3.25</start>
+			<end>4.00</end>
+			<title>Abschließende Bemerkungen mit Q&amp;A-Session <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Lindsay Boullin, VP of International Operations, rundet die Konferenz mit abschließenden Bemerkungen ab und nimmt Fragen und Feedback der Teilnehmer an das Act! Leadership Team entgegen.</description>
+		</event>
+	</FRIDAY>
+</document>

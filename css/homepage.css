@@ -1,0 +1,56 @@
+@import url(/css/themes.css);
+/* hero */
+.hero{background:#EFF1F3;width:100%;overflow:hidden;min-height:500px;margin:80px 0 0;padding:40px 0;}
+.heroInner{max-width:1170px;margin:0 auto;padding:0 24px;}
+.hero h1{color:#FFF;font-size:38px;}
+.hero h2{margin-top:0;}
+.hero p{color:#2A353D;font-size:24px;line-height:1.2em;}
+@media(min-width:768px){
+	.heroCopy{max-width:500px;}
+	.hero h1{font-size:48px;}
+}
+/* teaser */
+.teaser{overflow:hidden;background:#2A353D;color:#FFF;padding:48px 0;}
+.teaserInner{max-width:1170px;margin:0 auto;padding:0 48px;}
+.teaserInner p{font-size:24px;line-height:27px;margin-bottom:0;}
+/* pillars */
+.pillars{overflow:hidden;background:#FFF;padding:36px 0;}
+.pillarsInner{max-width:1170px;margin:0 auto;}
+.pillar{padding:24px;}
+.pillars h2{color:#FE5000;}
+.pillars img{display:none;max-width:80px;margin:0 auto;}
+@media(min-width:768px){
+.pillars{padding:48px 0;}
+.pillars img{max-width:120px;}
+}
+/* portfolio */
+.portfolio{overflow:hidden;background:#EFF1F3;font-size:18px;padding:48px 0}
+.portfolioInner{max-width:1170px;margin:0 auto;}
+.piece{padding:24px;}
+img.fullLogo{display:block;max-height:90px;margin:0 auto;}
+#actPremium h1{color:#fe5000;}
+#actEssentials h1{color:#fe5000;}
+#actEssentials button{background:#00B19F;}
+#actEssentials button:hover{background:#00a191;}
+/*.portfolio button{display:block;margin:24px auto;}*/
+@media(min-width:768px){
+.piece{padding:24px 60px;}
+.piece p{min-height:140px;}
+.piece p.learnmore{min-height:0;margin-bottom:24px;}
+img.fullLogo{max-height:90px; margin:0 0;}
+}
+@media(min-width:1146px){
+.piece p{min-height:140px;}
+}
+
+/*** ESSENTIALS ***/
+.essentials .hero h1{color:#00B19F;}
+
+/*** HERO BGDS ***/
+@media(min-width:530px){
+#hero_home{background:url('/img/hero-home2.jpg') top right no-repeat;background-size:cover;}
+#hero_portfolio{background:url('/img/hero-portfolio.jpg') top left no-repeat;background-size:cover;}
+#hero_premium{background:url('/img/hero-premium.jpg') top left no-repeat;background-size:cover;}
+#hero_ess{background:url('/img/hero-ess.jpg') top left no-repeat;background-size:cover;}
+}
+

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /trial/thankyou
+Disallow: /*?thanks=*
+Disallow: /errors/*
+Disallow: /error-pages/*
+Disallow: /partners/apply/thank-you

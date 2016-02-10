@@ -1,0 +1,8 @@
+
+10/02/2015 11:15:18: [Mailbox unavailable. The server response was: Verification failed for <info@mameafrcade.eu>]
+10/02/2015 11:15:32: [Mailbox unavailable. The server response was: Verification failed for <info@mameafrcade.eu>]
+10/02/2015 11:16:30: [Mailbox unavailable. The server response was: Verification failed for <info@mameafrcade.eu>]
+10/02/2015 15:18:12: [Failure sending mail.]
+10/02/2015 15:18:16: [Failure sending mail.]
+10/02/2015 15:18:17: [Failure sending mail.]
+10/02/2015 15:18:36: [Failure sending mail.]

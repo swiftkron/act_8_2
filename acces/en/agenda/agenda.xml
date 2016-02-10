@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<!-- Thursday -->
+	<THURSDAY>
+		
+		<event>
+			<start>8.00</start>
+			<end>9.00</end>
+            <title>Registration and Coffee <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>Technical</track>
+            <description>Register your attendance with the Swifty events team, get your delegate badge, grab a coffee and have a chat.</description>
+		</event>
+        <event>
+			<start>9.00</start>
+			<end>9.45</end>
+            <title>Best Practices in End User Adoption <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>The value of a software deployment will always be dependent on how effectively the software is adopted by the end user. Many businesses focus on deployment, only to have their employees revert to using traditional methods because they don't understand the benefits of using the software. In this session we will consider the most effective methods of guaranteeing successful Act! adoption and ensuring happy, productive users through effective training.</description>
+		</event>
+        <event>
+			<start>9.45</start>
+			<end>10.45</end>
+            <title>Act! v.18 Workshop <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>This interactive session will take an in-depth look at the new features and improvements in Act! v18, including the new web user interface, Act! emarketing user management and key fixes.</description>
+		</event>
+        <event>
+			<start>10.45</start>
+			<end>11.00</end>
+            <title>Break</title>
+			<track></track>
+		</event>
+        <event>
+			<start>11.00</start>
+			<end>11.30</end>
+            <title>An Introduction to Act! Premium Cloud <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Wonder what it takes to bring a new cloud product to life? In this session we’ll explore the technology behind Act! Premium Cloud, and give a glimpse into the future of this exciting new development.</description>
+		</event>
+        <event>
+			<start>11.30</start>
+			<end>12.30</end>
+            <title>Optimizing Act! with the SDK and APIs <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>A showcase of our current SDK and Web API tools. See how these resources offer a huge range of development opportunities, allowing partners to expand on Act!’s existing functionality to meet advanced customer requirements.</description>
+		</event>
+        <event>
+			<start>12.30</start>
+			<end>1.30</end>
+            <title>Lunch</title>
+			<track></track>
+		</event>
+        <event>
+			<start>1.30</start>
+			<end>2.30</end>
+            <title>Technical Tips and Tricks in Act! for Web <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>This year we are focussing our tips and tricks session on Act! Premium for Web. We’ll take a deep dive into some advanced areas such as configuring HTTPS and amending the web.config file, as well as useful troubleshooting techniques.</description>
+		</event>
+        <event>
+			<start>2.30</start>
+			<end>3.30</end>
+            <title>Add Ons Den <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>A play on the TV show Dragons Den, Act! Add On Developers get five minutes to pitch their solutions on a soapbox to attending ACCs who may be willing to invest in their solution for future Act! implementations. After the session you as Dragons have the opportunity to ask questions about the venture. Are you in, or are you out?</description>
+		</event>
+        <event>
+			<start>3.30</start>
+			<end>3.45</end>
+            <title>Break</title>
+			<track></track>
+		</event>
+        <event>
+			<start>3.45</start>
+			<end>5.00</end>
+            <title>Smart Tasks Workshop <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>This deep-dive session will revolve around using Smart Tasks to automate business processes to increase productivity of smaller businesses. Learn how to effectively use Act! emarketing and Smart Tasks as an automation tool for your business.</description>
+		</event>
+        <event>
+			<start>6.00</start>
+			<end>7.30</end>
+            <title>Evening Registration <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>If you’re not arriving until the evening, introduce yourself to one of the Swifty registration team in the hotel bar and then grab a badge and drink.</description>
+		</event>
+        <event>
+			<start>7.30</start>
+			<end>11.00</end>
+            <title>Winter Party <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track></track>
+						<description>Get ready for the holiday season with drinks, food and networking with your fellow ACCs and Swifties.</description>
+		</event>
+	</THURSDAY>
+    
+	<!-- Friday -->
+	<FRIDAY>
+		<event>
+			<start>8.00</start>
+			<end>9.00</end>
+			<title>Registration and Coffee <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Register your attendance with the Swifty events team, get your delegate badge and grab a coffee.</description>
+		</event>
+		<event>
+			<start>9.00</start>
+			<end>10.00</end>
+			<title>Product and Commercial Keynote <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Join our executive team to share Swiftpage's vision for the future and review the progress already made. We will discuss upcoming subscription models, innovations and commercial strategies.</description>
+		</event>
+		<event>
+			<start>10.00</start>
+			<end>11.00</end>
+			<title>The Subscription Journey: Moving from Transactions to Automatic Customers <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>In this session we will consider the journey of moving from a traditional sales model, where customers purchase Act! with the option to bolt on a support contract, customisation or training services, against a move to subscription; where our customers purchase our software and services in one contract bundle, renewing long into the future. We will learn valuable lessons from the changes already made in the United States, and learn how partners on the other side of the Pond have adapted to a subscription model.</description>
+		</event>
+		<event>
+			<start>11.00</start>
+			<end>11.15</end>
+			<title>Break</title>
+			<track>General</track>
+		</event>
+		<event>
+			<start>11.15</start>
+			<end>12.15</end>
+			<title>Act! Portfolio Showcase <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>An in-depth view into our full product catalogue. We'll highlight some recent additions and share the roadmap of what's to come.</description>
+		</event>
+		<event>
+			<start>12.15</start>
+			<end>12.30</end>
+			<title>TBC <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>A chance to find out more from our Ultimate Sponsor.</description>
+		</event>
+		<event>
+			<start>12.30</start>
+			<end>1.30</end>
+			<title>Lunch</title>
+			<track>General</track>
+		</event>
+		<event>
+			<start>1.30</start>
+			<end>2.00</end>
+			<title>Subscribing to Success <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>In this session we will take you through everything you need to know about positioning subscription to your customers and prospects, from price familiarisation to the tools we’ll make available to help you sell.</description>
+		</event>
+		<event>
+			<start>2.00</start>
+			<end>2.20</end>
+			<title>From customer support to customer success <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>Customer Support has traditionally assisted the customer when the customer encounters an issue after their purchase.  In this session we discuss our new support strategy and introduce tools that will help us work together to offer our customers a new proactive digital first support model.</description>
+		</event>
+		<event>
+			<start>2.20</start>
+			<end>2.35</end>
+			<title>Break</title>
+			<track>General</track>
+		</event>
+		<event>
+			<start>2.35</start>
+			<end>3.00</end>
+			<title>Marketing for Growth <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>An in-depth look at Act!'s International marketing programmes, with a focus on future evolution of the International marketing machine and how we align to position Act! from awareness to close.</description>
+		</event>
+		<event>
+			<start>3.00</start>
+			<end>3.25</end>
+			<title>A Platform for Growth <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>A look back on the year’s sales activity, and a look ahead to the changes in plan on the International sales desk, including registration checks, opportunity logging and selling subscription through Act! Premium Cloud.</description>
+		</event>
+		<event>
+			<start>3.25</start>
+			<end>4.00</end>
+			<title>Closing remarks with Q&amp;A <![CDATA[ <span class="show-hide"><strong class="glyphicon glyphicon-plus"></strong></span> ]]></title>
+			<track>General</track>
+			<description>VP of International Operations, Lindsay Boullin wraps up the conference with final comments and encourage attendees to voice their opinions and ask questions to the Act! Leadership team.</description>
+		</event>
+	</FRIDAY>
+</document>

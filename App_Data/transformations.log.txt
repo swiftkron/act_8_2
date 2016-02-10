@@ -1,0 +1,78 @@
+2/8/2016 11:06:36 AM
+Transformation file version: 8158000 
+
+Executing Replace (transform line 12, 19)
+on /configuration/configSections/sectionGroup[@name='system.web.webPages.razor']
+Applying to 'sectionGroup' element (no source line info)
+Replaced 'sectionGroup' element
+Done executing Replace
+Executing Replace (transform line 16, 42)
+on /configuration/configSections/sectionGroup[@name='system.web.webPages.razor']/section[@name='host']
+Applying to 'section' element (no source line info)
+Replaced 'section' element
+Done executing Replace
+Executing Replace (transform line 20, 42)
+on /configuration/configSections/sectionGroup[@name='system.web.webPages.razor']/section[@name='pages']
+Applying to 'section' element (no source line info)
+Replaced 'section' element
+Done executing Replace
+Executing Replace (transform line 28, 146)
+on /configuration/system.web.webPages.razor/host
+Applying to 'host' element (no source line info)
+Replaced 'host' element
+Done executing Replace
+Executing SetAttributes (transform line 35, 40)
+on /configuration/system.web/compilation
+Applying to 'compilation' element (no source line info)
+Set 'targetFramework' attribute
+Set 1 attributes
+Done executing SetAttributes
+Executing InsertIfMissing (transform line 40, 12)
+on /configuration/runtime
+Applying to 'configuration' element (no source line info)
+Done executing InsertIfMissing
+Executing Replace (transform line 42, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Web.Mvc']
+Applying to 'dependentAssembly' element (no source line info)
+Replaced 'dependentAssembly' element
+Done executing Replace
+Executing Replace (transform line 43, 101)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Web.Mvc']/_defaultNamespace:assemblyIdentity[@name='System.Web.Mvc']
+Applying to 'assemblyIdentity' element (no source line info)
+Replaced 'assemblyIdentity' element
+Done executing Replace
+Executing InsertIfMissing (transform line 49, 12)
+on /configuration/runtime
+Applying to 'configuration' element (no source line info)
+Done executing InsertIfMissing
+Executing InsertIfMissing (transform line 51, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Web.Mvc']
+Applying to 'assemblyBinding' element (no source line info)
+Done executing InsertIfMissing
+Executing Replace (transform line 52, 101)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Web.Mvc']/_defaultNamespace:assemblyIdentity[@name='System.Web.Mvc']
+Applying to 'assemblyIdentity' element (no source line info)
+Replaced 'assemblyIdentity' element
+Done executing Replace
+Executing InsertIfMissing (transform line 61, 37)
+on /configuration/system.webServer/staticContent/remove[@fileExtension='.woff']
+Applying to 'staticContent' element (no source line info)
+Inserted 'remove' element
+Done executing InsertIfMissing
+Executing InsertIfMissing (transform line 62, 71)
+on /configuration/system.webServer/staticContent/mimeMap[@fileExtension='.woff']
+Applying to 'staticContent' element (no source line info)
+Inserted 'mimeMap' element
+Done executing InsertIfMissing
+Executing InsertIfMissing (transform line 63, 38)
+on /configuration/system.webServer/staticContent/remove[@fileExtension='.woff2']
+Applying to 'staticContent' element (no source line info)
+Inserted 'remove' element
+Done executing InsertIfMissing
+Executing InsertIfMissing (transform line 64, 73)
+on /configuration/system.webServer/staticContent/mimeMap[@fileExtension='.woff2']
+Applying to 'staticContent' element (no source line info)
+Inserted 'mimeMap' element
+Done executing InsertIfMissing
+
+

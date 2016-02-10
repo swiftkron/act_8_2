@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- intl domains -->
+<script src="/_assets/js/domain.js" type="text/javascript"></script>
+<!-- .end intl domains -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Act! Marketplace</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Customization -->
+    <link href="css/marketplace.css" rel="stylesheet">
+
+    <!--[if IE 7]>
+    <link href="../css/ie7.css" rel="stylesheet">
+    <![endif]-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    
+    <script type="text/javascript">
+		// initialize
+		$(document).ready(function() 
+				{
+					$.ajax({
+					type: "GET",
+					url: "products.xml",
+					dataType: "xml",
+					success:
+					function(xml){
+					//Be sure to update country code below
+					$(xml).find("PRODUCTS").find("business_care").find("product").each(function(){
+						var pid = $(this).attr('id');
+						var name = $(this).find('name').text();
+						var desc = $(this).find('desc').text();
+						var price = $(this).find('price').text();
+						var cta = $(this).find('cta').text();
+						var url = $(this).find('url').text();
+						var tile = $(this).find('tile').text();
+						var thumb = $(this).find('thumb').text();
+						$("<div id=\"bc_" + pid + "_wrap\" class=\"col-sm-4 section-wrap\"></div>").html("<div id=\"bc_" + pid + "_ini\" class=\"new_tile\"><img id=\"img"+ pid +"\" class=\"lg-tile\" src=\"img/" + tile + "\" /></div>").appendTo("#bc_products");
+						$("<div class=\"tile_row\"></div>").html("<img src=\"img/"+thumb+"\" /><div class=\"details_sm\"><h3>"+name+"</h3><p>"+desc+"</p><p><a href=\""+url+"\" target=\"_blank\">"+cta+"</a></p></div><div class=\"clearfix\"></div>").appendTo("#bc_products_sm");
+						$("#bc_"+pid+"_wrap").mouseenter(function(){
+							$("#bc_"+pid+"_ini").replaceWith("<div id=\"bc_"+pid+"_hov\" class=\"new_tile\"><div class=\"tile\"><img src=\"img/"+thumb+"\" /><h3>"+name+"</h3><p>"+desc+"</p><p><a href=\""+url+"\" target=\"_blank\">"+cta+"</a></p></div></div>");
+						});
+						$("#bc_"+pid+"_wrap").mouseleave(function(){
+							$("#bc_"+pid+"_hov").replaceWith("<div id=\"bc_"+pid+"_ini\" class=\"new_tile\"><img id=\"img"+pid+"\" class=\"lg-tile\" src=\"img/"+tile+"\" /></div>");
+						});
+					});
+					$(xml).find("PRODUCTS").find("featured_solutions").find("product").each(function(){
+						var pid = $(this).attr('id');
+						var name = $(this).find('name').text();
+						var desc = $(this).find('desc').text();
+						var price = $(this).find('price').text();
+						var cta = $(this).find('cta').text();
+						var url = $(this).find('url').text();
+						var tile = $(this).find('tile').text();
+						var thumb = $(this).find('thumb').text();
+						$("<div id=\"fs_" + pid + "_wrap\" class=\"col-sm-4 section-wrap\"></div>").html("<div id=\"fs_" + pid + "_ini\" class=\"new_tile\"><img id=\"img"+ pid +"\" class=\"lg-tile\" src=\"img/" + tile + "\" /></div>").appendTo("#fs_products");
+						$("<div class=\"tile_row\"></div>").html("<img src=\"img/"+thumb+"\" /><div class=\"details_sm\"><h3>"+name+"</h3><p>"+desc+"</p><p><a href=\""+url+"\" target=\"_blank\">"+cta+"</a></p></div><div class=\"clearfix\"></div>").appendTo("#fs_products_sm");
+						$("#fs_"+pid+"_wrap").mouseenter(function(){
+							$("#fs_"+pid+"_ini").replaceWith("<div id=\"fs_"+pid+"_hov\" class=\"new_tile\"><div class=\"tile\"><img src=\"img/"+thumb+"\" /><h3>"+name+"</h3><p>"+desc+"</p><p><a href=\""+url+"\" target=\"_blank\">"+cta+"</a></p></div></div>");
+						});
+						$("#fs_"+pid+"_wrap").mouseleave(function(){
+							$("#fs_"+pid+"_hov").replaceWith("<div id=\"fs_"+pid+"_ini\" class=\"new_tile\"><img id=\"img"+pid+"\" class=\"lg-tile\" src=\"img/"+tile+"\" /></div>");
+						});
+					});
+					},
+					error: function(){
+						alert("An error occurred while processing XML file.");
+					}
+				});
+		});
+				
+		</script>
+
+    
+  </head>
+  <body>
+		
+    <div id="container">
+    	
+      <div id="header">
+      	<h1><img class="masthead img-responsive" src="img/act_mkt_logo.png" alt="Act! Marketplace" /></h1>
+      	<img class="hr img-responsive" src="img/act_mkt_hr.png" />
+      </div>
+      
+<!-- Featured Header -->
+      
+      <div class="section-header">
+        <div class="col-sm-8">      	
+          <h2>Featured Solutions &#43; Offers</h2>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+<!-- Featured Tiles -->
+      
+      <div class="tileContainer">
+      	<div id="fs_products"></div>
+      	<div id="fs_products_sm"></div>
+        <div class="clearfix"></div>
+      </div>
+      
+    </div>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

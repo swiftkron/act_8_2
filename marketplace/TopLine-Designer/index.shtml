@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TopLine Designer</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace">Marketplace</a></li>
+                    <li>></li>
+                    <li>TopLine Designer</li>
+                </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+                  <div class="product-bubble left">
+                  	<img src="/media/en-us/images/marketplace/TopLine-Designer.jpg" />
+                    <div class="price">
+                      <p>New</p>
+                      <p class="price-details"><strong>&#36;99.00</strong></p> 
+                      <a class="btn-orange" href="http://store.act.com/app/site/backend/additemtocart.nl?c=3669565&buyid=multi&multi=682,1"><strong class="buynow">Buy Now</strong></a>
+<p style="font-size:11px; max-width:150px; margin-top:24px;">This estore is for U.S. and Canada only. All prices are in U.S. dollars.</p>
+                    </div>
+                  </div>
+                  <div class="product-description left">
+                    <h1>TopLine Designer</h1>
+                    
+										<p>Expand the functionality of Act! with custom tables for tracking customer service, support, projects, manufacturing and more. TopLine Designer allows you to add custom tabs at the contact, company, group or opportunity level - quickly customizing Act! with specific industry and management solutions. TopLine Designer includes templates for industries such as real estate, healthcare and financial management along with general management solutions such as contracts, equipment and event planning.</p>
+                    <p><strong>Ready, set, design!</strong></p>
+                    <p>TopLine Designer leverages the capabilities of custom tables in Act! by creating new subentities for contacts, companies, groups or opportunities. TopLine Designer allows you to create and use the tables, organize your views, or search and report on any custom table available in your database.</p>
+                    <p><strong>Easy to navigate. Easy to use.</strong></p>
+                    <p>Feel right-at-home in this simple interface which reinforces common navigational features among screen layouts, tabs and lists and create on-the-fly queries and advanced look-ups.  Create quick reports and documents with robust Microsoft Office integration: export to Excel, mail merge to Word for multiple contacts, email multiple contacts via Outlook.</p>
+                    <p><strong>Wizard driven. Fast to build. Flexible to import.</strong></p>
+                    <p>Get started with your data using the advanced data import and data update wizard. Build custom features with TopLine Designer snippets and scripting editor. Create parent-child relationships among custom tables. Schedule and link Act! activities and opportunities from the custom tables.</p>
+                    <p><strong>Business-friendly solutions.</strong></p>
+                    <p>TopLine Designer includes modules to address general business needs as well as database templates for specific industries.</p>
+                    <div style="overflow:hidden;">
+                    	<div style="float:left;padding-right:18px;border-right:#CCC 1px solid;">
+                        <p><strong>Management solutions</strong></p>
+                        <p>Support<br />
+                        Customer service<br />
+                        Projects<br />
+                        Expenses<br />
+                        Documents<br />
+                        Orders<br />
+                        Warranties<br />
+                        Maintenance<br />
+                        Quotes</p>
+                      </div>
+                      <div style="float:left;padding-left:18px;">
+                      	<p><strong>Industry solutions</strong></p>
+                        <p>Finance<br />
+                        Manufacturing<br />
+                        Construction<br />
+                        Property management<br />
+                        Healthcare<br />
+                        Insurance<br />
+                        Investments<br />
+                        Non-profit<br />
+                        Enrollment</p>
+                      </div>
+                    </div>
+                    <p><strong>System Requirements</strong></p>
+                    <ul>
+                    	<li>Act! Pro or Premium v16 or higher</li>
+                      <li>For Act! 2010-2013 the feature set may vary</li>
+                      <li>TopLine Designer is licensed per user. Each user must have a licensed copy of TopLine Designer installed to access the functionality of the custom tables</li>
+                      <li>Microsoft Windows&reg; 7, 8, 8.1</li>
+                      <li>Meets all recommended requirements set for Act! 2013 Pro / Premium or higher. Large databases or datasets may have higher requirements.</li>
+                    </ul>
+                  
+                  </div>
+                                                       
+                  <!-- .end CONTENT -->
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                <div class="mainSidebar">
+                    <div class="side-block sidenav">
+                    <h3><a href="/marketplace">Marketplace</a></h3>
+                    	<ul>
+                        <li><a href="/marketplace">By Business Need</a></li>
+                      </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

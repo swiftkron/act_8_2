@@ -1,0 +1,98 @@
+.hero{
+    background: url(../img/why_choose_banner.jpg) no-repeat 0 0 !important;
+    background-size: cover !important;
+}
+.heroInner .btn-lg {
+    margin-top: 20px;
+    padding: 20px 60px;   
+    border-radius: 4px;
+}
+.features {
+    padding: 60px 0;   
+}
+.features img {
+    margin: 0 auto 40px auto;
+}
+.features h3, .feature-details h3 {
+    color: #fe5000;  
+}
+.features p {
+    min-height: 50px;   
+}
+.testimonial {
+    background-color: #35566a;
+    color: white;
+    padding: 40px 0;
+}
+.testimonial p {
+    font-size: 26px;
+    line-height: 1.2em;
+}
+.testimonial .head-shot{
+    background: url('../img/quotation_mark.png') 0 0 no-repeat;
+}
+.testimonial .head-shot img {
+    float: right;   
+}
+.testimonial .stamp {
+    position: relative;
+}
+.stamp img {
+    position: absolute;
+    top: -60px;
+}
+.feature-details {
+    margin: 60px 0 100px 0;
+}
+.feature-details .row {
+    margin-top: 40px;   
+}
+.feature-details h3 {
+    margin-top: 0;   
+}
+
+
+@media screen and (max-width: 829px){
+    .testimonial .head-shot {
+        background-position: 30% 0;   
+    }
+    .testimonial .col-sm-7 p {
+        text-align: center;   !important;
+    }
+    .testimonial .head-shot img {
+        float: none;    
+        margin: 0 auto;
+   }
+    .stamp img {
+        top: -60px;
+        height: 150px;
+        width: 150px;
+        left: 70%;
+    }
+}
+
+@media screen and (max-width: 992px){
+   .features img {
+        margin: 40px auto;   
+   }
+    
+    .feature-details img {
+        margin: 0 auto 40px auto;
+        
+    }
+}
+
+@media screen and (max-width: 1200px){
+   .stamp img {
+        top: -35px;   
+   }
+}
+
+@media screen and (max-width: 508px){
+       .stamp img {
+            height: 100px;
+            width: 100px;
+            left: 60%;
+    }
+}
+

@@ -1,0 +1,133 @@
+		.hero{
+			padding:24px 0;
+		}
+		.moreCopy{
+			/*display:none;*/
+		}
+		.moreCopy h2, .moreCopy h3{
+			color:#2A353D;
+		}
+		.moreCopy img{
+			display:none;
+			width:100%;
+		}
+		.formWrapper{
+			overflow:hidden;
+			margin-bottom:24px;
+		}
+		#dlBanner p{text-align:left;}
+		@media(min-width:992px){
+		.formWrapper{
+			max-width:1170px;
+			margin:0 auto 60px;
+		}
+		.moreCopy{
+			display:block;
+			padding:48px;
+		}
+		.moreCopy img{
+			display:block;
+		}
+		}
+		/*** TRIAL FORM STYLES ***/
+		.trialForm{
+			overflow:hidden;
+			background:#FFF;
+		}
+		.trialForm h1{
+			color:#2A353D;
+			margin-bottom:9px;
+			text-align:center;
+		}
+		.trialForm p{
+			color:#2A353D;
+			margin-bottom:36px;
+			text-align:center;
+		}
+		.trialForm label{
+			display:block;
+			margin-bottom:6px;
+			font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+			font-weight:normal;
+		}
+		.trialForm input, .trialForm select, .trialForm button{
+			font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+			width:100%;
+			padding:9px 18px;
+			font-size:16px;
+			letter-spacing:.035em;
+			color:#2A353D;
+		}
+		.trialForm input[type=text], .trialForm input[type=email], .trialForm input[type=tel], select{
+			display:block;
+			margin-bottom:18px;
+			color:#2A353D;
+			border:#C0C8CE 1px solid;
+		}
+		.trialForm input[type=submit], .trialForm button{
+			font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+			border:none;
+			background:#FE5000;
+			color:#FFF;
+			padding:18px 18px;
+			font-size:14px;
+		}
+		.trialForm input[type=submit]:hover, .trialForm button:hover{
+			background:#da4c1f;
+		}
+		.trialForm button{
+			-webkit-border-radius:0;
+			-moz-border-radius:0;
+			border-radius:0;
+		}
+		.trialForm input[type=checkbox]{
+			border:#C0C8CE 1px solid;
+			margin-top:6px;
+			margin-left:-18px;
+		}
+		.trialForm .radio{overflow:hidden;}
+		.trialForm .radio input{
+			clear:left;
+			margin-right:12px;
+		}
+		.trialForm .radio label, .radio input{
+			display:inline-block;
+			float:left;
+			width:auto;
+		}
+		.trialForm .radio label{
+			margin-top:3px;
+		}
+		@media(min-width:992px){
+		.trialForm{
+			background:#EFF1F3;
+		}
+		.trialFormInner{
+			padding:24px 48px;
+			margin:24px;
+		}
+		.trialForm input[type=submit], .trialForm button{
+			font-size:18px;
+		}
+		.trialForm input[type=submit]{
+			display:block;
+			max-width:380px;
+			margin:0 auto;
+		}
+		.trialForm .radio label{
+			margin-top:0;
+		}
+		}
+		#reqOptIn, #stateProv, #dlBanner{display:none;}
+		/***** Validation ******/
+		#error {color:#cc0000;display:none;}
+		.needsfilled {border:#cc0000;box-shadow:red 0 0 5px;color:#CC0000;}
+		/*** testimonial ***/
+		.testimonials{background:#EFF1F3;}
+		
+		#dl-banner, #dl-isuser{
+			display:none;
+		}
+		
+		/** videos **/
+		iframe{width:560px;height:315px;}

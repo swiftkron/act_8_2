@@ -1,0 +1,45 @@
+
+		var singleStyles = [
+						'img/map/diamond-pin.png',
+				 		'img/map/platinum-pin.png',
+				 		'img/map/gold-pin.png',
+				 		'img/map/silver-pin.png',
+						'img/map/bronze-pin.png',
+						'img/map/certified-consultant-pin.png'
+			
+		];
+		var clusterStyles = [
+				{ 	
+						url: singleStyles[0],
+						width: 32,
+						height: 106,
+					
+				},
+				{ 	
+						url: singleStyles[1],
+						width: 32,
+						height: 106,
+				}, 
+				{ 	
+						url: singleStyles[2],
+						width: 32,
+						height: 106,
+				}, 
+				{ 	
+						url: singleStyles[3],
+						width: 32,
+						height: 106,
+				},
+
+				{ 	
+						url: singleStyles[4],
+						width: 32,
+						height: 106,
+				},
+
+				{ 	
+						url: singleStyles[5],
+						width: 32,
+						height: 106,
+				}
+		];

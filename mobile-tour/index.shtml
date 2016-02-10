@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<link href="/media/en-us/css/sapm_tour.css" type="text/css" rel="stylesheet" />
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="/media/en-us/js/sapm_tour.js" type="text/javascript" language="javascript"></script>
+<body>
+<div id="page_container">
+<div id="inner">
+  <div id="button-list">
+    			<ul>
+    			<li><a href="javascript:void(0);" class="toggler leverage selected">
+    			Leverage Real-time Access</a></li>
+ 			    <li><a href="#" class="toggler simplify">
+ 			    Simplify Tasks</a></li>
+ 			    <li><a href="javascript:void(0);" class="toggler increase">
+ 			    Increase Productivity</a></li>
+ 			    <li><a href="javascript:void(0);" class="toggler empower">
+ 			    Empower Teams</a></li>
+ 			    </ul>
+    </div><!--button-list-->
+
+	<div id="leverage" class="ipad-img">
+		<img src="/media/en-us/images/sapm_tour/ipad-home-leverage.png" width="425" height="544" />
+	</div>
+	<div id="simplify" class="ipad-img">
+		<img src="/media/en-us/images/sapm_tour/ipad-simplify.png" width="425" height="544" />
+	</div>
+	<div id="increase" class="ipad-img">
+		<img src="/media/en-us/images/sapm_tour/ipad-increase.png" width="425" height="544" />
+	</div>
+	<div id="empower" class="ipad-img">
+		<img src="/media/en-us/images/sapm_tour/ipad-empower.png" width="425" height="544" />
+	</div>
+
+	<div id="slide-content">
+		<div id="leverage-desc" class="desc">
+			<span class="top"></span>
+			<ul>
+				<li>Stay on top of late-breaking developments with real-time, mobile access to key Act! Premium details.</li>
+				<li>Collaborate with teams and seal the deal quickly with easy access to robust functionality and immediate updates.</li>
+				<li>Supports popular devices such as iPhone&reg;, iPad&reg;, and Android&#8482;.</li>
+			</ul>
+			<span class="bottom"></span>
+		</div>
+		<div id="simplify-desc" class="desc">
+			<span class="top"></span>
+			<ul>
+				<li>Enjoy a sleek interface that features efficient, task-oriented Quick Actions that help simplify your daily tasks.</li>
+				<li>Easily view, add, and edit Contact details, Notes, History, Activities, as well as Opportunities on the fly.</li>
+				<li>Interact with native device functions such as mapping, dialing, and email to further streamline your experience.</li>
+			</ul>
+			<span class="bottom"></span>
+		</div>
+		<div id="increase-desc" class="desc">
+			<span class="top"></span>
+			<ul>
+				<li>Focus on high priority opportunities by filtering your list view based on date, status, process, and stage-like Commitment to Buy.</li>
+				<li>Take files with you! Conduct a global search on any text field, even attachments, to quickly find and open precisely what you need, when you need it.</li>
+				<li>Create a personalized workspace that meets your unique style by simply customizing your layout view preferences.</li>
+			</ul>
+			<span class="bottom"></span>
+		</div>
+		<div id="empower-desc" class="desc">
+			<span class="top"></span>
+			<ul>
+				<li>Keep everyone in lock-step 
+since workgroups have secured, shared access to the latest Act! details.</li>
+				<li>Reinforce sales best practices with the convenience of using familiar Act! functionality to instantly view and capture accurate customer updates in real time.</li>
+				<li>Get the most out of using Act! Premium because Act! Premium Mobile is included with your purchase!</li>
+			</ul>
+			<span class="bottom"></span>
+		</div>
+	</div>
+    	
+	<div id="bottom-content">
+		 <h1 class="title">Stay connected to your business with Act! Premium Mobile.1</h1>
+		 <a href="/products/mobility/act-premium-mobile" class="learn-more" target="_parent">Learn </a>
+		 
+		 <small><sup>1</sup> Act! Premium Mobile requires set-up and configuration of Act! Premium (access via web). Data access available via active Internet connection from supported device browsers. Review Act! system requirements at <a href="http://www.ACT.com/SystReq">www.ACT.com/SystReq</a>. You are responsible for all data-related charges to your device.</small>
+    </div>
+    
+    <div id="footer">
+    	
+    </div>
+    
+</div>
+
+
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

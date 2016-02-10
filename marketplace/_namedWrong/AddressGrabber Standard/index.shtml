@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AddressGrabber Standard</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+  
+ 
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2994']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace">Marketplace</a></li>
+                    <li>></li>
+                    <li>AddressGrabber Standard</li>
+                </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+                  <div class="product-bubble left">
+                  	<img src="/media/en-us/images/marketplace/AddressGrabberStandard.gif" />
+                    <div class="price">
+                      <p>New</p>
+                      <p class="price-details"><strong>&#36;69.95</strong></p> 
+                      <a class="btn-orange" href="#"><strong class="buynow">Buy Now</strong></a>
+<p style="font-size:11px; max-width:150px; margin-top:24px;">This estore is for U.S. and Canada only. All prices are in U.S. dollars.</p>
+                    </div>
+                  </div>
+                  <div class="product-description left">
+                    <h1>AddressGrabber Standard</h1>
+                    
+										<p>AddressGrabber Standard is your single click answer to quickly capture names and addresses from e-mail, web pages, and documents and enter them into Act!</p><ul><li>Enters addresses from various sources into Act! with one click &ndash; e-mail signatures, Web pages, online yellow and white pages, web search results, CD directories, text files and more</li><li>Extracts contact fields like: Name, Salutation, Title, Company, Address, City, State, Zip, Country, Phone, Ext., Mobile Phone, E-mail, and URL</li><li>Create Contacts and links Contacts to Company record</li><li>Transfers addresses to Business and/or Home Address section of Act!</li><li>Finds and updates contact information in an existing Act! record</li><li>Verifies addresses with on-line US Postal services database before transferring it into Act!</li></ul><p><strong>AddressGrabber Standard works with:</strong></p><ul><li>Act! Pro 2011/Sage ACT! Pro 2012&nbsp;</li><li>Outlook, Palm</li></ul><p><strong>System Requirements</strong></p><ul><li>Act! Pro 2011/Sage ACT! Pro 2012&nbsp;</li><li>Microsoft&reg; Windows&reg; XP/2000, Windows Vista&trade;</li><li>128 MB RAM or as required by OS</li><li>105 MB of available hard disk space to install and run the program</li></ul>
+                  
+                  </div>
+                                                       
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+
+                    </div>
+                <div class="mainSidebar">
+                    <div class="side-block sidenav">
+                    <h3><a href="/marketplace">Marketplace</a></h3>
+                    	<ul>
+                        <li><a href="/marketplace">By Business Need</a></li>
+                      </ul>
+                    </div>
+                    <div class="sideblock">
+                      <img src="/media/en-us/images/marketplace/compatilibility_logo_2012_2013.gif" />
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

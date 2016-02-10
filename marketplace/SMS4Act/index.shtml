@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SMS4Act!</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace">Marketplace</a></li>
+                    <li>></li>
+                    <li>SMS4Act!</li>
+                </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+                  <div class="product-bubble left">
+                  	<img src="/media/en-us/images/marketplace/SMS4Act.png" />
+                    <div class="price">
+                      <p class="price-details"><strong>FREE</strong></p> 
+                      <a class="btn-orange" href="http://cdn.act.dlm.swiftpage.com/3331/sdkaacttodaysms4act.zip" target="_blank"><strong class="buynow">download</strong></a>
+                      <p style="font-size:11px; max-width:150px; margin-top:24px;">This estore is for U.S. and Canada only. All prices are in U.S. dollars.</p>
+                    </div>
+                  </div>
+                  <div class="product-description left">
+                    <h1>SMS4Act!</h1>
+                    
+										<p>Improve Communication. SMS is a fast, simple, non-intrusive way to communicate with customers. Improve Productivity. Much faster than a phone call, your valuable staff resources can be used elsewhere.</p>
+                    <p>Improve Customer Service. A personalized SMS message can help build relationships with customers.Reduce No-Shows. Customer no-shows adversely affect revenue. SMS reminders can dramatically reduce this problem. Reduce Costs.</p>
+                    <p>An SMS can be sent at a fraction of the cost of mobile call.</p>
+                    <ul>
+                    	<li>Send a single message or broadcast to a lookup of contacts</li>
+                      <li>Record history of sent messages and replies in Act!</li>
+                      <li>Create templates for sending personalized texts</li>
+                      <li>Merge data from the contact and/or activity e.g. appointment reminders to avoid no-shows Send a Meeting confirmation</li>
+                      <li>Send a single message or broadcast to a lookup of contacts</li>
+                    </ul>                    
+                    <p><strong>System Requirements</strong></p>
+                    <ul>
+                    	<li>Sage ACT! 2013 or Act! v16</li>
+                      <li>Internet Connection</li>
+                    </ul>
+                  
+                  </div>
+                                                       
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                <div class="mainSidebar">
+                    <div class="side-block sidenav">
+                    <h3><a href="/marketplace">Marketplace</a></h3>
+                    	<ul>
+                        <li><a href="/marketplace">By Business Need</a></li>
+                      </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

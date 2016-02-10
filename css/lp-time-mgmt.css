@@ -1,0 +1,45 @@
+		/* hero + form */
+		.hero{
+			background:url(/img/hero_business_owners.jpg) bottom right no-repeat;
+			background-size:cover; 
+			color:#fff;}
+		.heroForm{background:#2A353D;}
+		.hero h1{text-align:center;color:#FFF;}
+		.heroForm h2{font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;color:#FFF;}
+		.heroForm p{color:#FFF;}
+		.heroTextInner{width:100%;}
+		input[type=submit]{background:#FE5000;}
+		input[type=submit]:hover{background:#da4c1f;}
+		.cta{display:none;}
+
+		.video{
+			padding:48px 0;
+		}
+		.video .youtubewrap{
+			width:80%;
+			max-width:853px;
+			margin:0 auto;
+		}
+		.video .videoContainer{
+			position:relative;
+			padding-bottom:56.25%;
+			padding-top:30px;
+			height:0;
+			overflow:hidden;
+		}
+		.video .videoContainer iframe, .video .videoContainer object, .video .videoContainer embed {
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+		}
+
+		@media(min-width:1024px){
+		.hero h1{text-align:left;}			
+		.heroText{margin:20px auto auto 10%;max-width:50%;float:left;}
+		.heroForm{padding-top:80px;padding-bottom:400px;}
+		}
+		.needsfilled {border:#FF0004;box-shadow:red 0 0 5px;color:#CC0000 !important;}
+		/* gated content */
+		.gated{display:none};

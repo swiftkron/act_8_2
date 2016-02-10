@@ -1,0 +1,155 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" %>
+<%@ Register TagPrefix="sf" Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI.PublicControls"%>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--#include virtual="/tracking/head-tracking.aspx" -->
+</head>
+
+<body>
+
+        <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KW52GZ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-KW52GZ');</script>
+    <!-- End Google Tag Manager -->
+
+    <form id="form1" runat="server">
+        <sf:JavaScriptEmbedControl runat="server" ID="jsLink1" ScriptEmbedPosition="Head" Url="~/Sitefinity/WebsiteTemplates/Base/App_Theme/js/jquery-1.11.3.min.js"></sf:JavaScriptEmbedControl>
+        <sf:JavaScriptEmbedControl runat="server" ID="jsLink2" ScriptEmbedPosition="Head" Url="~/Sitefinity/WebsiteTemplates/Base/App_Theme/js/common.js"></sf:JavaScriptEmbedControl>
+        
+        <asp:ContentPlaceHolder ID="MainNavigation" runat="server"></asp:ContentPlaceHolder>
+
+        <!-- HERO -->
+        <div class="outer products">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 bg_black trans85">
+                        <div class="trans100 inner">
+                            <asp:ContentPlaceHolder ID="HeroCopy" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                    <div class="col-6"><!-- empty div --></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRODUCT FEATURES -->
+        <div class="outer productFeatures">
+            <div class="container inner">
+                <h2><asp:ContentPlaceHolder ID="ProductFeaturesHeadline" runat="server"></asp:ContentPlaceHolder></h2>
+                <!-- row 1 --><div class="row">
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon1" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy1" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon2" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy2" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 2 --><div class="row">
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon3" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy3" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon4" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy4" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 3 --><div class="row">
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon5" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy5" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon6" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy6" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 4 --><div class="row">
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon7" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy7" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon8" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy8" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center"><asp:ContentPlaceHolder ID="ProductFeaturesCTA" runat="server"></asp:ContentPlaceHolder></div>
+            </div>
+        </div>
+
+        <!-- TRUST FACTS -->
+        <div class="outer bg_black inner">
+            <div class="container inner">
+                <h2><asp:ContentPlaceHolder ID="TrustFactsHeadline" runat="server"></asp:ContentPlaceHolder></h2>
+                <div class="row">
+                    <div class="col-4">
+                        <asp:ContentPlaceHolder ID="Fact1" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-4">
+                        <asp:ContentPlaceHolder ID="Fact3" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                      <div class="col-4">
+                        <asp:ContentPlaceHolder ID="Fact4" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- Start free trial CTA -->
+        <div class="outer bg_blue trialCTA">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <asp:ContentPlaceHolder ID="FinalCTAContent" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+              </div>
+            </div>
+        </div>
+
+        <asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
+        <div class="outer bg_grey">
+            <div class="container disclaimers">
+                <asp:ContentPlaceHolder ID="Disclaimers" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

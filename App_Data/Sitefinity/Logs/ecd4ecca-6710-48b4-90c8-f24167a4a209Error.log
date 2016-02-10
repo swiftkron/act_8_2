@@ -1,0 +1,125 @@
+----------------------------------------
+Timestamp: 11/9/2015 5:56:06 PM
+
+Message: HandlingInstanceID: 1c5327d9-8303-48a0-bd58-ded6e9e0edd4
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+11/09/2015 10:56:06
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 0 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+
+Page Act! Premium: No row for Telerik.Sitefinity.Pages.Model.PageDraftControl ('sf_object_data') GenericOID@19675bdb PageDraftControl id=16d360e7-96e1-633a-9d88-ff00001e67f5
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
+   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForPages(Int32 proccessItemsCount, String operationName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.CallWorkflowBatch(String[] pageIDs, String operationName, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContent(String[] Ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
+   at SyncInvokeBatchDeleteContent(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/9/2015 5:56:06 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130915587381544854
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageNode&hierarchyMode=true&provider=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130915587381544854
+
+ProcessId: 4516
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11232
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/9/2015 6:35:43 PM
+
+Message: HandlingInstanceID: ea687767-5323-4c48-b342-9e12c90a345e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/09/2015 11:35:43
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Cannot find ContentPlaceHolder 'ProductHeroImage' in the master page '/App_Data/Sitefinity/WebsiteTemplates/Base/App_Master/ProductDetail.Master', verify content control's ContentPlaceHolderID attribute in the content page.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.UI.MasterPage CreateMaster(System.Web.UI.TemplateControl, System.Web.HttpContext, System.Web.VirtualPath, System.Collections.IDictionary)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.Page.get_Master()
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/9/2015 6:35:43 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130915587381544854
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/products/act-emarketing
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130915587381544854
+
+ProcessId: 4516
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13012
+
+Extended Properties: 
+----------------------------------------

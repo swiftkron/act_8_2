@@ -1,0 +1,9 @@
+{
+  "name": "markerclustererplus",
+  "version": "2.1.2",
+  "keywords": ["markerclustererplus", "google", "maps"],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

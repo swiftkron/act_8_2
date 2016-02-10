@@ -1,0 +1,168 @@
+	section[role="hero-intuit-pro"]{
+		padding:5em 0;
+		overflow:hidden;
+	}
+	section[role="hero-intuit-pro"] h1{
+		font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+		font-size:3em;
+		color:#fe5000;
+		text-align:center;
+		margin-top:1em;
+	}
+	section[role="hero-intuit-pro"] h2{
+		font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+		font-size:1.5em;
+		color:#006a8e;
+		text-align:center;
+	}
+	section[role="hero-intuit-pro"] h3{
+		font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+		font-size:1.2em;
+		color:#212721;
+	}
+	section[role="hero-intuit-pro"] h3 span{
+		font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+		font-size:2em;
+		color:#006a8e;
+	}
+	section[role="hero-intuit-pro"] button, section[role="intuit-download"] button{
+		display:block;
+		margin:0 auto 1em;
+		background:#fe5000;
+		color:#fff;
+		padding:9px 36px 12px;
+		border:none;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+		font-size:1.5em;
+		cursor:pointer;
+	}
+	section[role="hero-intuit-pro"] button:hover, section[role="intuit-download"] button:hover{
+		background:#d94400;
+		-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+	}	
+	.intuit-hero{
+		max-width:1080px;
+		margin:0 auto;
+	}
+	.intuit-hero-copy{
+		overflow:hidden;
+	}
+	.intuit-alt{
+		color:#FE5000;
+		font-style:oblique;
+	}
+	.intuit-hero-copy ul{
+		margin:0 0 0 1em;
+		padding:0 0;
+		font-size:.9em;
+	}
+	.intuit-hero-copy li, .download-product li{
+		padding:0 0 9px;
+		color:#fe5000;
+	}
+	.intuit-hero-copy li span, .download-product li span{
+		color:#444;
+	}	
+	.intuit-hero-img{
+		margin:2em 0;
+	}
+	.intuit-hero-img img{
+		display:block;
+		margin:1em auto;
+	}
+	.intuit-pricing{
+		overflow:hidden;
+		background:#eee;
+		color:#212721;
+		padding:0 18px 24px;
+		margin-top:1em;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+	}
+	section[role="hero-intuit-pro"] .intuit-price-button{
+		clear:both;
+	}
+	section[role="hero-intuit-pro"] .intuit-price-button button{
+		display:block;
+		margin:6em auto 1em !important;
+		background:#00dedc;
+		color:#212721;
+		padding:0 18px 3px;
+		border:none;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+		font-size:1.2em;
+		cursor:pointer;
+	}
+	section[role="hero-intuit-pro"] .intuit-price-button button:hover{
+		color:#FFF;
+		background:#006a8e;
+		-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+	}	
+	.intuit-hero .listPrice{
+		font-family:"HelveticaNeueW01-55Roma","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size:1.3em;
+		line-height:.9em;
+		color:#777;
+		clear:right;
+	}
+	.intuit-hero .listPrice strong{
+		font-family:"HelveticaNeueW01-55Roma","Helvetica Neue",Helvetica,Arial,sans-serif;
+		text-decoration:line-through;
+		color:#fe5000;
+	}
+	.intuit-hero .listPrice strong span{
+		color:#777;
+	}
+	.intuit-hero .bundlePrice{
+		font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+		font-size:1.3em;
+		line-height:.9em;
+		color:#212721;
+		clear:right;
+	}
+	.intuit-hero .savePrice{
+		font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+		font-size:1.3em;
+		line-height:.9em;
+		color:#fe5000;
+		clear:right;
+	}
+
+/* DOWNLOAD */
+	section[role="intuit-download"]{
+		padding:5em 0;
+	}
+	section[role="intuit-download"] .container{
+		max-width:1080px;
+		margin:0 auto;
+	}
+	section[role="intuit-download"] h1{
+		font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+		font-size:3em;
+		color:#fe5000;
+		text-align:center;
+	}
+	section[role="intuit-download"] h3{
+		font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+		color:#006a8e;
+	}
+	.download-product{
+		overflow:hidden;
+		border-top:#eee 1px solid;
+		margin:1em 0;
+	}

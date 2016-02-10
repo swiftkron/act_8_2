@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- intl domains -->
+<script src="/_assets/js/domain.js" type="text/javascript"></script>
+<!-- .end intl domains -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Act! Marketplace - Mobile Devices</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+
+<!-- SLIDER JS & CSS -->
+ <link href="css/CustomerSuccesses.css" rel="stylesheet" type="text/css" /> 
+ 
+<script type="text/javascript" src="/media/en-us/js/plugins.js"></script>
+
+<script type="text/javascript" src="/media/en-us/js/script.js"></script>  
+<script type="text/javascript" src="/media/en-us/js/modernizr253min.js"></script>
+
+<link rel="stylesheet" href="/media/en-us/css/sliders.css">
+
+<!-- .end SLIDER JS & CSS -->
+
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace/">Marketplace</a></li>
+                    <li>></li>
+                    <li>Mobile Devices</li>
+                </ul>
+                
+                <div class="mainSingleColumn">
+                
+                  <!-- CONTENT -->
+                  <img id="mkt-banner-v16" src="/app-marketplace/img/act_mkt_logo.png" alt="Act! Marketplace" />
+                               
+                  <div class="mkt">
+                  <h1>Business Need: <strong>Mobile Devices</strong></h1>
+
+<!-- 123 Sync 2013 for Act! 1-User Client -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/123-Sync-Exchange-1-User-Client"><img src="/media/en-us/images/marketplace/123SyncBoxWithSageAct.Jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/123-Sync-Exchange-1-User-Client">123 Sync for Act! 1-User Client</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;95.00/year</p>
+                          <a class="btn-orange" href="/marketplace/123-Sync-Exchange-1-User-Client"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>123 Sync synchronizes Act! contacts, calendar, todos, and emails with Outlook/Exchange.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- 123 Sync Server for Exchange - 5-User Server License -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/123-Sync-Server-for-Exchange-5-User"><img src="/media/en-us/images/marketplace/123SyncServerforExchange5UserServerLicense.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/123-Sync-Server-for-Exchange-5-User">123 Sync Server for Exchange - 5-User Server License</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;475.00/year</p>
+                          <a class="btn-orange" href="/marketplace/123-Sync-Server-for-Exchange-5-User"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Synchronize multiple Act! Users to their individual Exchange Mailboxes with 123 Sync Server for Act! and Exchange. Supports server-based, full, unattended, synchronization of Contact, Calendar and Tasks between Act! and Exchange.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+
+<!-- Cinsay: Video eCommerce -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Cinsay-Video-eCommerce"><img src="/media/en-us/images/marketplace/CinsayVideoeCommerce-thumb.gif" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Cinsay-Video-eCommerce">Cinsay: Video eCommerce</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;19.99/<span style="font-size:12px;">month</span></p>
+                          <a class="btn-orange" href="/marketplace/Cinsay-Video-eCommerce"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Cinsay Video Smart Store<sup>&trade;</sup>- Sell products &amp; services, take donations and capture leads all within the video player. The shopping cart works wherever your video is shared and on all mobile devices, both locally and globally.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+
+
+                  
+<!-- CompanionLink Express -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/CompanionLink-Express"><img src="/media/en-us/images/marketplace/CompanionLinkExpress.jpg" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/CompanionLink-Express">CompanionLink Express</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;79.95</p>
+                          <a class="btn-orange" href="/marketplace/CompanionLink-Express"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Sync Act! with phones, tablets, Microsoft Outlook, and Mac. Sync multiple devices with one license. Option to sync with Google and Lotus Notes. Phone support included.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Dial IT – TAPI -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Dial-IT-TAPI"><img src="/media/en-us/images/marketplace/DialITTAPI.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Dial-IT-TAPI">Dial IT – TAPI</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;206.27</p>
+                          <a class="btn-orange" href="/marketplace/Dial-IT-TAPI"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Identify incoming calls and display a pop-up window with the contact's record. Maintain your database with Scheduled Call Lists and automatic Activity clearing. Create activities for unanswered incoming calls with the option to send it directly to your PDA if you have wireless synchronization.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Dial IT Pro (Call Center) -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Dial-IT-Pro"><img src="/media/en-us/images/marketplace/DialITProCallCenter.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Dial-IT-Pro">Dial IT Pro (Call Center)</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;285.95</p>
+                          <a class="btn-orange" href="/marketplace/Dial-IT-Pro"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Dial IT is a highly efficient addon for Act! that manages your communication process with business partners. It allows to manage your work by a mouse click. All necessary tabs and icons are in one screen.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- Dial IT Skype for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Dial-IT-Skype-for-Sage-ACT"><img src="/media/en-us/images/marketplace/DialITSkypeforSageACT.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Dial-IT-Skype-for-Sage-ACT">Dial IT Skype for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;74.05</p>
+                          <a class="btn-orange" href="/marketplace/Dial-IT-Skype-for-Sage-ACT"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>With Dial IT Skype for Act! you can dial and answer calls, update contact information, add new contacts, create history, and schedule activities for incoming and outgoing calls.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+<!-- eXact Contacts for Act! -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/eXact-Contacts"><img src="/media/en-us/images/marketplace/eXact-Contact.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/eXact-Contacts">eXact Contacts for Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;69.99</p>
+                          <a class="btn-orange" href="/marketplace/eXact-Contacts"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Sync ACT! Contact, Notes, Histories &amp; Activities to your mobile device. No Monthly Fees.</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->                  
+                  
+<!-- Handheld Contact -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/Handheld-Contact-2013"><img src="/media/en-us/images/marketplace/HandheldContactPocketPC.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/Handheld-Contact">Handheld Contact</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;79.00</p>
+                          <a class="btn-orange" href="/marketplace/Handheld-Contact"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Handheld Contact puts the power of Act! contact management right on your smartphone or tablet. View and manage your Act! contacts, notes, histories, tasks, and activities anytime, even if your mobile device doesn’t have an Internet connection. Automatic wireless syncing ensures Act! data is always up to date. </p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->
+                  
+
+                  
+<!-- Handheld Contact with Premium Phone Support -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/handheld-contact-with-premium-phone-support"><img src="/media/en-us/images/marketplace/HandheldContactProfessionaliPhone.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/handheld-contact-with-premium-phone-support">Handheld Contact with Premium Phone Support</a></h3>
+                        <div class="mkt-price left">
+                          <p>&#36;179.00</p>
+                          <a class="btn-orange" href="/marketplace/handheld-contact-professional"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Handheld Contact puts the power of Act! contact management right on your smartphone or tablet. View and manage your Act! contacts, notes, histories, tasks, and activities anytime, even if your mobile device doesn’t have an Internet connection. Automatic wireless syncing ensures Act! data is always up to date. And keep your business running smoothly with Premium Phone Support which provides unlimited, one-on-one phone assistance. </p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->                  
+
+                  </div>
+                  <!-- .end CONTENT -->
+
+<!-- SMS4Act!  -->
+                  <div class="section-mkt">
+                    <div class="mkt-brief">
+                      <div class="mkt-thumb left">
+                        <a href="/marketplace/SMS4Act"><img src="/media/en-us/images/marketplace/SMS4Act.png" /></a>
+                      </div>
+                      <div class="mkt-overview left">
+                        <h3><a href="/marketplace/SMS4Act">SMS4Act!</a></h3>
+                        <div class="mkt-price left">
+                          <p>FREE</p>
+                          <a class="btn-orange" href="/marketplace/SMS4Act"><strong>Buy Now</strong></a>
+                        </div>
+                        <div class="mkt-description left">
+                          <p>Send text messages from Act! to one or more contacts, record messages &amp; replies to history, merge contact and activity fields to templates (eg. reminders).</p>
+                        </div>
+                      </div>
+                  		<div class="clear"></div>
+                    </div>
+                  </div><!-- .end Product -->                  
+
+                          <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                
+                
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

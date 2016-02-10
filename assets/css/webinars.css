@@ -1,0 +1,59 @@
+section[role="webinar"]{
+	padding:35px 0;
+}
+section[role="webinar"] h1{
+	display:block;
+	background:#00aab4;
+	color:#fff;
+	padding:1em;
+	font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+	text-align:center;
+	font-size:3em;
+}
+section[role="webinar"] h2{
+	color:#212721;
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	font-size:2em;
+}
+section[role="webinar"] p, section[role="webinar"] ul{
+	font-size:1.2em;
+	line-height:1.5em;
+}
+
+.webinar-details{
+	max-width:1000px;
+	margin:2em auto;
+	padding:1em 2em;
+	overflow:hidden;
+	background:#e1dcd2;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.webinar-details img{
+	float:right;
+	margin-left:20px;
+	max-width:300px;
+}
+
+section[role="webinar"] button{
+	display:block;
+	margin:1em auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border:none;
+	border-radius: 5px;
+	background:#fe5000;
+	color:#FFF;
+	padding:6px 36px 9px;
+	font-size:1.2em;
+	cursor:pointer;
+}
+section[role="webinar"] button:hover{
+	background:#d94400;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}

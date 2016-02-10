@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <APT id="1">
+    <company>Platinum CRM Consulting</company>
+    <city>Chandler</city>
+    <state>AZ</state>
+    <contact>Debora Boyle</contact>
+    <phone>877-228-7528</phone>
+    <fax>877.321.9559</fax>
+    <email>debora@actplatinum.com</email>
+    <website>www.actplatinum.com</website>
+  </APT>
+  <APT id="2">
+    <company>Design R1 Software, LLC</company>
+    <city>Tempe</city>
+    <state>AZ</state>
+    <contact>Mark Hammer</contact>
+    <phone>877-755-9029</phone>
+    <fax>480.755.0467</fax>
+    <email>markh@designr1.com</email>
+    <website>www.designr1.com</website>
+  </APT>
+  <APT id="3">
+    <company>DATABASE-USA</company>
+    <city>Sherman Oaks</city>
+    <state>CA</state>
+    <contact>Daniel Graves</contact>
+    <phone>818-780-3201</phone>
+    <fax>866-908-8477</fax>
+    <email>Daniel@DATABASE-LA.com</email>
+    <website>www.DATABASE-LA.com</website>
+  </APT>
+  <APT id="4">
+    <company>K &amp; K Business Solutions</company>
+    <city>Monrovia</city>
+    <state>CA</state>
+    <contact>Kathleen Fernan</contact>
+    <phone>626.358.1112</phone>
+    <fax />
+    <email>kathleen@knkbs.com</email>
+    <website>www.knkbs.com</website>
+  </APT>
+  <APT id="5">
+    <company>Action Consulting &amp; Training Technology</company>
+    <city>Long Beach</city>
+    <state>CA</state>
+    <contact>Jacqueline  Zimmermann</contact>
+    <phone>877-708-3400</phone>
+    <fax>413.723.3400</fax>
+    <email>jax@acttechnology.com</email>
+    <website>www.acttechnology.com</website>
+  </APT>
+  <APT id="6">
+    <company>Sienna Solutions Inc.</company>
+    <city>Irvine</city>
+    <state>CA</state>
+    <contact>Peter DeBellis</contact>
+    <phone>949.380.9700</phone>
+    <fax>949.716.9371</fax>
+    <email>pdebellis@siennasolutions.com</email>
+    <website>www.siennasolutions.com</website>
+  </APT>
+  <APT id="7">
+    <company>Aaron's Computer Relief, LLC</company>
+    <city>Carlsbad</city>
+    <state>CA</state>
+    <contact>Aaron Alter</contact>
+    <phone>760-943-7925</phone>
+    <fax>760-943-0349</fax>
+    <email>aalter@aaronscomp.com</email>
+    <website>www.aaronscomp.com</website>
+  </APT>
+  <APT id="8">
+    <company>Active Sales Technology</company>
+    <city>Los Angeles</city>
+    <state>CA</state>
+    <contact>Michael Moldofsky</contact>
+    <phone>877-569-8005</phone>
+    <fax />
+    <email>michael@activesales.net</email>
+    <website>www.activesales.net</website>
+  </APT>
+  <APT id="9">
+    <company>CRM Total Solutions</company>
+    <city>Santa Rosa</city>
+    <state>CA</state>
+    <contact>Carol Gilliland</contact>
+    <phone>415-639-9500</phone>
+    <fax>855-639-2669</fax>
+    <email>carol@crmTotalSolutions.com</email>
+    <website>www.crmTotalSolutions.com</website>
+  </APT>
+  <APT id="10">
+    <company>Effective Business Solutions</company>
+    <city>Colorado Springs</city>
+    <state>CO</state>
+    <contact>Kathleen Vanden Broecke</contact>
+    <phone>719-538-6015</phone>
+    <fax>719.538.0925</fax>
+    <email>kvb@actcolorado.com</email>
+    <website>www.actcolorado.com</website>
+  </APT>
+  <APT id="11">
+    <company>Squad 16 Consulting</company>
+    <city>East Windsor</city>
+    <state>CT</state>
+    <contact>Tom Najemy</contact>
+    <phone>860-758-7250</phone>
+    <fax>860-758-7254</fax>
+    <email>support@squad16.com</email>
+    <website>www.squad16.com</website>
+  </APT>
+  <APT id="12">
+    <company>RKA Associates, LLC</company>
+    <city>Stamford</city>
+    <state>CT</state>
+    <contact>Rita Kogstad</contact>
+    <phone>203.322.6312</phone>
+    <fax />
+    <email>rita@rkact.com</email>
+    <website>www.rkact.com</website>
+  </APT>
+  <APT id="13">
+    <company>Kenbar Solutions</company>
+    <city>Wallingford</city>
+    <state>CT</state>
+    <contact>Robert Kennedy</contact>
+    <phone>203-605-8934</phone>
+    <fax />
+    <email>rkennedy@kenbarsolutions.com</email>
+    <website>www.kenbarllc.com</website>
+  </APT>
+  <APT id="14">
+    <company>Your Software Coach</company>
+    <city>Defuniak Springs</city>
+    <state>FL</state>
+    <contact>Anne M. Johnson</contact>
+    <phone>850-968-3374</phone>
+    <fax>866-244-3345</fax>
+    <email>anne@yoursoftwarecoach.com</email>
+    <website>www.yoursoftwarecoach.com</website>
+  </APT>
+  <APT id="15">
+    <company>Certified Computer Solutions</company>
+    <city>TAMPA</city>
+    <state>FL</state>
+    <contact>Joy Savage</contact>
+    <phone>813-282-3622</phone>
+    <fax />
+    <email>actsupport@ccsfl.com</email>
+    <website>www.ccsfl.com</website>
+  </APT>
+  <APT id="16">
+    <company>Tech Benders LLC</company>
+    <city>Boca Raton</city>
+    <state>FL</state>
+    <contact>Karen Fredricks</contact>
+    <phone>561.470.5450</phone>
+    <fax>888-470-5450</fax>
+    <email>karen@techbenders.com</email>
+    <website>www.techbenders.com</website>
+  </APT>
+  <APT id="17">
+    <company>Mobile Information Services Inc.</company>
+    <city>Deerfield Beach</city>
+    <state>FL</state>
+    <contact>Jordan Ofri</contact>
+    <phone>800-550-4647</phone>
+    <fax>954.227.7611</fax>
+    <email>jordan@actconsultant.net</email>
+    <website>www.actconsultant.net</website>
+  </APT>
+  <APT id="18">
+    <company>Ki Consultants, Inc.</company>
+    <city>Boca Raton</city>
+    <state>FL</state>
+    <contact>Danielle Major</contact>
+    <phone>561-208-3912</phone>
+    <fax>561.892.0930</fax>
+    <email>Danielle@KIConsultants.com</email>
+    <website>www.kicrm.com</website>
+  </APT>
+  <APT id="19">
+    <company>Certified Computer Solutions</company>
+    <city>Longwood</city>
+    <state>FL</state>
+    <contact>Andrea Mahoney</contact>
+    <phone>407.834.1191</phone>
+    <fax>407.834.1196</fax>
+    <email>AndreaM@ccsfl.com</email>
+    <website>www.ccsfl.com</website>
+  </APT>
+  <APT id="70">
+    <company>Emerging Technologies Inc.</company>
+    <city>Atlanta</city>
+    <state>GA</state>
+    <contact>Alanna Galiano</contact>
+    <phone>770-217-0678</phone>
+    <fax>770-234-5810</fax>
+    <email>alanna@emergingtechnologiesco.com</email>
+    <website>www.emergingtechnologiesco.com</website>
+	</APT>
+  <APT id="20">
+    <company>Dixon Consulting Solutions</company>
+    <city>Smyrna</city>
+    <state>GA</state>
+    <contact>Brenda Dixon</contact>
+    <phone>404-405-4116</phone>
+    <fax>404.806.6111</fax>
+    <email>brenda@dixonconsultingsolutions.com</email>
+    <website>www.dixonconsultingsolutions.com</website>
+  </APT>
+  <APT id="21">
+    <company>Essentials Software</company>
+    <city>Atlanta</city>
+    <state>GA</state>
+    <contact>Shannon Taylor</contact>
+    <phone>404-252-0995</phone>
+    <fax />
+    <email>staylor@essentialssoftware.com</email>
+    <website>www.essentialssoftware.com</website>
+  </APT>
+  <APT id="22">
+    <company>Training Solutions, Inc.</company>
+    <city>Adel</city>
+    <state>IA</state>
+    <contact>Cindy Kool</contact>
+    <phone>515-993-3268</phone>
+    <fax />
+    <email>cindy.kool@trainingsolutionsinc.com</email>
+    <website>www.trainingsolutionsinc.com</website>
+  </APT>
+  <APT id="23">
+    <company>Novak Information Systems, Inc.</company>
+    <city>Glen Ellyn</city>
+    <state>IL</state>
+    <contact>Bill Novak</contact>
+    <phone>630-858-1277</phone>
+    <fax>630.858.3895</fax>
+    <email>bill.novak@novakinfosystems.com</email>
+    <website>www.novakinfosystems.com</website>
+  </APT>
+  <APT id="24">
+    <company>BrainSell Technologies</company>
+    <city>Glencoe</city>
+    <state>IL</state>
+    <contact>Donald Joseph</contact>
+    <phone>847.835.0979</phone>
+    <fax>877-625-6242</fax>
+    <email>djoseph@brainsell.net</email>
+    <website>www.brainsell.net</website>
+  </APT>
+  <APT id="25">
+    <company>Gold Coast Advisors</company>
+    <city>Chicago</city>
+    <state>IL</state>
+    <contact>Steve Stroz</contact>
+    <phone>877-276-8880</phone>
+    <fax />
+    <email>steve@goldcoastadvisors.com</email>
+    <website>www.goldcoastadvisors.com</website>
+  </APT>
+  <APT id="71">
+    <company>ClientTrax CRM</company>
+    <city>Topeka</city>
+    <state>KS</state>
+    <contact>Kevin Varnon</contact>
+    <phone>785-408-3702</phone>
+    <fax></fax>
+    <email>kevin@clienttrax.com</email>
+    <website>www.clienttrax.com</website>
+  </APT>
+  <APT id="72">
+    <company>Halo Group Inc.</company>
+    <city>Louisville</city>
+    <state>KY</state>
+    <contact>Jim Sprigler</contact>
+    <phone>502-276-6352</phone>
+    <fax>866-706-4569</fax>
+    <email>jsprigler@halogrouponline.com</email>
+    <website>www.halogrouponline.com</website>
+	</APT>
+  <APT id="26">
+    <company>Remote Tech Group, LLC</company>
+    <city>Baton Rouge</city>
+    <state>LA</state>
+    <contact>Jeremy Wesley</contact>
+    <phone>877-932-2281</phone>
+    <fax />
+    <email>Jwesley@rtgroup.com</email>
+    <website>www.rtgroup.com</website>
+  </APT>
+  <APT id="27">
+    <company>Actability</company>
+    <city>Boston</city>
+    <state>MA</state>
+    <contact>Karen Rankin</contact>
+    <phone>617-623-1762</phone>
+    <fax>617-941-4141</fax>
+    <email>karen@actability.com</email>
+    <website>www.actability.com</website>
+  </APT>
+  <APT id="28">
+    <company>Business Technologies of New England, Inc.</company>
+    <city>Attleboro</city>
+    <state>MA</state>
+    <contact>Joseph Norcott</contact>
+    <phone>508-226-4565</phone>
+    <fax>866-381-2713</fax>
+    <email>jwn@btne.com</email>
+    <website>www.btne.com</website>
+  </APT>
+  <APT id="73">
+    <company>D Freedman Consulting</company>
+    <city>Natick</city>
+    <state>MA</state>
+    <contact>Donna Freedman</contact>
+    <phone>877-651-0262</phone>
+    <fax>866-588-8129</fax>
+    <email>dfreedman@dfreedmanconsulting.com</email>
+    <website>www.dfreedmanconsulting.com</website>
+  </APT>
+  <APT id="29">
+    <company>Stewart Technologies, Inc.</company>
+    <city>Columbia</city>
+    <state>MD</state>
+    <contact>Tara Schinkel</contact>
+    <phone>410-309-9550</phone>
+    <fax>410-309-9551</fax>
+    <email>tmm@stewarttechnologies.com</email>
+    <website>www.stewarttechnologies.com</website>
+  </APT>
+  <APT id="30">
+    <company>AspenTech Consulting Group, Inc.</company>
+    <city>Plymouth</city>
+    <state>MI</state>
+    <contact>Gregory Knapp</contact>
+    <phone>866-880-4228</phone>
+    <fax>734.468.0207</fax>
+    <email>gknapp@aspen-tech.com</email>
+    <website>www.aspen-tech.com/lp/accgk.html</website>
+  </APT>
+  <APT id="31">
+    <company>MarketPlace Innovations Incorporated</company>
+    <city>Minneapolis</city>
+    <state>MN</state>
+    <contact>David Sunnarborg</contact>
+    <phone>612-670-4714</phone>
+    <fax></fax>
+    <email>david@mpii.com</email>
+    <website>www.mpii.com</website>
+  </APT>
+  <APT id="32">
+    <company>Softech Solutions LLC</company>
+    <city>Apple Valley</city>
+    <state>MN</state>
+    <contact>Jill Gibson</contact>
+    <phone>612-309-5709</phone>
+    <fax />
+    <email>jill@softechsolutionsllc.com</email>
+    <website>www.softechsolutionsllc.com</website>
+  </APT>
+  <APT id="33">
+    <company>Project Technology Consulting, LLC</company>
+    <city>Manchester</city>
+    <state>MO</state>
+    <contact>Louise Wiedermann</contact>
+    <phone>636-675-0226</phone>
+    <fax />
+    <email>LW@projektek.com</email>
+    <website>www.projektek.com</website>
+  </APT>
+  <APT id="34">
+    <company>CIM Software LLC</company>
+    <city>Hickory</city>
+    <state>NC</state>
+    <contact>Kit Leithiser</contact>
+    <phone>828.322.8155</phone>
+    <fax>828-327-0137</fax>
+    <email>kit@leithiser.com</email>
+    <website>www.leithiser.com</website>
+  </APT>
+  <APT id="35">
+    <company>Atlantic Database LLC</company>
+    <city>Chapel Hill</city>
+    <state>NC</state>
+    <contact>Peter E. Fernald</contact>
+    <phone>866-693-2822</phone>
+    <fax>919-237-9246</fax>
+    <email>success@crm1web.com</email>
+    <website>www.crm1web.com/act.asp</website>
+  </APT>
+  <APT id="36">
+    <company>Tech Commandos</company>
+    <city>Marlton</city>
+    <state>NJ</state>
+    <contact>Geri Davis</contact>
+    <phone>215-205-1020</phone>
+    <fax>800.663.1287</fax>
+    <email>gdavis@techcommandos.com</email>
+    <website>www.techcommandos.com</website>
+  </APT>
+  <APT id="37">
+    <company>Tech Commandos</company>
+    <city>Marlton</city>
+    <state>NJ</state>
+    <contact>James L. Davis</contact>
+    <phone>856-912-4670</phone>
+    <fax>800.663.1287</fax>
+    <email>jdavis@techcommandos.com</email>
+    <website>www.techcommandos.com</website>
+  </APT>
+  <APT id="38">
+    <company>Customer Information Technology</company>
+    <city>Amherst</city>
+    <state>NY</state>
+    <contact>Dave Worral</contact>
+    <phone>716-514-3754</phone>
+    <fax>716-839-0264</fax>
+    <email>ACC@Customer-IT.com</email>
+    <website>www.Customer-IT.com</website>
+  </APT>
+  <APT id="39">
+    <company>Synergy CRM Consultants, Inc.</company>
+    <city>New York</city>
+    <state>NY</state>
+    <contact>Timm M. Ryan-Young</contact>
+    <phone>646-319-7505</phone>
+    <fax />
+    <email>timm@synergyCRMconsultants.com</email>
+    <website>www.synergycrmconsultants.com</website>
+  </APT>
+  <APT id="40">
+    <company>Prescience, LLC</company>
+    <city>Cincinnati</city>
+    <state>OH</state>
+    <contact>John Tytus</contact>
+    <phone>513-898-1040</phone>
+    <fax>513-521-4730</fax>
+    <email>john@iprescience.com</email>
+    <website>www.iPrescience.com</website>
+  </APT>
+  <APT id="41">
+    <company>Design R1 Software, LLC</company>
+    <city>Cleveland</city>
+    <state>OH</state>
+    <contact>Michael Kadlub</contact>
+    <phone>877.755.9029</phone>
+    <fax>877.755.0467</fax>
+    <email>michaelk@designr1.com</email>
+    <website>www.designr1.com</website>
+  </APT>
+  <APT id="42">
+    <company>Effective Contact Management</company>
+    <city>Burlington</city>
+    <state>ON</state>
+    <contact>Sharon Gillie</contact>
+    <phone>905-336-8988</phone>
+    <fax>905.335.6020</fax>
+    <email>sgillie1@cogeco.ca</email>
+    <website>www.getyouracttogether.net</website>
+  </APT>
+  <APT id="74">
+    <company>Keystroke Quality Computing, Inc.</company>
+    <city>Toronto</city>
+    <state>ON</state>
+    <contact>Ken Quigley</contact>
+    <phone>416-499-3090</phone>
+    <fax>416-499-1090</fax>
+    <email>ken@kqc.ca</email>
+    <website>www.keystroke.ca</website>
+	</APT>
+  <APT id="43">
+    <company>First Plan Inc.</company>
+    <city>Beaverton</city>
+    <state>OR</state>
+    <contact>Michael Johnson</contact>
+    <phone>503-221-2020</phone>
+    <fax>503-924-5714</fax>
+    <email>mjohnson@firstplan.com</email>
+    <website>www.firstplan.com</website>
+  </APT>
+  <APT id="44">
+    <company>Compu-Tutor Inc.</company>
+    <city>Conshohocken</city>
+    <state>PA</state>
+    <contact>Bill Conner</contact>
+    <phone>610.260.0300</phone>
+    <fax>610.260.0302</fax>
+    <email>bconner@compu-tutor.net</email>
+    <website>www.compu-tutor.net</website>
+  </APT>
+  <APT id="45">
+    <company>CONTACTIK Inc.</company>
+    <city>Montreal</city>
+    <state>QC</state>
+    <contact>Marc Norton</contact>
+    <phone>514-666-7587</phone>
+    <fax>514-666-9851</fax>
+    <email>mnorton@contactik.com</email>
+    <website>www.contactik.com</website>
+  </APT>
+  <APT id="75">
+    <company>Bridge Concepts Inc.</company>
+    <city>Houston</city>
+    <state>TX</state>
+    <contact>Kenneth Chance</contact>
+    <phone>713-784-8532</phone>
+    <fax>801-469-8263</fax>
+    <email>ken@bridgeconcepts.com</email>
+    <website>www.bridgeconcepts.com</website>
+  </APT>
+  <APT id="46">
+    <company>Bridge Concepts Inc.</company>
+    <city>Dallas</city>
+    <state>TX</state>
+    <contact>Walter Matthews</contact>
+    <phone>214-691-3988</phone>
+    <fax>214.242.4482</fax>
+    <email>matt@bridgeconcepts.com</email>
+    <website>www.bridgeconcepts.com</website>
+  </APT>
+  <APT id="47">
+    <company>Hogan Data</company>
+    <city>San Antonio</city>
+    <state>TX</state>
+    <contact>Chuck Hogan</contact>
+    <phone>210-375-5832</phone>
+    <fax>866.879.0340</fax>
+    <email>hogan@hogandata.com</email>
+    <website>www.hogandata.com</website>
+  </APT>
+  <APT id="48">
+    <company>Tandem Training &amp; Consulting</company>
+    <city>Sugarland</city>
+    <state>TX</state>
+    <contact>Jon Klubnik</contact>
+    <phone>713.662.3994</phone>
+    <fax>713.551.9107</fax>
+    <email>Jon@ActTrainer.com</email>
+    <website>www.ActTrainer.com</website>
+  </APT>
+  <APT id="49">
+    <company>Brenda Ralston</company>
+    <city>Carrollton</city>
+    <state>TX</state>
+    <contact>Brenda Ralston</contact>
+    <phone>214-763-8057</phone>
+    <fax />
+    <email>brenda@brendaralston.com</email>
+    <website>www.brendaralston.com</website>
+  </APT>
+  <APT id="50">
+    <company>Platinum CRM Consulting</company>
+    <city>Austin</city>
+    <state>TX</state>
+    <contact>Clay Weatherford</contact>
+    <phone>512-891-7880</phone>
+    <fax>267-295-8027</fax>
+    <email>clay@actplatinum.com</email>
+    <website>www.actplatinum.com</website>
+  </APT>
+  <APT id="51">
+    <company>Market Technology Associates</company>
+    <city>Arlington</city>
+    <state>VA</state>
+    <contact>Blair Reischer</contact>
+    <phone>703-241-7857</phone>
+    <fax>866.852.9099</fax>
+    <email>blair@mkt-magic.com</email>
+    <website>www.mkt-magic.com</website>
+  </APT>
+  <APT id="52">
+    <company>Platinum CRM Consulting</company>
+    <city>Seattle</city>
+    <state>WA</state>
+    <contact>Bridgette Boyle</contact>
+    <phone>877.228.7528</phone>
+    <fax>877.321.9559</fax>
+    <email>bridgette@actplatinum.com</email>
+    <website>www.actplatinum.com</website>
+  </APT>
+</document>

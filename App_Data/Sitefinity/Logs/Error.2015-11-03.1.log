@@ -1,0 +1,1202 @@
+----------------------------------------
+Timestamp: 11/2/2015 5:30:23 PM
+
+Message: HandlingInstanceID: dae813bf-b4dd-45f0-b4a3-562a219ea66d
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+11/02/2015 10:30:23
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Batch insert failed: Telerik.OpenAccess.RT.sql.SQLException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+INSERT INTO [sf_dynamic_content] ([base_id], [voa_class], [approval_workflow_state_], [item_default_url_], [url_name_], [application_name], [can_inherit_permissions], [date_created], [expiration_date], [inherits_permissions], [last_modified], [last_modified_by], [original_content_id], [ownr], [publication_date], [status], [system_parent_id], [system_parent_type], [vrsion], [visible], [was_published], [voa_version]) VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21)
+Batch Entry 0 (set event logging to all to see parameter data) Telerik.OpenAccess.RT.sql.SQLException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CommitTransaction()
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessDynamicModuleProvider_9f771864c9fb4e17b9e443a006cdafaf.CommitTransaction()
+   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges(String eventOrigin)
+   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges()
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItemInternal(DynamicItemContext dataItem, String itemType, String provider, String workflowOperation, String parentId, String parentType, String newParentId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItem(DynamicItemContext dataItem, String dataItemId, String provider, String itemType, String workflowOperation)
+   at SyncInvokeSaveDataItem(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/2/2015 5:30:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130909567661642091
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/DynamicModules/Data.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.DynamicTypes.Model.WhatsNew.ProductAnnouncement&providerName=OpenAccessProvider&managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&provider=OpenAccessProvider&workflowOperation=Publish
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 8152
+	ArrayBindIndex : -1
+	Number : 8152
+	ObjectId : 
+	Description : String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Int32 Execute(System.Data.Common.DbDataAdapter, System.Data.DataRow[], Telerik.OpenAccess.RT.sql.Batch)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+	   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+	   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 36a5de38-6d8e-4e01-b597-bf2a5da062f4
+		Class : 16
+		LineNumber : 1
+		Number : 8152
+		Procedure : 
+		Server : actcmsdbdevenv.cf56rpwrkuv7.us-east-1.rds.amazonaws.com
+		State : 13
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Int32 UpdatedRowStatusErrors(System.Data.Common.RowUpdatedEventArgs, BatchCommandInfo[], Int32)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+		   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+		   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+		   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+		   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+		   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+		   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130909567661642091
+
+ProcessId: 6040
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9796
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/2/2015 5:30:23 PM
+
+Message: HandlingInstanceID: 1a9210f3-5f02-4e92-9734-0c1c05da99b6
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+11/02/2015 10:30:23
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Batch insert failed: Telerik.OpenAccess.RT.sql.SQLException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+INSERT INTO [sf_dynamic_content] ([base_id], [voa_class], [approval_workflow_state_], [item_default_url_], [url_name_], [application_name], [can_inherit_permissions], [date_created], [expiration_date], [inherits_permissions], [last_modified], [last_modified_by], [original_content_id], [ownr], [publication_date], [status], [system_parent_id], [system_parent_type], [vrsion], [visible], [was_published], [voa_version]) VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21)
+Batch Entry 0 (set event logging to all to see parameter data) Telerik.OpenAccess.RT.sql.SQLException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CommitTransaction()
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessDynamicModuleProvider_9f771864c9fb4e17b9e443a006cdafaf.CommitTransaction()
+   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges(String eventOrigin)
+   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges()
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItemInternal(DynamicItemContext dataItem, String itemType, String provider, String workflowOperation, String parentId, String parentType, String newParentId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItem(DynamicItemContext dataItem, String dataItemId, String provider, String itemType, String workflowOperation)
+   at SyncInvokeSaveDataItem(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/2/2015 5:30:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130909567661642091
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/DynamicModules/Data.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.DynamicTypes.Model.WhatsNew.ProductAnnouncement&providerName=OpenAccessProvider&managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&provider=OpenAccessProvider&workflowOperation=Publish
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 8152
+	ArrayBindIndex : -1
+	Number : 8152
+	ObjectId : 
+	Description : String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Int32 Execute(System.Data.Common.DbDataAdapter, System.Data.DataRow[], Telerik.OpenAccess.RT.sql.Batch)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+	   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+	   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : caa78c06-4fc8-473d-a59c-0ab8a89877ad
+		Class : 16
+		LineNumber : 1
+		Number : 8152
+		Procedure : 
+		Server : actcmsdbdevenv.cf56rpwrkuv7.us-east-1.rds.amazonaws.com
+		State : 13
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Int32 UpdatedRowStatusErrors(System.Data.Common.RowUpdatedEventArgs, BatchCommandInfo[], Int32)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+		   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+		   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+		   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+		   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+		   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+		   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130909567661642091
+
+ProcessId: 6040
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:536
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/2/2015 5:30:32 PM
+
+Message: HandlingInstanceID: 8a3a7364-ff09-4337-b9ed-b3b5a64d421c
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+11/02/2015 10:30:32
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Batch insert failed: Telerik.OpenAccess.RT.sql.SQLException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+INSERT INTO [sf_dynamic_content] ([base_id], [voa_class], [approval_workflow_state_], [item_default_url_], [url_name_], [application_name], [can_inherit_permissions], [date_created], [expiration_date], [inherits_permissions], [last_modified], [last_modified_by], [original_content_id], [ownr], [publication_date], [status], [system_parent_id], [system_parent_type], [vrsion], [visible], [was_published], [voa_version]) VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21)
+Batch Entry 0 (set event logging to all to see parameter data) Telerik.OpenAccess.RT.sql.SQLException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CommitTransaction()
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessDynamicModuleProvider_9f771864c9fb4e17b9e443a006cdafaf.CommitTransaction()
+   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges(String eventOrigin)
+   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges()
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItemInternal(DynamicItemContext dataItem, String itemType, String provider, String workflowOperation, String parentId, String parentType, String newParentId)
+   at Telerik.Sitefinity.DynamicModules.Web.Services.DataService.SaveDataItem(DynamicItemContext dataItem, String dataItemId, String provider, String itemType, String workflowOperation)
+   at SyncInvokeSaveDataItem(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/2/2015 5:30:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130909567661642091
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/DynamicModules/Data.svc/00000000-0000-0000-0000-000000000000/?itemType=Telerik.Sitefinity.DynamicTypes.Model.WhatsNew.ProductAnnouncement&providerName=OpenAccessProvider&managerType=Telerik.Sitefinity.DynamicModules.DynamicModuleManager&provider=OpenAccessProvider&workflowOperation=Publish
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 8152
+	ArrayBindIndex : -1
+	Number : 8152
+	ObjectId : 
+	Description : String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Int32 Execute(System.Data.Common.DbDataAdapter, System.Data.DataRow[], Telerik.OpenAccess.RT.sql.Batch)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+	   at OpenAccessRuntime.Relational.conn.LoggingStatement.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+	   at Telerik.OpenAccess.RT.sql.Batch.ExecuteBatchDataTable(Boolean withInfo)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : String or binary data would be truncated.
+String or binary data would be truncated.
+The statement has been terminated.
+The statement has been terminated.
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 36a5de38-6d8e-4e01-b597-bf2a5da062f4
+		Class : 16
+		LineNumber : 1
+		Number : 8152
+		Procedure : 
+		Server : actcmsdbdevenv.cf56rpwrkuv7.us-east-1.rds.amazonaws.com
+		State : 13
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Int32 UpdatedRowStatusErrors(System.Data.Common.RowUpdatedEventArgs, BatchCommandInfo[], Int32)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+		   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+		   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+		   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows)
+		   at OpenAccessRuntime.Intellitrace.Update(String id, DbDataAdapter adapter, DataRow[] rows)
+		   at Telerik.OpenAccess.RT.sql.Batch.Perform(String connId, DbDataAdapter adapter, DataRow[] rows)
+		   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteBatch(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.Execute(DbDataAdapter adapter, DataRow[] rows, Batch batch)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130909567661642091
+
+ProcessId: 6040
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:536
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/2/2015 8:36:31 PM
+
+Message: HandlingInstanceID: 9cb5f088-cfef-47d1-aaa9-d2bb307fcbf7
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/02/2015 13:36:30
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File "/includes/trackingScripts.aspx" does not exist.
+Parameter name: virtualPath
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/2/2015 8:36:31 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-130909685464061155
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/acces/en/default.aspx
+	Inner Exception
+	---------------
+	Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : File "/includes/trackingScripts.aspx" does not exist.
+Parameter name: virtualPath
+	Source : Telerik.Sitefinity
+	Help link : 
+	ParamName : virtualPath
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IO.Stream OpenFile(System.String)
+	HResult : -2147024809
+	Stack Trace :    at Telerik.Sitefinity.Abstractions.VirtualPath.VirtualPathManager.OpenFile(String virtualPath)
+	   at Telerik.Sitefinity.Abstractions.VirtualPath.SitefinityVirtualFile.Open()
+	   at System.Web.Hosting.VirtualPathProvider.OpenFile(String virtualPath)
+	   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+	   at System.Web.UI.TemplateParser.ProcessServerInclude(Match match)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-2-130909685464061155
+
+ProcessId: 6040
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5124
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/2/2015 9:06:45 PM
+
+Message: HandlingInstanceID: ac230830-5f87-4fe3-8a1e-dd769a85d5e6
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/02/2015 14:06:45
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File "/includes/footer.aspx" does not exist.
+Parameter name: virtualPath
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/2/2015 9:06:45 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-130909685464061155
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/lp/act-on-values-insights/c/default.aspx
+	Inner Exception
+	---------------
+	Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : File "/includes/footer.aspx" does not exist.
+Parameter name: virtualPath
+	Source : Telerik.Sitefinity
+	Help link : 
+	ParamName : virtualPath
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IO.Stream OpenFile(System.String)
+	HResult : -2147024809
+	Stack Trace :    at Telerik.Sitefinity.Abstractions.VirtualPath.VirtualPathManager.OpenFile(String virtualPath)
+	   at Telerik.Sitefinity.Abstractions.VirtualPath.SitefinityVirtualFile.Open()
+	   at System.Web.Hosting.VirtualPathProvider.OpenFile(String virtualPath)
+	   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+	   at System.Web.UI.TemplateParser.ProcessServerInclude(Match match)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-2-130909685464061155
+
+ProcessId: 6040
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/2/2015 9:07:25 PM
+
+Message: HandlingInstanceID: e88b427b-eab8-4e2e-a85d-2400bec381af
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/02/2015 14:07:25
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File "/App_Data/Sitefinity/WebsiteTemplates/Tracking/includes/kiss-metrics.aspx" does not exist.
+Parameter name: virtualPath
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/2/2015 9:07:25 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-130909685464061155
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/lp/act-on-values-insights/c/default.aspx
+	Inner Exception
+	---------------
+	Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : File "/App_Data/Sitefinity/WebsiteTemplates/Tracking/includes/kiss-metrics.aspx" does not exist.
+Parameter name: virtualPath
+	Source : Telerik.Sitefinity
+	Help link : 
+	ParamName : virtualPath
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IO.Stream OpenFile(System.String)
+	HResult : -2147024809
+	Stack Trace :    at Telerik.Sitefinity.Abstractions.VirtualPath.VirtualPathManager.OpenFile(String virtualPath)
+	   at Telerik.Sitefinity.Abstractions.VirtualPath.SitefinityVirtualFile.Open()
+	   at System.Web.Hosting.VirtualPathProvider.OpenFile(String virtualPath)
+	   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+	   at System.Web.UI.TemplateParser.ProcessServerInclude(Match match)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-2-130909685464061155
+
+ProcessId: 6040
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7360
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/2/2015 9:07:53 PM
+
+Message: HandlingInstanceID: 96935e69-be7f-434f-8b3c-4d1cf34e515f
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/02/2015 14:07:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Control 'TrialButton1' of type 'Button' must be placed inside a form tag with runat=server.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifyRenderingInServerForm(System.Web.UI.Control)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.Button.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/2/2015 9:07:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-130909685464061155
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/lp/act-on-values-insights/c/default.aspx
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-2-130909685464061155
+
+ProcessId: 6040
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/2/2015 9:52:24 PM
+
+Message: HandlingInstanceID: 863e29f9-fd3c-49ae-b0b4-bf8a6a11615f
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/02/2015 14:52:24
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The file '/App_Data/Sitefinity/WebsiteTemplates/Legacy/App_Master/LP.master' does not exist.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/2/2015 9:52:24 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130909746721596296
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/lp/act-on-values-insights/c/default.aspx
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : The file '/App_Data/Sitefinity/WebsiteTemplates/Legacy/App_Master/LP.master' does not exist.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void CheckVirtualFileExists(System.Web.VirtualPath)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+	   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+	   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+	   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+	   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+	   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130909746721596296
+
+ProcessId: 6040
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:288
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/2/2015 9:55:05 PM
+
+Message: HandlingInstanceID: ea3f7d53-e3ec-4803-95b5-42c44343c003
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/02/2015 14:55:05
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Control 'TrialButton1' of type 'Button' must be placed inside a form tag with runat=server.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifyRenderingInServerForm(System.Web.UI.Control)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.Button.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/2/2015 9:55:05 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130909746721596296
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/lp/act-on-values-insights/c/default.aspx
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130909746721596296
+
+ProcessId: 6040
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12420
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/2/2015 10:05:48 PM
+
+Message: HandlingInstanceID: 8fcd236b-0543-4856-bb7d-bef5445f16e0
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/02/2015 15:05:48
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The file '/Home.master' does not exist.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/2/2015 10:05:48 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130909746721596296
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/lp/ups/default.aspx
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : The file '/Home.master' does not exist.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void CheckVirtualFileExists(System.Web.VirtualPath)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+	   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+	   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+	   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+	   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+	   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130909746721596296
+
+ProcessId: 6040
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9000
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/3/2015 5:21:27 PM
+
+Message: HandlingInstanceID: e36412aa-ed3c-4d4a-b752-2992bb99f0cf
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/03/2015 10:21:27
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/3/2015 5:21:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130910448378591030
+ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130910448378591030
+
+ProcessId: 9052
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:8236
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/3/2015 5:21:38 PM
+
+Message: HandlingInstanceID: 3536d0ba-6536-4cc2-9476-9fc3b0a16dfb
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/03/2015 10:21:38
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/3/2015 5:21:38 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-130910448884561030
+ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-2-130910448884561030
+
+ProcessId: 9052
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:8236
+
+Extended Properties: 
+----------------------------------------

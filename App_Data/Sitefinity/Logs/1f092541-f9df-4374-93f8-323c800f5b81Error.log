@@ -1,0 +1,93 @@
+----------------------------------------
+Timestamp: 1/8/2016 8:15:40 PM
+
+Message: HandlingInstanceID: 4cddb050-ca19-4926-97e0-ec160537ea74
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+01/08/2016 13:15:40
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Row not found: GenericOID@58cfe525 PageDraft id=dc9b62e7-96e1-633a-9d88-ff00001e67f5
+UPDATE [sf_draft_pages] SET [last_modified] = ?, [vrsion] = ?, [voa_version] = ?, [flags] = ? WHERE [id] = ? AND [voa_version] = ?
+(set event logging to all to see parameter values)
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Row not found: GenericOID@58cfe525 PageDraft id=dc9b62e7-96e1-633a-9d88-ff00001e67f5
+UPDATE [sf_draft_pages] SET [last_modified] = ?, [vrsion] = ?, [voa_version] = ?, [flags] = ? WHERE [id] = ? AND [voa_version] = ?
+(set event logging to all to see parameter values)
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean DiscardPageDraft(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.DiscardPageDraft(String draftId)
+   at SyncInvokeDiscardPageDraft(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 1/8/2016 8:15:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-8-130965790554832715
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Page/dc9b62e7-96e1-633a-9d88-ff00001e67f5/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.Exceptions.OptimisticVerificationException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Row not found: GenericOID@58cfe525 PageDraft id=dc9b62e7-96e1-633a-9d88-ff00001e67f5
+UPDATE [sf_draft_pages] SET [last_modified] = ?, [vrsion] = ?, [voa_version] = ?, [flags] = ? WHERE [id] = ? AND [voa_version] = ?
+(set event logging to all to see parameter values)
+	Source : Unity_ILEmit_DynamicClasses
+	Help link : 
+	NumberOfConflicts : 1
+	InnerExceptions : System.Exception[]
+	FailedObject : 
+	BackendError : 
+	Reason : OptimisticVerification
+	CanRetry : True
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void CommitTransaction()
+	HResult : -2146233088
+	Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_6722fd03432740f48cf03c445a019cf0.CommitTransaction()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges(String eventOrigin)
+	   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges()
+	   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.DiscardPageDraft(String draftId)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-8-130965790554832715
+
+ProcessId: 14796
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:14744
+
+Extended Properties: 
+----------------------------------------

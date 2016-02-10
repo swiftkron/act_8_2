@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.slider-container {
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 920px;
+}
+
+.slider-glance {
+	height: 255px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.slider-services, .slider-manufacturing, .slider-wholesale, .slider-insurance, .slider-realestate, .slider-finance, .slider-retail {
+	height: 105px;
+	list-style: none;
+}
+
+.set {
+	width: 940px; height: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+
+.slider-nav {
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%; height: 30px;
+}
+
+.pager {
+	display: inline-block;
+	height: 17px;
+	margin: 3px 0 0 0;
+	padding:0;
+}
+
+
+.pager a {
+	background: url(/media/de-de/images/sliderImages/page-dot.png) center top no-repeat;
+	display: block;
+	float: left;
+	margin: 0 2px;
+	text-indent: -9999px;
+	width: 17px; height: 17px;
+}
+
+.pager .activeSlide {
+	background: url(/media/de-de/images/sliderImages/page-dot-active.png) center top no-repeat;
+}
+
+.prev, .next {
+	display: inline-block;
+	text-indent: -9999px;
+	vertical-align: top;
+	width: 17px; height: 25px;
+}
+
+.prev {
+	background: url(/media/de-de/images/sliderImages/arrow-prev.png) no-repeat left top;
+	margin: 0 11px 0 0;
+}
+
+.next {
+	background: url(/media/de-de/images/sliderImages/arrow-next.png) no-repeat left top;
+	margin: 0 0 0 16px;
+}
+
+.cust-summary {
+	background: url(/media/de-de/images/why-choose-act2/summarybg.png) no-repeat left top;
+	display: inline-block;
+	float: left;
+	margin-right: 14px;
+	width: 297px; height:234px;
+}
+
+
+	.cust-info {
+		padding: 5px 15px;
+	}
+
+	.cust-logo {
+		display: block;
+		height: 76px;
+		margin: 10px 0 0 0;
+	}
+		.cust-logo img {
+			display: block;
+			margin: 0 auto;
+		}
+	
+	.cust-name {
+		color: #4d4f53;
+		font-size: 13px;
+		font-weight: bold;
+		margin: 0 0 6px 0;
+	}
+	
+	.cust-quote {
+		font-size:12px;
+		font-style: italic;
+		height: 77px;
+	}
+	
+.cust-small {
+	background: url(/media/de-de/images/why-choose-act2/summaryshortbg.png) no-repeat left top;
+	display: inline-block;
+	float: left;
+	margin-right: 14px;
+	width: 297px; height:105px;		
+}
+	
+	.cust-logo-left {
+		border-right: 1px solid #ddd;
+		display: inline-block;
+		float: left;
+		margin: 10px 10px 10px 5px;
+		width: 165px;
+		height: 85px;
+	}
+	
+		.cust-logo-left img {
+			display: block;
+			margin: 0 auto;
+		}
+		
+	.cust-info-right {
+		margin: 10px;
+	}
+	
+	.cust-info-right .cust-name {
+		height: 55px;
+	}
+	
+.celebrate {
+	float: left;
+	width: 800px;	
+}
+
+.iloveact {
+	float: right;
+	margin-top: -80px;
+}
+
+.winner {
+	background: url(/media/de-de/images/why-choose-act2/vert-divider.png) right top no-repeat;
+	float: left;
+	padding: 25px 20px 0 20px;
+	width: 265px; height: 200px;
+
+}
+
+.winner.last {
+	background: none !important;
+	padding-right: none !important;
+}
+
+.important-note {
+	font-size: 11px;
+}
+
+.lightbox {
+	background: url(/media/de-de/images/why-choose-act2/lightboxbg.png) center top no-repeat;
+	display: none;
+	width: 960px; height: 600px;
+}
+
+	.video-inner {
+		padding: 50px 50px;
+		position: relative;
+	}
+
+	.close {
+		position: absolute;
+		top: 25px;
+		right: 35px;
+	}
+	
+	.lightbox-video {
+		clear: both;
+		margin: 35px auto 0 auto;
+		overflow: hidden;
+		width: 865px;
+	}
+	
+	
+	.youtube {
+		float: left;
+	}
+	
+	.lightbox-sidebar {
+		background: url(/media/de-de/images/why-choose-act2/videobox2bg.png) no-repeat left top;
+		float: left;
+		width: 217px; height: 389px;
+	}
+	
+	.fanatic-info {
+		font-size: 14px;
+	}
+	
+	.fanatic-info dt {
+		font-weight: bold;
+		margin-top: 15px;
+	}
+	
+<!-- NEW (JK) 2013-05-06 -->
+.set a{
+	font-size:12px;
+}
+
+.video-info h3{
+	font-size:21px;
+	line-height:24px;
+	font-weight:normal;
+	padding:18px 25px;
+	color:#4d4f53;
+}
+.video-details{
+	padding:75px 25px 0 25px;
+	color:#FFF;
+}
+.video-details p{
+	margin:0;
+	padding:0;
+}
+	
+p.fanatic-info{
+		font-weight: bold;
+		margin-top: 15px;
+}

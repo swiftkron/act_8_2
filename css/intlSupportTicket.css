@@ -1,0 +1,51 @@
+.mod{
+	margin:24px auto;
+	padding:12px 24px;
+	background:#dfe3e6;
+	color:#2a353d;
+	text-align:center;
+}
+.supportForm{
+}
+#ticketForm input[type=text], #ticketForm input[type=email], #ticketForm select, #ticketForm textarea{
+	width:90%;
+	border:#a5b7c2 1px solid;
+	padding:6px;
+    margin-bottom:24px;
+}
+#ticketForm input[type=text].needsfilled, #ticketForm input[type=email].needsfilled, #ticketForm select.needsfilled, #ticketForm textarea.needsfilled{
+	border:#fe5000 1px solid;
+}
+#ticketForm input[type=submit]{
+	display:block;
+	margin:24px auto;
+}
+.required{color:#FE5000;}
+.hint{color:#a5b7c2;font-size:.65em;font-style:oblique;}
+.label label{
+	margin-top:24px;
+	color:#000;
+}
+
+.returnMsg{
+	display:none;
+	background:#308dc6;
+	color:#FFF;
+	padding:24px;
+	text-align:center;
+}
+.returnMsg h2{
+  color:#FFF;
+}
+.returnError{
+	background:#FFF;
+	border:#cc0000 2px solid;
+	color:#2a353d;
+}
+.returnError h2{
+	color:#cc0000;
+}
+
+
+.supportForm{
+}

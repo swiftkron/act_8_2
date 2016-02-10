@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ADDRESS|IT Advanced</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+<style type="text/css">
+.sideblock img{
+	display:block;
+	margin:10px auto;
+	cursor:pointer;
+}
+.overlay{
+	display:none;
+	background:#000;
+	opacity:.75;
+	position:absolute;
+	width:100%;
+	height:200%;
+}
+.videoContainer{
+	display:none;
+	position:fixed;
+	background:#000;
+	width:704px;
+	height:555px;
+	margin:10% 25%;
+	z-index:999;
+}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	var location = ["http://www.youtube.com/embed/Ed3iYWkI3Zo"];
+	$('.overlay').click(function(){
+		$('.overlay').css('display','none');
+		$('.videoContainer').css('display','none');
+	});
+	$('#video1').click(function(){
+		$('.overlay').css('display','block');
+		$('.videoContainer').css('display','block');
+		$('.videoContainer iframe').attr('src', location[0]);
+	});
+});
+</script>
+
+</head>
+
+<body>
+
+<!-- video container -->
+<div class="overlay"></div>
+<div class="videoContainer">
+	<iframe src='' WIDTH='704' HEIGHT='555' FRAMEBORDER='0' SCROLLING='no' style='padding:0;margin:0;border:none;' allowfullscreen='true'></iframe>
+</div>
+<!-- end video container -->
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace">Marketplace</a></li>
+                    <li>></li>
+                    <li>ADDRESS|IT Advanced</li>
+                </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+                  <div class="product-bubble left">
+                  	<img src="../EXPORT-IT-5-6/img/dfc_100.gif" />
+                    <div class="price">
+                      <p>New</p>
+                      <p class="price-details"><strong>&#36;206.25</strong></p> 
+                      <a class="btn-orange" href="javascript:alert('NEED LINK')"><strong class="buynow">Buy Now</strong></a>
+<p style="font-size:11px; max-width:150px; margin-top:24px;">This estore is for U.S. and Canada only. All prices are in U.S. dollars.</p>
+                    </div>
+                  </div>
+                  <div class="product-description left">
+                    <h1>ADDRESS|IT Advanced</h1>
+                    
+                    <p>With ADDRESS|IT add-on you can perform database checks for mistakes in addresses and validate them automatically. In addition to this you can facilitate your workflow and perform contact searches in specific area as well as plan routes directly from your Act! database using the ADDRESS|IT plugin interface.</p>
+                    <p><strong>Address Validation</strong></p>
+                    <ul>
+                    	<li>Checking and correcting addresses</li>
+                      <li>Filling out missing address details</li>
+                      <li>Checking and correcting addresses from all countries around the globe</li>
+                    </ul>
+                    <p><strong>Address search in defined area</strong></p>
+                    <ul>
+                    	<li>Search of Contacts, Companies, Groups in defined location for defined ZIP</li>
+                      <li>Show all ZIP codes in defined area</li>
+                      <li>Creating Act! look-ups based on ADDRESS|IT search</li>
+                    </ul>
+                    <p><strong>Route Planning</strong></p>  
+                    <ul>
+                    	<li>Show selected location on Google Map</li>
+                      <li>Route planning for selected contacts</li>
+                      <li>Using up-to-date Google Maps data to show all addresses</li>
+                    </ul>
+
+                    <p><strong>System Requirements</strong></p>
+                    <p>System requirements are the same as for your Act! system. Supports Act! version starting with Act! 2009.</p>
+                  
+                  </div>
+                                                       
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                <div class="mainSidebar">
+                    <div class="side-block sidenav">
+                    <h3><a href="/marketplace">Marketplace</a></h3>
+                    	<ul>
+                        <li><a href="/marketplace">By Business Need</a></li>
+                      </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

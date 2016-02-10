@@ -1,0 +1,111 @@
+----------------------------------------
+Timestamp: 11/01/2016 15:04:52
+
+Message: HandlingInstanceID: b8d89cc1-ec80-47dd-ad7f-d8c4553b4b98
+An exception of type 'System.IO.InvalidDataException' occurred and was caught.
+------------------------------------------------------------------------------
+01/11/2016 08:04:52
+Type : System.IO.InvalidDataException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Block length does not match with its complement.
+Source : System
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean DecodeUncompressedBlock(Boolean ByRef)
+HResult : -2146233087
+Stack Trace :    at System.IO.Compression.Inflater.DecodeUncompressedBlock(Boolean& end_of_block)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at Microsoft.IdentityModel.Web.DeflateCookieTransform.Decode(Byte[] encoded)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ApplyTransforms(Byte[] cookie, Boolean outbound)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(Byte[] token, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionAuthenticationModule.ReadToken(Byte[] sessionCookie)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/01/2016 15:04:52
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130967709488676919
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/WebsiteTemplates/Base/App_Theme/global/grid.css?v=635814597914003617
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130967709488676919
+
+ProcessId: 14796
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8392
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/11/2016 3:05:23 PM
+
+Message: HandlingInstanceID: cd57a5d7-7977-4648-8fcd-c607368f1c0e
+An exception of type 'System.Runtime.InteropServices.COMException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+01/11/2016 08:05:23
+Type : System.Runtime.InteropServices.COMException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The I/O operation has been aborted because of either a thread exit or an application request. (Exception from HRESULT: 0x800703E3)
+Source : 
+Help link : 
+ErrorCode : -2147023901
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147023901
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 1/11/2016 3:05:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130967709488676919
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/images/default-source/background-images/product_hero.jpg
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130967709488676919
+
+ProcessId: 14796
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5248
+
+Extended Properties: 
+----------------------------------------

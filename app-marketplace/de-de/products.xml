@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PRODUCTS>
+	<!-- FEATURED SOLUTIONS -->
+	<featured_solutions>
+		<!-- Act! emarketing -->
+		<product id="1">
+			<name>Act! emarketing</name>
+			<desc>E-Mail Marketing ist die beste Option, Ihre Kunden zu erreichen – und Act! emarketing ist bereits in Act! integriert. &lt;strong&gt;Klicken Sie auf die Act! emarketing Registerkarte in Act!, um sich anzumelden.&lt;/strong&gt;</desc>
+			<price></price>
+			<cta></cta>
+			<url></url>
+			<tile>act_mkt_tile_bc_emarketing.png</tile>
+			<thumb>act_mkt_thumb_emarketing.png</thumb>
+		</product>
+		<!-- Handheld Contact -->
+		<product id="2">
+			<name>Handheld Contact</name>
+			<desc>Greifen Sie mit Ihrem Mobiltelefon von unterwegs auf Ihre Act! Kontakte, Kalendereinträge und Aktivitäten zu – selbst wenn Sie mal keine Verbindung zum Internet haben.</desc>
+			<price></price>
+			<cta>Erfahren Sie mehr »</cta>
+			<url>http://www.act.com/en-uk/marketplace/handheld-contact</url>
+			<tile>act_mkt_tile_bc_handheld.png</tile>
+			<thumb>act_mkt_thumb_handheld.png</thumb>
+		</product>
+		<!-- Whats New -->
+		<product id="3">
+			<name>Was is neu in v17?</name>
+			<desc>Vertriebsprozess und Lead-Nurturing fließen endlich zusammen. Schauen Sie sich die neuesten Act! v17 Features an – als Kunde von Business Care erhalten Sie das Upgrade kostenlos.</desc>
+			<price></price>
+			<cta>Erfahren Sie mehr »</cta>
+			<url>http://www.act.com/en-uk/products/upgrade</url>
+			<tile>act_mkt_tile_bc_whatsnew.png</tile>
+			<thumb>act_mkt_thumb_whatsnew.png</thumb>
+		</product>
+	</featured_solutions>
+</PRODUCTS>

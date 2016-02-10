@@ -1,0 +1,44 @@
+.col-xs-8{
+	max-width:538px;
+	float:left;
+}
+.col-xs-4{
+	max-width:269px;
+	float:right;
+}
+.col-sm-3{
+	max-width:201.75px;
+	float:left;
+}
+
+.col-sm-4{
+	max-width:269px;
+	float:left;
+}
+
+.section-header{
+	max-width:907px;
+}
+.tileContainer{
+	max-width:907px;
+}
+.categories{
+	max-width:907px;
+}
+.footnotes{
+	max-width:907px;
+}
+
+.tile{
+	width:232px;
+	height:156px;
+	padding:9px;
+}
+
+#bc_products, #bc_products_sm{
+	margin-top:24px;
+}
+.categories .col-sm-3{
+	max-width:180px;
+	float:left;
+}

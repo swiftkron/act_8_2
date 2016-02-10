@@ -1,0 +1,66 @@
+/*** Welcome Page Styles ***/
+.header{
+	background-image:url(../img/bgd-31172680v2.jpg);
+	background-repeat:no-repeat;
+}
+.container{
+	margin:0 auto 2em auto;
+}
+/*______ modules ________*/
+#intro{
+	padding:3em 0 0;
+}
+#feature{
+	padding:2em 0;
+}
+#aem{
+	margin-left:1em;
+}
+.secondary{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+#marketplace{
+	margin:0 .3em 0 0;
+}
+#bizcare{
+	margin:0 0 0 .3em;
+}
+button.plus{
+	background-position:right center;
+}
+button.plus:hover{
+	background-position:right center;
+}
+
+
+/*** SOCIAL ***/
+.social-media{
+	float:right;
+}
+.social-media li{
+	display:inline;
+	margin-left:5px;
+	padding:0 0 0 0;
+}
+.social-media span{
+	height:31px;
+}
+li#sm-facebook:hover{
+	background-position:0 0;
+}
+li#sm-twitter:hover{
+	background-position:-30px 0;
+}
+li#sm-linkedin:hover{
+	background-position:-60px 0;
+}
+li#sm-googleplus:hover{
+	background-position:-90px 0;
+}
+li#sm-youtube:hover{
+	background-position:-150px 0;
+}
+li#sm-blog:hover{
+	background-position:-210px 0;
+}

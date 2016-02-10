@@ -1,0 +1,82 @@
+section[role="hero-lp"]{
+	background:#444;
+	padding:120px 0 60px;
+	overflow:hidden;
+}
+section[role="hero-lp"] h1{
+	font-family:'HelveticaNeueW01-Thin',Helvetica,Arial,sans serif;
+	font-size:2.75em;
+	letter-spacing:.075em;
+	margin:0 0 .35em;
+	padding:0 0;
+	text-align:center;
+	color:#fff;
+	text-shadow:#444 0 0 8px;
+}
+section[role="hero-lp"] button{
+	display:block;
+	margin:0 auto;
+	border:#00dedc 2px solid;
+	background:#00dedc;
+	color:#444;
+	padding:6px 36px 9px;
+	font-size:1.25em;
+	font-weight:600;
+	letter-spacing:.045em;
+	cursor:pointer;
+}
+section[role="hero-lp"] button:hover{
+	color:#006a8e;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+
+/*** SPECIAL EVENTS/PROMOS ***/
+#ppcp-vday{
+	background:url(/assets/img/convo-heart-sellmore.jpg);
+	background-size:cover;
+	min-height:500px;
+	background-position:0 -160px;
+}
+#ppcp-vday h1{
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	font-size:3.25em;
+	color:#ce0029;
+	text-align:left;
+	max-width:600px;
+	margin:60px 0 0 200px;
+	text-shadow:#FFF 0 0 4px;
+}
+#ppcp-vday button{
+	display:block;
+	margin:0 auto;
+	border:#FFF 2px solid;
+	background:#ce0029;
+	color:#FFF;
+	padding:6px 36px 9px;
+	font-size:1.25em;
+	font-weight:600;
+	letter-spacing:.045em;
+	cursor:pointer;
+}
+#ppcp-vday button:hover{
+	background:#9d0120;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+@media(max-width:1240px){
+#ppcp-vday{
+	min-height:300px;
+	background-position:0 0;
+}
+#ppcp-vday h1{
+	max-width:600px;
+	margin:20px 0 24px 50px;
+}
+}

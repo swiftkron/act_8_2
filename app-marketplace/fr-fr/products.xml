@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PRODUCTS>
+	<!-- FEATURED SOLUTIONS -->
+	<featured_solutions>
+		<!-- Act! emarketing -->
+		<product id="1">
+			<name>Act! emarketing</name>
+			<desc>Act! emarketing est une solution simple et économique de développer vos activités commerciales. Création, envoi et suivi de campagnes emailing pour communiquer le bon message au bon moment. Pour souscrire, veuillez cliquer sur l’onglet emarketing au sein de votre logiciel Act!.</desc>
+			<price></price>
+			<cta></cta>
+			<url></url>
+			<tile>act_mkt_tile_bc_emarketing.png</tile>
+			<thumb>act_mkt_thumb_emarketing.png</thumb>
+		</product>
+		<!-- Handheld Contact -->
+		<product id="2">
+			<name>Handheld Contact</name>
+			<desc>Avec Handheld Contact&amp;sup1;, accédez à vos contacts, agendas et activités Act! depuis votre appareil mobile – même sans connexion Internet.</desc>
+			<price></price>
+			<cta>En savoir plus »</cta>
+			<url>http://www.act.com/en-uk/marketplace/handheld-contact/</url>
+			<tile>act_mkt_tile_bc_handheld.png</tile>
+			<thumb>act_mkt_thumb_handheld.png</thumb>
+		</product>
+		<!-- Whats New -->
+		<product id="3">
+			<name>Nouveautés v17</name>
+			<desc>Les ventes et le marketing relationnel enfin réunis. Consultez les nouvelles fonctionnalités de la v17, disponible gratuitement avec un contrat Business Care.</desc>
+			<price></price>
+			<cta>En savoir plus »</cta>
+			<url>http://www.act.com/en-uk/products/upgrade</url>
+			<tile>act_mkt_tile_bc_whatsnew.png</tile>
+			<thumb>act_mkt_thumb_whatsnew.png</thumb>
+		</product>
+	</featured_solutions>
+</PRODUCTS>

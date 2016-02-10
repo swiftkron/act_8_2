@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Call On CRM</title>
+<link rel="stylesheet" href="/media/en-us/css/header-footer.css">
+<link rel="stylesheet" href="/media/en-us/css/content.css">
+
+<script src='/media/en-us/js/source.js' type='text/javascript'></script>
+<script src='/media/en-us/js/header.js' type='text/javascript'></script><script src='/media/en-us/js/sidenav.js' type='text/javascript'></script>
+ 
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+<style type="text/css">
+.nobr{white-space:nowrap;}
+</style>
+
+</head>
+
+<body>
+
+<!-- START HEADER -->
+
+<!--#include virtual="/media/en-us/includes/header-NA.html" -->
+
+
+<!-- END HEADER -->
+ 
+<!--START CONTENT AREA-->
+<div class="contentArea">
+    <div class="container">
+        
+        <div class="main-holder">
+            <div class="main-frame">
+            
+            	<ul class="breadcrumbNavigation">
+                	<li><a href="/">Act! Home</a></li>
+                    <li>></li>
+                    <li><a href="/marketplace">Marketplace</a></li>
+                    <li>></li>
+                    <li>Call On CRM</li>
+                </ul>
+                
+                <div class="mainLeftColumn">
+                
+                  <!-- CONTENT -->
+                  <div class="product-bubble left">
+                  	<img src="callon_crm_logo.jpg" />
+                    <div class="price">
+                      <p>New</p>
+                      <p class="price-details"><strong>&#36;120.00</strong></p> 
+                      <a class="btn-orange" href="http://store.act.com/app/site/backend/additemtocart.nl?c=3669565&buyid=multi&multi=8013,12"><strong class="buynow">Buy Now</strong></a>
+<p style="font-size:11px; max-width:150px; margin-top:24px;">This estore is for U.S. and Canada only. All prices are in U.S. dollars.</p>
+                    </div>
+                  </div>
+                  <div class="product-description left">
+                    <h1>A complete Call Management System add-on for ACT!</h1>
+                    <p><strong>Call On CRM</strong> is a comprehensive communications solution that combines your two most powerful customer contact business tools &ndash; phone service and ACT!</p>
+                    <p><strong>Call On CRM</strong> works with BroadSoft-based hosted-PBX phone service or Skype.</p>
+                    <p><strong>Call On CRM</strong> is easy to install and uninstall, and operates seamlessly within ACT!  It is ACT! V17 certified.</p>
+                    <p><strong>Features</strong></p>
+                    <ul>
+                    	<li>One Click to Dial &ndash; Increase ACT! user productivity with one click to dial right from your ACT! contact record.</li>
+                      <li>Call Histories &ndash; Create call histories and follow-up activities with automatic tracking of call activity in the contact record.</li>
+                      <li>Screen Pops &ndash; Help you provide better customer service when inbound calls ring and automatically trigger a screen pop of the Act! caller’s contact detail.</li>
+                      <li>SMS Texting &ndash; Allows you to send text messages to contacts directly from ACT!</li>
+                      <li>Call Recording (optional feature, third-party provider)</li>
+                    </ul>
+                    <p><strong>System Requirements</strong></p>
+                    <p><strong>Phone System:</strong></p>
+                    <ul>
+                    	<li>Various BroadSoft-based Hosted PBX phone service providers (Call On CRM partners)</li>
+                      <li>Or Skype. Just plain Skype.<br /><br/>
+                      Call 1 (888) 902-7647, option 2, for assistance/demos.</li>
+                    </ul>
+                    <p><strong>Software:</strong></p>
+                    <ul>
+                    	<li>Act! Pro and Premium V8 and up</li>
+                      <li>Windows 8/8.1 (32-bit and 64-bit)</li>
+                      <li>Windows 7 (32-bit and 64-bit)</li>
+                      <li>Windows Vista (32-bit and 64-bit)</li>
+                      <li>Windows Server 2003 SP2, 2008, 2012 (32-bit and 64-bit)</li>
+                      <li>nComputing</li>
+                      <li>Terminal Server (ACT! hosting)</li>
+                    </ul>
+                    <p><strong>Hardware:</strong></p>
+                    <ul>
+                    	<li>PC, laptop, some tablets (Surface)</li>
+                      <li>1.8 GHz Pentium IV processor (or equivalent)</li>
+                      <li>1 GB system memory</li>
+                      <li>SVGA 800x600 or higher resolution monitor</li>
+                      <li>Thin Client (nComputing, Terminal Server access)</li>
+                    </ul>
+                    <p><strong>Pricing</strong></p>
+                    <p>Pricing based on credits.</p>
+                    <p>One credit, covers one seat for one calendar month.</p>
+                    <p>Minimum purchase 12 credits. May be applied to multiple seats.</p>
+                    <p><strong>Call On CRM.</strong> Demos, trials, tutorials available.</p>
+                  </div>
+                                                       
+                  <!-- .end CONTENT -->
+
+
+                        <!--#include virtual="/media/en-us/includes/socialInclude.html" -->
+                    </div>
+                <div class="mainSidebar">
+                    <div class="side-block sidenav">
+                    <h3><a href="/marketplace">Marketplace</a></h3>
+                    	<ul>
+                        <li><a href="/marketplace">By Business Need</a></li>
+                      </ul>
+                    </div>
+                    <div class="side-block">
+                    	<p>To discuss your telephony requirements before purchasing Call On CRM, call our experts at <strong>(888) 902-7647</strong> or email us at <a href="mailto:Sales@CallOnCRM.com?subject=Act!%20Marketplace%20Inquiry&bcc=simon.hales@swiftpage.com">Sales@CallOnCRM.com</a>.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-- END CONTENT AREA -->
+
+<!-- START FOOTER -->
+    
+   <!--#include virtual="/media/en-us/includes/footerInclude.html" -->
+
+   
+   
+<!-- END FOOTER -->
+
+
+<!-- POP UP -->
+
+    
+ 
+
+<!--#include virtual="/media/en-us/includes/remarketingScript.html" -->
+
+</body>
+</html>

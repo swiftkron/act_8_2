@@ -1,0 +1,36 @@
+/* WHAT'S NEW CAROUSEL */
+
+section[role="whatsnew"]{
+	padding:2em 5%;
+}
+section[role="whatsnew"] h1{
+	font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+	color:#006a8e;
+	text-align:center;
+	margin-bottom:48px;
+}
+section[role="whatsnew"] p.intro{
+	font-size:1.4em;
+	line-height:1.55em;
+	margin:0 10% 2em;
+	color:#646464;
+}
+.whatsnewWrapper{
+	overflow:hidden;
+	margin:2em 0;
+}
+.whatsnewWrapper img{
+	height:200px;
+	margin:0 auto 24px;
+}
+section[role="whatsnew"] .whatsnewWrapper p{
+	font-size:1em;
+	line-height:1.25em;
+	text-align:center;
+	margin:0 12px;
+}
+@media(max-width:1080px){
+.whatsnewWrapper div{
+	margin:2em 0 4em;
+}
+}

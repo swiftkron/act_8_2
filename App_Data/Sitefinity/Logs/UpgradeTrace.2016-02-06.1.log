@@ -1,0 +1,336 @@
+----------------------------------------
+Timestamp: 8/28/2015 9:21:24 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 9:21:37 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 9:30:33 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 9:30:47 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:49:26 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:49:39 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:51:02 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:51:15 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:52:27 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:52:40 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:53:56 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:54:09 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:55:30 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:55:43 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:57:32 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 10:57:45 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 11:00:04 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 11:00:17 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 11:04:01 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 11:04:14 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 11:05:00 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/28/2015 11:05:13 PM
+
+Message: Initial install FAILED: System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing. See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/5/2016 6:42:22 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/5/2016 6:45:25 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/5/2016 6:53:53 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/5/2016 6:56:56 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/5/2016 7:00:13 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/5/2016 7:03:16 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 3:07:59 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 3:11:02 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 3:46:00 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 3:49:03 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 6:48:23 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 6:51:26 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 10:27:51 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 10:30:54 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 10:45:31 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 10:48:34 AM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 12:37:43 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 12:40:46 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 2:30:50 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 2:33:53 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 4:06:51 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 4:09:54 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 5:04:04 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 5:07:07 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 6:21:21 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/6/2016 6:24:24 PM
+
+Message: Initial install FAILED: Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server). See the error log for more details.
+
+
+----------------------------------------

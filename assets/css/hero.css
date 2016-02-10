@@ -1,0 +1,122 @@
+/* HERO */
+
+.utility{
+	margin-top:60px;
+	background:transparent url('../img/bg-444-80pct.png');
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding:1.5em 3em;
+	position:fixed;
+	right:0;
+	overflow:hidden;
+	z-index:899;
+}
+.phone{
+	font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+	font-size:1.5em;
+	color:#ffaf00;
+	float:left;
+	margin-right:1em;
+}
+.region{
+	margin-top:.5em;
+	width:16px;
+	height:16px;
+	float:right;
+	cursor:pointer;
+}
+#regionSelector{
+	background:url('../img/icon_united_states.png') center no-repeat;
+}
+
+section[role="hero"]{
+	background:url('../img/hero-woman-on-mobile.jpg') top left no-repeat;
+	background-size:cover;
+	min-height:700px;
+	background-position:0 -100px;
+	padding-bottom:2em;
+	overflow:hidden;
+}
+section[role="hero"] h1{
+	font-family:'HelveticaNeueW01-55Roma',Helvetica,Arial,sans serif;
+	font-size:3.75em;
+	margin:0 0;
+	padding:300px 0 0;
+	text-align:center;
+	color:#fff;
+	text-shadow:#444 0 0 8px;
+}
+section[role="hero"] form{
+	max-width:60%;
+	margin:2em auto;
+	text-align:center;
+}
+section[role="hero"] input[type="text"]{
+	display:inline-block;
+	margin:0 1em;
+	width:25%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:#ffaf00 2px solid;
+	padding:3px 5px;
+	font-size:1.2em;
+}
+section[role="hero"] input[type="submit"]{
+	display:block;
+	margin:1em auto 1em;
+	background:rgba(68,68,68,.7);
+	color:#fff;
+	padding:9px 60px 12px;
+	border:#00dedc 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	font-size:1.75em;
+	cursor:pointer;
+}
+section[role="hero"] input[type="submit"]:hover{
+	background:#212721;
+	-webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+@media (max-width:1480px){
+section[role="hero"]{
+	min-height:0;
+	background-position:0 0;
+}
+section[role="hero"] h1{
+	font-size:3em;
+	margin:0 0;
+	padding:300px 0 0;
+}
+}
+
+@media (max-width:768px){
+section[role="hero"]{
+	min-height:0;
+	background-position:-150px 0;
+	padding-bottom:2em;
+}
+section[role="hero"] h1{
+	padding:200px 5% 0;
+}
+section[role="hero"] input[type="text"]{
+	display:block;
+	margin:1em auto;
+	width:auto;
+}
+section[role="hero"] input[type="submit"]{
+	padding:6px 36px 9px;
+	font-size:1.2em;
+}
+.utility{
+	display:none;
+}
+}

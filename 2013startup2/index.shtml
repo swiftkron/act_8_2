@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="/media/en-us/css/welcomepage.css">
+<link rel="stylesheet" href="/media/en-us/css/welcomepage_body.css">
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #FF0000;
+	font-style: italic;
+}
+-->
+</style>
+
+		<table border="0" cellpadding="0" cellspacing="0" style="width: 248px">
+            <tbody>
+
+		<tr>    
+                        <td class="style13" width="248">
+                            See it in action</td>
+                </tr>
+                <tr>
+		            <td style="padding-left: 13px; font-size: 10pt; font-family: Tahoma;" class="style8" valign="top">
+                        <p>See the newest version of Act! in action &mdash; try Act! v18 FREE for 14 days. No download or installation required! <a href="http://www.act.com/trial" target="_blank">Try now</a></p>
+						
+                    </td>
+                </tr>
+                <tr>
+		            <td style="padding-left: 1px; font-size: 10pt; font-family: Tahoma;" class="style7">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>

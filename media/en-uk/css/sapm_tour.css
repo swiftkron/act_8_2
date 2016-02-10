@@ -1,0 +1,173 @@
+<style>
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:0;
+}
+
+a {
+	color: #ea8300;
+	text-decoration: none;
+}
+
+#page_container {
+ 	margin:0 auto;
+	width:960px;
+	height:846px;
+}
+
+#inner {
+ 	margin:0;
+	width:960px;
+	height:800px;
+	background:url(/media/en-uk/images/sapm_tour/ipad_bg.png) no-repeat 0 0;
+	overflow: hidden;
+}
+
+
+#left_container
+{
+  width:490px;
+  height:719px;
+  float:left;
+  padding: 0px;
+}
+
+#button-list {
+	margin:130px 0 0 0;
+	float:left;
+	width:273px;
+}
+
+#button-list ul {
+	border-top: 1px solid #ccc;
+	font: bold 16px "Helvetica" Arial, sans-serif;
+	list-style:none;
+	color:#ea8300;
+	margin:0;
+	padding:0 0 0 0;
+}
+
+#button-list li {
+	border-bottom: 1px solid #ccc;
+	display: block;
+	color:#ea8300;
+	float: left;
+	margin:0 0 0 0;
+	padding:0;
+	width: 100%;
+}
+#button-list a {
+	background: url(/media/en-uk/images/sapm_tour/arrow-right.png) no-repeat 254px 24px;
+	color:#4d4f53;
+	display: block;
+	padding: 20px 27px 17px;
+	text-decoration: none;
+	text-align: right;
+	margin:0;
+}
+
+#button-list a:hover {
+	background:#c1d69e url(/media/en-uk/images/sapm_tour/arrow-right.png) no-repeat 254px 24px;
+}
+
+#button-list a:hover {
+	color: #024732;
+}
+
+.selected {
+	background:#c1d69e url(/media/en-uk/images/sapm_tour/arrow-right.png) no-repeat 254px 24px !important;
+	color: #444 !important;
+}
+
+.ipad-img {
+	margin: 30px 0 0 0;
+	float:left;
+	position:relative;
+	z-index:2;
+}
+
+
+#slide-content
+{
+	margin:140px 0 0 0;
+	float: left;
+	text-align: left;
+	height: 470px;
+	padding: 0;
+	width: 250px;
+}
+
+#slide-content .top {
+	background: url(/media/en-uk/images/sapm_tour/slide-content-top.png) no-repeat -40px;
+	width: 260px; height: 25px;
+	display: block;
+}
+#slide-content .bottom {
+	background: url(/media/en-uk/images/sapm_tour/slide-content-bottom.png) no-repeat -40px;
+	width: 260px; height: 25px;
+	display: block;
+}
+
+#slide-content ul {
+	background: url(/media/en-uk/images/sapm_tour/slide-content-bg.png) repeat-y -40px;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 40px 0 15px;
+}
+
+#slide-content li {
+	background: url(/media/en-uk/images/sapm_tour/orange-bullet.png) no-repeat 0 5px;
+	color: #444;
+	font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0 0 0 25px;
+	margin-bottom: 10px;
+}
+
+#bottom-content {
+	clear: both;
+}
+
+
+.title {
+	display: block;
+	background: url(/media/en-uk/images/sapm_tour/title.png) no-repeat top left;
+	margin: 0 auto;
+	overflow: hidden;
+	text-indent: -9999px;
+	width:831px;height:33px;
+}
+
+.learn-more {
+	display: block;
+	background: url(/media/en-uk/images/sapm_tour/btn-learnmore.png) no-repeat top left;
+	overflow: hidden;
+	text-indent: -9999px;
+	width:217px;height:35px;
+	margin: 20px auto 20px auto;
+	text-align: center;
+}
+
+small {
+	color: #666;
+	display: block;
+	font: 10px/16px Helvetica Neue, Helvetica, Arial, sans-serif;
+	padding: 0 20px;
+}
+
+
+#footer {
+  background: #222;
+  display: block;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 10px 15px;
+}
+
+#footer .terms {
+	color: #999;
+	float: right;
+	font-size: 11px;
+	text-align: right;
+}
+</style>

@@ -1,0 +1,137 @@
+			.supportWrapper{
+				overflow:hidden;
+				margin:0 0;
+				padding:0 0;
+			}
+			.l_67pct{
+				padding:0 24px 0 0;
+			}
+			.r_33pct{
+			}
+			.r_33pct h4{
+				font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+				margin:0 0 6px;
+				color:#2A353D;
+			}
+			.r_33pct ul{
+				list-style-type:none;
+				padding:0;
+				margin:0 0;
+			}
+			.r_33pct div{
+				margin: 0 0 24px;
+				padding:24px 24px;
+				background:#EFF1F3;
+			}
+			#csrTraining{
+				text-align:center;
+				font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+				font-size:20px;
+				background:#308DC6;
+			}
+            #csrTraining span {
+                padding-bottom: 5px;  
+                font-size: 36px;
+            }
+            #csrTraining p {
+                margin: 0;
+            }
+			#csrTraining a{color:#FFF;}
+			#csrTraining a:hover{color:#EFF1F3;}
+			#csrTraining.orange {
+                background: #FE5000;
+            }
+            #csrTraining.orange img {
+                margin: 0 auto;
+                padding-bottom: 10px;
+            }
+			#csrCommunity{
+				background:#2A353D;
+				color:#FFF;
+				text-align:center;
+			}
+			#csrCommunity p{
+				color:#FFF;
+				margin-bottom:24px;
+			}
+			.addSupport{
+				border-top:#C0C8CE 1px solid;
+				margin:24px 0 0 0;
+				padding:24px;
+			}
+			.popularSearch p, .popularSearch ul{
+				font-size:16px;
+			}
+			.popularSearch p{
+				margin:0 0 9px 0;
+			}
+			.popularSearch ul{
+				list-style-type:none;
+				margin:-9px 0 12px;
+			}
+			.popularSearch li{
+				padding:0 0 0 0;
+			}
+			.popularSearch li:last-child{
+				padding-bottom:9px;
+			}
+			.popularSearch p::before, .popularSearch li::before{
+				content:"» ";
+			}
+			
+			/* google overrides */
+			.gsc-control-cse{
+				font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif !important;
+				padding:0 0 !important;
+			}
+			/* restore google defaults */
+			.gsc-search-box{
+			}
+			.gsc-input-box{
+				box-shadow:none !important;
+				padding-bottom:3px !important;
+			}
+			.gsc-search-box .gsc-input{
+				padding-right: 12px !important;
+			}
+			input.gsc-input {
+					font-size: 18px !important;
+					padding: 0 0 !important;
+					width: 99% !important;
+			}
+			.gsc-search-button-v2{
+				margin-top:6px !important;
+				padding:6px 12px !important;
+			}
+			
+			.searchUtility,
+			.searchUtility *,
+			.searchResults,
+			.searchResults *{
+				/*overflow:hidden;*/
+				-webkit-box-sizing: content-box;
+					 -moz-box-sizing: content-box;
+								box-sizing: content-box;
+			}
+			.searchUtility{
+				background:#EFF1F3;
+				padding:12px 24px;
+			}
+			
+			.gsc-selected-option-container {
+					color: #444;
+					cursor: default;
+					font-size: 11px;
+					font-weight: normal !important;
+					line-height: 27px;
+					text-align: center;
+			}
+			
+			.gsc-table-result, .gsc-thumbnail-inside, .gsc-url-top {
+    		padding-left: 0 !important;
+    		padding-right: 8px !important;
+			}
+			.gs-title{
+				font-size:18px !important;
+			}
+			

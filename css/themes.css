@@ -1,0 +1,37 @@
+/* theme */
+.themes{margin:12px 0}
+.themesInner{overflow:hidden;max-width:1170px;margin:0 auto;}
+.theme{overflow:hidden;margin:0 auto;padding:24px;}
+.themeCopy{}
+.themeImg{}
+.themeImg img{display:block;margin:0 auto;}
+.img-left{display:none;}
+.img-right{display:block;}
+.screenshot{border:#C0C8CE 1px solid;}
+.datasheet{overflow:hidden;}
+.datasheet p{float:right;font-size:14px;max-width:1170px;margin:0 auto;padding:0 48px 24px;}
+.datasheet a{color:#6598B8;}
+.datasheet a:hover{color:#5c8ba8;}
+@media(min-width:768px){
+.themes{margin:48px 0 48px;}
+.theme{margin-bottom:48px;}
+.themeCopy{padding-right:96px;}
+.themeImg{text-align:right;}
+.img-left{display:block;}
+.img-right{display:none;}
+}
+/* more themes */
+.moreThemes{overflow:hidden;background:#EFF1F3;color:#65727A;text-align:center;padding:36px 0;}
+.moreThemesInner{max-width:1170px;margin:0 auto;}
+.altTheme{padding:24px;}
+.moreThemes h3{color:#FE5000;}
+.moreThemes img{display:block;max-width:60px;margin:0 auto;}
+@media(min-width:768px){
+.moreThemes{padding:96px 0;}
+.moreThemes img{max-width:80px;}
+}
+
+/* essentials */
+.essentials .themes h2{
+	color:#00B19F;
+}

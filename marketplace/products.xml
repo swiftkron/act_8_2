@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PRODUCTS>
+	<!-- BUSINESS CARE -->
+	<business_care>
+		<!-- Act! emarketing -->
+		<product id="1">
+			<name>Act! emarketing</name>
+			<desc>&lt;span&gt;Save Big!&lt;/span&gt; Business Care subscribers get a $10/month discount on Basic and Pro plans – up to a $120 annual value! &lt;strong&gt;To sign up, click on the emarketing tab from within Act!&lt;/strong&gt;</desc>
+			<price></price>
+			<cta></cta>
+			<url></url>
+			<tile>act_mkt_tile_bc_emarketing.png</tile>
+			<thumb>act_mkt_thumb_emarketing.png</thumb>
+		</product>
+		<!-- Handheld Contact -->
+		<product id="2">
+			<name>Handheld Contact</name>
+			<desc>&lt;span&gt;Save $39.50/yr!&lt;/span&gt; Business Care Gold and Business Care Silver subscribers get a promo code for 50% off of Handheld Contact¹ - the leading marketplace sync-based mobile solution for Act!.</desc>
+			<price></price>
+			<cta>Learn More »</cta>
+			<url>http://act.com/marketplace/Handheld-Contact/</url>
+			<tile>act_mkt_tile_bc_handheld.png</tile>
+			<thumb>act_mkt_thumb_handheld.png</thumb>
+		</product>
+		<!-- Act! Anytime Learning -->
+		<product id="3">
+			<name>Act! Anytime Learning</name>
+			<desc>&lt;span&gt;Exclusive discounts!&lt;/span&gt; Business Care Gold subscribers get access to Act! Anytime Learning for &lt;strong&gt;free&lt;/strong&gt; as part of their subscription, and Business Care Silver subscribers get 50% off. Up to a $129 value!</desc>
+			<price></price>
+			<cta>Start Learning »</cta>
+			<url>http://training.act.com/format/anytime/</url>
+			<tile>act_mkt_tile_bc_learning.png</tile>
+			<thumb>act_mkt_thumb_learning.png</thumb>
+		</product>
+	</business_care>
+	<!-- FEATURED SOLUTIONS -->
+	<featured_solutions>
+		<!-- Act! emarketing -->
+		<product id="1">
+			<name>Act! emarketing</name>
+			<desc>Powerful and easy-to-use emarketing tools enable you to quickly segment lists and groups, then create, send, and track professional, eye-catching email campaigns that reach customers and prospects with the right message at the right time – all from within Act!. &lt;strong&gt;To sign up, click on the emarketing tab from within Act!&lt;/strong&gt;</desc>
+			<price></price>
+			<cta></cta>
+			<url></url>
+			<tile>act_mkt_tile_fs_emarketing.png</tile>
+			<thumb>act_mkt_thumb_emarketing.png</thumb>
+		</product>
+		<!-- Handheld Contact -->
+		<product id="2">
+			<name>Get Act! Training:</name>
+			<desc>&lt;ul&gt;&lt;li&gt;&lt;span&gt;Act! Cloud Essentials Library:&lt;/span&gt; A collection of training videos to help you learn everything Act! can do for you.&lt;/li&gt;&lt;li&gt;&lt;span&gt;Act! Anytime Learning:&lt;/span&gt; Web-based recorded sessions that are ready when you are!&lt;/li&gt;&lt;/ul&gt;</desc>
+			<price></price>
+			<cta>Learn More »</cta>
+			<url>http://training.act.com</url>
+			<tile>act_mkt_tile_fs_training.png</tile>
+			<thumb>act_mkt_thumb_training.png</thumb>
+		</product>
+		<!-- Act! Anytime Learning -->
+		<product id="3">
+			<name>Featured App: QSalesData</name>
+			<desc>Having separate Act! and QuickBooks databases is inefficient. The QSalesData² Quickbooks link for Act! helps get rid of redundancies in your processes.</desc>
+			<price></price>
+			<cta>Learn More »</cta>
+			<url>http://act.com/marketplace/QBSalesData/</url>
+			<tile>act_mkt_tile_fs_qsalesdata.png</tile>
+			<thumb>act_mkt_thumb_qsalesdata.png</thumb>
+		</product>
+	</featured_solutions>
+</PRODUCTS>

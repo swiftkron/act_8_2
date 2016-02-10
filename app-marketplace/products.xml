@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PRODUCTS>
+	<!-- FEATURED SOLUTIONS -->
+	<featured_solutions>
+		<!-- Act! emarketing -->
+		<product id="1">
+			<name>Act! emarketing</name>
+			<desc>Easily capture and segment your prospects and customers, then design, send, and track professional, eye-catching email campaigns that reach the right customers with the right message.</desc>
+			<price></price>
+			<cta>Get started today!</cta>
+			<url>http://act.com/media/en-us/docs/AEMGettingStarted.pdf</url>
+			<tile>act_mkt_tile_bc_emarketing.png</tile>
+			<thumb>act_mkt_thumb_emarketing.png</thumb>
+		</product>
+		<product id="2">
+			<name>Get Act! Training:</name>
+			<desc>&lt;ul&gt;&lt;li&gt;&lt;span&gt;Act! Essentials Library:&lt;/span&gt; A collection of training videos to help you learn everything Act! can do for you.&lt;/li&gt;&lt;li&gt;&lt;span&gt;Act! Anytime Learning:&lt;/span&gt; Web-based recorded sessions that are ready when you are!&lt;/li&gt;&lt;li&gt;Call &lt;strong&gt;888-765-6662&lt;/strong&gt; for details&lt;/li&gt;&lt;/ul&gt;</desc>
+			<price></price>
+			<!--<cta>Learn More »</cta>-->
+			<!--<url>http://training.act.com</url> -->
+			<cta></cta>
+			<url></url>
+			<tile>act_mkt_tile_fs_training.png</tile>
+			<thumb>act_mkt_thumb_training.png</thumb>
+		</product>
+		<!-- Whats New -->
+		<product id="3">
+			<name>What's New in v18</name>
+			<desc>Act! v18 brings a host of compatibility and productivity enhancements, new Act! emarketing administrative features, a fresh, modern look for Act! Premium for Web, and more!</desc>
+			<price></price>
+			<cta>Learn more »</cta>
+			<url>http://www.act.com/products/whats-new</url>
+			<tile>act_mkt_tile_bc_whatsnew.png</tile>
+			<thumb>act_mkt_thumb_whatsnew.png</thumb>
+		</product>
+		<!-- Accounting -->
+		<product id="4">
+			<name>Featured Category: Accounting</name>
+			<desc>Having separate Act! and accounting databases can be a major source of inefficiency and duplicate work. With our accounting apps for Act! you eliminate double-entry and make your Act! and accounting system users more productive.&lt;br/&gt;&lt;p&gt;&lt;a href="http://act.com/marketplace/QBSalesData/" target="_blank"&gt;QSalesData&lt;/a&gt; | &lt;a href="http://act.com/marketplace/S50SalesData-Sage50-v2015-Link-for-Act/" target="_blank"&gt;S50SalesData&lt;/a&gt;&lt;/p&gt;</desc>
+			<!-- <desc>Check out our Editor’s Picks from the accounting category:&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://act.com/marketplace/S50SalesData-Sage50-v2015-Link-for-Act/" target="_blank"&gt;S50SalesData&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://act.com/marketplace/QBSalesData/" target="_blank"&gt;QSalesData&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</desc> -->
+			<price></price>
+			<cta></cta>
+			<url></url>
+			<tile>act_mkt_tile_fs_accounting10.png</tile>
+			<thumb>act_mkt_thumb_accounting10.png</thumb>
+		</product>
+		<!-- CompanionLink -->
+		<product id="5">
+			<name>CompanionLink</name>
+			<desc>Best for Android and iPhone. Native app support enables the features you love in Act! like History and Groups. Also supports Windows Phone and BlackBerry. Use secure USB, Wi-Fi, or private Cloud sync.</desc>
+			<price></price>
+			<cta>Learn More »</cta>
+			<url>http://act.com/marketplace/CompanionLink-Express/</url>
+			<tile>act_mkt_tile_fs_companionlink.png</tile>
+			<thumb>act_mkt_thumb_companionlink.png</thumb>
+		</product>
+		<!-- Handheld Contact 
+		<product id="5">
+			<name>Handheld Contact</name>
+			<desc>Go mobile with the power to wirelessly access and manage your Act! Contacts, Calendar, Activities, and more right on your mobile device - even if you have no Internet connection.</desc>
+			<price></price>
+			<cta>Learn More »</cta>
+			<url>http://act.com/marketplace/Handheld-Contact/</url>
+			<tile>act_mkt_tile_bc_handheld.png</tile>
+			<thumb>act_mkt_thumb_handheld.png</thumb>
+		</product> -->
+		<!-- AutomatoR1 
+		<product id="6">
+			<name>Featured App: AutomatoR1</name>
+			<desc>AutomatoR1 is designed to make repetitive tasks simple, quick, and error-free by giving you the ability to create buttons capable of completing processes, or linking multiple actions together.</desc>
+			<price></price>
+			<cta>Learn More »</cta>
+			<url>http://act.com/marketplace/AutomatoR1/</url>
+			<tile>act_mkt_tile_fs_automatoR1.png</tile>
+			<thumb>act_mkt_thumb_automatoR1.png</thumb>
+		</product> -->
+		<!-- Duplicate Remover -->
+		<product id="7">
+			<name>Featured App: Duplicate Remover Expert Wizard</name>
+			<desc>This standalone program will combine and remove duplicate contacts and companies in a Act! database. You can check for duplicates on up to 6 fields. You can apply "fuzzy" logic to find records that "might" be dups. No data is lost.</desc>
+			<price></price>
+			<cta>Learn More »</cta>
+			<url>http://act.com/marketplace/Duplicate-Remover-Expert-Wizard/</url>
+			<tile>act_mkt_tile_fs_duplicate-remover.png</tile>
+			<thumb>act_mkt_thumb_duplicate-remover.png</thumb>
+		</product>
+	</featured_solutions>
+</PRODUCTS>

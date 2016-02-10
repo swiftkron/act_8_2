@@ -1,0 +1,112 @@
+/* COMPARE */
+
+section[role="compare"]{
+	padding:0 5% 4em;
+}
+section[role="compare"] h2{
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	font-size:3em;
+	text-align:center;
+	color:#444;
+	margin:0 0 40px 0;
+}
+section[role="compare"] ul{
+	color:#fe5000;
+	margin:0 0 1em 3em;
+	padding:0 0 0 0;
+}
+section[role="compare"] ul span{
+	color:#444;
+}
+
+.compareWrapper{
+	overflow:hidden;
+	max-width:1080px;
+	margin:0 auto;
+}
+.compareSpecWrapper{
+	overflow:hidden;
+	min-height:100px;
+}
+.compareSpecs p{
+	text-align:center;
+}
+.compareList{
+	padding:0 0 2em;
+}
+.compareList p.intro{
+	min-height:80px;
+}
+.compareContent{
+	min-height:300px;
+}
+.compareList h3{
+	font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+	font-size:2.3em;
+	text-align:center;
+	padding:18px 12px;
+	color:#fff;
+	width:100%;
+	margin:0 0 12px;
+}
+.compareList h4{
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	text-align:center;
+	color:#006a8e;
+	margin:0 0 12px;
+}
+.compareList h5{
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	font-size:1.5em;
+	text-align:left;
+	color:#006a8e;
+	margin:0 0 12px 24px;
+}
+.compareList ul, .compareList p{
+	padding:6px 24px;
+}
+.compareList ul li{
+	padding-bottom:9px;
+}
+#comparePro h3{
+	background:#fe5000;
+}
+#comparePrem h3{
+	background:#444;
+}
+#comparePrem{
+	background:#eee;
+}
+
+.compareButtonWrap{
+	clear:both;
+	max-width:300px;
+	margin:0 auto;
+	overflow:hidden;
+}
+section[role="compare"] button{
+	display:block;
+	margin:.5em auto .5em;
+	color:#fff;
+	width:125px;
+	padding:4px 0 6px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border:none;
+	border-radius: 5px;
+	font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+	font-size:1.15em;
+	cursor:pointer;
+}
+section[role="compare"] button:hover{
+	-webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+/* UPS */
+.compareWrapper#upsCompare{
+	max-width:600px;
+}

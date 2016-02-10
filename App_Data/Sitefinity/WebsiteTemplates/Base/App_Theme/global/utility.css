@@ -1,0 +1,127 @@
+.navLink{
+    z-index:10000000000000000000;
+    position:absolute;
+    width:60px;
+    height:60px;
+    margin:12px 0 0 12px;
+    cursor:pointer;
+}
+/* Utility */
+.utility{
+    z-index:999;
+    width:100%;
+    overflow:hidden;
+    padding:12px 0 32px;
+    color:#FE5000;
+}
+.utility a:link, .utility a:active, .utility a:visited{
+    color:#008cc5;
+}
+.utility a:hover{
+    color:#34566b;
+}
+.uToggle{
+    display:none;
+}
+.uBrand {
+    z-index:999;
+    background:url(../img/act.png) center left no-repeat;
+    background-size:60px 60px;
+    min-height:60px;
+    min-width:60px;
+	margin-left:12px;
+}
+.uTrial {
+    position:relative;
+    left:90px;
+    margin-top: -65px;
+}
+.uTrial .btnSecondary{
+    border:#Fe5000 2px solid;
+}
+.uAlt .uTrial{
+    position:unset;
+    left:unset;
+    margin-top:unset;
+}
+.uPhone {
+    position:relative;
+    left:250px;
+    margin-top: -44px;
+}
+.uPhone a{
+    color:#fe5000 !important;
+}
+.uIntl {
+    position:relative;
+    float:right;
+    right:84px;
+    margin-top:-20px;
+    cursor:pointer;
+}
+#au-nav .uIntl{
+    margin-top:-40px;
+}
+.uLogin{
+    display:none;
+    position:relative;
+    float:right;
+    margin-top:-18px;
+}
+.uLogin a{
+    color:#526774 !important;
+}
+.uAlt .uLogin{
+    position:unset;
+    float:unset;
+    margin-top:unset;
+}
+.uDropdown {
+    display:none;
+    position:fixed;
+    z-index:999;
+    list-style-type:none;
+    margin:3px 0 0 -12px;
+    padding:3px;
+    background:#FFF;
+	-webkit-border-radius: 2px;    
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+    box-shadow:#a5b7c2 0px 2px 3px;
+}
+.uDropdown > li{
+    font-size:.9em;
+    padding:6px;
+}
+.uDropdown > li:hover {
+    background:#dfe3e6;
+}
+.uDropdown.lang{
+	font-size:.7em;
+}
+@media(max-width:767px) {
+    .utility {
+        padding: 12px 0 12px;
+    }    
+    .uDropdown > li a{
+        display:inline-block;
+        font-size:1.2em;
+        padding:18px;
+    }
+    .uToggle{
+        display:block;
+        float:right;
+        padding-top:20px;
+        padding-right:24px;
+        font-size:20px;
+        cursor:pointer;
+    }
+    .uToggleElements{
+        display:none;
+    }
+    .uAlt {
+        display:none;
+        font-size:14px;
+        right:12px;
+    }
+}

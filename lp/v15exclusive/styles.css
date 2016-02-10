@@ -1,0 +1,688 @@
+/*
+
+Custom Stylesheet for ACT! Landing Page
+
+Mobile Defaults First in the Stylesheet (XS < 480px)
+
+*/
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("http://fast.fonts.net/cssapi/2b711b0d-fbe0-4a83-80e8-86e2497fcbcb.css");
+
+body {
+-webkit-font-smoothing: antialiased !important;
+background: #eff1f3;
+font-size: 15px;
+color: #a9a9a9;
+font-family: 'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+}
+
+a:link, a:active, a:visited {
+  cursor: pointer;
+  color: #FE5000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'HelveticaNeueW01-Thin',Helvetica,Arial,sans serif;
+}
+
+.header {
+background: #ffffff;
+padding: 11px 0px 11px 0px;
+border-bottom: 1px solid #c1c8ce;
+text-align: center;
+}
+
+.header .phone {
+font-size: 18px;
+font-weight: bold;
+color: #f44f00;
+margin-top: 20px;
+line-height: 1em;
+}
+
+.hero {
+background: url("img/hero-bg.jpg") center top no-repeat;
+background-size: cover;
+color: #ffffff;
+}
+
+h1 {
+font-size: 48px;
+font-weight: 100;
+}
+
+.hero h5 {
+font-size: 22px;
+font-weight: normal;
+margin-bottom: 2em;
+}
+
+.hero-cta {
+margin-bottom: 2em;
+}
+
+.starting-at-circle {
+text-align: center;
+}
+
+.starting-at-circle img {
+margin-top: -20px;
+margin-bottom: 20px;
+max-width: 200px;
+}
+
+.btn-cBlue {
+background: #308dc6;
+color: #ffffff !important;
+border-radius: 0px;
+width: 100%;
+font-size: 18px;
+padding: 20px 20px 20px 20px;
+border: 2px solid #308dc6;
+margin: 10px 0px 10px 0px;
+font-weight: bold;
+max-width: 250px;
+}
+
+.btn-cBlue:hover {
+opacity: .80;
+background: #308dc6;
+color: #ffffff;
+border: 2px solid #308dc6;
+}
+
+.btn-iBlue {
+background: #ffffff;
+color: #308dc6 !important;
+border-radius: 0px;
+width: 100%;
+font-size: 18px;
+padding: 20px 20px 20px 20px;
+border: 2px solid #308dc6;
+margin: 10px 0px 10px 0px;
+font-weight: bold;
+max-width: 250px;
+}
+
+.btn-iBlue:hover {
+opacity: .80;
+background: #ffffff;
+color: #308dc6;
+border: 2px solid #308dc6;
+}
+
+.top-10-reasons {
+background: #2a353d;
+padding: 40px 0px 60px 0px;
+color: #ffffff;
+font-size: 20px;
+}
+
+.top-10-reasons h2 {
+font-size: 48px;
+color: #ffffff;
+font-weight: 100;
+text-align: center;
+margin-bottom: 1em;
+}
+
+.top-10-reasons .circle {
+text-align: center;
+font-size: 36px;
+color: #ffffff;
+margin-bottom: 15px;
+}
+
+.top-10-reasons .circle span {
+display: inline-block;
+background: #b1cadc;
+text-align: center;
+padding: 0px 0px 0px 0px;
+height: 50px;
+width: 50px;
+border-radius: 25px;
+}
+
+.top-10-reasons p.desc {
+min-height: 90px;
+}
+
+.top-10-reasons .cta1 a {
+color: #b1cadc;
+font-size: 20px;
+}
+
+.top-10-reasons .cta2 {
+text-align: right;
+}
+
+.top-10-reasons .cta2 a {
+color: #b1cadc;
+font-size: 20px;
+}
+
+.carousel-control.left, .carousel-control.right {
+background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0) 0,rgba(0,0,0,.0) 100%);
+background-image: -o-linear-gradient(left,rgba(0,0,0,.0) 0,rgba(0,0,0,.0) 100%);
+background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0)),to(rgba(0,0,0,.0)));
+background-image: linear-gradient(to right,rgba(0,0,0,.0) 0,rgba(0,0,0,.0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
+background-repeat: repeat-x;
+}
+
+.carousel-control.left span, .carousel-control.right span {
+color: #ffffff;
+opacity: 0.3;
+}
+
+
+
+
+.content {
+background: #2a353d;
+color: #ffffff;
+}
+
+.txt-learn {
+color: #33a1af;
+font-weight: bold;
+font-size: 18px;
+}
+
+.list-check {
+list-style: none;
+margin: 20px 0px 40px 0px;
+padding-left: 0px;
+font-size: 18px;
+}
+
+.list-check li {
+background-image: url("img/icon-check.png");
+background-repeat: no-repeat;
+margin: 0px 0px 13px 0px;
+padding: 0px 0px 0px 30px;
+}
+
+.get-started {
+font-size: 25px;
+font-weight: bold;
+}
+
+.download-info {
+padding: 65px 20px 70px 20px;
+}
+
+.download-form {
+background: #eff1f3;
+color: #a9a9a9;
+padding: 65px 20px 115px 20px;
+min-height: 600px;
+}
+
+.download-form .form-control {
+margin-bottom: 20px;
+}
+
+.subscribe-form {
+background: #39566b;
+padding: 50px 0px 50px 0px;
+color: #ffffff;
+text-align: center;
+}
+
+.subscribe-form label {
+font-size: 28px;
+font-weight: 400;
+}
+
+.subscribe-form input {
+margin-right: 20px;
+margin-left: 20px;
+}
+
+.subscribe-form .btn-cyan, .btn-cyan {
+font-weight: bold;
+background-color: #49a2b0;
+padding: 10px 15px;
+}
+
+.subscribe-form .btn-cyan:hover, .btn-cyan {
+color: #ffffff;
+background-color: #3e8b96;
+}
+
+.story-panel {
+background: #B1CADC;
+color:#526774;
+padding:60px 60px 60px 60px;
+}
+
+.ready-to-upgrade {
+background: #ffffff;
+}
+
+.top-section {
+text-align: center;
+padding-top: 60px;
+}
+
+.top-section h2 {
+font-size: 48px;
+color: #526774;
+font-weight: 100;
+}
+
+.top-section p {
+font-size: 20px;
+color: #526774;
+}
+
+
+
+
+
+
+.portfolio {
+overflow: hidden;
+font-size: 18px;
+padding: 48px 0;
+color: #526774;
+}
+
+.portfolioInner {
+max-width: 1170px;
+margin: 0 auto;
+}
+
+.piece {
+overflow: hidden;
+padding: 0 12px;
+}
+
+.priceOverview h2 {
+color: #FE5000;
+text-align: center;
+font-weight: 100;
+}
+
+h2 {
+font-size: 24px;
+}
+
+.priceOverview p {
+text-align: center;
+margin-bottom: 0;
+}
+
+.priceInfo {
+max-width: 320px;
+margin: 24px auto 0;
+text-align: left;
+overflow: hidden;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.priceInfo p {
+  line-height: 9px;
+}
+
+.priceStrike {
+  text-decoration: line-through;
+  text-align: center;
+  color: #526774;
+}
+
+.priceStrike span {
+  color: #788E9E;
+}
+
+.priceWrapper {
+  overflow: hidden;
+  /*width: 190px;*/
+  width: 240px;
+  margin: 0 auto;
+}
+
+.dollar {
+  float: left;
+  margin-top: 18px;
+  font-size: 36px;
+}
+
+p.price {
+  float: left;
+  font-size: 108px;
+  letter-spacing: -3px;
+  margin: 48px 0 42px;
+  text-align: center;
+  font-weight: 100;
+  color: #526774;
+}
+
+.usd {
+  font-size: 12px;
+  letter-spacing: normal;
+  padding-left: 9px;
+}
+
+.usd::before {
+  content: 'USD';
+}
+
+.priceInfo select {
+  display: block !important;
+  width: 100%;
+  max-width: 200px !important;
+  margin: 1em auto;
+}
+
+.upgradeCTA {
+  text-align: center;
+  margin: 12px auto 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 25px !important;
+  line-height: 25px !important;
+  display: block;
+}
+
+.orange {
+  color: #FE5000;
+}
+
+.priceInfo button, .priceInfo input[type=submit] {
+  display: block;
+  width: 100%;
+  max-width: 200px !important;
+  margin: 1em auto;
+}
+
+.freetrial {
+  background: #6598B8;
+  margin-top: -12px !important;
+}
+
+.btn-md {
+  font-size: 14px;
+  padding: 10px 16px;
+}
+
+.portfolio p.center {
+  line-height: normal;
+}
+
+.priceDets p {
+  margin: 48px 0 12px;
+}
+
+li {
+  padding-bottom: .5em;
+}
+
+li:last-child {
+  padding-bottom: 0;
+}
+
+.piece p {
+min-height: 0;
+}
+
+.test-drive {
+text-align: center;
+margin-top: 10px;
+}
+
+.test-drive a {
+color: #308dc6;
+}
+
+p.center {
+text-align: center;
+}
+
+.system-requirements {
+text-align: center;
+padding-bottom: 65px;
+}
+
+.system-requirements a {
+color: #308dc6;
+}
+
+
+
+
+.form-container {
+background: #788e9e;
+color: #ffffff;
+padding: 60px 0px 80px 0px;
+font-size: 20px;
+text-align: center;
+}
+
+.form-container p {
+margin-bottom: 40px;
+}
+
+.form-container a {
+color: #ffffff;
+text-decoration: underline;
+}
+
+.form-cotnainer a:hover {
+text-decoration: none;
+}
+
+.form-container button {
+margin-top:45px;
+padding: 15px 60px 15px 60px;
+font-size: 18px;
+background: #308dc6;
+}
+
+.form-container button:hover {
+color: #fff;
+opacity: .80;
+}
+
+.form-container .form-control {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.footer {
+background: #eff1f3;
+padding:44px 0px 40px 0px; 
+}
+
+.footer ul {
+list-style: none;
+margin-bottom: 30px;
+}
+
+.footer ul li {
+margin-bottom: 10px;
+}
+
+.footer ul li a {
+color: #576c7b;
+}
+
+.footer h5 {
+color: #2b353d;
+font-weight: bold;
+}
+
+.footnotes {
+font-size: 13px;
+color: #546C7A;
+margin-bottom: 40px;
+}
+
+.footnotes a {
+color: #FE5000;
+}
+
+.copyright {
+color: #919ea9;
+text-align: center;
+font-size: 11px;
+margin-top: 60px;
+}
+
+.form-control {
+display: block;
+width: 100%;
+height: 44px;
+padding: 6px 12px;
+font-size: 16px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 0px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.btn-orange {
+border-radius: 0px;
+background-color: #f34e00;
+color: #ffffff;
+width: 100%;
+height: 60px;
+font-weight: bold;
+font-size: 18px;
+}
+
+.btn-orange:hover {
+color: #ffffff;
+background-color: #d94500;
+}
+
+.thank-you {
+font-size: 25px;
+font-weight: bold;
+color: #2b353d;
+}
+
+.header .logo img {
+width: 60px;
+height: 60px;
+}
+
+.header .phone span {
+color: #526774;
+font-weight: 400;
+}
+
+.social-icons a {
+margin-right: 7px;
+margin-left: 7px;
+}
+
+
+/* rules for mobile horizontal (480 > 768)  */
+@media (min-width: 480px) {
+	
+	.header .logo {
+	text-align: left;
+	}
+	
+	.header .phone {
+	text-align: right;
+	}
+	
+	
+	.download-form {
+	background: #eff1f3;
+	color: #a9a9a9;
+	padding: 65px 80px 115px 80px;
+	}
+	
+	.top-10-reasons .circle {
+	text-align: right;
+	font-size: 72px;
+	}
+
+	.top-10-reasons .circle span {
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	}
+
+
+	
+}
+
+/* rules for tablet (768 > 992) */
+@media (min-width:  768px) {
+	.piece {
+	padding: 0 96px;
+	}
+	
+	h2 {
+	font-size: 30px;
+	}
+	
+	.priceOverview p {
+	/*min-height: 135px;*/
+	}
+	
+.piece p {
+  /*min-height: 140px;*/
+}
+
+.priceInfo h3 {
+  margin: 0 0 12px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.btn-md {
+  font-size: 16px;
+  padding: 6px 15px;
+}
+
+.starting-at-circle img {
+max-width: 290px;
+}
+
+
+
+
+}
+
+/* rules for desktop (992 > 1200) */
+@media (min-width: 992px) {
+}
+
+/* rules for large (> 1200) */
+@media (min-width: 1200px) {
+
+	.piece p {
+	/*min-height: 140px;*/
+	}
+
+}
+
+
+
+
+
+
+
+
+
